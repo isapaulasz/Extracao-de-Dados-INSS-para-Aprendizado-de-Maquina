@@ -4,7 +4,7 @@ import duckdb
 
 from inss_acidentes.cat import limpeza as L
 
-TOKENS = ["", "{ñ class}", "-", "None"]
+TOKENS = ["", "{ñ class}", "-", "None", "Ignorado", "Não informado", "9999"]
 
 
 def q(expr: str, valor):
@@ -48,3 +48,22 @@ def test_data():
 def test_cnpj():
     assert q(L._cnpj("x"), "34.028.316/0031-29") == "34028316003129"
     assert q(L._cnpj("x"), "123") is None
+
+
+def test_norm_acentos_e_maiusculas():
+    assert q(L._norm("x", TOKENS), "  Auxílio-Doença   Acidentário ") == "AUXILIO-DOENCA ACIDENTARIO"
+    for nulo in ["Ignorado", "IGNORADO", "ignorado", "Não Informado", "nao informado", "9999"]:
+        assert q(L._norm("x", TOKENS), nulo) is None
+
+
+def test_bool():
+    for v, esperado in [("SIM", True), ("Sim", True), ("NAO", False), ("Não", False), ("talvez", None)]:
+        assert q(L._bool("x"), v) is esperado
+
+
+def test_municipio():
+    assert q(L._municipio("x"), "355030 - SAO PAULO") == "355030"
+    assert q(L._municipio("x"), "000000 - IGNORADO") is None
+    assert q(L._municipio("x"), "000000") is None
+    assert q(L._municipio("x"), "SEM CODIGO") is None
+    assert q(L._municipio("x"), None) is None
