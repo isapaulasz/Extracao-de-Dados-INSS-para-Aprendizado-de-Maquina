@@ -1,4 +1,8 @@
-nulos_disfarcados: ["", "{ñ class}", "-", "None", "none", "nan", "NaN", "NULL", "00/00/0000"]
+# Tokens que significam "não informado". Comparados DEPOIS de normalizar (maiúsculas, sem acento).
+# Itens novos em relação à versão anterior: IGNORADO, NAO INFORMADO, NAO CLASSIFICADO, 9999, 000000.
+# Confira em cat_top_valores_categoricas.csv se algum deles é valor legítimo em alguma coluna.
+nulos_disfarcados: ["", "{ñ class}", "-", "None", "none", "nan", "NaN", "NULL", "00/00/0000",
+                    "Ignorado", "Não informado", "Nao informado", "Não classificado", "9999", "000000"]
 
 colunas_descartadas: [cbo_2, cid_10_2, cnae_empregador_2]
 
@@ -9,5 +13,73 @@ booleanas_sim_nao: [indica_obito_acidente, indica_afastamento, indica_acidente, 
 idade: {minima: 14, maxima: 90}              # em anos completos na data do acidente
 remuneracao: {minima: 100, maxima: 100000}   # R$ nominais; fora da faixa vira NULL
 
-# Salário mínimo vigente em janeiro de cada ano (valores de memória: confira no decreto)
+# Salário mínimo vigente em janeiro de cada ano (valores de memória: CONFIRME no decreto e cite no artigo)
 salario_minimo: {2012: 622, 2013: 678, 2014: 724, 2015: 788, 2016: 880, 2017: 937, 2018: 954}
+
+# --- Novas regras (Fase 3 completa) -------------------------------------------------------
+
+# Escopo: tipos de CAT mantidos. 1=Inicial, 2=Reabertura, 3=Comunicação de óbito.
+# Decisão atual: manter os três e usar tipo_cat como variável. Para "um acidente = uma linha": [1].
+escopo:
+  tipo_cat_manter: [1, 2, 3]
+
+# Duplicatas exatas (todas as colunas, exceto arquivo_origem/ano_arquivo/semestre_arquivo).
+# Fica a primeira ocorrência (ordem do arquivo de origem).
+duplicatas:
+  remover_exatas: true
+
+# Datas. periodo_esperado define "data futura" (depois de fim) e a janela da auditoria.
+datas_regras:
+  periodo_esperado: {inicio: "2012-01-01", fim: "2018-12-31"}
+  acidente_minimo: null                  # ex.: "2000-01-01" para remover acidentes muito antigos
+  remover_se_acidente_apos_emissao: true
+  remover_se_data_futura: true           # acidente ou emissão depois de periodo_esperado.fim
+  anular_afastamento_antes_acidente: true
+  anular_obito_antes_acidente: true
+
+# Categóricas: nulo (real ou disfarçado) vira NAO_INFORMADO. Datas e numéricas ficam NULL.
+categoricas_nao_informado:
+  - agente_causador
+  - cbo
+  - cid_10
+  - cid_categoria
+  - cnae_empregador
+  - emitente_cat
+  - especie_beneficio
+  - filiacao_segurado
+  - area_atividade
+  - estado_civil
+  - natureza_lesao
+  - origem_cadastramento
+  - parte_corpo_atingida
+  - sexo
+  - ramo_atividade
+  - situacao_geradora
+  - tipo_cat
+  - tipo_acidente
+  - tipo_local_acidente
+  - uf_acidente
+  - uf_empregador
+  - uf_segurado
+  - municipio_empresa_cod
+  - municipio_segurado_cod
+  - capitulo_cid
+  - cbo_grande_grupo
+  - cbo_subgrupo
+  - cnae_divisao
+  - cnae_secao
+
+# Categorias raras: cria <coluna>_agrup, trocando níveis com frequência < limiar por OUTROS.
+# NAO_INFORMADO nunca é agrupado. A coluna original é mantida.
+categorias_raras:
+  limiar: 0.001            # 0,1% das linhas
+  colunas:
+    - agente_causador
+    - cbo
+    - cid_categoria
+    - cnae_empregador
+    - municipio_empresa_cod
+    - municipio_segurado_cod
+    - natureza_lesao
+    - parte_corpo_atingida
+    - situacao_geradora

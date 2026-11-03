@@ -1,0 +1,64 @@
+# Conteúdo manual do dicionário de dados da CAT. RASCUNHO: valide cada descrição com o
+# dicionário oficial (INSS/Dataprev) e marque `validado: true` no que já conferiu.
+# tipo = tipo final em cat_limpo.parquet. valores: "auto" lista os valores da auditoria (<= 30 níveis).
+competencia_cat:        {tipo: INTEGER, descricao: "Competência (AAAAMM) de emissão da CAT. Coincide com o mês de data_emissao_cat."}
+agente_causador:        {tipo: VARCHAR, descricao: "Agente causador do acidente (objeto, equipamento ou substância envolvida)."}
+data_acidente:          {tipo: DATE,    descricao: "Data em que ocorreu o acidente ou em que a doença foi diagnosticada."}
+cbo:                    {tipo: VARCHAR, descricao: "Ocupação do segurado, código CBO-2002 com 6 dígitos (zero à esquerda recuperado)."}
+cbo_2:                  {tipo: VARCHAR, descricao: "[VERIFICAR] Provável descrição textual da CBO. Descartada na limpeza."}
+cid_10:                 {tipo: VARCHAR, descricao: "CID-10 da lesão/doença, sem ponto, 3 a 4 caracteres."}
+cid_10_2:               {tipo: VARCHAR, descricao: "[VERIFICAR] Provável descrição textual do CID-10. Descartada na limpeza."}
+cnae_empregador:        {tipo: VARCHAR, descricao: "CNAE 2.0 do empregador, 4 dígitos (zero à esquerda recuperado)."}
+cnae_empregador_2:      {tipo: VARCHAR, descricao: "[VERIFICAR] Provável descrição textual do CNAE. Descartada na limpeza."}
+emitente_cat:           {tipo: VARCHAR, valores: auto, descricao: "Quem emitiu/comunicou a CAT (empregador, sindicato, médico, segurado etc.)."}
+especie_beneficio:      {tipo: VARCHAR, valores: auto, descricao: "Espécie do benefício acidentário concedido a partir da CAT (ex.: 91 auxílio-doença, 92 aposentadoria por invalidez, 93 pensão por morte, 94 auxílio-acidente) ou SEM BENEFICIO."}
+filiacao_segurado:      {tipo: VARCHAR, valores: auto, descricao: "Filiação do segurado à Previdência (empregado, trabalhador avulso, segurado especial etc.)."}
+indica_obito_acidente:  {tipo: BOOLEAN, descricao: "Indica se o acidente resultou em óbito (campo do registro)."}
+indica_afastamento:     {tipo: BOOLEAN, descricao: "Indica se houve afastamento do trabalho."}
+indica_acidente:        {tipo: BOOLEAN, descricao: "Indicador de acidente registrado na CAT."}
+indica_obito:           {tipo: BOOLEAN, descricao: "Indicador de óbito do segurado."}
+municipio_empresa:      {tipo: VARCHAR, descricao: "Município do empregador (código + nome na origem). Na limpeza vira municipio_empresa_cod."}
+municipio_segurado:     {tipo: VARCHAR, descricao: "Município do segurado (código + nome na origem). Na limpeza vira municipio_segurado_cod."}
+cnpj_empregador:        {tipo: VARCHAR, descricao: "CNPJ do empregador (14 dígitos, só números)."}
+area_atividade:         {tipo: VARCHAR, valores: auto, descricao: "Área da atividade: urbana ou rural."}
+estado_civil:           {tipo: VARCHAR, valores: auto, descricao: "Estado civil do segurado."}
+local_acidente:         {tipo: VARCHAR, descricao: "Descrição do local do acidente (texto livre, alta cardinalidade; não entra nas visões)."}
+natureza_lesao:         {tipo: VARCHAR, valores: auto, descricao: "Natureza da lesão (corte, fratura, queimadura etc.)."}
+origem_cadastramento:   {tipo: VARCHAR, valores: auto, descricao: "Canal de cadastro da CAT (ex.: Internet)."}
+parte_corpo_atingida:   {tipo: VARCHAR, descricao: "Parte do corpo atingida."}
+sexo:                   {tipo: VARCHAR, valores: auto, descricao: "Sexo do segurado."}
+ramo_atividade:         {tipo: VARCHAR, valores: auto, descricao: "Ramo de atividade do empregador (comerciário, industriário etc.)."}
+situacao_geradora:      {tipo: VARCHAR, descricao: "Situação geradora do acidente ou doença."}
+tipo_cat:               {tipo: VARCHAR, valores: auto, descricao: "Tipo da CAT: 1-Inicial, 2-Reabertura, 3-Comunicação de óbito."}
+tipo_acidente:          {tipo: VARCHAR, valores: auto, descricao: "Tipo de acidente (típico, trajeto, doença do trabalho)."}
+tipo_local_acidente:    {tipo: VARCHAR, valores: auto, descricao: "Tipo do local (empregadora, via pública, outro etc.)."}
+uf_acidente:            {tipo: VARCHAR, descricao: "UF do acidente (nome por extenso na origem)."}
+uf_empregador:          {tipo: VARCHAR, descricao: "UF do empregador."}
+uf_segurado:            {tipo: VARCHAR, descricao: "UF do segurado."}
+data_afastamento:       {tipo: DATE,    descricao: "Data de início do afastamento. 00/00/0000 = sem afastamento."}
+data_despacho:          {tipo: DATE,    descricao: "Data do despacho do benefício. 00/00/0000 = sem benefício despachado."}
+data_nascimento:        {tipo: DATE,    descricao: "Data de nascimento do segurado."}
+data_emissao_cat:       {tipo: DATE,    descricao: "Data de emissão da CAT."}
+data_obito_segurado:    {tipo: DATE,    descricao: "Data do óbito do segurado. 00/00/0000 = sem óbito."}
+valor_remuneracao:      {tipo: DOUBLE,  descricao: "Remuneração mensal nominal em R$ (não existe no arquivo 14 / 2018-S2)."}
+razao_social:           {tipo: VARCHAR, descricao: "Razão social do empregador. Só no arquivo 14. Fora das visões A e B."}
+numero_cat:             {tipo: VARCHAR, descricao: "Número da CAT. Só no arquivo 14. Fora das visões A e B."}
+arquivo_origem:         {tipo: VARCHAR, descricao: "Arquivo parquet de origem (metadado de ingestão)."}
+ano_arquivo:            {tipo: INTEGER, descricao: "Ano do arquivo de origem (metadado de ingestão)."}
+semestre_arquivo:       {tipo: INTEGER, descricao: "Semestre do arquivo de origem (metadado de ingestão)."}
+# --- derivadas na limpeza
+cid_categoria:          {tipo: VARCHAR, derivada: true, descricao: "CID-10 em 3 caracteres."}
+capitulo_cid:           {tipo: VARCHAR, derivada: true, valores: auto, descricao: "Capítulo da CID-10 (I a XXII), derivado de cid_categoria."}
+cbo_grande_grupo:       {tipo: VARCHAR, derivada: true, valores: auto, descricao: "Grande grupo da CBO (1º dígito; 0 = forças armadas)."}
+cbo_subgrupo:           {tipo: VARCHAR, derivada: true, descricao: "Subgrupo principal da CBO (2 primeiros dígitos)."}
+cnae_divisao:           {tipo: VARCHAR, derivada: true, descricao: "Divisão da CNAE (2 primeiros dígitos)."}
+cnae_secao:             {tipo: VARCHAR, derivada: true, valores: auto, descricao: "Seção da CNAE 2.0 (A a U), derivada da divisão."}
+cnpj_raiz:              {tipo: VARCHAR, derivada: true, descricao: "Raiz do CNPJ (8 primeiros dígitos): identifica a empresa, não o estabelecimento."}
+especie_codigo:         {tipo: INTEGER, derivada: true, descricao: "Código numérico da espécie do benefício (ex.: 91)."}
+tipo_cat_cod:           {tipo: INTEGER, derivada: true, descricao: "Código do tipo de CAT (1, 2 ou 3)."}
+municipio_empresa_cod:  {tipo: VARCHAR, derivada: true, descricao: "Código do município do empregador."}
+municipio_segurado_cod: {tipo: VARCHAR, derivada: true, descricao: "Código do município do segurado."}
+ano_competencia:        {tipo: INTEGER, derivada: true, descricao: "Ano da competência de emissão da CAT."}
+idade:                  {tipo: INTEGER, derivada: true, descricao: "Idade em anos completos na data do acidente; NULL fora de 14-90."}
+salario_minimo:         {tipo: DOUBLE,  derivada: true, descricao: "Salário mínimo vigente no ano da competência (ver regras_limpeza.yaml)."}
+remuneracao_sm:         {tipo: DOUBLE,  derivada: true, descricao: "valor_remuneracao dividido pelo salário mínimo do ano. NULL no arquivo 14."}
