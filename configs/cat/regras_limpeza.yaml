@@ -1,0 +1,13 @@
+nulos_disfarcados: ["", "{ñ class}", "-", "None", "none", "nan", "NaN", "NULL", "00/00/0000"]
+
+colunas_descartadas: [cbo_2, cid_10_2, cnae_empregador_2]
+
+datas: [data_acidente, data_emissao_cat, data_nascimento,
+        data_afastamento, data_despacho, data_obito_segurado]
+booleanas_sim_nao: [indica_obito_acidente, indica_afastamento, indica_acidente, indica_obito]
+
+idade: {minima: 14, maxima: 90}              # em anos completos na data do acidente
+remuneracao: {minima: 100, maxima: 100000}   # R$ nominais; fora da faixa vira NULL
+
+# Salário mínimo vigente em janeiro de cada ano (valores de memória: confira no decreto)
+salario_minimo: {2012: 622, 2013: 678, 2014: 724, 2015: 788, 2016: 880, 2017: 937, 2018: 954}

@@ -1,0 +1,5 @@
+seed: 42
+cat:
+  raw: data/cat/raw
+  interim: data/cat/interim
+  processed: data/cat/processed
