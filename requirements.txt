@@ -1,0 +1,17 @@
+# Dependências do projeto (Fases 1-3 testadas com as versões abaixo; Python 3.10+).
+# Para travar as versões exatas do seu ambiente: pip freeze > requirements-lock.txt
+duckdb>=1.0
+pandas>=2.0
+numpy>=1.26
+pyyaml>=6.0
+
+# Desenvolvimento e notebooks
+pytest>=8.0
+matplotlib>=3.8
+jupyter
+
+# Fases seguintes (descomente quando chegar nelas)
+# mlxtend      # Apriori / FP-Growth
+# kmodes       # K-Modes / K-Prototypes
+# scikit-learn # árvore, random forest, MLP, validação cruzada
+# shap         # XAI
