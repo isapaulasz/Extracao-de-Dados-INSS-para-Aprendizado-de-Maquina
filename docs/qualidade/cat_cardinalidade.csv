@@ -1,0 +1,34 @@
+﻿coluna,n_niveis,top1,top1_pct,niveis_para_90pct,niveis_para_99pct,niveis_raros,pct_linhas_em_raros
+local_acidente,1132695,VIA PUBLICA,2.32,790419,1098468,1132636,76.192
+cnpj_empregador,592366,34.028.316/0031-29,0.6,251583,558070,592357,97.802
+cid_10,8997,S610,6.26,446,2401,8816,23.541
+cid_10_2,8989,S61.0 FERIM DE DEDOS S/LESAO DA UNHA,6.26,446,2400,8808,23.56
+municipio_segurado,5537,355030-SAO PAULO,8.34,957,3244,5354,35.933
+municipio_empresa,5071,355030-SAO PAULO,10.49,696,2332,4902,31.011
+cbo,2342,784205,5.5,379,1201,2186,22.555
+cbo_2,2262,784205-ALIMENTADOR DE LINHA DE PROD.,5.82,376,1172,2103,22.54
+cid_categoria,1869,S61,11.56,87,442,1774,9.07
+cnae_empregador,1428,8610,10.08,265,523,1227,15.494
+cnae_empregador_2,666,ATIVIDADES DE ATENDIMENTO HOSPITALAR,10.13,260,499,463,14.915
+agente_causador,301,"MOTOCICLETA, MOTONETA",7.79,82,189,184,4.713
+situacao_geradora,57,IMPACTO DE PES. CONTRA OBJETO EM MOVIMENTO,11.36,25,39,14,0.396
+parte_corpo_atingida,44,DEDO,23.86,22,36,4,0.235
+uf_segurado,28,SAO PAULO,36.23,14,23,0,0.0
+natureza_lesao,28,"CORTE, LACERACAO, FERIDA CONTUSA, PUNCTURA",20.98,10,19,6,0.198
+uf_empregador,27,SAO PAULO,37.78,13,22,2,0.181
+uf_acidente,15,MARANHAO,52.77,5,11,0,0.0
+especie_beneficio,10,CATS EMITIDAS SEM BENEFICIO,79.52,2,3,7,0.108
+ramo_atividade,8,COMERCIARIO,99.79,1,1,6,0.033
+tipo_local_acidente,5,EMPREGADORA,56.28,3,5,0,0.0
+emitente_cat,5,EMPREGADOR,98.3,1,2,0,0.0
+estado_civil,5,SOLTEIRO,53.62,2,4,0,0.0
+sexo,3,MASCULINO,68.68,2,2,1,0.001
+filiacao_segurado,3,EMPREGADO,99.8,1,1,1,0.0
+tipo_acidente,3,TIPICO,76.6,2,3,0,0.0
+tipo_cat,3,1-INICIAL,99.38,1,1,1,0.065
+area_atividade,2,URBANO,92.68,1,2,0,0.0
+indica_acidente,2,NAO,99.53,1,1,0,0.0
+indica_obito_acidente,2,NAO,99.53,1,1,0,0.0
+indica_obito,2,NAO,99.94,1,1,1,0.065
+indica_afastamento,2,SIM,79.76,2,2,0,0.0
+origem_cadastramento,2,INTERNET,100.0,1,1,1,0.001

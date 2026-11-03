@@ -1,0 +1,5 @@
+﻿tipo,grupos,linhas_envolvidas,linhas_excedentes,pct_excedentes
+exata (todas as colunas),39,78.0,39.0,0.001
+"aproximada (nascimento, sexo, data do acidente, CID, CNPJ)",10356,20869.0,10513.0,0.307
+  aproximada: grupos que cruzam arquivos,1654,,,
+  aproximada: grupos com tipo_cat diferentes (ex.: inicial + reabertura),9427,,,

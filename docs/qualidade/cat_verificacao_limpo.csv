@@ -1,0 +1,11 @@
+﻿verificacao,encontrado,esperado,status
+nenhuma categórica com NULL,0,0,OK
+nenhum token de nulo disfarçado nas categóricas,0,0,OK
+sem duplicatas exatas,0,0,OK
+acidente <= emissão,0,0,OK
+sem datas futuras,0,0,OK
+"idade dentro de [min, max]",0,0,OK
+remuneração dentro da faixa,0,0,OK
+CBO com 6 dígitos ou NAO_INFORMADO,0,0,OK
+CNAE com 4 dígitos ou NAO_INFORMADO,0,0,OK
+_agrup sem níveis raros (só OUTROS e NAO_INFORMADO absorvem),0,0,OK

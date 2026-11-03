@@ -1,4 +1,13 @@
-﻿etapa,linhas_removidas,linhas_restantes
-entrada (consolidado),0,3429666
-linhas-lixo da exportação (data_acidente fora de AAAA-MM-DD),20,3429646
-data_acidente posterior à data_emissao_cat,2,3429644
+﻿etapa,tipo,linhas_removidas,valores_alterados,linhas_restantes
+entrada (consolidado),entrada,0,0,3429666
+linhas-lixo da exportação (data_acidente fora de AAAA-MM-DD),remocao,20,0,3429646
+nulos disfarçados -> NULL (valores),alteracao,0,11466729,3429646
+"valores fora da regra -> NULL (CBO, CNAE, CID, remuneração, datas)",alteracao,0,19451,3429646
+escopo: todos os tipos de CAT mantidos (tipo_cat como variável),remocao,0,0,3429646
+data_acidente posterior à data_emissao_cat,remocao,2,0,3429644
+data de acidente ou de emissão posterior a 2018-12-31,remocao,0,0,3429644
+data_afastamento anterior ao acidente -> NULL,alteracao,0,1,3429644
+data_obito_segurado anterior ao acidente -> NULL,alteracao,0,0,3429644
+duplicatas exatas (mantida a primeira ocorrência),remocao,39,0,3429605
+nulos em categóricas -> NAO_INFORMADO (valores),alteracao,0,4397856,3429605
+categorias raras (< 0.1%) -> OUTROS (valores),alteracao,0,4096946,3429605

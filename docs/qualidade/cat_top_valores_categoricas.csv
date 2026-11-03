@@ -1,0 +1,539 @@
+﻿coluna,rank,valor,exemplo_bruto,n,pct,suspeito,ja_tratado_como_nulo
+agente_causador,1,"MOTOCICLETA, MOTONETA","Motocicleta, Motoneta",266482,7.77,False,False
+agente_causador,2,"METAL - INCLUI LIGA FERROSA E NAO FERROSA, TU","Metal - Inclui Liga Ferrosa e nao Ferrosa, Tu",199382,5.813,False,False
+agente_causador,3,VEICULO RODOVIARIO MOTORIZADO,Veiculo Rodoviario Motorizado,180224,5.255,False,False
+agente_causador,4,CHAO - SUPERFICIE UTILIZADA PARA SUSTENTAR PE,Chao - Superficie Utilizada para Sustentar Pe,171765,5.008,False,False
+agente_causador,5,"VEICULO, NIC","Veiculo, Nic",159716,4.657,False,False
+agente_causador,6,"FACA, FACAO- FERRAMENTA MANUAL SEM FORCA MOTR","Faca, Facao- Ferramenta Manual sem Forca Motr",125953,3.672,False,False
+agente_causador,7,"FERRAMENTA, MAQUINA, EQUIP., VEICULO, NI","Ferramenta, Maquina, Equip., Veiculo, Ni",101452,2.958,False,False
+agente_causador,8,"SER VIVO, NIC","Ser Vivo, Nic",98110,2.861,False,False
+agente_causador,9,"ESCADA MOVEL OU FIXADA, NIC","Escada Movel ou Fixada, Nic",89229,2.602,False,False
+agente_causador,10,"MAQUINA, NIC","Maquina, Nic",81068,2.364,False,False
+agente_causador,11,AGENTE INFECCIOSO OU PARASITARIO - INCLUI BAC,Agente Infeccioso ou Parasitario - Inclui Bac,77091,2.248,False,False
+agente_causador,12,ESCADA PERMANENTE CUJOS DEGRAUS PERMITEM APOI,Escada Permanente Cujos Degraus Permitem Apoi,76168,2.221,False,False
+agente_causador,13,"FERRAMENTA MANUAL SEM FORCA MOTRIZ, NIC","Ferramenta Manual sem Forca Motriz, Nic",72070,2.101,False,False
+agente_causador,14,ANIMAL VIVO,Animal Vivo,64714,1.887,False,False
+agente_causador,15,CALCADA OU CAMINHO PARA PEDESTRE - SUPERFICIE,Calcada ou Caminho para Pedestre - Superficie,64122,1.87,False,False
+agente_causador,16,"MADEIRA (TORO, MADEIRA SERRADA, PRANCHAO, POS","Madeira (Toro, Madeira Serrada, Pranchao, Pos",59005,1.72,False,False
+agente_causador,17,"VIDRARIA, FIBRA DE VIDRO, LAMINA, ETC., EXCET","Vidraria, Fibra de Vidro, Lamina, Etc., Excet",58423,1.703,False,False
+agente_causador,18,"CAIXA, ENGRADADO, CAIXOTE - EMBALAGEM, RECIPI","Caixa, Engradado, Caixote - Embalagem, Recipi",58039,1.692,False,False
+agente_causador,19,RUA E ESTRADA - SUPERFICIE UTILIZADA PARA SUS,Rua e Estrada - Superficie Utilizada para Sus,52834,1.541,False,False
+agente_causador,20,PISO DE EDIFICIO - SUPERFICIE UTILIZADA PARA,Piso de Edificio - Superficie Utilizada Para,48508,1.414,False,False
+agente_causador,21,"PRODUTO BIOLOGICO (SORO, TOXINA, ANTITOXINA,","Produto Biologico (Soro, Toxina, Antitoxina,",40962,1.194,False,False
+agente_causador,22,"MOBILIARIO E ACESSORIOS, NIC","Mobiliario e Acessorios, Nic",39524,1.152,False,False
+agente_causador,23,AGUA - USAR QUANDO O ESTADO IIQUIDO CONTRIBUI,Agua - Usar Quando O Estado Iiquido Contribui,37971,1.107,False,False
+agente_causador,24,"ALAVANCA, PE-DE-CABRA- FERRAMENTA MANUAL SEM","Alavanca, Pe-De-Cabra- Ferramenta Manual Sem",34095,0.994,False,False
+agente_causador,25,"ASFALTO, ALCATRAO, PICHE","Asfalto, Alcatrao, Piche",33483,0.976,False,False
+agente_causador,26,"ANDAIME, PLATAFORMA - EDIFICIO OU ESTRUTURA","Andaime, Plataforma - Edificio ou Estrutura",29354,0.856,False,False
+agente_causador,27,SERRA - MAQUINA,Serra - Maquina,29282,0.854,False,False
+agente_causador,28,BICICLETA,Bicicleta,26527,0.773,False,False
+agente_causador,29,"SUPERFICIE E ESTRUTURA, NIC","Superficie e Estrutura, Nic",23419,0.683,False,False
+agente_causador,30,CADEIRA BANCO - MOBILIARIO E ACESSORIOS,Cadeira Banco - Mobiliario e Acessorios,22961,0.669,False,False
+cbo,1,784205,784205,188545,5.498,False,False
+cbo,2,322205,322205,170547,4.973,False,False
+cbo,3,514320,514320,107700,3.14,False,False
+cbo,4,717020,717020,95977,2.798,False,False
+cbo,5,782510,782510,83381,2.431,False,False
+cbo,6,411005,411005,59342,1.73,False,False
+cbo,7,322230,322230,58605,1.709,False,False
+cbo,8,415205,415205,58347,1.701,False,False
+cbo,9,521110,521110,56184,1.638,False,False
+cbo,10,411010,411010,46958,1.369,False,False
+cbo,11,514225,514225,42565,1.241,False,False
+cbo,12,783225,783225,42135,1.229,False,False
+cbo,13,911305,911305,41781,1.218,False,False
+cbo,14,715210,715210,41017,1.196,False,False
+cbo,15,724315,724315,40751,1.188,False,False
+cbo,16,513205,513205,40527,1.182,False,False
+cbo,17,514205,514205,40076,1.169,False,False
+cbo,18,521125,521125,38893,1.134,False,False
+cbo,19,223505,223505,37094,1.082,False,False
+cbo,20,414105,414105,36334,1.059,False,False
+cbo,21,517330,517330,35085,1.023,False,False
+cbo,22,622110,622110,32901,0.959,False,False
+cbo,23,862150,862150,32736,0.955,False,False
+cbo,24,513505,513505,30795,0.898,False,False
+cbo,25,848510,848510,30399,0.886,False,False
+cbo,26,519110,519110,27421,0.8,False,False
+cbo,27,421125,421125,26850,0.783,False,False
+cbo,28,621005,621005,25085,0.731,False,False
+cbo,29,848520,848520,24312,0.709,False,False
+cbo,30,513435,513435,22795,0.665,False,False
+cbo_2,1,{N CLASS},{ñ class},191445,5.582,True,True
+cbo_2,2,784205-ALIMENTADOR DE LINHA DE PROD.,784205-Alimentador de Linha de Prod.,188545,5.498,False,False
+cbo_2,3,322205-TEC. DE ENFERMAGEM,322205-Tec. de Enfermagem,170547,4.973,False,False
+cbo_2,4,717020-SERVENTE DE OBRAS,717020-Servente de Obras,95977,2.798,False,False
+cbo_2,5,782510-MOTORISTA DE CAMINHAO (ROTAS REGIONAIS,782510-Motorista de Caminhão (Rotas Regionais,83381,2.431,False,False
+cbo_2,6,"411005-AUXILIAR DE ESCRITORIO, EM GERAL","411005-Auxiliar de Escritório, em Geral",59342,1.73,False,False
+cbo_2,7,322230-AUXILIAR DE ENFERMAGEM,322230-Auxiliar de Enfermagem,58605,1.709,False,False
+cbo_2,8,415205-CARTEIRO,415205-Carteiro,58347,1.701,False,False
+cbo_2,9,521110-VENDEDOR DE COMERCIO VAREJISTA,521110-Vendedor de Comércio Varejista,56184,1.638,False,False
+cbo_2,10,411010-ASSISTENTE ADMINISTRATIVO,411010-Assistente Administrativo,46958,1.369,False,False
+cbo_2,11,514225-TRAB. DE SERV. DE MANUT. DE EDIFICIOS,514225-Trab. de Serv. de Manut. de Edifícios,42565,1.241,False,False
+cbo_2,12,783225-AJUDANTE DE MOTORISTA,783225-Ajudante de Motorista,42135,1.229,False,False
+cbo_2,13,"911305-MEC. MANUT. MAQUINAS, EM GERAL","911305-Mec. Manut. Máquinas, em Geral",41781,1.218,False,False
+cbo_2,14,715210-PEDREIRO,715210-Pedreiro,41017,1.196,False,False
+cbo_2,15,724315-SOLDADOR,724315-Soldador,40751,1.188,False,False
+cbo_2,16,513205-COZINHEIRO GERAL,513205-Cozinheiro Geral,40527,1.182,False,False
+cbo_2,17,514205-COLETOR LIXO,514205-Coletor Lixo,40076,1.169,False,False
+cbo_2,18,521125-REPOSITOR DE MERCADORIAS,521125-Repositor de Mercadorias,38893,1.134,False,False
+cbo_2,19,223505-ENFERMEIRO,223505-Enfermeiro,37094,1.082,False,False
+cbo_2,20,414105-ALMOXARIFE,414105-Almoxarife,36334,1.059,False,False
+cbo_2,21,517330-VIGILANTE,517330-Vigilante,35085,1.023,False,False
+cbo_2,22,622110-TRAB. CULTURA DE CANA-DE-ACUCAR,622110-Trab. Cultura de Cana-De-Açúcar,32901,0.959,False,False
+cbo_2,23,"862150-OPER. MAQUINAS FIXAS, EM GERAL","862150-Oper. Máquinas Fixas, em Geral",32736,0.955,False,False
+cbo_2,24,848510-ACOUGUEIRO,848510-Açougueiro,30399,0.886,False,False
+cbo_2,25,519110-MOTOCICLISTA NO TRANSPORTE DE DOCUMENT,519110-Motociclista no Transporte de Document,27421,0.8,False,False
+cbo_2,26,421125-OPER. CAIXA,421125-Oper. Caixa,26850,0.783,False,False
+cbo_2,27,621005-TRAB. AGROPECUARIO EM GERAL,621005-Trab. Agropecuário em Geral,25085,0.731,False,False
+cbo_2,28,848520-MAGAREFE,848520-Magarefe,24312,0.709,False,False
+cbo_2,29,513435-ATENDENTE LANCHONETE,513435-Atendente Lanchonete,22795,0.665,False,False
+cbo_2,30,414110-ARMAZENISTA,414110-Armazenista,21835,0.637,False,False
+cid_10,1,S610,S610,214710,6.26,False,False
+cid_10,2,S934,S934,123678,3.606,False,False
+cid_10,3,S626,S626,105124,3.065,False,False
+cid_10,4,S600,S600,74157,2.162,False,False
+cid_10,5,Z209,Z209,72277,2.107,False,False
+cid_10,6,S800,S800,71972,2.099,False,False
+cid_10,7,S61,S61,61797,1.802,False,False
+cid_10,8,S602,S602,49505,1.443,False,False
+cid_10,9,S611,S611,48135,1.403,False,False
+cid_10,10,S62,S62,44216,1.289,False,False
+cid_10,11,T07,T07,41858,1.22,False,False
+cid_10,12,S619,S619,38029,1.109,False,False
+cid_10,13,M545,M545,36653,1.069,False,False
+cid_10,14,S400,S400,34856,1.016,False,False
+cid_10,15,S900,S900,34748,1.013,False,False
+cid_10,16,S525,S525,30691,0.895,False,False
+cid_10,17,S923,S923,30118,0.878,False,False
+cid_10,18,S903,S903,30057,0.876,False,False
+cid_10,19,M255,M255,29748,0.867,False,False
+cid_10,20,S60,S60,29439,0.858,False,False
+cid_10,21,S618,S618,26165,0.763,False,False
+cid_10,22,S420,S420,26115,0.761,False,False
+cid_10,23,S601,S601,23923,0.698,False,False
+cid_10,24,S623,S623,23442,0.684,False,False
+cid_10,25,S82,S82,19942,0.581,False,False
+cid_10,26,S92,S92,19282,0.562,False,False
+cid_10,27,S681,S681,19261,0.562,False,False
+cid_10,28,S913,S913,18790,0.548,False,False
+cid_10,29,T149,T149,18711,0.546,False,False
+cid_10,30,F430,F430,18678,0.545,False,False
+cid_10_2,1,S61.0 FERIM DE DEDOS S/LESAO DA UNHA,S61.0 Ferim de Dedos s/Lesao da Unha,214710,6.26,False,False
+cid_10_2,2,S93.4 ENTORSE E DISTENSAO DO TORNOZELO,S93.4 Entorse e Distensao do Tornozelo,123678,3.606,False,False
+cid_10_2,3,S62.6 FRAT DE OUTR DEDOS,S62.6 Frat de Outr Dedos,105124,3.065,False,False
+cid_10_2,4,S60.0 CONTUSAO DE DEDOS S/LESAO DA UNHA,S60.0 Contusao de Dedos s/Lesao da Unha,74157,2.162,False,False
+cid_10_2,5,Z20.9 CONTATO EXPOSICAO A DOENC TRANSMISSIVEL,Z20.9 Contato Exposicao a Doenc Transmissivel,72277,2.107,False,False
+cid_10_2,6,S80.0 CONTUSAO DO JOELHO,S80.0 Contusao do Joelho,71972,2.099,False,False
+cid_10_2,7,S61 FERIM DO PUNHO E DA MAO,S61   Ferim do Punho e da Mao,61797,1.802,False,False
+cid_10_2,8,S60.2 CONTUSAO DE OUTR PARTES DO PUNHO E DA M,S60.2 Contusao de Outr Partes do Punho e da M,49505,1.443,False,False
+cid_10_2,9,S61.1 FERIM DE DEDOS C/LESAO DA UNHA,S61.1 Ferim de Dedos c/Lesao da Unha,48135,1.403,False,False
+cid_10_2,10,S62 FRAT AO NIVEL DO PUNHO E DA MAO,S62   Frat ao Nivel do Punho e da Mao,44216,1.289,False,False
+cid_10_2,11,T07 TRAUM MULT NE,T07   Traum Mult Ne,41858,1.22,False,False
+cid_10_2,12,S61.9 FERIM DO PUNHO E DA MAO PARTE NE,S61.9 Ferim do Punho e da Mao Parte Ne,38029,1.109,False,False
+cid_10_2,13,M54.5 DOR LOMBAR BAIXA,M54.5 Dor Lombar Baixa,36653,1.069,False,False
+cid_10_2,14,S40.0 CONTUSAO DO OMBRO E DO BRACO,S40.0 Contusao do Ombro e do Braco,34856,1.016,False,False
+cid_10_2,15,S90.0 CONTUSAO DO TORNOZELO,S90.0 Contusao do Tornozelo,34748,1.013,False,False
+cid_10_2,16,S52.5 FRAT DA EXTREMIDADE DISTAL DO RADIO,S52.5 Frat da Extremidade Distal do Radio,30691,0.895,False,False
+cid_10_2,17,S92.3 FRAT DE OSSOS DO METATARSO,S92.3 Frat de Ossos do Metatarso,30118,0.878,False,False
+cid_10_2,18,S90.3 CONTUSAO DE OUTR PARTES E PARTES NE DO,S90.3 Contusao de Outr Partes e Partes Ne Do,30057,0.876,False,False
+cid_10_2,19,M25.5 DOR ARTICULAR,M25.5 Dor Articular,29748,0.867,False,False
+cid_10_2,20,S60 TRAUM SUPERF DO PUNHO E DA MAO,S60   Traum Superf do Punho e da Mao,29439,0.858,False,False
+cid_10_2,21,S61.8 FERIM DE OUTR PARTES DO PUNHO E DA MAO,S61.8 Ferim de Outr Partes do Punho e da Mao,26165,0.763,False,False
+cid_10_2,22,S42.0 FRAT DA CLAVICULA,S42.0 Frat da Clavicula,26115,0.761,False,False
+cid_10_2,23,S60.1 CONTUSAO DE DEDOS C/LESAO DA UNHA,S60.1 Contusao de Dedos c/Lesao da Unha,23923,0.698,False,False
+cid_10_2,24,S62.3 FRAT DE OUTR OSSOS DO METACARPO,S62.3 Frat de Outr Ossos do Metacarpo,23442,0.684,False,False
+cid_10_2,25,S82 FRAT DA PERNA INCL TORNOZELO,S82   Frat da Perna Incl Tornozelo,19942,0.581,False,False
+cid_10_2,26,S92 FRAT DO PE,S92   Frat do Pe,19282,0.562,False,False
+cid_10_2,27,S68.1 AMPUT TRAUM DE UM OUTR DEDO APENAS,S68.1 Amput Traum de Um Outr Dedo Apenas,19261,0.562,False,False
+cid_10_2,28,S91.3 FERIM DE OUTR PARTES DO PE,S91.3 Ferim de Outr Partes do Pe,18790,0.548,False,False
+cid_10_2,29,T14.9 TRAUM NE,T14.9 Traum Ne,18711,0.546,False,False
+cid_10_2,30,F43.0 REACAO AGUDA AO STRESS,F43.0 Reacao Aguda ao Stress,18678,0.545,False,False
+cnae_empregador,1,8610,8610,345735,10.081,False,False
+cnae_empregador,2,4711,4711,118283,3.449,False,False
+cnae_empregador,3,4930,4930,87177,2.542,False,False
+cnae_empregador,4,4120,4120,84983,2.478,False,False
+cnae_empregador,5,5310,5310,82934,2.418,False,False
+cnae_empregador,6,8411,8411,81251,2.369,False,False
+cnae_empregador,7,1012,1012,59282,1.729,False,False
+cnae_empregador,8,5611,5611,57089,1.665,False,False
+cnae_empregador,9,1071,1071,53715,1.566,False,False
+cnae_empregador,10,8121,8121,45226,1.319,False,False
+cnae_empregador,11,3811,3811,42689,1.245,False,False
+cnae_empregador,12,1011,1011,39359,1.148,False,False
+cnae_empregador,13,4744,4744,36786,1.073,False,False
+cnae_empregador,14,5620,5620,36092,1.052,False,False
+cnae_empregador,15,4221,4221,29937,0.873,False,False
+cnae_empregador,16,2949,2949,28109,0.82,False,False
+cnae_empregador,17,4921,4921,28086,0.819,False,False
+cnae_empregador,18,7820,7820,27939,0.815,False,False
+cnae_empregador,19,1931,1931,27118,0.791,False,False
+cnae_empregador,20,2229,2229,26938,0.785,False,False
+cnae_empregador,21,8640,8640,26074,0.76,False,False
+cnae_empregador,22,6422,6422,25496,0.743,False,False
+cnae_empregador,23,8011,8011,24859,0.725,False,False
+cnae_empregador,24,4530,4530,24831,0.724,False,False
+cnae_empregador,25,4211,4211,24565,0.716,False,False
+cnae_empregador,26,8630,8630,23173,0.676,False,False
+cnae_empregador,27,3101,3101,22810,0.665,False,False
+cnae_empregador,28,2451,2451,20424,0.596,False,False
+cnae_empregador,29,9430,9430,20058,0.585,False,False
+cnae_empregador,30,2222,2222,19765,0.576,False,False
+cnae_empregador_2,1,ATIVIDADES DE ATENDIMENTO HOSPITALAR,Atividades de Atendimento Hospitalar,345735,10.081,False,False
+cnae_empregador_2,2,"COMERCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINANCIA DE PRODUTOS ALIMENTICIOS - HIPERMERCADOS E SUPERMERCADOS","Comercio Varejista de Mercadorias em Geral, com Predominancia de Produtos Alimenticios - Hipermercados e Supermercados",118283,3.449,False,False
+cnae_empregador_2,3,TRANSPORTE RODOVIARIO DE CARGA,Transporte Rodoviario de Carga,87177,2.542,False,False
+cnae_empregador_2,4,CONSTRUCAO DE EDIFICIOS,Construcao de Edificios,84983,2.478,False,False
+cnae_empregador_2,5,ATIVIDADES DE CORREIO,Atividades de Correio,82934,2.418,False,False
+cnae_empregador_2,6,ADMINISTRACAO PUBLICA EM GERAL,Administracao Publica em Geral,81251,2.369,False,False
+cnae_empregador_2,7,"ABATE DE SUINOS, AVES E OUTROS PEQUENOS ANIMAIS","Abate de Suinos, Aves e Outros Pequenos Animais",59282,1.729,False,False
+cnae_empregador_2,8,RESTAURANTES E OUTROS ESTABELECIMENTOS DE SERVICOS DE ALIMENTACAO E BEBIDAS,Restaurantes e Outros Estabelecimentos de Servicos de Alimentacao e Bebidas,57089,1.665,False,False
+cnae_empregador_2,9,FABRICACAO DE ACUCAR EM BRUTO,Fabricacao de Acucar em Bruto,53715,1.566,False,False
+cnae_empregador_2,10,LIMPEZA EM PREDIOS E EM DOMICILIOS,Limpeza em Predios e em Domicilios,45226,1.319,False,False
+cnae_empregador_2,11,COLETA DE RESIDUOS NAO-PERIGOSOS,Coleta de Residuos Nao-Perigosos,42689,1.245,False,False
+cnae_empregador_2,12,"ABATE DE RESES, EXCETO SUINOS","Abate de Reses, Exceto Suinos",39359,1.148,False,False
+cnae_empregador_2,13,"COMERCIO VAREJISTA DE FERRAGENS, MADEIRA E MATERIAIS DE CONSTRUCAO","Comercio Varejista de Ferragens, Madeira e Materiais de Construcao",36786,1.073,False,False
+cnae_empregador_2,14,"SERVICOS DE CATERING, BUFE E OUTROS SERVICOS DE COMIDA PREPARADA","Servicos de Catering, Bufe e Outros Servicos de Comida Preparada",36092,1.052,False,False
+cnae_empregador_2,15,OBRAS PARA GERACAO E DISTRIBUICAO DE ENERGIA ELETRICA E PARA TELECOMUNICACOES,Obras para Geracao e Distribuicao de Energia Eletrica e para Telecomunicacoes,29937,0.873,False,False
+cnae_empregador_2,16,FABRICACAO DE PECAS E ACESSORIOS PARA VEICULOS AUTOMOTORES NAO ESPECIFICADOS ANTERIORMENTE,Fabricacao de Pecas e Acessorios para Veiculos Automotores nao Especificados Anteriormente,28109,0.82,False,False
+cnae_empregador_2,17,"TRANSPORTE RODOVIARIO COLETIVO DE PASSAGEIROS, COM ITINERARIO FIXO, MUNICIPAL E EM REGIAO METROPOLITANA","Transporte Rodoviario Coletivo de Passageiros, com Itinerario Fixo, Municipal e em Regiao Metropolitana",28086,0.819,False,False
+cnae_empregador_2,18,LOCACAO DE MAO-DE-OBRA TEMPORARIA,Locacao de Mao-De-Obra Temporaria,27939,0.815,False,False
+cnae_empregador_2,19,FABRICACAO DE ALCOOL,Fabricacao de Alcool,27118,0.791,False,False
+cnae_empregador_2,20,FABRICACAO DE ARTEFATOS DE MATERIAL PLASTICO NAO ESPECIFICADOS ANTERIORMENTE,Fabricacao de Artefatos de Material Plastico nao Especificados Anteriormente,26938,0.785,False,False
+cnae_empregador_2,21,ATIVIDADES DE SERVICOS DE COMPLEMENTACAO DIAGNOSTICA E TERAPEUTICA,Atividades de Servicos de Complementacao Diagnostica e Terapeutica,26074,0.76,False,False
+cnae_empregador_2,22,"BANCOS MULTIPLOS, COM CARTEIRA COMERCIAL","Bancos Multiplos, com Carteira Comercial",25496,0.743,False,False
+cnae_empregador_2,23,ATIVIDADES DE VIGILANCIA E SEGURANCA PRIVADA,Atividades de Vigilancia e Seguranca Privada,24859,0.725,False,False
+cnae_empregador_2,24,COMERCIO DE PECAS E ACESSORIOS PARA VEICULOS AUTOMOTORES,Comercio de Pecas e Acessorios para Veiculos Automotores,24831,0.724,False,False
+cnae_empregador_2,25,CONSTRUCAO DE RODOVIAS E FERROVIAS,Construcao de Rodovias e Ferrovias,24565,0.716,False,False
+cnae_empregador_2,26,ATIVIDADES DE ATENCAO AMBULATORIAL EXECUTADAS POR MEDICOS E ODONTOLOGOS,Atividades de Atencao Ambulatorial Executadas por Medicos e Odontologos,23173,0.676,False,False
+cnae_empregador_2,27,FABRICACAO DE MOVEIS COM PREDOMINANCIA DE MADEIRA,Fabricacao de Moveis com Predominancia de Madeira,22810,0.665,False,False
+cnae_empregador_2,28,FUNDICAO DE FERRO E ACO,Fundicao de Ferro e Aco,20424,0.596,False,False
+cnae_empregador_2,29,ATIVIDADES DE ASSOCIACOES DE DEFESA DE DIREITOS SOCIAIS,Atividades de Associacoes de Defesa de Direitos Sociais,20058,0.585,False,False
+cnae_empregador_2,30,FABRICACAO DE EMBALAGENS DE MATERIAL PLASTICO,Fabricacao de Embalagens de Material Plastico,19765,0.576,False,False
+emitente_cat,1,EMPREGADOR,Empregador,3371406,98.302,False,False
+emitente_cat,2,SINDICATO,Sindicato,38104,1.111,False,False
+emitente_cat,3,SEGURADO/DEPENDENTE,Segurado/Dependente,7927,0.231,False,False
+emitente_cat,4,MEDICO,Médico,7415,0.216,False,False
+emitente_cat,5,AUTORIDADE PUBLICA,Autoridade Pública,4778,0.139,False,False
+emitente_cat,6,{N CLASS},{ñ class},16,0.0,True,True
+especie_beneficio,1,CATS EMITIDAS SEM BENEFICIO,Cats Emitidas sem Benefício,2727301,79.521,False,False
+especie_beneficio,2,91:AUXILIO DOENCA POR ACIDENTE DO TRABALHO,91:Auxílio Doenca por Acidente do Trabalho,460515,13.427,False,False
+especie_beneficio,3,CAT SEM BENEFICIO,Cat sem benefício,238129,6.943,False,False
+especie_beneficio,4,93:PENSAO POR MORTE ACIDENTE DO TRABALHO,93:Pensão por Morte Acidente do Trabalho,2037,0.059,False,False
+especie_beneficio,5,99:AFASTAMENTO ATE 15 DIAS ACIDENTE TRAB.,99:Afastamento Até 15 Dias Acidente Trab.,1087,0.032,False,False
+especie_beneficio,6,31:AUXILIO DOENCA PREVIDENCIARIO,31:Auxílio Doenca Previdenciário,492,0.014,False,False
+especie_beneficio,7,94:AUXILIO ACIDENTE,94:Auxílio Acidente,72,0.002,False,False
+especie_beneficio,8,92:APOSENT. INVALIDEZ ACIDENTE TRABALHO,92:Aposent. Invalidez Acidente Trabalho,10,0.0,False,False
+especie_beneficio,9,32:APOSENTADORIA INVALIDEZ PREVIDENCIARIA,32:Aposentadoria Invalidez Previdenciária,2,0.0,False,False
+especie_beneficio,10,21:PENSAO POR MORTE PREVIDENCIARIA,21:Pensão por Morte Previdenciária,1,0.0,False,False
+filiacao_segurado,1,EMPREGADO,Empregado,3422816,99.801,False,False
+filiacao_segurado,2,TRABALHADOR AVULSO,Trabalhador Avulso,6822,0.199,False,False
+filiacao_segurado,3,SEGURADO ESPECIAL,Segurado Especial,8,0.0,False,False
+indica_obito_acidente,1,NAO,Não,3413428,99.527,False,False
+indica_obito_acidente,2,SIM,Sim,16218,0.473,False,False
+indica_afastamento,1,SIM,Sim,2735632,79.764,False,False
+indica_afastamento,2,NAO,Não,694014,20.236,False,False
+indica_acidente,1,NAO,Não,3413413,99.527,False,False
+indica_acidente,2,SIM,Sim,16233,0.473,False,False
+indica_obito,1,NAO,Não,3427424,99.935,False,False
+indica_obito,2,SIM,Sim,2222,0.065,False,False
+municipio_empresa,1,355030-SAO PAULO,355030-São Paulo,359919,10.494,False,False
+municipio_empresa,2,330455-RIO DE JANEIRO,330455-Rio de Janeiro,153770,4.484,False,False
+municipio_empresa,3,310620-BELO HORIZONTE,310620-Belo Horizonte,74612,2.176,False,False
+municipio_empresa,4,410690-CURITIBA,410690-Curitiba,74444,2.171,False,False
+municipio_empresa,5,431490-PORTO ALEGRE,431490-Porto Alegre,67597,1.971,False,False
+municipio_empresa,6,530010-BRASILIA,530010-Brasília,42017,1.225,False,False
+municipio_empresa,7,350950-CAMPINAS,350950-Campinas,36578,1.067,False,False
+municipio_empresa,8,351880-GUARULHOS,351880-Guarulhos,36436,1.062,False,False
+municipio_empresa,9,130260-MANAUS,130260-Manaus,35249,1.028,False,False
+municipio_empresa,10,354870-SAO BERNARDO DO CAMPO,354870-São Bernardo do Campo,33422,0.975,False,False
+municipio_empresa,11,230440-FORTALEZA,230440-Fortaleza,32701,0.953,False,False
+municipio_empresa,12,520870-GOIANIA,520870-Goiânia,32263,0.941,False,False
+municipio_empresa,13,261160-RECIFE,261160-Recife,32164,0.938,False,False
+municipio_empresa,14,292740-SALVADOR,292740-Salvador,31459,0.917,False,False
+municipio_empresa,15,420910-JOINVILLE,420910-Joinville,30212,0.881,False,False
+municipio_empresa,16,354980-SAO JOSE DO RIO PRETO,354980-São José do Rio Preto,28878,0.842,False,False
+municipio_empresa,17,354340-RIBEIRAO PRETO,354340-Ribeirão Preto,25715,0.75,False,False
+municipio_empresa,18,354990-SAO JOSE DOS CAMPOS,354990-São José dos Campos,24952,0.728,False,False
+municipio_empresa,19,430510-CAXIAS DO SUL,430510-Caxias do Sul,24908,0.726,False,False
+municipio_empresa,20,317020-UBERLANDIA,317020-Uberlândia,24042,0.701,False,False
+municipio_empresa,21,354780-SANTO ANDRE-SP,354780-Santo André-Sp,23181,0.676,False,False
+municipio_empresa,22,353870-PIRACICABA,353870-Piracicaba,22622,0.66,False,False
+municipio_empresa,23,500270-CAMPO GRANDE-MS,500270-Campo Grande-Ms,22196,0.647,False,False
+municipio_empresa,24,352590-JUNDIAI,352590-Jundiaí,21650,0.631,False,False
+municipio_empresa,25,350600-BAURU,350600-Bauru,19897,0.58,False,False
+municipio_empresa,26,411370-LONDRINA,411370-Londrina,19719,0.575,False,False
+municipio_empresa,27,311860-CONTAGEM,311860-Contagem,18965,0.553,False,False
+municipio_empresa,28,355220-SOROCABA,355220-Sorocaba,18808,0.548,False,False
+municipio_empresa,29,350570-BARUERI,350570-Barueri,18551,0.541,False,False
+municipio_empresa,30,150140-BELEM-PA,150140-Belém-Pa,17158,0.5,False,False
+municipio_segurado,1,355030-SAO PAULO,355030-São Paulo,286144,8.343,False,False
+municipio_segurado,2,330455-RIO DE JANEIRO,330455-Rio de Janeiro,109571,3.195,False,False
+municipio_segurado,3,410690-CURITIBA,410690-Curitiba,50059,1.46,False,False
+municipio_segurado,4,310620-BELO HORIZONTE,310620-Belo Horizonte,43437,1.267,False,False
+municipio_segurado,5,351880-GUARULHOS,351880-Guarulhos,41318,1.205,False,False
+municipio_segurado,6,431490-PORTO ALEGRE,431490-Porto Alegre,40445,1.179,False,False
+municipio_segurado,7,130260-MANAUS,130260-Manaus,36396,1.061,False,False
+municipio_segurado,8,530010-BRASILIA,530010-Brasília,33791,0.985,False,False
+municipio_segurado,9,292740-SALVADOR,292740-Salvador,32200,0.939,False,False
+municipio_segurado,10,350950-CAMPINAS,350950-Campinas,31076,0.906,False,False
+municipio_segurado,11,420910-JOINVILLE,420910-Joinville,29370,0.856,False,False
+municipio_segurado,12,230440-FORTALEZA,230440-Fortaleza,28920,0.843,False,False
+municipio_segurado,13,354870-SAO BERNARDO DO CAMPO,354870-São Bernardo do Campo,27727,0.808,False,False
+municipio_segurado,14,354980-SAO JOSE DO RIO PRETO,354980-São José do Rio Preto,25709,0.75,False,False
+municipio_segurado,15,354990-SAO JOSE DOS CAMPOS,354990-São José dos Campos,24981,0.728,False,False
+municipio_segurado,16,430510-CAXIAS DO SUL,430510-Caxias do Sul,24100,0.703,False,False
+municipio_segurado,17,354780-SANTO ANDRE-SP,354780-Santo André-Sp,23627,0.689,False,False
+municipio_segurado,18,520870-GOIANIA,520870-Goiânia,23455,0.684,False,False
+municipio_segurado,19,317020-UBERLANDIA,317020-Uberlândia,23222,0.677,False,False
+municipio_segurado,20,354340-RIBEIRAO PRETO,354340-Ribeirão Preto,21847,0.637,False,False
+municipio_segurado,21,353870-PIRACICABA,353870-Piracicaba,21503,0.627,False,False
+municipio_segurado,22,500270-CAMPO GRANDE-MS,500270-Campo Grande-Ms,21299,0.621,False,False
+municipio_segurado,23,261160-RECIFE,261160-Recife,20645,0.602,False,False
+municipio_segurado,24,411370-LONDRINA,411370-Londrina,18180,0.53,False,False
+municipio_segurado,25,352940-MAUA,352940-Mauá,18130,0.529,False,False
+municipio_segurado,26,351380-DIADEMA,351380-Diadema,17775,0.518,False,False
+municipio_segurado,27,355220-SOROCABA,355220-Sorocaba,17306,0.505,False,False
+municipio_segurado,28,353440-OSASCO,353440-Osasco,16701,0.487,False,False
+municipio_segurado,29,330170-DUQUE DE CAXIAS,330170-Duque de Caxias,16375,0.477,False,False
+municipio_segurado,30,330490-SAO GONCALO,330490-São Gonçalo,16132,0.47,False,False
+area_atividade,1,URBANO,Urbano,3177212,92.64,False,False
+area_atividade,2,RURAL,Rural,251100,7.321,False,False
+area_atividade,3,{N CLASS},{ñ class},1334,0.039,True,True
+estado_civil,1,SOLTEIRO,Solteiro,1724458,50.281,False,False
+estado_civil,2,CASADO,Casado,1218276,35.522,False,False
+estado_civil,3,{N CLASS},{ñ class},188776,5.504,True,True
+estado_civil,4,DIVORCIADO,Divorciado,165167,4.816,False,False
+estado_civil,5,SEPARADO JUDICIALMENTE,Separado Judicialmente,90955,2.652,False,False
+estado_civil,6,IGNORADO,Ignorado,24691,0.72,True,True
+estado_civil,7,VIUVO,Viúvo,17323,0.505,False,False
+natureza_lesao,1,"CORTE, LACERACAO, FERIDA CONTUSA, PUNCTURA","Corte, Laceracao, Ferida Contusa, Punctura",719231,20.971,False,False
+natureza_lesao,2,FRATURA,Fratura,600157,17.499,False,False
+natureza_lesao,3,"CONTUSAO, ESMAGAMENTO (SUPERFICIE CUTANEA I","Contusao, Esmagamento (Superficie Cutanea I",536997,15.658,False,False
+natureza_lesao,4,"DISTENSAO, TORCAO","Distensao, Torcao",315141,9.189,False,False
+natureza_lesao,5,"LESAO IMEDIATA, NIC","Lesao Imediata, Nic",279753,8.157,False,False
+natureza_lesao,6,"ESCORIACAO, ABRASAO (FERIMENTO SUPERFICIAL)","Escoriacao, Abrasao (Ferimento Superficial)",274157,7.994,False,False
+natureza_lesao,7,LUXACAO,Luxacao,158549,4.623,False,False
+natureza_lesao,8,QUEIMADURA OU ESCALDADURA - EFEITO DE TEMPE,Queimadura ou Escaldadura - Efeito de Tempe,91632,2.672,False,False
+natureza_lesao,9,"DOENCA, NIC","Doenca, Nic",88082,2.568,False,False
+natureza_lesao,10,LESAO IMEDIATA,Lesao Imediata,78893,2.3,False,False
+natureza_lesao,11,LESOES MULTIPLAS,Lesoes Multiplas,74829,2.182,False,False
+natureza_lesao,12,"INFLAMACAO DE ARTICULACAO, TENDAO OU MUSCUL","Inflamacao de Articulacao, Tendao ou Muscul",45288,1.32,False,False
+natureza_lesao,13,AMPUTACAO OU ENUCLEACAO,Amputacao ou Enucleacao,37607,1.097,False,False
+natureza_lesao,14,QUEIMADURA QUIMICA (LESAO DE TECIDO PROVOCA,Queimadura Quimica (Lesao de Tecido Provoca,24956,0.728,False,False
+natureza_lesao,15,"PERDA OU DIMINUICAO DE SENTIDO (AUDICAO, VI","Perda ou Diminuicao de Sentido (Audicao, Vi",20539,0.599,False,False
+natureza_lesao,16,DOENCA CONTAGIOSA OU INFECCIOSA (TUBERCULOS,Doenca Contagiosa ou Infecciosa (Tuberculos,15990,0.466,False,False
+natureza_lesao,17,CONCUSSAO CEREBRAL,Concussao Cerebral,13912,0.406,False,False
+natureza_lesao,18,"DERMATOSE (ERUPCAO, INFLAMACAO DA PELE, INC","Dermatose (Erupcao, Inflamacao da Pele, Inc",12940,0.377,False,False
+natureza_lesao,19,CHOQUE ELETRICO E ELETROPLESSAO (ELETROCUSS,Choque Eletrico e Eletroplessao (Eletrocuss,9239,0.269,False,False
+natureza_lesao,20,ENVENENAMENTO SISTEMICO - CONDICAO MORBIDA,Envenenamento Sistemico - Condicao Morbida,8860,0.258,False,False
+natureza_lesao,21,PERDA OU DIMINUICAO MEDIATAS DE SENTIDO (AU,Perda ou Diminuicao Mediatas de Sentido (Au,7509,0.219,False,False
+natureza_lesao,22,"HERNIA DE QUALQUER NATUREZA, RUPTURA","Hernia de Qualquer Natureza, Ruptura",7120,0.208,False,False
+natureza_lesao,23,"ASFIXIA, ESTRANGULAMENTO, AFOGAMENTO","Asfixia, Estrangulamento, Afogamento",2967,0.087,False,False
+natureza_lesao,24,{N CLASS},{ñ class},1470,0.043,True,True
+natureza_lesao,25,EFEITO DE RADIACAO (IMEDIATO) - QUEIMADURA,Efeito de Radiacao (Imediato) - Queimadura,1328,0.039,False,False
+natureza_lesao,26,"INTERMACAO, INSOLACAO, CAIBRA, EXAUSTAO E O","Intermacao, Insolacao, Caibra, Exaustao e O",925,0.027,False,False
+natureza_lesao,27,EFEITO DE RADIACAO (MEDIATO) - QUEIMADURA D,Efeito de Radiacao (Mediato) - Queimadura D,594,0.017,False,False
+natureza_lesao,28,"CONGELAMENTO, GELADURA E OUTROS EFEITOS DA","Congelamento, Geladura e Outros Efeitos Da",525,0.015,False,False
+natureza_lesao,29,"PNEUMOCONIOSE (SILICOSE, ASBESTOSE, ETC.)","Pneumoconiose (Silicose, Asbestose, Etc.)",456,0.013,False,False
+origem_cadastramento,1,INTERNET,Internet,3429613,99.999,False,False
+origem_cadastramento,2,PRISMA,Prisma,33,0.001,False,False
+parte_corpo_atingida,1,DEDO,Dedo,816899,23.819,False,False
+parte_corpo_atingida,2,PE (EXCETO ARTELHOS),Pe (Exceto Artelhos),268380,7.825,False,False
+parte_corpo_atingida,3,MAO (EXCETO PUNHO OU DEDOS),Mao (Exceto Punho ou Dedos),249422,7.273,False,False
+parte_corpo_atingida,4,JOELHO,Joelho,177387,5.172,False,False
+parte_corpo_atingida,5,PARTES MULTIPLAS - APLICA-SE QUANDO MAIS DE U,Partes Multiplas - Aplica-Se Quando Mais de U,149551,4.361,False,False
+parte_corpo_atingida,6,ARTICULACAO DO TORNOZELO,Articulacao do Tornozelo,133121,3.881,False,False
+parte_corpo_atingida,7,"PERNA (DO TORNOZELO, EXCLUSIVE, AO JOELHO, EX","Perna (Do Tornozelo, Exclusive, ao Joelho, Ex",122618,3.575,False,False
+parte_corpo_atingida,8,ANTEBRACO (ENTRE O PUNHO E O COTOVELO),Antebraco (Entre O Punho e O Cotovelo),121741,3.55,False,False
+parte_corpo_atingida,9,BRACO (ENTRE O PUNHO A O OMBRO),Braco (Entre O Punho a O Ombro),115016,3.354,False,False
+parte_corpo_atingida,10,PERNA (ENTRE O TORNOZELO E A PELVIS),Perna (Entre O Tornozelo e a Pelvis),114886,3.35,False,False
+parte_corpo_atingida,11,OMBRO,Ombro,114669,3.343,False,False
+parte_corpo_atingida,12,"DORSO (INCLUSIVE MUSCULOS DORSAIS, COLUNA E M","Dorso (Inclusive Musculos Dorsais, Coluna e M",108877,3.175,False,False
+parte_corpo_atingida,13,OLHO (INCLUSIVE NERVO OTICO E VISAO),Olho (Inclusive Nervo Otico e Visao),106705,3.111,False,False
+parte_corpo_atingida,14,"CABECA, NIC","Cabeca, Nic",98856,2.882,False,False
+parte_corpo_atingida,15,PUNHO,Punho,79565,2.32,False,False
+parte_corpo_atingida,16,SISTEMA NERVOSO,Sistema Nervoso,64293,1.875,False,False
+parte_corpo_atingida,17,"FACE, PARTES MULTIPLAS (QUALQUER COMBINACAO D","Face, Partes Multiplas (Qualquer Combinacao D",57680,1.682,False,False
+parte_corpo_atingida,18,"MEMBROS SUPERIORES, NIC","Membros Superiores, Nic",49966,1.457,False,False
+parte_corpo_atingida,19,"MEMBROS INFERIORES, NIC","Membros Inferiores, Nic",48263,1.407,False,False
+parte_corpo_atingida,20,"CABECA, PARTES MULTIPLAS (QUALQUER COMBINACAO","Cabeca, Partes Multiplas (Qualquer Combinacao",41758,1.218,False,False
+parte_corpo_atingida,21,"MEMBROS SUPERIORES, PARTES MULTIPLAS (QUALQUE","Membros Superiores, Partes Multiplas (Qualque",38272,1.116,False,False
+parte_corpo_atingida,22,BRACO (ACIMA DO COTOVELO),Braco (Acima do Cotovelo),33990,0.991,False,False
+parte_corpo_atingida,23,COTOVELO,Cotovelo,32593,0.95,False,False
+parte_corpo_atingida,24,TORAX (INCLUSIVE ORGAOS INTERNOS),Torax (Inclusive Orgaos Internos),29952,0.873,False,False
+parte_corpo_atingida,25,"QUADRIS (INCLUSIVE PELVIS, ORGAOS PELVICOS E","Quadris (Inclusive Pelvis, Orgaos Pelvicos E",27527,0.803,False,False
+parte_corpo_atingida,26,"MEMBROS INFERIORES, PARTES MULTIPLAS (QUALQUE","Membros Inferiores, Partes Multiplas (Qualque",26169,0.763,False,False
+parte_corpo_atingida,27,ABDOME (INCLUSIVE ORGAOS INTERNOS),Abdome (Inclusive Orgaos Internos),23563,0.687,False,False
+parte_corpo_atingida,28,COXA,Coxa,21981,0.641,False,False
+parte_corpo_atingida,29,"TRONCO, PARTE MULTIPLAS (QUALQUER COMBINACAO","Tronco, Parte Multiplas (Qualquer Combinacao",21490,0.627,False,False
+parte_corpo_atingida,30,"TRONCO, NIC","Tronco, Nic",21476,0.626,False,False
+parte_corpo_atingida,31,"BOCA (INCLUSIVE LABIOS, DENTES, LINGUA, GARGA","Boca (Inclusive Labios, Dentes, Lingua, Garga",17610,0.513,False,False
+parte_corpo_atingida,32,PESCOCO,Pescoco,14081,0.411,False,False
+parte_corpo_atingida,33,"NARIZ (INCLUSIVE FOSSAS NASAIS, SEIOS DA FACE","Nariz (Inclusive Fossas Nasais, Seios da Face",13026,0.38,False,False
+parte_corpo_atingida,34,ARTELHO,Artelho,12971,0.378,False,False
+parte_corpo_atingida,35,APARELHO RESPIRATORIO,Aparelho Respiratorio,9500,0.277,False,False
+parte_corpo_atingida,36,"OUVIDO (EXTERNO, MEDIO, INTERNO, AUDICAO E EQ","Ouvido (Externo, Medio, Interno, Audicao e Eq",9292,0.271,False,False
+parte_corpo_atingida,37,CRANIO (INCLUSIVE ENCEFALO),Cranio (Inclusive Encefalo),8176,0.238,False,False
+parte_corpo_atingida,38,{N CLASS},{ñ class},6489,0.189,True,True
+parte_corpo_atingida,39,MANDIBULA (INCLUSIVE QUEIXO),Mandibula (Inclusive Queixo),5510,0.161,False,False
+parte_corpo_atingida,40,SISTEMAS E APARELHOS - APLICA-SE QUANDO O FUN,Sistemas e Aparelhos - Aplica-Se Quando O Fun,4779,0.139,False,False
+parte_corpo_atingida,41,APARELHO DIGESTIVO,Aparelho Digestivo,3513,0.102,False,False
+parte_corpo_atingida,42,SISTEMA MUSCULO-ESQUELETICO,Sistema Musculo-Esqueletico,3287,0.096,False,False
+parte_corpo_atingida,43,"SISTEMAS E APARELHOS, NIC","Sistemas e Aparelhos, Nic",2127,0.062,False,False
+parte_corpo_atingida,44,APARELHO GENITO-URINARIO,Aparelho Genito-Urinario,1961,0.057,False,False
+parte_corpo_atingida,45,APARELHO CIRCULATORIO,Aparelho Circulatorio,658,0.019,False,False
+sexo,1,MASCULINO,Masculino,2355380,68.677,False,False
+sexo,2,FEMININO,Feminino,1074154,31.32,False,False
+sexo,3,NAO INFORMADO,Não Informado,92,0.003,True,True
+sexo,4,INDETERMINADO,Indeterminado,20,0.001,False,False
+ramo_atividade,1,IGNORADO,Ignorado,2966517,86.496,True,True
+ramo_atividade,2,COMERCIARIO,Comerciario,462155,13.475,False,False
+ramo_atividade,3,TRANSPORTES E CARGA,Transportes e Carga,823,0.024,False,False
+ramo_atividade,4,RURAL,Rural,74,0.002,False,False
+ramo_atividade,5,INDUSTRIARIO,Industriario,40,0.001,False,False
+ramo_atividade,6,SERVIDOR PUBLICO,Servidor Publico,31,0.001,False,False
+ramo_atividade,7,BANCARIO,Bancario,3,0.0,False,False
+ramo_atividade,8,FERROVIARIO,Ferroviario,2,0.0,False,False
+ramo_atividade,9,IRRELEVANTE,Irrelevante,1,0.0,False,False
+situacao_geradora,1,IMPACTO DE PES. CONTRA OBJETO EM MOVIMENTO,Impacto de Pes. Contra Objeto em Movimento,371023,10.818,False,False
+situacao_geradora,2,IMPACTO DE PES. CONTRA OBJETO PARADO,Impacto de Pes. Contra Objeto Parado,226351,6.6,False,False
+situacao_geradora,3,"IMPACTO SOFRIDO POR PES., NIC","Impacto Sofrido por Pes., Nic",225945,6.588,False,False
+situacao_geradora,4,QUEDA DE PES. COM DIF. DE NIVEL DE VEI,Queda de Pes. com Dif. de Nivel de Vei,210220,6.129,False,False
+situacao_geradora,5,"APRISION. EM, SOB OU ENTRE, NIC","Aprision. Em, Sob ou Entre, Nic",171012,4.986,False,False
+situacao_geradora,6,IMPACTO SOFRIDO POR PES. DE OBJETO QUE CAI,Impacto Sofrido por Pes. de Objeto Que Cai,166883,4.866,False,False
+situacao_geradora,7,{N CLASS},{ñ class},163932,4.78,True,True
+situacao_geradora,8,IMPACTO SOFRIDO POR PES. DE OBJETO PROJETAD,Impacto Sofrido por Pes. de Objeto Projetad,155144,4.524,False,False
+situacao_geradora,9,"APRISION. EM, SOBRE OU ENTRE OBJETO PARA","Aprision. Em, Sobre ou Entre Objeto Para",134581,3.924,False,False
+situacao_geradora,10,QUEDA DE PES. EM MESMO NIVEL EM PASSAGEM OU,Queda de Pes. em Mesmo Nivel em Passagem Ou,122325,3.567,False,False
+situacao_geradora,11,ATRITO OU ABRASAO POR MANUSEAR OBJETO,Atrito ou Abrasao por Manusear Objeto,111480,3.25,False,False
+situacao_geradora,12,"ATAQUE DE SER VIVO, NIC","Ataque de Ser Vivo, Nic",104782,3.055,False,False
+situacao_geradora,13,REACAO DO CORPO A MOVIMENTO VOLUNTARIO,Reacao do Corpo a Movimento Voluntario,96032,2.8,False,False
+situacao_geradora,14,"QUEDA DE PES. COM DIF. DE NIVEL, NIC","Queda de Pes. com Dif. de Nivel, Nic",85791,2.501,False,False
+situacao_geradora,15,"TEMPERATURA MUITO ALTA, CONTATO COM OBJETO OU","Temperatura Muito Alta, Contato com Objeto Ou",83836,2.444,False,False
+situacao_geradora,16,"QUEDA DE PES. EM MESMO NIVEL, NIC","Queda de Pes. em Mesmo Nivel, Nic",83721,2.441,False,False
+situacao_geradora,17,"ATRITO OU ABRASAO, NIC","Atrito ou Abrasao, Nic",80961,2.361,False,False
+situacao_geradora,18,REACAO DO CORPO A MOVIMENTO INVOLUNTARIO,Reacao do Corpo a Movimento Involuntario,73567,2.145,False,False
+situacao_geradora,19,QUEDA DE PES. COM DIF. DE NIVEL DE ESC,Queda de Pes. com Dif. de Nivel de Esc,68916,2.009,False,False
+situacao_geradora,20,"ATRITO OU ABRASAO POR ENCOSTAR, PISAR, AJOELH","Atrito ou Abrasao por Encostar, Pisar, Ajoelh",68681,2.003,False,False
+situacao_geradora,21,QUEDA DE PES. EM MESMO NIVEL SOBRE OU CONTR,Queda de Pes. em Mesmo Nivel Sobre ou Contr,68116,1.986,False,False
+situacao_geradora,22,"APRISION. EM, SOBRE OU ENTRE DOIS OU MAI","Aprision. Em, Sobre ou Entre Dois ou Mai",57778,1.685,False,False
+situacao_geradora,23,QUEDA DE PES. COM DIF. DE NIVEL EM ESC,Queda de Pes. com Dif. de Nivel em Esc,55915,1.63,False,False
+situacao_geradora,24,"ESFORCO EXCESSIVO, NIC","Esforco Excessivo, Nic",44648,1.302,False,False
+situacao_geradora,25,QUEDA DE PES. COM DIF. DE NIVEL DE AND,Queda de Pes. com Dif. de Nivel de And,44478,1.297,False,False
+situacao_geradora,26,ATRITO OU ABRASAO POR CORPO ESTRANHO NO OLHO,Atrito ou Abrasao por Corpo Estranho no Olho,36403,1.061,False,False
+situacao_geradora,27,"APRISION. EM, SOBRE OU ENTRE OBJETOS EM","Aprision. Em, Sobre ou Entre Objetos Em",35628,1.039,False,False
+situacao_geradora,28,ESFORCO EXCESSIVO AO EMPURRAR OU PUXAR OBJETO,Esforco Excessivo ao Empurrar ou Puxar Objeto,35035,1.022,False,False
+situacao_geradora,29,ESFORCO EXCESSIVO AO ERGUER OBJETO,Esforco Excessivo ao Erguer Objeto,34537,1.007,False,False
+situacao_geradora,30,"ATAQUE DE SER VIVO POR MORDEDURA, PICADA, CHI","Ataque de Ser Vivo por Mordedura, Picada, Chi",25917,0.756,False,False
+situacao_geradora,31,ATRITO OU ABRASAO POR OBJETO EM VIBRACAO,Atrito ou Abrasao por Objeto em Vibracao,23509,0.685,False,False
+situacao_geradora,32,ABSORCAO DE SUBSTANCIA CAUSTICA,Absorcao de Substancia Caustica,20461,0.597,False,False
+situacao_geradora,33,ATRITO OU ABRASAO POR COMPRESSAO REPETITIVA,Atrito ou Abrasao por Compressao Repetitiva,19809,0.578,False,False
+situacao_geradora,34,QUEDA DE PES. COM DIF. DE NIVEL EM POC,Queda de Pes. com Dif. de Nivel em Poc,19075,0.556,False,False
+situacao_geradora,35,"ESFORCO EXCESSIVO AO MANEJAR, SACUDIR OU ARRE","Esforco Excessivo ao Manejar, Sacudir ou Arre",18517,0.54,False,False
+situacao_geradora,36,"ELETRICA, EXPOSICAO A ENERGIA","Eletrica, Exposicao a Energia",13499,0.394,False,False
+situacao_geradora,37,"INALACAO, INGESTAO OU ABSORCAO, NIC","Inalacao, Ingestao ou Absorcao, Nic",12054,0.351,False,False
+situacao_geradora,38,QUEDA DE PES. COM DIF. DE NIVEL DE MAT,Queda de Pes. com Dif. de Nivel de Mat,10373,0.302,False,False
+situacao_geradora,39,"APRISION. EM, SOBRE OU ENTRE DESABAMENTO","Aprision. Em, Sobre ou Entre Desabamento",9984,0.291,False,False
+situacao_geradora,40,ATAQUE DE SER VIVO COM PECONHA,Ataque de Ser Vivo com Peconha,7675,0.224,False,False
+situacao_geradora,41,"RUIDO, EXPOSICAO A","Ruido, Exposicao A",6437,0.188,False,False
+situacao_geradora,42,"TEMPERATURA MUITO BAIXA, CONTATO COM OBJETO O","Temperatura Muito Baixa, Contato com Objeto O",4780,0.139,False,False
+situacao_geradora,43,"INALACAO DE SUBSTANCIA CAUSTICA, TOXICA OU NO","Inalacao de Substancia Caustica, Toxica ou No",3482,0.102,False,False
+situacao_geradora,44,"TEMPERATURA AMBIENTE ELEVADA, EXPOSICAO A","Temperatura Ambiente Elevada, Exposicao A",3430,0.1,False,False
+situacao_geradora,45,ATAQUE DE SER VIVO COM TRANSMISSAO DE DOENCA,Ataque de Ser Vivo com Transmissao de Doenca,2374,0.069,False,False
+situacao_geradora,46,"RADIACAO NAO IONIZANTE, EXPOSICAO A","Radiacao nao Ionizante, Exposicao A",1687,0.049,False,False
+situacao_geradora,47,"POLUICAO DO AR, ACAO DA","Poluicao do Ar, Acao Da",1674,0.049,False,False
+situacao_geradora,48,INGESTAO DE SUBSTANCIA CAUSTICA...,Ingestao de Substancia Caustica...,1500,0.044,False,False
+situacao_geradora,49,"TEMPERATURA AMBIENTE BAIXA, EXPOSICAO A","Temperatura Ambiente Baixa, Exposicao A",1091,0.032,False,False
+situacao_geradora,50,"POLUICAO, NIC, EXPOSICAO A","Poluicao, Nic, Exposicao A",988,0.029,False,False
+situacao_geradora,51,EXPOSICAO A PRESSAO AMBIENTE ELEVADA,Exposicao a Pressao Ambiente Elevada,843,0.025,False,False
+situacao_geradora,52,"POLUICAO DA AGUA, ACAO DA","Poluicao da Agua, Acao Da",710,0.021,False,False
+situacao_geradora,53,"VIBRACAO, EXPOSICAO A","Vibracao, Exposicao A",527,0.015,False,False
+situacao_geradora,54,IMERSAO,Imersao,468,0.014,False,False
+situacao_geradora,55,"RADIACAO IONIZANTE, EXPOSICAO A","Radiacao Ionizante, Exposicao A",425,0.012,False,False
+situacao_geradora,56,EXPOSICAO A PRESSAO AMBIENTE BAIXA,Exposicao a Pressao Ambiente Baixa,284,0.008,False,False
+situacao_geradora,57,"POLUICAO DO SOLO, ACAO DA","Poluicao do Solo, Acao Da",258,0.008,False,False
+situacao_geradora,58,"PRESSAO AMBIENTE, EXPOSICAO A","Pressao Ambiente, Exposicao A",94,0.003,False,False
+tipo_cat,1,1-INICIAL,1-Inicial,3408511,99.384,False,False
+tipo_cat,2,2-REABERTURA,2-Reabertura,18913,0.551,False,False
+tipo_cat,3,3-COMUNICACAO DE OBITO,3-Comunicacao de Obito,2222,0.065,False,False
+tipo_acidente,1,TIPICO,Típico,2622040,76.452,False,False
+tipo_acidente,2,TRAJETO,Trajeto,720009,20.994,False,False
+tipo_acidente,3,DOENCA,Doença,81108,2.365,False,False
+tipo_acidente,4,IGNORADO,Ignorado,6489,0.189,True,True
+tipo_local_acidente,1,EMPREGADORA,Empregadora,1926510,56.172,False,False
+tipo_local_acidente,2,VIA PUBLICA,Via Publica,920537,26.841,False,False
+tipo_local_acidente,3,EMPRESA PRESTADORA,Empresa Prestadora,338412,9.867,False,False
+tipo_local_acidente,4,AREA RURAL,Area Rural,135294,3.945,False,False
+tipo_local_acidente,5,OUTROS,Outros,102404,2.986,False,False
+tipo_local_acidente,6,{N CLASS},{ñ class},6489,0.189,True,True
+uf_acidente,1,MARANHAO,Maranhão,1277233,37.241,False,False
+uf_acidente,2,{N CLASS},{ñ class},1009492,29.434,True,True
+uf_acidente,3,RONDONIA,Rondônia,346967,10.117,False,False
+uf_acidente,4,TOCANTINS,Tocantins,266696,7.776,False,False
+uf_acidente,5,RORAIMA,Roraima,264823,7.722,False,False
+uf_acidente,6,PARA,Pará,78471,2.288,False,False
+uf_acidente,7,ACRE,Acre,58566,1.708,False,False
+uf_acidente,8,CEARA,Ceará,40302,1.175,False,False
+uf_acidente,9,PERNAMBUCO,Pernambuco,24386,0.711,False,False
+uf_acidente,10,AMAZONAS,Amazonas,19024,0.555,False,False
+uf_acidente,11,PIAUI,Piauí,15089,0.44,False,False
+uf_acidente,12,AMAPA,Amapá,9680,0.282,False,False
+uf_acidente,13,SERGIPE,Sergipe,7988,0.233,False,False
+uf_acidente,14,RIO GRANDE NORTE,Rio Grande Norte,3826,0.112,False,False
+uf_acidente,15,ALAGOAS,Alagoas,3683,0.107,False,False
+uf_acidente,16,PARAIBA,Paraíba,3420,0.1,False,False
+uf_empregador,1,SAO PAULO,São Paulo,1295678,37.779,False,False
+uf_empregador,2,MINAS GERAIS,Minas Gerais,346124,10.092,False,False
+uf_empregador,3,RIO GRANDE DO SUL,Rio Grande do Sul,271922,7.929,False,False
+uf_empregador,4,PARANA,Paraná,268112,7.817,False,False
+uf_empregador,5,RIO DE JANEIRO,Rio de Janeiro,261031,7.611,False,False
+uf_empregador,6,SANTA CATARINA,Santa Catarina,182965,5.335,False,False
+uf_empregador,7,GOIAS,Goiás,93403,2.723,False,False
+uf_empregador,8,BAHIA,Bahia,79330,2.313,False,False
+uf_empregador,9,ESPIRITO SANTO,Espírito Santo,78718,2.295,False,False
+uf_empregador,10,PERNAMBUCO,Pernambuco,78147,2.279,False,False
+uf_empregador,11,MATO GROSSO,Mato Grosso,67445,1.967,False,False
+uf_empregador,12,CEARA,Ceará,60844,1.774,False,False
+uf_empregador,13,PARA,Pará,56517,1.648,False,False
+uf_empregador,14,MATO GROSSO DO SUL,Mato Grosso do Sul,54730,1.596,False,False
+uf_empregador,15,DISTRITO FEDERAL,Distrito Federal,42017,1.225,False,False
+uf_empregador,16,AMAZONAS,Amazonas,36789,1.073,False,False
+uf_empregador,17,RIO GRANDE DO NORTE,Rio Grande do Norte,28146,0.821,False,False
+uf_empregador,18,ALAGOAS,Alagoas,24919,0.727,False,False
+uf_empregador,19,RONDONIA,Rondônia,23462,0.684,False,False
+uf_empregador,20,MARANHAO,Maranhão,19428,0.566,False,False
+uf_empregador,21,PARAIBA,Paraíba,18808,0.548,False,False
+uf_empregador,22,SERGIPE,Sergipe,14322,0.418,False,False
+uf_empregador,23,PIAUI,Piauí,9422,0.275,False,False
+uf_empregador,24,TOCANTINS,Tocantins,7473,0.218,False,False
+uf_empregador,25,ACRE,Acre,3699,0.108,False,False
+uf_empregador,26,AMAPA,Amapá,3120,0.091,False,False
+uf_empregador,27,RORAIMA,Roraima,3075,0.09,False,False
+uf_segurado,1,SAO PAULO,São Paulo,1242451,36.227,False,False
+uf_segurado,2,MINAS GERAIS,Minas Gerais,339250,9.892,False,False
+uf_segurado,3,RIO GRANDE DO SUL,Rio Grande do Sul,269892,7.869,False,False
+uf_segurado,4,PARANA,Paraná,258694,7.543,False,False
+uf_segurado,5,RIO DE JANEIRO,Rio de Janeiro,256390,7.476,False,False
+uf_segurado,6,SANTA CATARINA,Santa Catarina,177460,5.174,False,False
+uf_segurado,7,GOIAS,Goiás,97370,2.839,False,False
+uf_segurado,8,BAHIA,Bahia,84245,2.456,False,False
+uf_segurado,9,ESPIRITO SANTO,Espírito Santo,78443,2.287,False,False
+uf_segurado,10,PERNAMBUCO,Pernambuco,78398,2.286,False,False
+uf_segurado,11,ZERADO,Zerado,70049,2.042,False,False
+uf_segurado,12,MATO GROSSO,Mato Grosso,65405,1.907,False,False
+uf_segurado,13,CEARA,Ceará,60469,1.763,False,False
+uf_segurado,14,PARA,Pará,57273,1.67,False,False
+uf_segurado,15,MATO GROSSO DO SUL,Mato Grosso do Sul,53602,1.563,False,False
+uf_segurado,16,AMAZONAS,Amazonas,37537,1.094,False,False
+uf_segurado,17,DISTRITO FEDERAL,Distrito Federal,33043,0.963,False,False
+uf_segurado,18,RIO GRANDE DO NORTE,Rio Grande do Norte,29855,0.87,False,False
+uf_segurado,19,ALAGOAS,Alagoas,26751,0.78,False,False
+uf_segurado,20,MARANHAO,Maranhão,24677,0.72,False,False
+uf_segurado,21,RONDONIA,Rondônia,22189,0.647,False,False
+uf_segurado,22,PARAIBA,Paraíba,19854,0.579,False,False
+uf_segurado,23,SERGIPE,Sergipe,15618,0.455,False,False
+uf_segurado,24,PIAUI,Piauí,11407,0.333,False,False
+uf_segurado,25,TOCANTINS,Tocantins,8182,0.239,False,False
+uf_segurado,26,ACRE,Acre,3802,0.111,False,False
+uf_segurado,27,AMAPA,Amapá,3755,0.109,False,False
+uf_segurado,28,RORAIMA,Roraima,3585,0.105,False,False

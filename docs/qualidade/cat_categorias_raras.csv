@@ -1,0 +1,10 @@
+﻿coluna,n_niveis,n_niveis_raros,linhas_agrupadas,pct_linhas_agrupadas
+agente_causador,302,184,161251,4.702
+cbo,2342,2185,772232,22.517
+cid_categoria,1868,1772,310934,9.066
+cnae_empregador,1379,1177,530220,15.46
+municipio_empresa_cod,5071,4901,1063541,31.011
+municipio_segurado_cod,5537,5353,1231017,35.894
+natureza_lesao,29,6,6795,0.198
+parte_corpo_atingida,45,4,8033,0.234
+situacao_geradora,58,14,12923,0.377

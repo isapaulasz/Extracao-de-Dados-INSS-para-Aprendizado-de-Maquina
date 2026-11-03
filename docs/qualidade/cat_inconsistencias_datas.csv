@@ -1,0 +1,18 @@
+﻿regra,n,pct,acao_na_limpeza
+data_acidente inválida ou ausente,0,0.0,linha-lixo já removida; resto: ver limpeza
+data_emissao_cat inválida ou ausente,0,0.0,mantida (NULL)
+data_nascimento inválida ou ausente,146,0.0043,mantida (idade fica NULL)
+acidente posterior à emissão da CAT,2,0.0001,remover linha
+acidente posterior a 2018-12-31 (futuro),2,0.0001,remover linha
+emissão posterior a 2018-12-31 (futuro),0,0.0,remover linha
+acidente anterior a 2012-01-01,0,0.0,só auditoria (ver acidente_minimo)
+emissão anterior a 2012-01-01,0,0.0,só auditoria
+nascimento no futuro,0,0.0,idade vira NULL
+idade negativa (nascimento posterior ao acidente),0,0.0,idade vira NULL
+idade entre 0 e 13,226,0.0066,idade vira NULL
+idade acima de 90,58,0.0017,idade vira NULL
+afastamento anterior ao acidente,1,0.0,anular data_afastamento
+óbito anterior ao acidente,0,0.0,anular data_obito_segurado
+despacho anterior à emissão,5759,0.1679,só auditoria
+competência diferente do mês de emissão,0,0.0,só auditoria
+ano da competência fora do período esperado,0,0.0,só auditoria
