@@ -1,0 +1,562 @@
+﻿arquivo,n_linhas,coluna_original,tipo,nome_padronizado,chave
+01.2012_01-06_CATS.parquet,254932,Competência de Emissão da CAT,VARCHAR,competencia_cat,competencia_cat
+01.2012_01-06_CATS.parquet,254932,Agente  Causador  Acidente,VARCHAR,agente_causador,agente_causador
+01.2012_01-06_CATS.parquet,254932,Data Acidente,VARCHAR,data_acidente,data_acidente
+01.2012_01-06_CATS.parquet,254932,CBO,VARCHAR,cbo,cbo
+01.2012_01-06_CATS.parquet,254932,CBO_2,VARCHAR,cbo_2,cbo_2
+01.2012_01-06_CATS.parquet,254932,CID-10,VARCHAR,cid_10,cid_10
+01.2012_01-06_CATS.parquet,254932,CID-10_2,VARCHAR,cid_10_2,cid_10_2
+01.2012_01-06_CATS.parquet,254932,CNAE2.0 Empregador,VARCHAR,cnae_empregador,cnae_empregador
+01.2012_01-06_CATS.parquet,254932,CNAE2.0 Empregador_2,VARCHAR,cnae_empregador_2,cnae_empregador_2
+01.2012_01-06_CATS.parquet,254932,Emitente CAT,VARCHAR,emitente_cat,emitente_cat
+01.2012_01-06_CATS.parquet,254932,Espécie do benefício,VARCHAR,especie_beneficio,especie_beneficio
+01.2012_01-06_CATS.parquet,254932,Filiação Segurado,VARCHAR,filiacao_segurado,filiacao_segurado
+01.2012_01-06_CATS.parquet,254932,Indica Óbito Acidente,VARCHAR,indica_obito_acidente,indica_obito_acidente
+01.2012_01-06_CATS.parquet,254932,Indica Afastamento,VARCHAR,indica_afastamento,indica_afastamento
+01.2012_01-06_CATS.parquet,254932,Indica acidente,VARCHAR,indica_acidente,indica_acidente
+01.2012_01-06_CATS.parquet,254932,Indica óbito,VARCHAR,indica_obito,indica_obito
+01.2012_01-06_CATS.parquet,254932,Munic Empr,VARCHAR,municipio_empresa,municipio_empresa
+01.2012_01-06_CATS.parquet,254932,Munic Seg,VARCHAR,municipio_segurado,municipio_segurado
+01.2012_01-06_CATS.parquet,254932,CNPJ/CEI Empregador,VARCHAR,cnpj_empregador,cnpj_empregador
+01.2012_01-06_CATS.parquet,254932,Area Atividade Segurado,VARCHAR,area_atividade,area_atividade
+01.2012_01-06_CATS.parquet,254932,Estado Civil Segurado,VARCHAR,estado_civil,estado_civil
+01.2012_01-06_CATS.parquet,254932,Local Acidente,VARCHAR,local_acidente,local_acidente
+01.2012_01-06_CATS.parquet,254932,Natureza da Lesão,VARCHAR,natureza_lesao,natureza_lesao
+01.2012_01-06_CATS.parquet,254932,Origem de Cadastramento CAT,VARCHAR,origem_cadastramento,origem_cadastramento
+01.2012_01-06_CATS.parquet,254932,Parte Corpo Atingida,VARCHAR,parte_corpo_atingida,parte_corpo_atingida
+01.2012_01-06_CATS.parquet,254932,Sexo,VARCHAR,sexo,sexo
+01.2012_01-06_CATS.parquet,254932,Ramo de Atividade,VARCHAR,ramo_atividade,ramo_atividade
+01.2012_01-06_CATS.parquet,254932,Situação Geradora do Acidente,VARCHAR,situacao_geradora,situacao_geradora
+01.2012_01-06_CATS.parquet,254932,Tipo da CAT,VARCHAR,tipo_cat,tipo_cat
+01.2012_01-06_CATS.parquet,254932,Tipo do Acidente,VARCHAR,tipo_acidente,tipo_acidente
+01.2012_01-06_CATS.parquet,254932,Tipo Local Acidente,VARCHAR,tipo_local_acidente,tipo_local_acidente
+01.2012_01-06_CATS.parquet,254932,UF  Munic.  Acidente,VARCHAR,uf_acidente,uf_acidente
+01.2012_01-06_CATS.parquet,254932,UF Munic. Empregador,VARCHAR,uf_empregador,uf_empregador
+01.2012_01-06_CATS.parquet,254932,UF Munic. Segurado,VARCHAR,uf_segurado,uf_segurado
+01.2012_01-06_CATS.parquet,254932,Data  Afastamento,VARCHAR,data_afastamento,data_afastamento
+01.2012_01-06_CATS.parquet,254932,Data Despacho Benefício,VARCHAR,data_despacho,data_despacho
+01.2012_01-06_CATS.parquet,254932,Data Nascimento,VARCHAR,data_nascimento,data_nascimento
+01.2012_01-06_CATS.parquet,254932,Data Emissão CAT,VARCHAR,data_emissao_cat,data_emissao_cat
+01.2012_01-06_CATS.parquet,254932,Data Óbito Segurado,VARCHAR,data_obito_segurado,data_obito_segurado
+01.2012_01-06_CATS.parquet,254932,Valor Remuneração Segurado,VARCHAR,valor_remuneracao,valor_remuneracao
+02.2012_07-12_CATS.parquet,238318,Competência de Emissão da CAT,VARCHAR,competencia_cat,competencia_cat
+02.2012_07-12_CATS.parquet,238318,Agente  Causador  Acidente,VARCHAR,agente_causador,agente_causador
+02.2012_07-12_CATS.parquet,238318,Data Acidente,VARCHAR,data_acidente,data_acidente
+02.2012_07-12_CATS.parquet,238318,CBO,VARCHAR,cbo,cbo
+02.2012_07-12_CATS.parquet,238318,CBO_2,VARCHAR,cbo_2,cbo_2
+02.2012_07-12_CATS.parquet,238318,CID-10,VARCHAR,cid_10,cid_10
+02.2012_07-12_CATS.parquet,238318,CID-10_2,VARCHAR,cid_10_2,cid_10_2
+02.2012_07-12_CATS.parquet,238318,CNAE2.0 Empregador,VARCHAR,cnae_empregador,cnae_empregador
+02.2012_07-12_CATS.parquet,238318,CNAE2.0 Empregador_2,VARCHAR,cnae_empregador_2,cnae_empregador_2
+02.2012_07-12_CATS.parquet,238318,Emitente CAT,VARCHAR,emitente_cat,emitente_cat
+02.2012_07-12_CATS.parquet,238318,Espécie do benefício,VARCHAR,especie_beneficio,especie_beneficio
+02.2012_07-12_CATS.parquet,238318,Filiação Segurado,VARCHAR,filiacao_segurado,filiacao_segurado
+02.2012_07-12_CATS.parquet,238318,Indica Óbito Acidente,VARCHAR,indica_obito_acidente,indica_obito_acidente
+02.2012_07-12_CATS.parquet,238318,Indica Afastamento,VARCHAR,indica_afastamento,indica_afastamento
+02.2012_07-12_CATS.parquet,238318,Indica acidente,VARCHAR,indica_acidente,indica_acidente
+02.2012_07-12_CATS.parquet,238318,Indica óbito,VARCHAR,indica_obito,indica_obito
+02.2012_07-12_CATS.parquet,238318,Munic Empr,VARCHAR,municipio_empresa,municipio_empresa
+02.2012_07-12_CATS.parquet,238318,Munic Seg,VARCHAR,municipio_segurado,municipio_segurado
+02.2012_07-12_CATS.parquet,238318,CNPJ/CEI Empregador,VARCHAR,cnpj_empregador,cnpj_empregador
+02.2012_07-12_CATS.parquet,238318,Area Atividade Segurado,VARCHAR,area_atividade,area_atividade
+02.2012_07-12_CATS.parquet,238318,Estado Civil Segurado,VARCHAR,estado_civil,estado_civil
+02.2012_07-12_CATS.parquet,238318,Local Acidente,VARCHAR,local_acidente,local_acidente
+02.2012_07-12_CATS.parquet,238318,Natureza da Lesão,VARCHAR,natureza_lesao,natureza_lesao
+02.2012_07-12_CATS.parquet,238318,Origem de Cadastramento CAT,VARCHAR,origem_cadastramento,origem_cadastramento
+02.2012_07-12_CATS.parquet,238318,Parte Corpo Atingida,VARCHAR,parte_corpo_atingida,parte_corpo_atingida
+02.2012_07-12_CATS.parquet,238318,Sexo,VARCHAR,sexo,sexo
+02.2012_07-12_CATS.parquet,238318,Ramo de Atividade,VARCHAR,ramo_atividade,ramo_atividade
+02.2012_07-12_CATS.parquet,238318,Situação Geradora do Acidente,VARCHAR,situacao_geradora,situacao_geradora
+02.2012_07-12_CATS.parquet,238318,Tipo da CAT,VARCHAR,tipo_cat,tipo_cat
+02.2012_07-12_CATS.parquet,238318,Tipo do Acidente,VARCHAR,tipo_acidente,tipo_acidente
+02.2012_07-12_CATS.parquet,238318,Tipo Local Acidente,VARCHAR,tipo_local_acidente,tipo_local_acidente
+02.2012_07-12_CATS.parquet,238318,UF  Munic.  Acidente,VARCHAR,uf_acidente,uf_acidente
+02.2012_07-12_CATS.parquet,238318,UF Munic. Empregador,VARCHAR,uf_empregador,uf_empregador
+02.2012_07-12_CATS.parquet,238318,UF Munic. Segurado,VARCHAR,uf_segurado,uf_segurado
+02.2012_07-12_CATS.parquet,238318,Data  Afastamento,VARCHAR,data_afastamento,data_afastamento
+02.2012_07-12_CATS.parquet,238318,Data Despacho Benefício,VARCHAR,data_despacho,data_despacho
+02.2012_07-12_CATS.parquet,238318,Data Nascimento,VARCHAR,data_nascimento,data_nascimento
+02.2012_07-12_CATS.parquet,238318,Data Emissão CAT,VARCHAR,data_emissao_cat,data_emissao_cat
+02.2012_07-12_CATS.parquet,238318,Data Óbito Segurado,VARCHAR,data_obito_segurado,data_obito_segurado
+02.2012_07-12_CATS.parquet,238318,Valor Remuneração Segurado,VARCHAR,valor_remuneracao,valor_remuneracao
+03.2013_01-06_CATS.parquet,260977,Competência de Emissão da CAT,VARCHAR,competencia_cat,competencia_cat
+03.2013_01-06_CATS.parquet,260977,Agente  Causador  Acidente,VARCHAR,agente_causador,agente_causador
+03.2013_01-06_CATS.parquet,260977,Data Acidente,VARCHAR,data_acidente,data_acidente
+03.2013_01-06_CATS.parquet,260977,CBO,VARCHAR,cbo,cbo
+03.2013_01-06_CATS.parquet,260977,CBO_2,VARCHAR,cbo_2,cbo_2
+03.2013_01-06_CATS.parquet,260977,CID-10,VARCHAR,cid_10,cid_10
+03.2013_01-06_CATS.parquet,260977,CID-10_2,VARCHAR,cid_10_2,cid_10_2
+03.2013_01-06_CATS.parquet,260977,CNAE2.0 Empregador,VARCHAR,cnae_empregador,cnae_empregador
+03.2013_01-06_CATS.parquet,260977,CNAE2.0 Empregador_2,VARCHAR,cnae_empregador_2,cnae_empregador_2
+03.2013_01-06_CATS.parquet,260977,Emitente CAT,VARCHAR,emitente_cat,emitente_cat
+03.2013_01-06_CATS.parquet,260977,Espécie do benefício,VARCHAR,especie_beneficio,especie_beneficio
+03.2013_01-06_CATS.parquet,260977,Filiação Segurado,VARCHAR,filiacao_segurado,filiacao_segurado
+03.2013_01-06_CATS.parquet,260977,Indica Óbito Acidente,VARCHAR,indica_obito_acidente,indica_obito_acidente
+03.2013_01-06_CATS.parquet,260977,Indica Afastamento,VARCHAR,indica_afastamento,indica_afastamento
+03.2013_01-06_CATS.parquet,260977,Indica acidente,VARCHAR,indica_acidente,indica_acidente
+03.2013_01-06_CATS.parquet,260977,Indica óbito,VARCHAR,indica_obito,indica_obito
+03.2013_01-06_CATS.parquet,260977,Munic Empr,VARCHAR,municipio_empresa,municipio_empresa
+03.2013_01-06_CATS.parquet,260977,Munic Seg,VARCHAR,municipio_segurado,municipio_segurado
+03.2013_01-06_CATS.parquet,260977,CNPJ/CEI Empregador,VARCHAR,cnpj_empregador,cnpj_empregador
+03.2013_01-06_CATS.parquet,260977,Area Atividade Segurado,VARCHAR,area_atividade,area_atividade
+03.2013_01-06_CATS.parquet,260977,Estado Civil Segurado,VARCHAR,estado_civil,estado_civil
+03.2013_01-06_CATS.parquet,260977,Local Acidente,VARCHAR,local_acidente,local_acidente
+03.2013_01-06_CATS.parquet,260977,Natureza da Lesão,VARCHAR,natureza_lesao,natureza_lesao
+03.2013_01-06_CATS.parquet,260977,Origem de Cadastramento CAT,VARCHAR,origem_cadastramento,origem_cadastramento
+03.2013_01-06_CATS.parquet,260977,Parte Corpo Atingida,VARCHAR,parte_corpo_atingida,parte_corpo_atingida
+03.2013_01-06_CATS.parquet,260977,Sexo,VARCHAR,sexo,sexo
+03.2013_01-06_CATS.parquet,260977,Ramo de Atividade,VARCHAR,ramo_atividade,ramo_atividade
+03.2013_01-06_CATS.parquet,260977,Situação Geradora do Acidente,VARCHAR,situacao_geradora,situacao_geradora
+03.2013_01-06_CATS.parquet,260977,Tipo da CAT,VARCHAR,tipo_cat,tipo_cat
+03.2013_01-06_CATS.parquet,260977,Tipo do Acidente,VARCHAR,tipo_acidente,tipo_acidente
+03.2013_01-06_CATS.parquet,260977,Tipo Local Acidente,VARCHAR,tipo_local_acidente,tipo_local_acidente
+03.2013_01-06_CATS.parquet,260977,UF  Munic.  Acidente,VARCHAR,uf_acidente,uf_acidente
+03.2013_01-06_CATS.parquet,260977,UF Munic. Empregador,VARCHAR,uf_empregador,uf_empregador
+03.2013_01-06_CATS.parquet,260977,UF Munic. Segurado,VARCHAR,uf_segurado,uf_segurado
+03.2013_01-06_CATS.parquet,260977,Data  Afastamento,VARCHAR,data_afastamento,data_afastamento
+03.2013_01-06_CATS.parquet,260977,Data Despacho Benefício,VARCHAR,data_despacho,data_despacho
+03.2013_01-06_CATS.parquet,260977,Data Nascimento,VARCHAR,data_nascimento,data_nascimento
+03.2013_01-06_CATS.parquet,260977,Data Emissão CAT,VARCHAR,data_emissao_cat,data_emissao_cat
+03.2013_01-06_CATS.parquet,260977,Data Óbito Segurado,VARCHAR,data_obito_segurado,data_obito_segurado
+03.2013_01-06_CATS.parquet,260977,Valor Remuneração Segurado,VARCHAR,valor_remuneracao,valor_remuneracao
+04.2013_07-12_CATS.parquet,290782,Competência de Emissão da CAT,VARCHAR,competencia_cat,competencia_cat
+04.2013_07-12_CATS.parquet,290782,Agente  Causador  Acidente,VARCHAR,agente_causador,agente_causador
+04.2013_07-12_CATS.parquet,290782,Data Acidente,VARCHAR,data_acidente,data_acidente
+04.2013_07-12_CATS.parquet,290782,CBO,VARCHAR,cbo,cbo
+04.2013_07-12_CATS.parquet,290782,CBO_2,VARCHAR,cbo_2,cbo_2
+04.2013_07-12_CATS.parquet,290782,CID-10,VARCHAR,cid_10,cid_10
+04.2013_07-12_CATS.parquet,290782,CID-10_2,VARCHAR,cid_10_2,cid_10_2
+04.2013_07-12_CATS.parquet,290782,CNAE2.0 Empregador,VARCHAR,cnae_empregador,cnae_empregador
+04.2013_07-12_CATS.parquet,290782,CNAE2.0 Empregador_2,VARCHAR,cnae_empregador_2,cnae_empregador_2
+04.2013_07-12_CATS.parquet,290782,Emitente CAT,VARCHAR,emitente_cat,emitente_cat
+04.2013_07-12_CATS.parquet,290782,Espécie do benefício,VARCHAR,especie_beneficio,especie_beneficio
+04.2013_07-12_CATS.parquet,290782,Filiação Segurado,VARCHAR,filiacao_segurado,filiacao_segurado
+04.2013_07-12_CATS.parquet,290782,Indica Óbito Acidente,VARCHAR,indica_obito_acidente,indica_obito_acidente
+04.2013_07-12_CATS.parquet,290782,Indica Afastamento,VARCHAR,indica_afastamento,indica_afastamento
+04.2013_07-12_CATS.parquet,290782,Indica acidente,VARCHAR,indica_acidente,indica_acidente
+04.2013_07-12_CATS.parquet,290782,Indica óbito,VARCHAR,indica_obito,indica_obito
+04.2013_07-12_CATS.parquet,290782,Munic Empr,VARCHAR,municipio_empresa,municipio_empresa
+04.2013_07-12_CATS.parquet,290782,Munic Seg,VARCHAR,municipio_segurado,municipio_segurado
+04.2013_07-12_CATS.parquet,290782,CNPJ/CEI Empregador,VARCHAR,cnpj_empregador,cnpj_empregador
+04.2013_07-12_CATS.parquet,290782,Area Atividade Segurado,VARCHAR,area_atividade,area_atividade
+04.2013_07-12_CATS.parquet,290782,Estado Civil Segurado,VARCHAR,estado_civil,estado_civil
+04.2013_07-12_CATS.parquet,290782,Local Acidente,VARCHAR,local_acidente,local_acidente
+04.2013_07-12_CATS.parquet,290782,Natureza da Lesão,VARCHAR,natureza_lesao,natureza_lesao
+04.2013_07-12_CATS.parquet,290782,Origem de Cadastramento CAT,VARCHAR,origem_cadastramento,origem_cadastramento
+04.2013_07-12_CATS.parquet,290782,Parte Corpo Atingida,VARCHAR,parte_corpo_atingida,parte_corpo_atingida
+04.2013_07-12_CATS.parquet,290782,Sexo,VARCHAR,sexo,sexo
+04.2013_07-12_CATS.parquet,290782,Ramo de Atividade,VARCHAR,ramo_atividade,ramo_atividade
+04.2013_07-12_CATS.parquet,290782,Situação Geradora do Acidente,VARCHAR,situacao_geradora,situacao_geradora
+04.2013_07-12_CATS.parquet,290782,Tipo da CAT,VARCHAR,tipo_cat,tipo_cat
+04.2013_07-12_CATS.parquet,290782,Tipo do Acidente,VARCHAR,tipo_acidente,tipo_acidente
+04.2013_07-12_CATS.parquet,290782,Tipo Local Acidente,VARCHAR,tipo_local_acidente,tipo_local_acidente
+04.2013_07-12_CATS.parquet,290782,UF  Munic.  Acidente,VARCHAR,uf_acidente,uf_acidente
+04.2013_07-12_CATS.parquet,290782,UF Munic. Empregador,VARCHAR,uf_empregador,uf_empregador
+04.2013_07-12_CATS.parquet,290782,UF Munic. Segurado,VARCHAR,uf_segurado,uf_segurado
+04.2013_07-12_CATS.parquet,290782,Data  Afastamento,VARCHAR,data_afastamento,data_afastamento
+04.2013_07-12_CATS.parquet,290782,Data Despacho Benefício,VARCHAR,data_despacho,data_despacho
+04.2013_07-12_CATS.parquet,290782,Data Nascimento,VARCHAR,data_nascimento,data_nascimento
+04.2013_07-12_CATS.parquet,290782,Data Emissão CAT,VARCHAR,data_emissao_cat,data_emissao_cat
+04.2013_07-12_CATS.parquet,290782,Data Óbito Segurado,VARCHAR,data_obito_segurado,data_obito_segurado
+04.2013_07-12_CATS.parquet,290782,Valor Remuneração Segurado,VARCHAR,valor_remuneracao,valor_remuneracao
+05.2014_01-06_CATS.parquet,261589,Competência de Emissão da CAT,VARCHAR,competencia_cat,competencia_cat
+05.2014_01-06_CATS.parquet,261589,Agente  Causador  Acidente,VARCHAR,agente_causador,agente_causador
+05.2014_01-06_CATS.parquet,261589,Data Acidente,VARCHAR,data_acidente,data_acidente
+05.2014_01-06_CATS.parquet,261589,CBO,VARCHAR,cbo,cbo
+05.2014_01-06_CATS.parquet,261589,CBO_2,VARCHAR,cbo_2,cbo_2
+05.2014_01-06_CATS.parquet,261589,CID-10,VARCHAR,cid_10,cid_10
+05.2014_01-06_CATS.parquet,261589,CID-10_2,VARCHAR,cid_10_2,cid_10_2
+05.2014_01-06_CATS.parquet,261589,CNAE2.0 Empregador,VARCHAR,cnae_empregador,cnae_empregador
+05.2014_01-06_CATS.parquet,261589,CNAE2.0 Empregador_2,VARCHAR,cnae_empregador_2,cnae_empregador_2
+05.2014_01-06_CATS.parquet,261589,Emitente CAT,VARCHAR,emitente_cat,emitente_cat
+05.2014_01-06_CATS.parquet,261589,Espécie do benefício,VARCHAR,especie_beneficio,especie_beneficio
+05.2014_01-06_CATS.parquet,261589,Filiação Segurado,VARCHAR,filiacao_segurado,filiacao_segurado
+05.2014_01-06_CATS.parquet,261589,Indica Óbito Acidente,VARCHAR,indica_obito_acidente,indica_obito_acidente
+05.2014_01-06_CATS.parquet,261589,Indica Afastamento,VARCHAR,indica_afastamento,indica_afastamento
+05.2014_01-06_CATS.parquet,261589,Indica acidente,VARCHAR,indica_acidente,indica_acidente
+05.2014_01-06_CATS.parquet,261589,Indica óbito,VARCHAR,indica_obito,indica_obito
+05.2014_01-06_CATS.parquet,261589,Munic Empr,VARCHAR,municipio_empresa,municipio_empresa
+05.2014_01-06_CATS.parquet,261589,Munic Seg,VARCHAR,municipio_segurado,municipio_segurado
+05.2014_01-06_CATS.parquet,261589,CNPJ/CEI Empregador,VARCHAR,cnpj_empregador,cnpj_empregador
+05.2014_01-06_CATS.parquet,261589,Area Atividade Segurado,VARCHAR,area_atividade,area_atividade
+05.2014_01-06_CATS.parquet,261589,Estado Civil Segurado,VARCHAR,estado_civil,estado_civil
+05.2014_01-06_CATS.parquet,261589,Local Acidente,VARCHAR,local_acidente,local_acidente
+05.2014_01-06_CATS.parquet,261589,Natureza da Lesão,VARCHAR,natureza_lesao,natureza_lesao
+05.2014_01-06_CATS.parquet,261589,Origem de Cadastramento CAT,VARCHAR,origem_cadastramento,origem_cadastramento
+05.2014_01-06_CATS.parquet,261589,Parte Corpo Atingida,VARCHAR,parte_corpo_atingida,parte_corpo_atingida
+05.2014_01-06_CATS.parquet,261589,Sexo,VARCHAR,sexo,sexo
+05.2014_01-06_CATS.parquet,261589,Ramo de Atividade,VARCHAR,ramo_atividade,ramo_atividade
+05.2014_01-06_CATS.parquet,261589,Situação Geradora do Acidente,VARCHAR,situacao_geradora,situacao_geradora
+05.2014_01-06_CATS.parquet,261589,Tipo da CAT,VARCHAR,tipo_cat,tipo_cat
+05.2014_01-06_CATS.parquet,261589,Tipo do Acidente,VARCHAR,tipo_acidente,tipo_acidente
+05.2014_01-06_CATS.parquet,261589,Tipo Local Acidente,VARCHAR,tipo_local_acidente,tipo_local_acidente
+05.2014_01-06_CATS.parquet,261589,UF  Munic.  Acidente,VARCHAR,uf_acidente,uf_acidente
+05.2014_01-06_CATS.parquet,261589,UF Munic. Empregador,VARCHAR,uf_empregador,uf_empregador
+05.2014_01-06_CATS.parquet,261589,UF Munic. Segurado,VARCHAR,uf_segurado,uf_segurado
+05.2014_01-06_CATS.parquet,261589,Data  Afastamento,VARCHAR,data_afastamento,data_afastamento
+05.2014_01-06_CATS.parquet,261589,Data Despacho Benefício,VARCHAR,data_despacho,data_despacho
+05.2014_01-06_CATS.parquet,261589,Data Nascimento,VARCHAR,data_nascimento,data_nascimento
+05.2014_01-06_CATS.parquet,261589,Data Emissão CAT,VARCHAR,data_emissao_cat,data_emissao_cat
+05.2014_01-06_CATS.parquet,261589,Data Óbito Segurado,VARCHAR,data_obito_segurado,data_obito_segurado
+05.2014_01-06_CATS.parquet,261589,Valor Remuneração Segurado,VARCHAR,valor_remuneracao,valor_remuneracao
+06.2014_07-12_CATS.parquet,287450,Competência de Emissão da CAT,VARCHAR,competencia_cat,competencia_cat
+06.2014_07-12_CATS.parquet,287450,Agente  Causador  Acidente,VARCHAR,agente_causador,agente_causador
+06.2014_07-12_CATS.parquet,287450,Data Acidente,VARCHAR,data_acidente,data_acidente
+06.2014_07-12_CATS.parquet,287450,CBO,VARCHAR,cbo,cbo
+06.2014_07-12_CATS.parquet,287450,CBO_2,VARCHAR,cbo_2,cbo_2
+06.2014_07-12_CATS.parquet,287450,CID-10,VARCHAR,cid_10,cid_10
+06.2014_07-12_CATS.parquet,287450,CID-10_2,VARCHAR,cid_10_2,cid_10_2
+06.2014_07-12_CATS.parquet,287450,CNAE2.0 Empregador,VARCHAR,cnae_empregador,cnae_empregador
+06.2014_07-12_CATS.parquet,287450,CNAE2.0 Empregador_2,VARCHAR,cnae_empregador_2,cnae_empregador_2
+06.2014_07-12_CATS.parquet,287450,Emitente CAT,VARCHAR,emitente_cat,emitente_cat
+06.2014_07-12_CATS.parquet,287450,Espécie do benefício,VARCHAR,especie_beneficio,especie_beneficio
+06.2014_07-12_CATS.parquet,287450,Filiação Segurado,VARCHAR,filiacao_segurado,filiacao_segurado
+06.2014_07-12_CATS.parquet,287450,Indica Óbito Acidente,VARCHAR,indica_obito_acidente,indica_obito_acidente
+06.2014_07-12_CATS.parquet,287450,Indica Afastamento,VARCHAR,indica_afastamento,indica_afastamento
+06.2014_07-12_CATS.parquet,287450,Indica acidente,VARCHAR,indica_acidente,indica_acidente
+06.2014_07-12_CATS.parquet,287450,Indica óbito,VARCHAR,indica_obito,indica_obito
+06.2014_07-12_CATS.parquet,287450,Munic Empr,VARCHAR,municipio_empresa,municipio_empresa
+06.2014_07-12_CATS.parquet,287450,Munic Seg,VARCHAR,municipio_segurado,municipio_segurado
+06.2014_07-12_CATS.parquet,287450,CNPJ/CEI Empregador,VARCHAR,cnpj_empregador,cnpj_empregador
+06.2014_07-12_CATS.parquet,287450,Area Atividade Segurado,VARCHAR,area_atividade,area_atividade
+06.2014_07-12_CATS.parquet,287450,Estado Civil Segurado,VARCHAR,estado_civil,estado_civil
+06.2014_07-12_CATS.parquet,287450,Local Acidente,VARCHAR,local_acidente,local_acidente
+06.2014_07-12_CATS.parquet,287450,Natureza da Lesão,VARCHAR,natureza_lesao,natureza_lesao
+06.2014_07-12_CATS.parquet,287450,Origem de Cadastramento CAT,VARCHAR,origem_cadastramento,origem_cadastramento
+06.2014_07-12_CATS.parquet,287450,Parte Corpo Atingida,VARCHAR,parte_corpo_atingida,parte_corpo_atingida
+06.2014_07-12_CATS.parquet,287450,Sexo,VARCHAR,sexo,sexo
+06.2014_07-12_CATS.parquet,287450,Ramo de Atividade,VARCHAR,ramo_atividade,ramo_atividade
+06.2014_07-12_CATS.parquet,287450,Situação Geradora do Acidente,VARCHAR,situacao_geradora,situacao_geradora
+06.2014_07-12_CATS.parquet,287450,Tipo da CAT,VARCHAR,tipo_cat,tipo_cat
+06.2014_07-12_CATS.parquet,287450,Tipo do Acidente,VARCHAR,tipo_acidente,tipo_acidente
+06.2014_07-12_CATS.parquet,287450,Tipo Local Acidente,VARCHAR,tipo_local_acidente,tipo_local_acidente
+06.2014_07-12_CATS.parquet,287450,UF  Munic.  Acidente,VARCHAR,uf_acidente,uf_acidente
+06.2014_07-12_CATS.parquet,287450,UF Munic. Empregador,VARCHAR,uf_empregador,uf_empregador
+06.2014_07-12_CATS.parquet,287450,UF Munic. Segurado,VARCHAR,uf_segurado,uf_segurado
+06.2014_07-12_CATS.parquet,287450,Data  Afastamento,VARCHAR,data_afastamento,data_afastamento
+06.2014_07-12_CATS.parquet,287450,Data Despacho Benefício,VARCHAR,data_despacho,data_despacho
+06.2014_07-12_CATS.parquet,287450,Data Nascimento,VARCHAR,data_nascimento,data_nascimento
+06.2014_07-12_CATS.parquet,287450,Data Emissão CAT,VARCHAR,data_emissao_cat,data_emissao_cat
+06.2014_07-12_CATS.parquet,287450,Data Óbito Segurado,VARCHAR,data_obito_segurado,data_obito_segurado
+06.2014_07-12_CATS.parquet,287450,Valor Remuneração Segurado,VARCHAR,valor_remuneracao,valor_remuneracao
+07.2015_01-06_CATS.parquet,241277,Competência de Emissão da CAT,VARCHAR,competencia_cat,competencia_cat
+07.2015_01-06_CATS.parquet,241277,Agente  Causador  Acidente,VARCHAR,agente_causador,agente_causador
+07.2015_01-06_CATS.parquet,241277,Data Acidente,VARCHAR,data_acidente,data_acidente
+07.2015_01-06_CATS.parquet,241277,CBO,VARCHAR,cbo,cbo
+07.2015_01-06_CATS.parquet,241277,CBO_2,VARCHAR,cbo_2,cbo_2
+07.2015_01-06_CATS.parquet,241277,CID-10,VARCHAR,cid_10,cid_10
+07.2015_01-06_CATS.parquet,241277,CID-10_2,VARCHAR,cid_10_2,cid_10_2
+07.2015_01-06_CATS.parquet,241277,CNAE2.0 Empregador,VARCHAR,cnae_empregador,cnae_empregador
+07.2015_01-06_CATS.parquet,241277,CNAE2.0 Empregador_2,VARCHAR,cnae_empregador_2,cnae_empregador_2
+07.2015_01-06_CATS.parquet,241277,Emitente CAT,VARCHAR,emitente_cat,emitente_cat
+07.2015_01-06_CATS.parquet,241277,Espécie do benefício,VARCHAR,especie_beneficio,especie_beneficio
+07.2015_01-06_CATS.parquet,241277,Filiação Segurado,VARCHAR,filiacao_segurado,filiacao_segurado
+07.2015_01-06_CATS.parquet,241277,Indica Óbito Acidente,VARCHAR,indica_obito_acidente,indica_obito_acidente
+07.2015_01-06_CATS.parquet,241277,Indica Afastamento,VARCHAR,indica_afastamento,indica_afastamento
+07.2015_01-06_CATS.parquet,241277,Indica acidente,VARCHAR,indica_acidente,indica_acidente
+07.2015_01-06_CATS.parquet,241277,Indica óbito,VARCHAR,indica_obito,indica_obito
+07.2015_01-06_CATS.parquet,241277,Munic Empr,VARCHAR,municipio_empresa,municipio_empresa
+07.2015_01-06_CATS.parquet,241277,Munic Seg,VARCHAR,municipio_segurado,municipio_segurado
+07.2015_01-06_CATS.parquet,241277,CNPJ/CEI Empregador,VARCHAR,cnpj_empregador,cnpj_empregador
+07.2015_01-06_CATS.parquet,241277,Area Atividade Segurado,VARCHAR,area_atividade,area_atividade
+07.2015_01-06_CATS.parquet,241277,Estado Civil Segurado,VARCHAR,estado_civil,estado_civil
+07.2015_01-06_CATS.parquet,241277,Local Acidente,VARCHAR,local_acidente,local_acidente
+07.2015_01-06_CATS.parquet,241277,Natureza da Lesão,VARCHAR,natureza_lesao,natureza_lesao
+07.2015_01-06_CATS.parquet,241277,Origem de Cadastramento CAT,VARCHAR,origem_cadastramento,origem_cadastramento
+07.2015_01-06_CATS.parquet,241277,Parte Corpo Atingida,VARCHAR,parte_corpo_atingida,parte_corpo_atingida
+07.2015_01-06_CATS.parquet,241277,Sexo,VARCHAR,sexo,sexo
+07.2015_01-06_CATS.parquet,241277,Ramo de Atividade,VARCHAR,ramo_atividade,ramo_atividade
+07.2015_01-06_CATS.parquet,241277,Situação Geradora do Acidente,VARCHAR,situacao_geradora,situacao_geradora
+07.2015_01-06_CATS.parquet,241277,Tipo da CAT,VARCHAR,tipo_cat,tipo_cat
+07.2015_01-06_CATS.parquet,241277,Tipo do Acidente,VARCHAR,tipo_acidente,tipo_acidente
+07.2015_01-06_CATS.parquet,241277,Tipo Local Acidente,VARCHAR,tipo_local_acidente,tipo_local_acidente
+07.2015_01-06_CATS.parquet,241277,UF  Munic.  Acidente,VARCHAR,uf_acidente,uf_acidente
+07.2015_01-06_CATS.parquet,241277,UF Munic. Empregador,VARCHAR,uf_empregador,uf_empregador
+07.2015_01-06_CATS.parquet,241277,UF Munic. Segurado,VARCHAR,uf_segurado,uf_segurado
+07.2015_01-06_CATS.parquet,241277,Data  Afastamento,VARCHAR,data_afastamento,data_afastamento
+07.2015_01-06_CATS.parquet,241277,Data Despacho Benefício,VARCHAR,data_despacho,data_despacho
+07.2015_01-06_CATS.parquet,241277,Data Nascimento,VARCHAR,data_nascimento,data_nascimento
+07.2015_01-06_CATS.parquet,241277,Data Emissão CAT,VARCHAR,data_emissao_cat,data_emissao_cat
+07.2015_01-06_CATS.parquet,241277,Data Óbito Segurado,VARCHAR,data_obito_segurado,data_obito_segurado
+07.2015_01-06_CATS.parquet,241277,Valor Remuneração Segurado,VARCHAR,valor_remuneracao,valor_remuneracao
+08.2015_07-12_CATS.parquet,250415,Competência de Emissão da CAT,VARCHAR,competencia_cat,competencia_cat
+08.2015_07-12_CATS.parquet,250415,Agente  Causador  Acidente,VARCHAR,agente_causador,agente_causador
+08.2015_07-12_CATS.parquet,250415,Data Acidente,VARCHAR,data_acidente,data_acidente
+08.2015_07-12_CATS.parquet,250415,CBO,VARCHAR,cbo,cbo
+08.2015_07-12_CATS.parquet,250415,CBO_2,VARCHAR,cbo_2,cbo_2
+08.2015_07-12_CATS.parquet,250415,CID-10,VARCHAR,cid_10,cid_10
+08.2015_07-12_CATS.parquet,250415,CID-10_2,VARCHAR,cid_10_2,cid_10_2
+08.2015_07-12_CATS.parquet,250415,CNAE2.0 Empregador,VARCHAR,cnae_empregador,cnae_empregador
+08.2015_07-12_CATS.parquet,250415,CNAE2.0 Empregador_2,VARCHAR,cnae_empregador_2,cnae_empregador_2
+08.2015_07-12_CATS.parquet,250415,Emitente CAT,VARCHAR,emitente_cat,emitente_cat
+08.2015_07-12_CATS.parquet,250415,Espécie do benefício,VARCHAR,especie_beneficio,especie_beneficio
+08.2015_07-12_CATS.parquet,250415,Filiação Segurado,VARCHAR,filiacao_segurado,filiacao_segurado
+08.2015_07-12_CATS.parquet,250415,Indica Óbito Acidente,VARCHAR,indica_obito_acidente,indica_obito_acidente
+08.2015_07-12_CATS.parquet,250415,Indica Afastamento,VARCHAR,indica_afastamento,indica_afastamento
+08.2015_07-12_CATS.parquet,250415,Indica acidente,VARCHAR,indica_acidente,indica_acidente
+08.2015_07-12_CATS.parquet,250415,Indica óbito,VARCHAR,indica_obito,indica_obito
+08.2015_07-12_CATS.parquet,250415,Munic Empr,VARCHAR,municipio_empresa,municipio_empresa
+08.2015_07-12_CATS.parquet,250415,Munic Seg,VARCHAR,municipio_segurado,municipio_segurado
+08.2015_07-12_CATS.parquet,250415,CNPJ/CEI Empregador,VARCHAR,cnpj_empregador,cnpj_empregador
+08.2015_07-12_CATS.parquet,250415,Area Atividade Segurado,VARCHAR,area_atividade,area_atividade
+08.2015_07-12_CATS.parquet,250415,Estado Civil Segurado,VARCHAR,estado_civil,estado_civil
+08.2015_07-12_CATS.parquet,250415,Local Acidente,VARCHAR,local_acidente,local_acidente
+08.2015_07-12_CATS.parquet,250415,Natureza da Lesão,VARCHAR,natureza_lesao,natureza_lesao
+08.2015_07-12_CATS.parquet,250415,Origem de Cadastramento CAT,VARCHAR,origem_cadastramento,origem_cadastramento
+08.2015_07-12_CATS.parquet,250415,Parte Corpo Atingida,VARCHAR,parte_corpo_atingida,parte_corpo_atingida
+08.2015_07-12_CATS.parquet,250415,Sexo,VARCHAR,sexo,sexo
+08.2015_07-12_CATS.parquet,250415,Ramo de Atividade,VARCHAR,ramo_atividade,ramo_atividade
+08.2015_07-12_CATS.parquet,250415,Situação Geradora do Acidente,VARCHAR,situacao_geradora,situacao_geradora
+08.2015_07-12_CATS.parquet,250415,Tipo da CAT,VARCHAR,tipo_cat,tipo_cat
+08.2015_07-12_CATS.parquet,250415,Tipo do Acidente,VARCHAR,tipo_acidente,tipo_acidente
+08.2015_07-12_CATS.parquet,250415,Tipo Local Acidente,VARCHAR,tipo_local_acidente,tipo_local_acidente
+08.2015_07-12_CATS.parquet,250415,UF  Munic.  Acidente,VARCHAR,uf_acidente,uf_acidente
+08.2015_07-12_CATS.parquet,250415,UF Munic. Empregador,VARCHAR,uf_empregador,uf_empregador
+08.2015_07-12_CATS.parquet,250415,UF Munic. Segurado,VARCHAR,uf_segurado,uf_segurado
+08.2015_07-12_CATS.parquet,250415,Data  Afastamento,VARCHAR,data_afastamento,data_afastamento
+08.2015_07-12_CATS.parquet,250415,Data Despacho Benefício,VARCHAR,data_despacho,data_despacho
+08.2015_07-12_CATS.parquet,250415,Data Nascimento,VARCHAR,data_nascimento,data_nascimento
+08.2015_07-12_CATS.parquet,250415,Data Emissão CAT,VARCHAR,data_emissao_cat,data_emissao_cat
+08.2015_07-12_CATS.parquet,250415,Data Óbito Segurado,VARCHAR,data_obito_segurado,data_obito_segurado
+08.2015_07-12_CATS.parquet,250415,Valor Remuneração Segurado,VARCHAR,valor_remuneracao,valor_remuneracao
+09.2016_01-06_CATS.parquet,229023,Competência de Emissão da CAT,VARCHAR,competencia_cat,competencia_cat
+09.2016_01-06_CATS.parquet,229023,Agente  Causador  Acidente,VARCHAR,agente_causador,agente_causador
+09.2016_01-06_CATS.parquet,229023,Data Acidente,VARCHAR,data_acidente,data_acidente
+09.2016_01-06_CATS.parquet,229023,CBO,VARCHAR,cbo,cbo
+09.2016_01-06_CATS.parquet,229023,CBO_2,VARCHAR,cbo_2,cbo_2
+09.2016_01-06_CATS.parquet,229023,CID-10,VARCHAR,cid_10,cid_10
+09.2016_01-06_CATS.parquet,229023,CID-10_2,VARCHAR,cid_10_2,cid_10_2
+09.2016_01-06_CATS.parquet,229023,CNAE2.0 Empregador,VARCHAR,cnae_empregador,cnae_empregador
+09.2016_01-06_CATS.parquet,229023,CNAE2.0 Empregador_2,VARCHAR,cnae_empregador_2,cnae_empregador_2
+09.2016_01-06_CATS.parquet,229023,Emitente CAT,VARCHAR,emitente_cat,emitente_cat
+09.2016_01-06_CATS.parquet,229023,Espécie do benefício,VARCHAR,especie_beneficio,especie_beneficio
+09.2016_01-06_CATS.parquet,229023,Filiação Segurado,VARCHAR,filiacao_segurado,filiacao_segurado
+09.2016_01-06_CATS.parquet,229023,Indica Óbito Acidente,VARCHAR,indica_obito_acidente,indica_obito_acidente
+09.2016_01-06_CATS.parquet,229023,Indica Afastamento,VARCHAR,indica_afastamento,indica_afastamento
+09.2016_01-06_CATS.parquet,229023,Indica acidente,VARCHAR,indica_acidente,indica_acidente
+09.2016_01-06_CATS.parquet,229023,Indica óbito,VARCHAR,indica_obito,indica_obito
+09.2016_01-06_CATS.parquet,229023,Munic Empr,VARCHAR,municipio_empresa,municipio_empresa
+09.2016_01-06_CATS.parquet,229023,Munic Seg,VARCHAR,municipio_segurado,municipio_segurado
+09.2016_01-06_CATS.parquet,229023,CNPJ/CEI Empregador,VARCHAR,cnpj_empregador,cnpj_empregador
+09.2016_01-06_CATS.parquet,229023,Area Atividade Segurado,VARCHAR,area_atividade,area_atividade
+09.2016_01-06_CATS.parquet,229023,Estado Civil Segurado,VARCHAR,estado_civil,estado_civil
+09.2016_01-06_CATS.parquet,229023,Local Acidente,VARCHAR,local_acidente,local_acidente
+09.2016_01-06_CATS.parquet,229023,Natureza da Lesão,VARCHAR,natureza_lesao,natureza_lesao
+09.2016_01-06_CATS.parquet,229023,Origem de Cadastramento CAT,VARCHAR,origem_cadastramento,origem_cadastramento
+09.2016_01-06_CATS.parquet,229023,Parte Corpo Atingida,VARCHAR,parte_corpo_atingida,parte_corpo_atingida
+09.2016_01-06_CATS.parquet,229023,Sexo,VARCHAR,sexo,sexo
+09.2016_01-06_CATS.parquet,229023,Ramo de Atividade,VARCHAR,ramo_atividade,ramo_atividade
+09.2016_01-06_CATS.parquet,229023,Situação Geradora do Acidente,VARCHAR,situacao_geradora,situacao_geradora
+09.2016_01-06_CATS.parquet,229023,Tipo da CAT,VARCHAR,tipo_cat,tipo_cat
+09.2016_01-06_CATS.parquet,229023,Tipo do Acidente,VARCHAR,tipo_acidente,tipo_acidente
+09.2016_01-06_CATS.parquet,229023,Tipo Local Acidente,VARCHAR,tipo_local_acidente,tipo_local_acidente
+09.2016_01-06_CATS.parquet,229023,UF  Munic.  Acidente,VARCHAR,uf_acidente,uf_acidente
+09.2016_01-06_CATS.parquet,229023,UF Munic. Empregador,VARCHAR,uf_empregador,uf_empregador
+09.2016_01-06_CATS.parquet,229023,UF Munic. Segurado,VARCHAR,uf_segurado,uf_segurado
+09.2016_01-06_CATS.parquet,229023,Data  Afastamento,VARCHAR,data_afastamento,data_afastamento
+09.2016_01-06_CATS.parquet,229023,Data Despacho Benefício,VARCHAR,data_despacho,data_despacho
+09.2016_01-06_CATS.parquet,229023,Data Nascimento,VARCHAR,data_nascimento,data_nascimento
+09.2016_01-06_CATS.parquet,229023,Data Emissão CAT,VARCHAR,data_emissao_cat,data_emissao_cat
+09.2016_01-06_CATS.parquet,229023,Data Óbito Segurado,VARCHAR,data_obito_segurado,data_obito_segurado
+09.2016_01-06_CATS.parquet,229023,Valor Remuneração Segurado,VARCHAR,valor_remuneracao,valor_remuneracao
+10.2016_07-12_CATS.parquet,236189,Competência de Emissão da CAT,VARCHAR,competencia_cat,competencia_cat
+10.2016_07-12_CATS.parquet,236189,Agente  Causador  Acidente,VARCHAR,agente_causador,agente_causador
+10.2016_07-12_CATS.parquet,236189,Data Acidente,VARCHAR,data_acidente,data_acidente
+10.2016_07-12_CATS.parquet,236189,CBO,VARCHAR,cbo,cbo
+10.2016_07-12_CATS.parquet,236189,CBO_2,VARCHAR,cbo_2,cbo_2
+10.2016_07-12_CATS.parquet,236189,CID-10,VARCHAR,cid_10,cid_10
+10.2016_07-12_CATS.parquet,236189,CID-10_2,VARCHAR,cid_10_2,cid_10_2
+10.2016_07-12_CATS.parquet,236189,CNAE2.0 Empregador,VARCHAR,cnae_empregador,cnae_empregador
+10.2016_07-12_CATS.parquet,236189,CNAE2.0 Empregador_2,VARCHAR,cnae_empregador_2,cnae_empregador_2
+10.2016_07-12_CATS.parquet,236189,Emitente CAT,VARCHAR,emitente_cat,emitente_cat
+10.2016_07-12_CATS.parquet,236189,Espécie do benefício,VARCHAR,especie_beneficio,especie_beneficio
+10.2016_07-12_CATS.parquet,236189,Filiação Segurado,VARCHAR,filiacao_segurado,filiacao_segurado
+10.2016_07-12_CATS.parquet,236189,Indica Óbito Acidente,VARCHAR,indica_obito_acidente,indica_obito_acidente
+10.2016_07-12_CATS.parquet,236189,Indica Afastamento,VARCHAR,indica_afastamento,indica_afastamento
+10.2016_07-12_CATS.parquet,236189,Indica acidente,VARCHAR,indica_acidente,indica_acidente
+10.2016_07-12_CATS.parquet,236189,Indica óbito,VARCHAR,indica_obito,indica_obito
+10.2016_07-12_CATS.parquet,236189,Munic Empr,VARCHAR,municipio_empresa,municipio_empresa
+10.2016_07-12_CATS.parquet,236189,Munic Seg,VARCHAR,municipio_segurado,municipio_segurado
+10.2016_07-12_CATS.parquet,236189,CNPJ/CEI Empregador,VARCHAR,cnpj_empregador,cnpj_empregador
+10.2016_07-12_CATS.parquet,236189,Area Atividade Segurado,VARCHAR,area_atividade,area_atividade
+10.2016_07-12_CATS.parquet,236189,Estado Civil Segurado,VARCHAR,estado_civil,estado_civil
+10.2016_07-12_CATS.parquet,236189,Local Acidente,VARCHAR,local_acidente,local_acidente
+10.2016_07-12_CATS.parquet,236189,Natureza da Lesão,VARCHAR,natureza_lesao,natureza_lesao
+10.2016_07-12_CATS.parquet,236189,Origem de Cadastramento CAT,VARCHAR,origem_cadastramento,origem_cadastramento
+10.2016_07-12_CATS.parquet,236189,Parte Corpo Atingida,VARCHAR,parte_corpo_atingida,parte_corpo_atingida
+10.2016_07-12_CATS.parquet,236189,Sexo,VARCHAR,sexo,sexo
+10.2016_07-12_CATS.parquet,236189,Ramo de Atividade,VARCHAR,ramo_atividade,ramo_atividade
+10.2016_07-12_CATS.parquet,236189,Situação Geradora do Acidente,VARCHAR,situacao_geradora,situacao_geradora
+10.2016_07-12_CATS.parquet,236189,Tipo da CAT,VARCHAR,tipo_cat,tipo_cat
+10.2016_07-12_CATS.parquet,236189,Tipo do Acidente,VARCHAR,tipo_acidente,tipo_acidente
+10.2016_07-12_CATS.parquet,236189,Tipo Local Acidente,VARCHAR,tipo_local_acidente,tipo_local_acidente
+10.2016_07-12_CATS.parquet,236189,UF  Munic.  Acidente,VARCHAR,uf_acidente,uf_acidente
+10.2016_07-12_CATS.parquet,236189,UF Munic. Empregador,VARCHAR,uf_empregador,uf_empregador
+10.2016_07-12_CATS.parquet,236189,UF Munic. Segurado,VARCHAR,uf_segurado,uf_segurado
+10.2016_07-12_CATS.parquet,236189,Data  Afastamento,VARCHAR,data_afastamento,data_afastamento
+10.2016_07-12_CATS.parquet,236189,Data Despacho Benefício,VARCHAR,data_despacho,data_despacho
+10.2016_07-12_CATS.parquet,236189,Data Nascimento,VARCHAR,data_nascimento,data_nascimento
+10.2016_07-12_CATS.parquet,236189,Data Emissão CAT,VARCHAR,data_emissao_cat,data_emissao_cat
+10.2016_07-12_CATS.parquet,236189,Data Óbito Segurado,VARCHAR,data_obito_segurado,data_obito_segurado
+10.2016_07-12_CATS.parquet,236189,Valor Remuneração Segurado,VARCHAR,valor_remuneracao,valor_remuneracao
+11.2017_01-06_CATS.parquet,213267,Competência de Emissão da CAT,VARCHAR,competencia_cat,competencia_cat
+11.2017_01-06_CATS.parquet,213267,Agente  Causador  Acidente,VARCHAR,agente_causador,agente_causador
+11.2017_01-06_CATS.parquet,213267,Data Acidente,VARCHAR,data_acidente,data_acidente
+11.2017_01-06_CATS.parquet,213267,CBO,VARCHAR,cbo,cbo
+11.2017_01-06_CATS.parquet,213267,CBO_2,VARCHAR,cbo_2,cbo_2
+11.2017_01-06_CATS.parquet,213267,CID-10,VARCHAR,cid_10,cid_10
+11.2017_01-06_CATS.parquet,213267,CID-10_2,VARCHAR,cid_10_2,cid_10_2
+11.2017_01-06_CATS.parquet,213267,CNAE2.0 Empregador,VARCHAR,cnae_empregador,cnae_empregador
+11.2017_01-06_CATS.parquet,213267,CNAE2.0 Empregador_2,VARCHAR,cnae_empregador_2,cnae_empregador_2
+11.2017_01-06_CATS.parquet,213267,Emitente CAT,VARCHAR,emitente_cat,emitente_cat
+11.2017_01-06_CATS.parquet,213267,Espécie do benefício,VARCHAR,especie_beneficio,especie_beneficio
+11.2017_01-06_CATS.parquet,213267,Filiação Segurado,VARCHAR,filiacao_segurado,filiacao_segurado
+11.2017_01-06_CATS.parquet,213267,Indica Óbito Acidente,VARCHAR,indica_obito_acidente,indica_obito_acidente
+11.2017_01-06_CATS.parquet,213267,Indica Afastamento,VARCHAR,indica_afastamento,indica_afastamento
+11.2017_01-06_CATS.parquet,213267,Indica acidente,VARCHAR,indica_acidente,indica_acidente
+11.2017_01-06_CATS.parquet,213267,Indica óbito,VARCHAR,indica_obito,indica_obito
+11.2017_01-06_CATS.parquet,213267,Munic Empr,VARCHAR,municipio_empresa,municipio_empresa
+11.2017_01-06_CATS.parquet,213267,Munic Seg,VARCHAR,municipio_segurado,municipio_segurado
+11.2017_01-06_CATS.parquet,213267,CNPJ/CEI Empregador,VARCHAR,cnpj_empregador,cnpj_empregador
+11.2017_01-06_CATS.parquet,213267,Area Atividade Segurado,VARCHAR,area_atividade,area_atividade
+11.2017_01-06_CATS.parquet,213267,Estado Civil Segurado,VARCHAR,estado_civil,estado_civil
+11.2017_01-06_CATS.parquet,213267,Local Acidente,VARCHAR,local_acidente,local_acidente
+11.2017_01-06_CATS.parquet,213267,Natureza da Lesão,VARCHAR,natureza_lesao,natureza_lesao
+11.2017_01-06_CATS.parquet,213267,Origem de Cadastramento CAT,VARCHAR,origem_cadastramento,origem_cadastramento
+11.2017_01-06_CATS.parquet,213267,Parte Corpo Atingida,VARCHAR,parte_corpo_atingida,parte_corpo_atingida
+11.2017_01-06_CATS.parquet,213267,Sexo,VARCHAR,sexo,sexo
+11.2017_01-06_CATS.parquet,213267,Ramo de Atividade,VARCHAR,ramo_atividade,ramo_atividade
+11.2017_01-06_CATS.parquet,213267,Situação Geradora do Acidente,VARCHAR,situacao_geradora,situacao_geradora
+11.2017_01-06_CATS.parquet,213267,Tipo da CAT,VARCHAR,tipo_cat,tipo_cat
+11.2017_01-06_CATS.parquet,213267,Tipo do Acidente,VARCHAR,tipo_acidente,tipo_acidente
+11.2017_01-06_CATS.parquet,213267,Tipo Local Acidente,VARCHAR,tipo_local_acidente,tipo_local_acidente
+11.2017_01-06_CATS.parquet,213267,UF  Munic.  Acidente,VARCHAR,uf_acidente,uf_acidente
+11.2017_01-06_CATS.parquet,213267,UF Munic. Empregador,VARCHAR,uf_empregador,uf_empregador
+11.2017_01-06_CATS.parquet,213267,UF Munic. Segurado,VARCHAR,uf_segurado,uf_segurado
+11.2017_01-06_CATS.parquet,213267,Data  Afastamento,VARCHAR,data_afastamento,data_afastamento
+11.2017_01-06_CATS.parquet,213267,Data Despacho Benefício,VARCHAR,data_despacho,data_despacho
+11.2017_01-06_CATS.parquet,213267,Data Nascimento,VARCHAR,data_nascimento,data_nascimento
+11.2017_01-06_CATS.parquet,213267,Data Emissão CAT,VARCHAR,data_emissao_cat,data_emissao_cat
+11.2017_01-06_CATS.parquet,213267,Data Óbito Segurado,VARCHAR,data_obito_segurado,data_obito_segurado
+11.2017_01-06_CATS.parquet,213267,Valor Remuneração Segurado,VARCHAR,valor_remuneracao,valor_remuneracao
+12.2017_07-12_CATS.parquet,234600,Competência de Emissão da CAT,VARCHAR,competencia_cat,competencia_cat
+12.2017_07-12_CATS.parquet,234600,Agente  Causador  Acidente,VARCHAR,agente_causador,agente_causador
+12.2017_07-12_CATS.parquet,234600,Data Acidente,VARCHAR,data_acidente,data_acidente
+12.2017_07-12_CATS.parquet,234600,CBO,VARCHAR,cbo,cbo
+12.2017_07-12_CATS.parquet,234600,CBO_2,VARCHAR,cbo_2,cbo_2
+12.2017_07-12_CATS.parquet,234600,CID-10,VARCHAR,cid_10,cid_10
+12.2017_07-12_CATS.parquet,234600,CID-10_2,VARCHAR,cid_10_2,cid_10_2
+12.2017_07-12_CATS.parquet,234600,CNAE2.0 Empregador,VARCHAR,cnae_empregador,cnae_empregador
+12.2017_07-12_CATS.parquet,234600,CNAE2.0 Empregador_2,VARCHAR,cnae_empregador_2,cnae_empregador_2
+12.2017_07-12_CATS.parquet,234600,Emitente CAT,VARCHAR,emitente_cat,emitente_cat
+12.2017_07-12_CATS.parquet,234600,Espécie do benefício,VARCHAR,especie_beneficio,especie_beneficio
+12.2017_07-12_CATS.parquet,234600,Filiação Segurado,VARCHAR,filiacao_segurado,filiacao_segurado
+12.2017_07-12_CATS.parquet,234600,Indica Óbito Acidente,VARCHAR,indica_obito_acidente,indica_obito_acidente
+12.2017_07-12_CATS.parquet,234600,Indica Afastamento,VARCHAR,indica_afastamento,indica_afastamento
+12.2017_07-12_CATS.parquet,234600,Indica acidente,VARCHAR,indica_acidente,indica_acidente
+12.2017_07-12_CATS.parquet,234600,Indica óbito,VARCHAR,indica_obito,indica_obito
+12.2017_07-12_CATS.parquet,234600,Munic Empr,VARCHAR,municipio_empresa,municipio_empresa
+12.2017_07-12_CATS.parquet,234600,Munic Seg,VARCHAR,municipio_segurado,municipio_segurado
+12.2017_07-12_CATS.parquet,234600,CNPJ/CEI Empregador,VARCHAR,cnpj_empregador,cnpj_empregador
+12.2017_07-12_CATS.parquet,234600,Area Atividade Segurado,VARCHAR,area_atividade,area_atividade
+12.2017_07-12_CATS.parquet,234600,Estado Civil Segurado,VARCHAR,estado_civil,estado_civil
+12.2017_07-12_CATS.parquet,234600,Local Acidente,VARCHAR,local_acidente,local_acidente
+12.2017_07-12_CATS.parquet,234600,Natureza da Lesão,VARCHAR,natureza_lesao,natureza_lesao
+12.2017_07-12_CATS.parquet,234600,Origem de Cadastramento CAT,VARCHAR,origem_cadastramento,origem_cadastramento
+12.2017_07-12_CATS.parquet,234600,Parte Corpo Atingida,VARCHAR,parte_corpo_atingida,parte_corpo_atingida
+12.2017_07-12_CATS.parquet,234600,Sexo,VARCHAR,sexo,sexo
+12.2017_07-12_CATS.parquet,234600,Ramo de Atividade,VARCHAR,ramo_atividade,ramo_atividade
+12.2017_07-12_CATS.parquet,234600,Situação Geradora do Acidente,VARCHAR,situacao_geradora,situacao_geradora
+12.2017_07-12_CATS.parquet,234600,Tipo da CAT,VARCHAR,tipo_cat,tipo_cat
+12.2017_07-12_CATS.parquet,234600,Tipo do Acidente,VARCHAR,tipo_acidente,tipo_acidente
+12.2017_07-12_CATS.parquet,234600,Tipo Local Acidente,VARCHAR,tipo_local_acidente,tipo_local_acidente
+12.2017_07-12_CATS.parquet,234600,UF  Munic.  Acidente,VARCHAR,uf_acidente,uf_acidente
+12.2017_07-12_CATS.parquet,234600,UF Munic. Empregador,VARCHAR,uf_empregador,uf_empregador
+12.2017_07-12_CATS.parquet,234600,UF Munic. Segurado,VARCHAR,uf_segurado,uf_segurado
+12.2017_07-12_CATS.parquet,234600,Data  Afastamento,VARCHAR,data_afastamento,data_afastamento
+12.2017_07-12_CATS.parquet,234600,Data Despacho Benefício,VARCHAR,data_despacho,data_despacho
+12.2017_07-12_CATS.parquet,234600,Data Nascimento,VARCHAR,data_nascimento,data_nascimento
+12.2017_07-12_CATS.parquet,234600,Data Emissão CAT,VARCHAR,data_emissao_cat,data_emissao_cat
+12.2017_07-12_CATS.parquet,234600,Data Óbito Segurado,VARCHAR,data_obito_segurado,data_obito_segurado
+12.2017_07-12_CATS.parquet,234600,Valor Remuneração Segurado,VARCHAR,valor_remuneracao,valor_remuneracao
+13.2018_01-06_CATS.parquet,186806,Competência de Emissão da CAT,VARCHAR,competencia_cat,competencia_cat
+13.2018_01-06_CATS.parquet,186806,Agente  Causador  Acidente,VARCHAR,agente_causador,agente_causador
+13.2018_01-06_CATS.parquet,186806,Data Acidente,VARCHAR,data_acidente,data_acidente
+13.2018_01-06_CATS.parquet,186806,CBO,VARCHAR,cbo,cbo
+13.2018_01-06_CATS.parquet,186806,CBO_2,VARCHAR,cbo_2,cbo_2
+13.2018_01-06_CATS.parquet,186806,CID-10,VARCHAR,cid_10,cid_10
+13.2018_01-06_CATS.parquet,186806,CID-10_2,VARCHAR,cid_10_2,cid_10_2
+13.2018_01-06_CATS.parquet,186806,CNAE2.0 Empregador,VARCHAR,cnae_empregador,cnae_empregador
+13.2018_01-06_CATS.parquet,186806,CNAE2.0 Empregador_2,VARCHAR,cnae_empregador_2,cnae_empregador_2
+13.2018_01-06_CATS.parquet,186806,Emitente CAT,VARCHAR,emitente_cat,emitente_cat
+13.2018_01-06_CATS.parquet,186806,Espécie do benefício,VARCHAR,especie_beneficio,especie_beneficio
+13.2018_01-06_CATS.parquet,186806,Filiação Segurado,VARCHAR,filiacao_segurado,filiacao_segurado
+13.2018_01-06_CATS.parquet,186806,Indica Óbito Acidente,VARCHAR,indica_obito_acidente,indica_obito_acidente
+13.2018_01-06_CATS.parquet,186806,Indica Afastamento,VARCHAR,indica_afastamento,indica_afastamento
+13.2018_01-06_CATS.parquet,186806,Indica acidente,VARCHAR,indica_acidente,indica_acidente
+13.2018_01-06_CATS.parquet,186806,Indica óbito,VARCHAR,indica_obito,indica_obito
+13.2018_01-06_CATS.parquet,186806,Munic Empr,VARCHAR,municipio_empresa,municipio_empresa
+13.2018_01-06_CATS.parquet,186806,Munic Seg,VARCHAR,municipio_segurado,municipio_segurado
+13.2018_01-06_CATS.parquet,186806,CNPJ/CEI Empregador,VARCHAR,cnpj_empregador,cnpj_empregador
+13.2018_01-06_CATS.parquet,186806,Area Atividade Segurado,VARCHAR,area_atividade,area_atividade
+13.2018_01-06_CATS.parquet,186806,Estado Civil Segurado,VARCHAR,estado_civil,estado_civil
+13.2018_01-06_CATS.parquet,186806,Local Acidente,VARCHAR,local_acidente,local_acidente
+13.2018_01-06_CATS.parquet,186806,Natureza da Lesão,VARCHAR,natureza_lesao,natureza_lesao
+13.2018_01-06_CATS.parquet,186806,Origem de Cadastramento CAT,VARCHAR,origem_cadastramento,origem_cadastramento
+13.2018_01-06_CATS.parquet,186806,Parte Corpo Atingida,VARCHAR,parte_corpo_atingida,parte_corpo_atingida
+13.2018_01-06_CATS.parquet,186806,Sexo,VARCHAR,sexo,sexo
+13.2018_01-06_CATS.parquet,186806,Ramo de Atividade,VARCHAR,ramo_atividade,ramo_atividade
+13.2018_01-06_CATS.parquet,186806,Situação Geradora do Acidente,VARCHAR,situacao_geradora,situacao_geradora
+13.2018_01-06_CATS.parquet,186806,Tipo da CAT,VARCHAR,tipo_cat,tipo_cat
+13.2018_01-06_CATS.parquet,186806,Tipo do Acidente,VARCHAR,tipo_acidente,tipo_acidente
+13.2018_01-06_CATS.parquet,186806,Tipo Local Acidente,VARCHAR,tipo_local_acidente,tipo_local_acidente
+13.2018_01-06_CATS.parquet,186806,UF  Munic.  Acidente,VARCHAR,uf_acidente,uf_acidente
+13.2018_01-06_CATS.parquet,186806,UF Munic. Empregador,VARCHAR,uf_empregador,uf_empregador
+13.2018_01-06_CATS.parquet,186806,UF Munic. Segurado,VARCHAR,uf_segurado,uf_segurado
+13.2018_01-06_CATS.parquet,186806,Data  Afastamento,VARCHAR,data_afastamento,data_afastamento
+13.2018_01-06_CATS.parquet,186806,Data Despacho Benefício,VARCHAR,data_despacho,data_despacho
+13.2018_01-06_CATS.parquet,186806,Data Nascimento,VARCHAR,data_nascimento,data_nascimento
+13.2018_01-06_CATS.parquet,186806,Data Emissão CAT,VARCHAR,data_emissao_cat,data_emissao_cat
+13.2018_01-06_CATS.parquet,186806,Data Óbito Segurado,VARCHAR,data_obito_segurado,data_obito_segurado
+13.2018_01-06_CATS.parquet,186806,Valor Remuneração Segurado,VARCHAR,valor_remuneracao,valor_remuneracao
+14.2018_07-12_CATS.parquet,244041,Competência de Emissão da CAT,VARCHAR,competencia_cat,competencia_cat
+14.2018_07-12_CATS.parquet,244041,CNPJ/CEI Empregador,VARCHAR,cnpj_empregador,cnpj_empregador
+14.2018_07-12_CATS.parquet,244041,Razão Social,VARCHAR,razao_social,razao_social
+14.2018_07-12_CATS.parquet,244041,Número da CAT,VARCHAR,numero_cat,numero_cat
+14.2018_07-12_CATS.parquet,244041,Agente  Causador  Acidente,VARCHAR,agente_causador,agente_causador
+14.2018_07-12_CATS.parquet,244041,Data Acidente,VARCHAR,data_acidente,data_acidente
+14.2018_07-12_CATS.parquet,244041,CBO,VARCHAR,cbo,cbo
+14.2018_07-12_CATS.parquet,244041,CBO_2,VARCHAR,cbo_2,cbo_2
+14.2018_07-12_CATS.parquet,244041,CID-10,VARCHAR,cid_10,cid_10
+14.2018_07-12_CATS.parquet,244041,CID-10_2,VARCHAR,cid_10_2,cid_10_2
+14.2018_07-12_CATS.parquet,244041,CNAE2.0 Empregador,VARCHAR,cnae_empregador,cnae_empregador
+14.2018_07-12_CATS.parquet,244041,CNAE2.0 Empregador_2,VARCHAR,cnae_empregador_2,cnae_empregador_2
+14.2018_07-12_CATS.parquet,244041,Emitente CAT,VARCHAR,emitente_cat,emitente_cat
+14.2018_07-12_CATS.parquet,244041,Espécie do benefício,VARCHAR,especie_beneficio,especie_beneficio
+14.2018_07-12_CATS.parquet,244041,Filiação Segurado,VARCHAR,filiacao_segurado,filiacao_segurado
+14.2018_07-12_CATS.parquet,244041,Indica Óbito Acidente,VARCHAR,indica_obito_acidente,indica_obito_acidente
+14.2018_07-12_CATS.parquet,244041,Indica Afastamento,VARCHAR,indica_afastamento,indica_afastamento
+14.2018_07-12_CATS.parquet,244041,Indica acidente,VARCHAR,indica_acidente,indica_acidente
+14.2018_07-12_CATS.parquet,244041,Indica óbito,VARCHAR,indica_obito,indica_obito
+14.2018_07-12_CATS.parquet,244041,Munic Empr,VARCHAR,municipio_empresa,municipio_empresa
+14.2018_07-12_CATS.parquet,244041,Munic Seg,VARCHAR,municipio_segurado,municipio_segurado
+14.2018_07-12_CATS.parquet,244041,Area Atividade Segurado,VARCHAR,area_atividade,area_atividade
+14.2018_07-12_CATS.parquet,244041,Estado Civil Segurado,VARCHAR,estado_civil,estado_civil
+14.2018_07-12_CATS.parquet,244041,Local Acidente,VARCHAR,local_acidente,local_acidente
+14.2018_07-12_CATS.parquet,244041,Natureza da Lesão,VARCHAR,natureza_lesao,natureza_lesao
+14.2018_07-12_CATS.parquet,244041,Origem de Cadastramento CAT,VARCHAR,origem_cadastramento,origem_cadastramento
+14.2018_07-12_CATS.parquet,244041,Parte Corpo Atingida,VARCHAR,parte_corpo_atingida,parte_corpo_atingida
+14.2018_07-12_CATS.parquet,244041,Sexo,VARCHAR,sexo,sexo
+14.2018_07-12_CATS.parquet,244041,Ramo de Atividade,VARCHAR,ramo_atividade,ramo_atividade
+14.2018_07-12_CATS.parquet,244041,Situação Geradora do Acidente,VARCHAR,situacao_geradora,situacao_geradora
+14.2018_07-12_CATS.parquet,244041,Tipo da CAT,VARCHAR,tipo_cat,tipo_cat
+14.2018_07-12_CATS.parquet,244041,Tipo do Acidente,VARCHAR,tipo_acidente,tipo_acidente
+14.2018_07-12_CATS.parquet,244041,Tipo Local Acidente,VARCHAR,tipo_local_acidente,tipo_local_acidente
+14.2018_07-12_CATS.parquet,244041,UF  Munic.  Acidente,VARCHAR,uf_acidente,uf_acidente
+14.2018_07-12_CATS.parquet,244041,UF Munic. Empregador,VARCHAR,uf_empregador,uf_empregador
+14.2018_07-12_CATS.parquet,244041,UF Munic. Segurado,VARCHAR,uf_segurado,uf_segurado
+14.2018_07-12_CATS.parquet,244041,Data  Afastamento,VARCHAR,data_afastamento,data_afastamento
+14.2018_07-12_CATS.parquet,244041,Data Despacho Benefício,VARCHAR,data_despacho,data_despacho
+14.2018_07-12_CATS.parquet,244041,Data Nascimento,VARCHAR,data_nascimento,data_nascimento
+14.2018_07-12_CATS.parquet,244041,Data Emissão CAT,VARCHAR,data_emissao_cat,data_emissao_cat
+14.2018_07-12_CATS.parquet,244041,Data Óbito Segurado,VARCHAR,data_obito_segurado,data_obito_segurado

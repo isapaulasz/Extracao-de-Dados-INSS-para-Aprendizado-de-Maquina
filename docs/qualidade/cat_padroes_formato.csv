@@ -1,0 +1,1287 @@
+﻿arquivo_origem,coluna,padrao,n
+01.2012_01-06_CATS.parquet,cbo,999999,254853
+01.2012_01-06_CATS.parquet,cbo,9,68
+01.2012_01-06_CATS.parquet,cbo,99999,11
+02.2012_07-12_CATS.parquet,cbo,999999,238249
+02.2012_07-12_CATS.parquet,cbo,9,63
+02.2012_07-12_CATS.parquet,cbo,99999,6
+03.2013_01-06_CATS.parquet,cbo,999999,260878
+03.2013_01-06_CATS.parquet,cbo,9,91
+03.2013_01-06_CATS.parquet,cbo,99999,8
+04.2013_07-12_CATS.parquet,cbo,999999,290680
+04.2013_07-12_CATS.parquet,cbo,9,93
+04.2013_07-12_CATS.parquet,cbo,99999,9
+05.2014_01-06_CATS.parquet,cbo,999999,261488
+05.2014_01-06_CATS.parquet,cbo,9,96
+05.2014_01-06_CATS.parquet,cbo,99999,5
+06.2014_07-12_CATS.parquet,cbo,999999,287355
+06.2014_07-12_CATS.parquet,cbo,9,89
+06.2014_07-12_CATS.parquet,cbo,99999,6
+07.2015_01-06_CATS.parquet,cbo,999999,241180
+07.2015_01-06_CATS.parquet,cbo,9,80
+07.2015_01-06_CATS.parquet,cbo,,9
+07.2015_01-06_CATS.parquet,cbo,99999,7
+07.2015_01-06_CATS.parquet,cbo,-,1
+08.2015_07-12_CATS.parquet,cbo,999999,250293
+08.2015_07-12_CATS.parquet,cbo,9,115
+08.2015_07-12_CATS.parquet,cbo,99999,7
+09.2016_01-06_CATS.parquet,cbo,999999,228922
+09.2016_01-06_CATS.parquet,cbo,9,101
+10.2016_07-12_CATS.parquet,cbo,999999,236077
+10.2016_07-12_CATS.parquet,cbo,9,108
+10.2016_07-12_CATS.parquet,cbo,99999,4
+11.2017_01-06_CATS.parquet,cbo,999999,213159
+11.2017_01-06_CATS.parquet,cbo,9,105
+11.2017_01-06_CATS.parquet,cbo,99999,3
+12.2017_07-12_CATS.parquet,cbo,999999,234478
+12.2017_07-12_CATS.parquet,cbo,9,109
+12.2017_07-12_CATS.parquet,cbo,,9
+12.2017_07-12_CATS.parquet,cbo,99999,3
+12.2017_07-12_CATS.parquet,cbo,-,1
+13.2018_01-06_CATS.parquet,cbo,999999,186706
+13.2018_01-06_CATS.parquet,cbo,9,96
+13.2018_01-06_CATS.parquet,cbo,99999,4
+14.2018_07-12_CATS.parquet,cbo,999999,243929
+14.2018_07-12_CATS.parquet,cbo,9,109
+14.2018_07-12_CATS.parquet,cbo,99999,3
+01.2012_01-06_CATS.parquet,cid_10,S999  ,148595
+01.2012_01-06_CATS.parquet,cid_10,S99   ,33762
+01.2012_01-06_CATS.parquet,cid_10,T999  ,16789
+01.2012_01-06_CATS.parquet,cid_10,M999  ,13837
+01.2012_01-06_CATS.parquet,cid_10,T99   ,8478
+01.2012_01-06_CATS.parquet,cid_10,Z999  ,8095
+01.2012_01-06_CATS.parquet,cid_10,M99   ,3132
+01.2012_01-06_CATS.parquet,cid_10,H999  ,2625
+01.2012_01-06_CATS.parquet,cid_10,F999  ,2490
+01.2012_01-06_CATS.parquet,cid_10,W99   ,2302
+01.2012_01-06_CATS.parquet,cid_10,V999  ,1869
+01.2012_01-06_CATS.parquet,cid_10,Y99   ,1579
+01.2012_01-06_CATS.parquet,cid_10,W999  ,1228
+01.2012_01-06_CATS.parquet,cid_10,Y999  ,1166
+01.2012_01-06_CATS.parquet,cid_10,X99   ,1034
+01.2012_01-06_CATS.parquet,cid_10,R999  ,938
+01.2012_01-06_CATS.parquet,cid_10,Z99   ,732
+01.2012_01-06_CATS.parquet,cid_10,K999  ,710
+01.2012_01-06_CATS.parquet,cid_10,L999  ,672
+01.2012_01-06_CATS.parquet,cid_10,H99   ,515
+01.2012_01-06_CATS.parquet,cid_10,G999  ,505
+01.2012_01-06_CATS.parquet,cid_10,R99   ,465
+01.2012_01-06_CATS.parquet,cid_10,V99   ,457
+01.2012_01-06_CATS.parquet,cid_10,X999  ,355
+01.2012_01-06_CATS.parquet,cid_10,F99   ,355
+01.2012_01-06_CATS.parquet,cid_10,L99   ,285
+01.2012_01-06_CATS.parquet,cid_10,C999  ,234
+01.2012_01-06_CATS.parquet,cid_10,A99   ,221
+01.2012_01-06_CATS.parquet,cid_10,I999  ,148
+01.2012_01-06_CATS.parquet,cid_10,I99   ,133
+01.2012_01-06_CATS.parquet,cid_10,J999  ,127
+01.2012_01-06_CATS.parquet,cid_10,Q999  ,115
+01.2012_01-06_CATS.parquet,cid_10,B99   ,112
+01.2012_01-06_CATS.parquet,cid_10,G99   ,106
+01.2012_01-06_CATS.parquet,cid_10,K99   ,95
+01.2012_01-06_CATS.parquet,cid_10,J99   ,91
+01.2012_01-06_CATS.parquet,cid_10,      ,83
+01.2012_01-06_CATS.parquet,cid_10,B999  ,80
+01.2012_01-06_CATS.parquet,cid_10,N999  ,72
+01.2012_01-06_CATS.parquet,cid_10,D999  ,72
+01.2012_01-06_CATS.parquet,cid_10,A999  ,54
+01.2012_01-06_CATS.parquet,cid_10,U99   ,37
+01.2012_01-06_CATS.parquet,cid_10,E999  ,36
+01.2012_01-06_CATS.parquet,cid_10,O999  ,35
+01.2012_01-06_CATS.parquet,cid_10,D99   ,27
+01.2012_01-06_CATS.parquet,cid_10,N99   ,26
+01.2012_01-06_CATS.parquet,cid_10,P999  ,16
+01.2012_01-06_CATS.parquet,cid_10,O99   ,15
+01.2012_01-06_CATS.parquet,cid_10,C99   ,12
+01.2012_01-06_CATS.parquet,cid_10,P99   ,9
+01.2012_01-06_CATS.parquet,cid_10,E99   ,4
+01.2012_01-06_CATS.parquet,cid_10,Q99   ,2
+02.2012_07-12_CATS.parquet,cid_10,S999  ,138295
+02.2012_07-12_CATS.parquet,cid_10,S99   ,30436
+02.2012_07-12_CATS.parquet,cid_10,T999  ,16530
+02.2012_07-12_CATS.parquet,cid_10,M999  ,14103
+02.2012_07-12_CATS.parquet,cid_10,T99   ,7960
+02.2012_07-12_CATS.parquet,cid_10,Z999  ,7088
+02.2012_07-12_CATS.parquet,cid_10,M99   ,2983
+02.2012_07-12_CATS.parquet,cid_10,H999  ,2644
+02.2012_07-12_CATS.parquet,cid_10,F999  ,2373
+02.2012_07-12_CATS.parquet,cid_10,W99   ,2096
+02.2012_07-12_CATS.parquet,cid_10,V999  ,1849
+02.2012_07-12_CATS.parquet,cid_10,Y99   ,1409
+02.2012_07-12_CATS.parquet,cid_10,W999  ,1157
+02.2012_07-12_CATS.parquet,cid_10,Y999  ,1034
+02.2012_07-12_CATS.parquet,cid_10,R999  ,909
+02.2012_07-12_CATS.parquet,cid_10,X99   ,872
+02.2012_07-12_CATS.parquet,cid_10,L999  ,627
+02.2012_07-12_CATS.parquet,cid_10,Z99   ,626
+02.2012_07-12_CATS.parquet,cid_10,G999  ,552
+02.2012_07-12_CATS.parquet,cid_10,H99   ,531
+02.2012_07-12_CATS.parquet,cid_10,R99   ,491
+02.2012_07-12_CATS.parquet,cid_10,V99   ,479
+02.2012_07-12_CATS.parquet,cid_10,K999  ,413
+02.2012_07-12_CATS.parquet,cid_10,A99   ,320
+02.2012_07-12_CATS.parquet,cid_10,F99   ,298
+02.2012_07-12_CATS.parquet,cid_10,X999  ,296
+02.2012_07-12_CATS.parquet,cid_10,C999  ,243
+02.2012_07-12_CATS.parquet,cid_10,L99   ,203
+02.2012_07-12_CATS.parquet,cid_10,I999  ,179
+02.2012_07-12_CATS.parquet,cid_10,J999  ,139
+02.2012_07-12_CATS.parquet,cid_10,      ,121
+02.2012_07-12_CATS.parquet,cid_10,I99   ,118
+02.2012_07-12_CATS.parquet,cid_10,K99   ,96
+02.2012_07-12_CATS.parquet,cid_10,A999  ,94
+02.2012_07-12_CATS.parquet,cid_10,Q999  ,88
+02.2012_07-12_CATS.parquet,cid_10,G99   ,86
+02.2012_07-12_CATS.parquet,cid_10,J99   ,85
+02.2012_07-12_CATS.parquet,cid_10,B99   ,81
+02.2012_07-12_CATS.parquet,cid_10,B999  ,70
+02.2012_07-12_CATS.parquet,cid_10,D999  ,64
+02.2012_07-12_CATS.parquet,cid_10,N999  ,63
+02.2012_07-12_CATS.parquet,cid_10,O999  ,39
+02.2012_07-12_CATS.parquet,cid_10,U99   ,35
+02.2012_07-12_CATS.parquet,cid_10,N99   ,35
+02.2012_07-12_CATS.parquet,cid_10,P999  ,26
+02.2012_07-12_CATS.parquet,cid_10,E999  ,22
+02.2012_07-12_CATS.parquet,cid_10,D99   ,17
+02.2012_07-12_CATS.parquet,cid_10,C99   ,13
+02.2012_07-12_CATS.parquet,cid_10,O99   ,12
+02.2012_07-12_CATS.parquet,cid_10,E99   ,10
+02.2012_07-12_CATS.parquet,cid_10,P99   ,6
+02.2012_07-12_CATS.parquet,cid_10,Q99   ,2
+03.2013_01-06_CATS.parquet,cid_10,S999  ,151081
+03.2013_01-06_CATS.parquet,cid_10,S99   ,32849
+03.2013_01-06_CATS.parquet,cid_10,T999  ,18191
+03.2013_01-06_CATS.parquet,cid_10,M999  ,14499
+03.2013_01-06_CATS.parquet,cid_10,Z999  ,8913
+03.2013_01-06_CATS.parquet,cid_10,T99   ,8620
+03.2013_01-06_CATS.parquet,cid_10,M99   ,3009
+03.2013_01-06_CATS.parquet,cid_10,F999  ,2882
+03.2013_01-06_CATS.parquet,cid_10,H999  ,2683
+03.2013_01-06_CATS.parquet,cid_10,W99   ,2270
+03.2013_01-06_CATS.parquet,cid_10,V999  ,2204
+03.2013_01-06_CATS.parquet,cid_10,Y99   ,1613
+03.2013_01-06_CATS.parquet,cid_10,W999  ,1542
+03.2013_01-06_CATS.parquet,cid_10,Y999  ,1190
+03.2013_01-06_CATS.parquet,cid_10,R999  ,1118
+03.2013_01-06_CATS.parquet,cid_10,X99   ,1059
+03.2013_01-06_CATS.parquet,cid_10,Z99   ,693
+03.2013_01-06_CATS.parquet,cid_10,L999  ,681
+03.2013_01-06_CATS.parquet,cid_10,R99   ,639
+03.2013_01-06_CATS.parquet,cid_10,V99   ,545
+03.2013_01-06_CATS.parquet,cid_10,G999  ,535
+03.2013_01-06_CATS.parquet,cid_10,H99   ,516
+03.2013_01-06_CATS.parquet,cid_10,F99   ,509
+03.2013_01-06_CATS.parquet,cid_10,K999  ,438
+03.2013_01-06_CATS.parquet,cid_10,X999  ,410
+03.2013_01-06_CATS.parquet,cid_10,C999  ,272
+03.2013_01-06_CATS.parquet,cid_10,L99   ,243
+03.2013_01-06_CATS.parquet,cid_10,J999  ,175
+03.2013_01-06_CATS.parquet,cid_10,I999  ,168
+03.2013_01-06_CATS.parquet,cid_10,A99   ,159
+03.2013_01-06_CATS.parquet,cid_10,I99   ,135
+03.2013_01-06_CATS.parquet,cid_10,G99   ,128
+03.2013_01-06_CATS.parquet,cid_10,J99   ,114
+03.2013_01-06_CATS.parquet,cid_10,      ,106
+03.2013_01-06_CATS.parquet,cid_10,Q999  ,101
+03.2013_01-06_CATS.parquet,cid_10,K99   ,94
+03.2013_01-06_CATS.parquet,cid_10,B999  ,92
+03.2013_01-06_CATS.parquet,cid_10,A999  ,82
+03.2013_01-06_CATS.parquet,cid_10,B99   ,79
+03.2013_01-06_CATS.parquet,cid_10,N999  ,73
+03.2013_01-06_CATS.parquet,cid_10,D999  ,42
+03.2013_01-06_CATS.parquet,cid_10,O999  ,41
+03.2013_01-06_CATS.parquet,cid_10,E999  ,35
+03.2013_01-06_CATS.parquet,cid_10,N99   ,35
+03.2013_01-06_CATS.parquet,cid_10,U99   ,34
+03.2013_01-06_CATS.parquet,cid_10,D99   ,22
+03.2013_01-06_CATS.parquet,cid_10,P999  ,20
+03.2013_01-06_CATS.parquet,cid_10,C99   ,12
+03.2013_01-06_CATS.parquet,cid_10,O99   ,12
+03.2013_01-06_CATS.parquet,cid_10,E99   ,5
+03.2013_01-06_CATS.parquet,cid_10,P99   ,5
+03.2013_01-06_CATS.parquet,cid_10,Q99   ,4
+04.2013_07-12_CATS.parquet,cid_10,S999  ,166525
+04.2013_07-12_CATS.parquet,cid_10,S99   ,36434
+04.2013_07-12_CATS.parquet,cid_10,T999  ,19829
+04.2013_07-12_CATS.parquet,cid_10,M999  ,18054
+04.2013_07-12_CATS.parquet,cid_10,Z999  ,9890
+04.2013_07-12_CATS.parquet,cid_10,T99   ,9744
+04.2013_07-12_CATS.parquet,cid_10,F999  ,3678
+04.2013_07-12_CATS.parquet,cid_10,M99   ,3502
+04.2013_07-12_CATS.parquet,cid_10,H999  ,2860
+04.2013_07-12_CATS.parquet,cid_10,V999  ,2637
+04.2013_07-12_CATS.parquet,cid_10,W99   ,2456
+04.2013_07-12_CATS.parquet,cid_10,Y99   ,1813
+04.2013_07-12_CATS.parquet,cid_10,W999  ,1568
+04.2013_07-12_CATS.parquet,cid_10,Y999  ,1315
+04.2013_07-12_CATS.parquet,cid_10,R999  ,1229
+04.2013_07-12_CATS.parquet,cid_10,X99   ,954
+04.2013_07-12_CATS.parquet,cid_10,Z99   ,853
+04.2013_07-12_CATS.parquet,cid_10,L999  ,703
+04.2013_07-12_CATS.parquet,cid_10,G999  ,679
+04.2013_07-12_CATS.parquet,cid_10,F99   ,662
+04.2013_07-12_CATS.parquet,cid_10,R99   ,626
+04.2013_07-12_CATS.parquet,cid_10,H99   ,594
+04.2013_07-12_CATS.parquet,cid_10,V99   ,581
+04.2013_07-12_CATS.parquet,cid_10,K999  ,511
+04.2013_07-12_CATS.parquet,cid_10,X999  ,401
+04.2013_07-12_CATS.parquet,cid_10,J999  ,271
+04.2013_07-12_CATS.parquet,cid_10,C999  ,271
+04.2013_07-12_CATS.parquet,cid_10,L99   ,253
+04.2013_07-12_CATS.parquet,cid_10,A99   ,223
+04.2013_07-12_CATS.parquet,cid_10,I999  ,200
+04.2013_07-12_CATS.parquet,cid_10,I99   ,156
+04.2013_07-12_CATS.parquet,cid_10,J99   ,138
+04.2013_07-12_CATS.parquet,cid_10,G99   ,128
+04.2013_07-12_CATS.parquet,cid_10,K99   ,128
+04.2013_07-12_CATS.parquet,cid_10,      ,121
+04.2013_07-12_CATS.parquet,cid_10,Q999  ,121
+04.2013_07-12_CATS.parquet,cid_10,B999  ,118
+04.2013_07-12_CATS.parquet,cid_10,A999  ,100
+04.2013_07-12_CATS.parquet,cid_10,N999  ,75
+04.2013_07-12_CATS.parquet,cid_10,D999  ,60
+04.2013_07-12_CATS.parquet,cid_10,U99   ,52
+04.2013_07-12_CATS.parquet,cid_10,O999  ,49
+04.2013_07-12_CATS.parquet,cid_10,N99   ,44
+04.2013_07-12_CATS.parquet,cid_10,B99   ,42
+04.2013_07-12_CATS.parquet,cid_10,E999  ,36
+04.2013_07-12_CATS.parquet,cid_10,P999  ,24
+04.2013_07-12_CATS.parquet,cid_10,D99   ,24
+04.2013_07-12_CATS.parquet,cid_10,O99   ,21
+04.2013_07-12_CATS.parquet,cid_10,C99   ,21
+04.2013_07-12_CATS.parquet,cid_10,Q99   ,3
+04.2013_07-12_CATS.parquet,cid_10,E99   ,3
+04.2013_07-12_CATS.parquet,cid_10,P99   ,2
+05.2014_01-06_CATS.parquet,cid_10,S999  ,150222
+05.2014_01-06_CATS.parquet,cid_10,S99   ,32116
+05.2014_01-06_CATS.parquet,cid_10,T999  ,18672
+05.2014_01-06_CATS.parquet,cid_10,M999  ,14874
+05.2014_01-06_CATS.parquet,cid_10,Z999  ,10030
+05.2014_01-06_CATS.parquet,cid_10,T99   ,8521
+05.2014_01-06_CATS.parquet,cid_10,F999  ,3063
+05.2014_01-06_CATS.parquet,cid_10,M99   ,2934
+05.2014_01-06_CATS.parquet,cid_10,V999  ,2688
+05.2014_01-06_CATS.parquet,cid_10,H999  ,2435
+05.2014_01-06_CATS.parquet,cid_10,W99   ,2287
+05.2014_01-06_CATS.parquet,cid_10,Y99   ,1658
+05.2014_01-06_CATS.parquet,cid_10,W999  ,1441
+05.2014_01-06_CATS.parquet,cid_10,Y999  ,1250
+05.2014_01-06_CATS.parquet,cid_10,R999  ,1205
+05.2014_01-06_CATS.parquet,cid_10,Z99   ,781
+05.2014_01-06_CATS.parquet,cid_10,X99   ,763
+05.2014_01-06_CATS.parquet,cid_10,L999  ,652
+05.2014_01-06_CATS.parquet,cid_10,R99   ,622
+05.2014_01-06_CATS.parquet,cid_10,V99   ,577
+05.2014_01-06_CATS.parquet,cid_10,G999  ,523
+05.2014_01-06_CATS.parquet,cid_10,F99   ,522
+05.2014_01-06_CATS.parquet,cid_10,K999  ,465
+05.2014_01-06_CATS.parquet,cid_10,H99   ,457
+05.2014_01-06_CATS.parquet,cid_10,X999  ,392
+05.2014_01-06_CATS.parquet,cid_10,A99   ,289
+05.2014_01-06_CATS.parquet,cid_10,C999  ,225
+05.2014_01-06_CATS.parquet,cid_10,L99   ,216
+05.2014_01-06_CATS.parquet,cid_10,I999  ,189
+05.2014_01-06_CATS.parquet,cid_10,J999  ,177
+05.2014_01-06_CATS.parquet,cid_10,A999  ,149
+05.2014_01-06_CATS.parquet,cid_10,      ,144
+05.2014_01-06_CATS.parquet,cid_10,I99   ,143
+05.2014_01-06_CATS.parquet,cid_10,K99   ,101
+05.2014_01-06_CATS.parquet,cid_10,G99   ,100
+05.2014_01-06_CATS.parquet,cid_10,Q999  ,95
+05.2014_01-06_CATS.parquet,cid_10,J99   ,94
+05.2014_01-06_CATS.parquet,cid_10,B999  ,93
+05.2014_01-06_CATS.parquet,cid_10,N999  ,65
+05.2014_01-06_CATS.parquet,cid_10,U99   ,53
+05.2014_01-06_CATS.parquet,cid_10,B99   ,53
+05.2014_01-06_CATS.parquet,cid_10,O999  ,47
+05.2014_01-06_CATS.parquet,cid_10,D999  ,42
+05.2014_01-06_CATS.parquet,cid_10,E999  ,29
+05.2014_01-06_CATS.parquet,cid_10,N99   ,29
+05.2014_01-06_CATS.parquet,cid_10,P999  ,27
+05.2014_01-06_CATS.parquet,cid_10,D99   ,24
+05.2014_01-06_CATS.parquet,cid_10,O99   ,22
+05.2014_01-06_CATS.parquet,cid_10,C99   ,14
+05.2014_01-06_CATS.parquet,cid_10,E99   ,12
+05.2014_01-06_CATS.parquet,cid_10,P99   ,5
+05.2014_01-06_CATS.parquet,cid_10,Q99   ,2
+06.2014_07-12_CATS.parquet,cid_10,S999  ,163387
+06.2014_07-12_CATS.parquet,cid_10,S99   ,33821
+06.2014_07-12_CATS.parquet,cid_10,T999  ,19616
+06.2014_07-12_CATS.parquet,cid_10,M999  ,18662
+06.2014_07-12_CATS.parquet,cid_10,Z999  ,11783
+06.2014_07-12_CATS.parquet,cid_10,T99   ,9495
+06.2014_07-12_CATS.parquet,cid_10,F999  ,3566
+06.2014_07-12_CATS.parquet,cid_10,M99   ,3355
+06.2014_07-12_CATS.parquet,cid_10,V999  ,2913
+06.2014_07-12_CATS.parquet,cid_10,H999  ,2777
+06.2014_07-12_CATS.parquet,cid_10,W99   ,2508
+06.2014_07-12_CATS.parquet,cid_10,Y99   ,1748
+06.2014_07-12_CATS.parquet,cid_10,W999  ,1677
+06.2014_07-12_CATS.parquet,cid_10,R999  ,1437
+06.2014_07-12_CATS.parquet,cid_10,Y999  ,1340
+06.2014_07-12_CATS.parquet,cid_10,Z99   ,961
+06.2014_07-12_CATS.parquet,cid_10,X99   ,810
+06.2014_07-12_CATS.parquet,cid_10,G999  ,756
+06.2014_07-12_CATS.parquet,cid_10,R99   ,736
+06.2014_07-12_CATS.parquet,cid_10,L999  ,704
+06.2014_07-12_CATS.parquet,cid_10,F99   ,681
+06.2014_07-12_CATS.parquet,cid_10,V99   ,631
+06.2014_07-12_CATS.parquet,cid_10,K999  ,488
+06.2014_07-12_CATS.parquet,cid_10,H99   ,473
+06.2014_07-12_CATS.parquet,cid_10,X999  ,380
+06.2014_07-12_CATS.parquet,cid_10,A99   ,321
+06.2014_07-12_CATS.parquet,cid_10,A999  ,242
+06.2014_07-12_CATS.parquet,cid_10,L99   ,235
+06.2014_07-12_CATS.parquet,cid_10,C999  ,232
+06.2014_07-12_CATS.parquet,cid_10,J999  ,215
+06.2014_07-12_CATS.parquet,cid_10,I999  ,200
+06.2014_07-12_CATS.parquet,cid_10,      ,153
+06.2014_07-12_CATS.parquet,cid_10,G99   ,139
+06.2014_07-12_CATS.parquet,cid_10,I99   ,135
+06.2014_07-12_CATS.parquet,cid_10,K99   ,112
+06.2014_07-12_CATS.parquet,cid_10,Q999  ,105
+06.2014_07-12_CATS.parquet,cid_10,J99   ,99
+06.2014_07-12_CATS.parquet,cid_10,B999  ,93
+06.2014_07-12_CATS.parquet,cid_10,N999  ,79
+06.2014_07-12_CATS.parquet,cid_10,D999  ,66
+06.2014_07-12_CATS.parquet,cid_10,B99   ,62
+06.2014_07-12_CATS.parquet,cid_10,U99   ,54
+06.2014_07-12_CATS.parquet,cid_10,O999  ,46
+06.2014_07-12_CATS.parquet,cid_10,N99   ,33
+06.2014_07-12_CATS.parquet,cid_10,E999  ,29
+06.2014_07-12_CATS.parquet,cid_10,P999  ,25
+06.2014_07-12_CATS.parquet,cid_10,D99   ,24
+06.2014_07-12_CATS.parquet,cid_10,O99   ,19
+06.2014_07-12_CATS.parquet,cid_10,C99   ,12
+06.2014_07-12_CATS.parquet,cid_10,E99   ,11
+06.2014_07-12_CATS.parquet,cid_10,P99   ,2
+06.2014_07-12_CATS.parquet,cid_10,Q99   ,2
+07.2015_01-06_CATS.parquet,cid_10,S999  ,136699
+07.2015_01-06_CATS.parquet,cid_10,S99   ,27322
+07.2015_01-06_CATS.parquet,cid_10,T999  ,16800
+07.2015_01-06_CATS.parquet,cid_10,M999  ,14442
+07.2015_01-06_CATS.parquet,cid_10,Z999  ,11014
+07.2015_01-06_CATS.parquet,cid_10,T99   ,8140
+07.2015_01-06_CATS.parquet,cid_10,F999  ,3733
+07.2015_01-06_CATS.parquet,cid_10,V999  ,2806
+07.2015_01-06_CATS.parquet,cid_10,W99   ,2236
+07.2015_01-06_CATS.parquet,cid_10,M99   ,2172
+07.2015_01-06_CATS.parquet,cid_10,H999  ,2107
+07.2015_01-06_CATS.parquet,cid_10,W999  ,1688
+07.2015_01-06_CATS.parquet,cid_10,Y99   ,1603
+07.2015_01-06_CATS.parquet,cid_10,R999  ,1371
+07.2015_01-06_CATS.parquet,cid_10,Y999  ,1299
+07.2015_01-06_CATS.parquet,cid_10,Z99   ,849
+07.2015_01-06_CATS.parquet,cid_10,F99   ,829
+07.2015_01-06_CATS.parquet,cid_10,X99   ,681
+07.2015_01-06_CATS.parquet,cid_10,R99   ,656
+07.2015_01-06_CATS.parquet,cid_10,L999  ,623
+07.2015_01-06_CATS.parquet,cid_10,V99   ,564
+07.2015_01-06_CATS.parquet,cid_10,G999  ,482
+07.2015_01-06_CATS.parquet,cid_10,K999  ,425
+07.2015_01-06_CATS.parquet,cid_10,H99   ,412
+07.2015_01-06_CATS.parquet,cid_10,X999  ,379
+07.2015_01-06_CATS.parquet,cid_10,C999  ,196
+07.2015_01-06_CATS.parquet,cid_10,L99   ,181
+07.2015_01-06_CATS.parquet,cid_10,J999  ,163
+07.2015_01-06_CATS.parquet,cid_10,I999  ,154
+07.2015_01-06_CATS.parquet,cid_10,A99   ,144
+07.2015_01-06_CATS.parquet,cid_10,      ,115
+07.2015_01-06_CATS.parquet,cid_10,J99   ,110
+07.2015_01-06_CATS.parquet,cid_10,A999  ,108
+07.2015_01-06_CATS.parquet,cid_10,I99   ,104
+07.2015_01-06_CATS.parquet,cid_10,Q999  ,83
+07.2015_01-06_CATS.parquet,cid_10,G99   ,81
+07.2015_01-06_CATS.parquet,cid_10,B999  ,67
+07.2015_01-06_CATS.parquet,cid_10,K99   ,67
+07.2015_01-06_CATS.parquet,cid_10,U99   ,56
+07.2015_01-06_CATS.parquet,cid_10,N999  ,54
+07.2015_01-06_CATS.parquet,cid_10,D999  ,50
+07.2015_01-06_CATS.parquet,cid_10,B99   ,35
+07.2015_01-06_CATS.parquet,cid_10,O999  ,32
+07.2015_01-06_CATS.parquet,cid_10,E999  ,26
+07.2015_01-06_CATS.parquet,cid_10,O99   ,25
+07.2015_01-06_CATS.parquet,cid_10,N99   ,23
+07.2015_01-06_CATS.parquet,cid_10,D99   ,22
+07.2015_01-06_CATS.parquet,cid_10,P999  ,17
+07.2015_01-06_CATS.parquet,cid_10,C99   ,11
+07.2015_01-06_CATS.parquet,cid_10,,9
+07.2015_01-06_CATS.parquet,cid_10,E99   ,4
+07.2015_01-06_CATS.parquet,cid_10,Q99   ,4
+07.2015_01-06_CATS.parquet,cid_10,P99   ,1
+07.2015_01-06_CATS.parquet,cid_10,9,1
+07.2015_01-06_CATS.parquet,cid_10,S99.9 ,1
+07.2015_01-06_CATS.parquet,cid_10,-,1
+08.2015_07-12_CATS.parquet,cid_10,S999  ,141669
+08.2015_07-12_CATS.parquet,cid_10,S99   ,26277
+08.2015_07-12_CATS.parquet,cid_10,T999  ,17455
+08.2015_07-12_CATS.parquet,cid_10,M999  ,16297
+08.2015_07-12_CATS.parquet,cid_10,Z999  ,11597
+08.2015_07-12_CATS.parquet,cid_10,T99   ,8227
+08.2015_07-12_CATS.parquet,cid_10,F999  ,4320
+08.2015_07-12_CATS.parquet,cid_10,V999  ,3088
+08.2015_07-12_CATS.parquet,cid_10,H999  ,2434
+08.2015_07-12_CATS.parquet,cid_10,M99   ,2249
+08.2015_07-12_CATS.parquet,cid_10,W99   ,2184
+08.2015_07-12_CATS.parquet,cid_10,W999  ,1780
+08.2015_07-12_CATS.parquet,cid_10,Y99   ,1602
+08.2015_07-12_CATS.parquet,cid_10,Y999  ,1491
+08.2015_07-12_CATS.parquet,cid_10,R999  ,1465
+08.2015_07-12_CATS.parquet,cid_10,Z99   ,977
+08.2015_07-12_CATS.parquet,cid_10,F99   ,911
+08.2015_07-12_CATS.parquet,cid_10,X99   ,714
+08.2015_07-12_CATS.parquet,cid_10,R99   ,701
+08.2015_07-12_CATS.parquet,cid_10,G999  ,649
+08.2015_07-12_CATS.parquet,cid_10,L999  ,602
+08.2015_07-12_CATS.parquet,cid_10,V99   ,537
+08.2015_07-12_CATS.parquet,cid_10,K999  ,439
+08.2015_07-12_CATS.parquet,cid_10,H99   ,377
+08.2015_07-12_CATS.parquet,cid_10,X999  ,362
+08.2015_07-12_CATS.parquet,cid_10,C999  ,208
+08.2015_07-12_CATS.parquet,cid_10,I999  ,191
+08.2015_07-12_CATS.parquet,cid_10,L99   ,177
+08.2015_07-12_CATS.parquet,cid_10,J999  ,166
+08.2015_07-12_CATS.parquet,cid_10,A99   ,143
+08.2015_07-12_CATS.parquet,cid_10,I99   ,124
+08.2015_07-12_CATS.parquet,cid_10,      ,108
+08.2015_07-12_CATS.parquet,cid_10,Q999  ,102
+08.2015_07-12_CATS.parquet,cid_10,J99   ,101
+08.2015_07-12_CATS.parquet,cid_10,B99   ,83
+08.2015_07-12_CATS.parquet,cid_10,G99   ,80
+08.2015_07-12_CATS.parquet,cid_10,A999  ,79
+08.2015_07-12_CATS.parquet,cid_10,D999  ,64
+08.2015_07-12_CATS.parquet,cid_10,B999  ,59
+08.2015_07-12_CATS.parquet,cid_10,K99   ,59
+08.2015_07-12_CATS.parquet,cid_10,N999  ,57
+08.2015_07-12_CATS.parquet,cid_10,O999  ,39
+08.2015_07-12_CATS.parquet,cid_10,U99   ,36
+08.2015_07-12_CATS.parquet,cid_10,N99   ,28
+08.2015_07-12_CATS.parquet,cid_10,E999  ,28
+08.2015_07-12_CATS.parquet,cid_10,P999  ,26
+08.2015_07-12_CATS.parquet,cid_10,C99   ,19
+08.2015_07-12_CATS.parquet,cid_10,O99   ,14
+08.2015_07-12_CATS.parquet,cid_10,D99   ,11
+08.2015_07-12_CATS.parquet,cid_10,E99   ,6
+08.2015_07-12_CATS.parquet,cid_10,P99   ,3
+09.2016_01-06_CATS.parquet,cid_10,S999  ,128740
+09.2016_01-06_CATS.parquet,cid_10,S99   ,26486
+09.2016_01-06_CATS.parquet,cid_10,T999  ,15546
+09.2016_01-06_CATS.parquet,cid_10,M999  ,13114
+09.2016_01-06_CATS.parquet,cid_10,Z999  ,11514
+09.2016_01-06_CATS.parquet,cid_10,T99   ,7750
+09.2016_01-06_CATS.parquet,cid_10,F999  ,3766
+09.2016_01-06_CATS.parquet,cid_10,V999  ,2838
+09.2016_01-06_CATS.parquet,cid_10,W99   ,2141
+09.2016_01-06_CATS.parquet,cid_10,M99   ,2127
+09.2016_01-06_CATS.parquet,cid_10,H999  ,1827
+09.2016_01-06_CATS.parquet,cid_10,W999  ,1669
+09.2016_01-06_CATS.parquet,cid_10,Y99   ,1453
+09.2016_01-06_CATS.parquet,cid_10,R999  ,1304
+09.2016_01-06_CATS.parquet,cid_10,Y999  ,1198
+09.2016_01-06_CATS.parquet,cid_10,F99   ,995
+09.2016_01-06_CATS.parquet,cid_10,Z99   ,908
+09.2016_01-06_CATS.parquet,cid_10,R99   ,655
+09.2016_01-06_CATS.parquet,cid_10,X99   ,653
+09.2016_01-06_CATS.parquet,cid_10,L999  ,564
+09.2016_01-06_CATS.parquet,cid_10,V99   ,528
+09.2016_01-06_CATS.parquet,cid_10,G999  ,448
+09.2016_01-06_CATS.parquet,cid_10,K999  ,410
+09.2016_01-06_CATS.parquet,cid_10,H99   ,380
+09.2016_01-06_CATS.parquet,cid_10,X999  ,369
+09.2016_01-06_CATS.parquet,cid_10,L99   ,167
+09.2016_01-06_CATS.parquet,cid_10,C999  ,142
+09.2016_01-06_CATS.parquet,cid_10,J999  ,136
+09.2016_01-06_CATS.parquet,cid_10,I999  ,128
+09.2016_01-06_CATS.parquet,cid_10,I99   ,119
+09.2016_01-06_CATS.parquet,cid_10,      ,104
+09.2016_01-06_CATS.parquet,cid_10,J99   ,91
+09.2016_01-06_CATS.parquet,cid_10,A99   ,73
+09.2016_01-06_CATS.parquet,cid_10,G99   ,73
+09.2016_01-06_CATS.parquet,cid_10,B999  ,73
+09.2016_01-06_CATS.parquet,cid_10,K99   ,72
+09.2016_01-06_CATS.parquet,cid_10,Q999  ,67
+09.2016_01-06_CATS.parquet,cid_10,A999  ,62
+09.2016_01-06_CATS.parquet,cid_10,D999  ,54
+09.2016_01-06_CATS.parquet,cid_10,N999  ,52
+09.2016_01-06_CATS.parquet,cid_10,U99   ,48
+09.2016_01-06_CATS.parquet,cid_10,O999  ,37
+09.2016_01-06_CATS.parquet,cid_10,N99   ,31
+09.2016_01-06_CATS.parquet,cid_10,B99   ,24
+09.2016_01-06_CATS.parquet,cid_10,E999  ,21
+09.2016_01-06_CATS.parquet,cid_10,D99   ,21
+09.2016_01-06_CATS.parquet,cid_10,P999  ,13
+09.2016_01-06_CATS.parquet,cid_10,O99   ,11
+09.2016_01-06_CATS.parquet,cid_10,E99   ,9
+09.2016_01-06_CATS.parquet,cid_10,C99   ,8
+09.2016_01-06_CATS.parquet,cid_10,P99   ,3
+09.2016_01-06_CATS.parquet,cid_10,Q99   ,1
+10.2016_07-12_CATS.parquet,cid_10,S999  ,131857
+10.2016_07-12_CATS.parquet,cid_10,S99   ,25641
+10.2016_07-12_CATS.parquet,cid_10,T999  ,16225
+10.2016_07-12_CATS.parquet,cid_10,M999  ,15185
+10.2016_07-12_CATS.parquet,cid_10,Z999  ,11975
+10.2016_07-12_CATS.parquet,cid_10,T99   ,7984
+10.2016_07-12_CATS.parquet,cid_10,F999  ,4448
+10.2016_07-12_CATS.parquet,cid_10,V999  ,2980
+10.2016_07-12_CATS.parquet,cid_10,W99   ,2204
+10.2016_07-12_CATS.parquet,cid_10,M99   ,2188
+10.2016_07-12_CATS.parquet,cid_10,H999  ,2029
+10.2016_07-12_CATS.parquet,cid_10,W999  ,1750
+10.2016_07-12_CATS.parquet,cid_10,Y99   ,1617
+10.2016_07-12_CATS.parquet,cid_10,R999  ,1506
+10.2016_07-12_CATS.parquet,cid_10,Y999  ,1109
+10.2016_07-12_CATS.parquet,cid_10,Z99   ,905
+10.2016_07-12_CATS.parquet,cid_10,F99   ,847
+10.2016_07-12_CATS.parquet,cid_10,R99   ,646
+10.2016_07-12_CATS.parquet,cid_10,X99   ,614
+10.2016_07-12_CATS.parquet,cid_10,G999  ,608
+10.2016_07-12_CATS.parquet,cid_10,L999  ,549
+10.2016_07-12_CATS.parquet,cid_10,V99   ,532
+10.2016_07-12_CATS.parquet,cid_10,H99   ,396
+10.2016_07-12_CATS.parquet,cid_10,X999  ,382
+10.2016_07-12_CATS.parquet,cid_10,K999  ,333
+10.2016_07-12_CATS.parquet,cid_10,C999  ,164
+10.2016_07-12_CATS.parquet,cid_10,J999  ,161
+10.2016_07-12_CATS.parquet,cid_10,L99   ,159
+10.2016_07-12_CATS.parquet,cid_10,I999  ,151
+10.2016_07-12_CATS.parquet,cid_10,      ,123
+10.2016_07-12_CATS.parquet,cid_10,I99   ,123
+10.2016_07-12_CATS.parquet,cid_10,J99   ,87
+10.2016_07-12_CATS.parquet,cid_10,Q999  ,83
+10.2016_07-12_CATS.parquet,cid_10,G99   ,82
+10.2016_07-12_CATS.parquet,cid_10,A999  ,70
+10.2016_07-12_CATS.parquet,cid_10,N999  ,69
+10.2016_07-12_CATS.parquet,cid_10,A99   ,59
+10.2016_07-12_CATS.parquet,cid_10,K99   ,58
+10.2016_07-12_CATS.parquet,cid_10,B999  ,52
+10.2016_07-12_CATS.parquet,cid_10,D999  ,52
+10.2016_07-12_CATS.parquet,cid_10,U99   ,39
+10.2016_07-12_CATS.parquet,cid_10,O999  ,31
+10.2016_07-12_CATS.parquet,cid_10,E999  ,27
+10.2016_07-12_CATS.parquet,cid_10,B99   ,20
+10.2016_07-12_CATS.parquet,cid_10,N99   ,17
+10.2016_07-12_CATS.parquet,cid_10,O99   ,16
+10.2016_07-12_CATS.parquet,cid_10,P999  ,11
+10.2016_07-12_CATS.parquet,cid_10,D99   ,7
+10.2016_07-12_CATS.parquet,cid_10,C99   ,7
+10.2016_07-12_CATS.parquet,cid_10,E99   ,6
+10.2016_07-12_CATS.parquet,cid_10,P99   ,4
+10.2016_07-12_CATS.parquet,cid_10,H9999 ,1
+11.2017_01-06_CATS.parquet,cid_10,S999  ,119085
+11.2017_01-06_CATS.parquet,cid_10,S99   ,23893
+11.2017_01-06_CATS.parquet,cid_10,T999  ,14619
+11.2017_01-06_CATS.parquet,cid_10,M999  ,12240
+11.2017_01-06_CATS.parquet,cid_10,Z999  ,11207
+11.2017_01-06_CATS.parquet,cid_10,T99   ,7397
+11.2017_01-06_CATS.parquet,cid_10,F999  ,3680
+11.2017_01-06_CATS.parquet,cid_10,V999  ,2955
+11.2017_01-06_CATS.parquet,cid_10,W99   ,2132
+11.2017_01-06_CATS.parquet,cid_10,M99   ,1814
+11.2017_01-06_CATS.parquet,cid_10,H999  ,1743
+11.2017_01-06_CATS.parquet,cid_10,W999  ,1604
+11.2017_01-06_CATS.parquet,cid_10,Y99   ,1515
+11.2017_01-06_CATS.parquet,cid_10,R999  ,1381
+11.2017_01-06_CATS.parquet,cid_10,Y999  ,1165
+11.2017_01-06_CATS.parquet,cid_10,Z99   ,839
+11.2017_01-06_CATS.parquet,cid_10,F99   ,703
+11.2017_01-06_CATS.parquet,cid_10,R99   ,672
+11.2017_01-06_CATS.parquet,cid_10,X99   ,670
+11.2017_01-06_CATS.parquet,cid_10,V99   ,519
+11.2017_01-06_CATS.parquet,cid_10,L999  ,519
+11.2017_01-06_CATS.parquet,cid_10,G999  ,376
+11.2017_01-06_CATS.parquet,cid_10,H99   ,364
+11.2017_01-06_CATS.parquet,cid_10,X999  ,345
+11.2017_01-06_CATS.parquet,cid_10,K999  ,309
+11.2017_01-06_CATS.parquet,cid_10,J999  ,161
+11.2017_01-06_CATS.parquet,cid_10,C999  ,150
+11.2017_01-06_CATS.parquet,cid_10,L99   ,141
+11.2017_01-06_CATS.parquet,cid_10,I999  ,117
+11.2017_01-06_CATS.parquet,cid_10,J99   ,113
+11.2017_01-06_CATS.parquet,cid_10,I99   ,101
+11.2017_01-06_CATS.parquet,cid_10,Q999  ,71
+11.2017_01-06_CATS.parquet,cid_10,A99   ,68
+11.2017_01-06_CATS.parquet,cid_10,A999  ,66
+11.2017_01-06_CATS.parquet,cid_10,K99   ,63
+11.2017_01-06_CATS.parquet,cid_10,U99   ,62
+11.2017_01-06_CATS.parquet,cid_10,      ,62
+11.2017_01-06_CATS.parquet,cid_10,B999  ,55
+11.2017_01-06_CATS.parquet,cid_10,N999  ,48
+11.2017_01-06_CATS.parquet,cid_10,G99   ,46
+11.2017_01-06_CATS.parquet,cid_10,D999  ,43
+11.2017_01-06_CATS.parquet,cid_10,O999  ,34
+11.2017_01-06_CATS.parquet,cid_10,B99   ,25
+11.2017_01-06_CATS.parquet,cid_10,E999  ,21
+11.2017_01-06_CATS.parquet,cid_10,O99   ,17
+11.2017_01-06_CATS.parquet,cid_10,N99   ,17
+11.2017_01-06_CATS.parquet,cid_10,P999  ,14
+11.2017_01-06_CATS.parquet,cid_10,D99   ,14
+11.2017_01-06_CATS.parquet,cid_10,P99   ,6
+11.2017_01-06_CATS.parquet,cid_10,E99   ,4
+11.2017_01-06_CATS.parquet,cid_10,C99   ,2
+12.2017_07-12_CATS.parquet,cid_10,S999  ,131607
+12.2017_07-12_CATS.parquet,cid_10,S99   ,24441
+12.2017_07-12_CATS.parquet,cid_10,T999  ,16656
+12.2017_07-12_CATS.parquet,cid_10,M999  ,14507
+12.2017_07-12_CATS.parquet,cid_10,Z999  ,12132
+12.2017_07-12_CATS.parquet,cid_10,T99   ,7877
+12.2017_07-12_CATS.parquet,cid_10,F999  ,3902
+12.2017_07-12_CATS.parquet,cid_10,V999  ,3395
+12.2017_07-12_CATS.parquet,cid_10,W99   ,2238
+12.2017_07-12_CATS.parquet,cid_10,H999  ,1978
+12.2017_07-12_CATS.parquet,cid_10,M99   ,1904
+12.2017_07-12_CATS.parquet,cid_10,W999  ,1864
+12.2017_07-12_CATS.parquet,cid_10,Y99   ,1776
+12.2017_07-12_CATS.parquet,cid_10,R999  ,1674
+12.2017_07-12_CATS.parquet,cid_10,Y999  ,1360
+12.2017_07-12_CATS.parquet,cid_10,Z99   ,1005
+12.2017_07-12_CATS.parquet,cid_10,R99   ,778
+12.2017_07-12_CATS.parquet,cid_10,X99   ,628
+12.2017_07-12_CATS.parquet,cid_10,V99   ,596
+12.2017_07-12_CATS.parquet,cid_10,G999  ,528
+12.2017_07-12_CATS.parquet,cid_10,L999  ,490
+12.2017_07-12_CATS.parquet,cid_10,F99   ,474
+12.2017_07-12_CATS.parquet,cid_10,X999  ,352
+12.2017_07-12_CATS.parquet,cid_10,H99   ,345
+12.2017_07-12_CATS.parquet,cid_10,K999  ,339
+12.2017_07-12_CATS.parquet,cid_10,J999  ,176
+12.2017_07-12_CATS.parquet,cid_10,I999  ,152
+12.2017_07-12_CATS.parquet,cid_10,L99   ,148
+12.2017_07-12_CATS.parquet,cid_10,A99   ,141
+12.2017_07-12_CATS.parquet,cid_10,C999  ,130
+12.2017_07-12_CATS.parquet,cid_10,J99   ,125
+12.2017_07-12_CATS.parquet,cid_10,I99   ,95
+12.2017_07-12_CATS.parquet,cid_10,      ,93
+12.2017_07-12_CATS.parquet,cid_10,A999  ,89
+12.2017_07-12_CATS.parquet,cid_10,G99   ,68
+12.2017_07-12_CATS.parquet,cid_10,Q999  ,67
+12.2017_07-12_CATS.parquet,cid_10,U99   ,65
+12.2017_07-12_CATS.parquet,cid_10,N999  ,60
+12.2017_07-12_CATS.parquet,cid_10,K99   ,56
+12.2017_07-12_CATS.parquet,cid_10,B999  ,54
+12.2017_07-12_CATS.parquet,cid_10,B99   ,49
+12.2017_07-12_CATS.parquet,cid_10,D999  ,38
+12.2017_07-12_CATS.parquet,cid_10,E999  ,32
+12.2017_07-12_CATS.parquet,cid_10,O999  ,29
+12.2017_07-12_CATS.parquet,cid_10,N99   ,21
+12.2017_07-12_CATS.parquet,cid_10,O99   ,16
+12.2017_07-12_CATS.parquet,cid_10,D99   ,14
+12.2017_07-12_CATS.parquet,cid_10,P999  ,13
+12.2017_07-12_CATS.parquet,cid_10,,9
+12.2017_07-12_CATS.parquet,cid_10,C99   ,6
+12.2017_07-12_CATS.parquet,cid_10,E99   ,5
+12.2017_07-12_CATS.parquet,cid_10,P99   ,2
+12.2017_07-12_CATS.parquet,cid_10,-,1
+13.2018_01-06_CATS.parquet,cid_10,S999  ,105416
+13.2018_01-06_CATS.parquet,cid_10,S99   ,19253
+13.2018_01-06_CATS.parquet,cid_10,T999  ,13106
+13.2018_01-06_CATS.parquet,cid_10,M999  ,10666
+13.2018_01-06_CATS.parquet,cid_10,Z999  ,10328
+13.2018_01-06_CATS.parquet,cid_10,T99   ,6224
+13.2018_01-06_CATS.parquet,cid_10,V999  ,2821
+13.2018_01-06_CATS.parquet,cid_10,F999  ,2626
+13.2018_01-06_CATS.parquet,cid_10,W99   ,1796
+13.2018_01-06_CATS.parquet,cid_10,Y99   ,1583
+13.2018_01-06_CATS.parquet,cid_10,W999  ,1522
+13.2018_01-06_CATS.parquet,cid_10,M99   ,1474
+13.2018_01-06_CATS.parquet,cid_10,H999  ,1420
+13.2018_01-06_CATS.parquet,cid_10,R999  ,1416
+13.2018_01-06_CATS.parquet,cid_10,Y999  ,1197
+13.2018_01-06_CATS.parquet,cid_10,Z99   ,835
+13.2018_01-06_CATS.parquet,cid_10,X99   ,598
+13.2018_01-06_CATS.parquet,cid_10,R99   ,597
+13.2018_01-06_CATS.parquet,cid_10,V99   ,449
+13.2018_01-06_CATS.parquet,cid_10,L999  ,442
+13.2018_01-06_CATS.parquet,cid_10,X999  ,429
+13.2018_01-06_CATS.parquet,cid_10,H99   ,427
+13.2018_01-06_CATS.parquet,cid_10,G999  ,337
+13.2018_01-06_CATS.parquet,cid_10,F99   ,300
+13.2018_01-06_CATS.parquet,cid_10,K999  ,282
+13.2018_01-06_CATS.parquet,cid_10,C999  ,120
+13.2018_01-06_CATS.parquet,cid_10,L99   ,116
+13.2018_01-06_CATS.parquet,cid_10,J999  ,115
+13.2018_01-06_CATS.parquet,cid_10,A99   ,110
+13.2018_01-06_CATS.parquet,cid_10,J99   ,102
+13.2018_01-06_CATS.parquet,cid_10,I999  ,98
+13.2018_01-06_CATS.parquet,cid_10,      ,83
+13.2018_01-06_CATS.parquet,cid_10,I99   ,58
+13.2018_01-06_CATS.parquet,cid_10,Q999  ,56
+13.2018_01-06_CATS.parquet,cid_10,K99   ,50
+13.2018_01-06_CATS.parquet,cid_10,A999  ,50
+13.2018_01-06_CATS.parquet,cid_10,U99   ,44
+13.2018_01-06_CATS.parquet,cid_10,N999  ,41
+13.2018_01-06_CATS.parquet,cid_10,G99   ,38
+13.2018_01-06_CATS.parquet,cid_10,B999  ,36
+13.2018_01-06_CATS.parquet,cid_10,B99   ,26
+13.2018_01-06_CATS.parquet,cid_10,D999  ,26
+13.2018_01-06_CATS.parquet,cid_10,O999  ,19
+13.2018_01-06_CATS.parquet,cid_10,N99   ,18
+13.2018_01-06_CATS.parquet,cid_10,E999  ,17
+13.2018_01-06_CATS.parquet,cid_10,D99   ,14
+13.2018_01-06_CATS.parquet,cid_10,O99   ,11
+13.2018_01-06_CATS.parquet,cid_10,P999  ,7
+13.2018_01-06_CATS.parquet,cid_10,C99   ,4
+13.2018_01-06_CATS.parquet,cid_10,E99   ,2
+13.2018_01-06_CATS.parquet,cid_10,9,1
+14.2018_07-12_CATS.parquet,cid_10,S999  ,137528
+14.2018_07-12_CATS.parquet,cid_10,S99   ,24759
+14.2018_07-12_CATS.parquet,cid_10,T999  ,16338
+14.2018_07-12_CATS.parquet,cid_10,M999  ,15299
+14.2018_07-12_CATS.parquet,cid_10,Z999  ,13123
+14.2018_07-12_CATS.parquet,cid_10,T99   ,8264
+14.2018_07-12_CATS.parquet,cid_10,V999  ,3968
+14.2018_07-12_CATS.parquet,cid_10,F999  ,3341
+14.2018_07-12_CATS.parquet,cid_10,Y99   ,2331
+14.2018_07-12_CATS.parquet,cid_10,W99   ,2208
+14.2018_07-12_CATS.parquet,cid_10,W999  ,2011
+14.2018_07-12_CATS.parquet,cid_10,M99   ,1879
+14.2018_07-12_CATS.parquet,cid_10,R999  ,1841
+14.2018_07-12_CATS.parquet,cid_10,H999  ,1833
+14.2018_07-12_CATS.parquet,cid_10,Y999  ,1721
+14.2018_07-12_CATS.parquet,cid_10,Z99   ,1151
+14.2018_07-12_CATS.parquet,cid_10,R99   ,778
+14.2018_07-12_CATS.parquet,cid_10,X99   ,731
+14.2018_07-12_CATS.parquet,cid_10,V99   ,633
+14.2018_07-12_CATS.parquet,cid_10,L999  ,573
+14.2018_07-12_CATS.parquet,cid_10,X999  ,534
+14.2018_07-12_CATS.parquet,cid_10,G999  ,477
+14.2018_07-12_CATS.parquet,cid_10,H99   ,377
+14.2018_07-12_CATS.parquet,cid_10,F99   ,349
+14.2018_07-12_CATS.parquet,cid_10,K999  ,342
+14.2018_07-12_CATS.parquet,cid_10,J999  ,158
+14.2018_07-12_CATS.parquet,cid_10,C999  ,150
+14.2018_07-12_CATS.parquet,cid_10,I999  ,132
+14.2018_07-12_CATS.parquet,cid_10,L99   ,131
+14.2018_07-12_CATS.parquet,cid_10,A99   ,129
+14.2018_07-12_CATS.parquet,cid_10,      ,121
+14.2018_07-12_CATS.parquet,cid_10,J99   ,110
+14.2018_07-12_CATS.parquet,cid_10,I99   ,103
+14.2018_07-12_CATS.parquet,cid_10,U99   ,73
+14.2018_07-12_CATS.parquet,cid_10,Q999  ,68
+14.2018_07-12_CATS.parquet,cid_10,B999  ,67
+14.2018_07-12_CATS.parquet,cid_10,N999  ,59
+14.2018_07-12_CATS.parquet,cid_10,G99   ,57
+14.2018_07-12_CATS.parquet,cid_10,A999  ,55
+14.2018_07-12_CATS.parquet,cid_10,K99   ,51
+14.2018_07-12_CATS.parquet,cid_10,B99   ,34
+14.2018_07-12_CATS.parquet,cid_10,D999  ,32
+14.2018_07-12_CATS.parquet,cid_10,O999  ,29
+14.2018_07-12_CATS.parquet,cid_10,N99   ,23
+14.2018_07-12_CATS.parquet,cid_10,E999  ,21
+14.2018_07-12_CATS.parquet,cid_10,D99   ,15
+14.2018_07-12_CATS.parquet,cid_10,C99   ,8
+14.2018_07-12_CATS.parquet,cid_10,O99   ,7
+14.2018_07-12_CATS.parquet,cid_10,E99   ,7
+14.2018_07-12_CATS.parquet,cid_10,P999  ,6
+14.2018_07-12_CATS.parquet,cid_10,Q99   ,3
+14.2018_07-12_CATS.parquet,cid_10,P99   ,3
+01.2012_01-06_CATS.parquet,cnae_empregador,9999,242875
+01.2012_01-06_CATS.parquet,cnae_empregador,999,11967
+01.2012_01-06_CATS.parquet,cnae_empregador,99,78
+01.2012_01-06_CATS.parquet,cnae_empregador,9,12
+02.2012_07-12_CATS.parquet,cnae_empregador,9999,225741
+02.2012_07-12_CATS.parquet,cnae_empregador,999,12502
+02.2012_07-12_CATS.parquet,cnae_empregador,99,64
+02.2012_07-12_CATS.parquet,cnae_empregador,9,11
+03.2013_01-06_CATS.parquet,cnae_empregador,9999,249307
+03.2013_01-06_CATS.parquet,cnae_empregador,999,11602
+03.2013_01-06_CATS.parquet,cnae_empregador,99,58
+03.2013_01-06_CATS.parquet,cnae_empregador,9,10
+04.2013_07-12_CATS.parquet,cnae_empregador,9999,277683
+04.2013_07-12_CATS.parquet,cnae_empregador,999,13010
+04.2013_07-12_CATS.parquet,cnae_empregador,99,83
+04.2013_07-12_CATS.parquet,cnae_empregador,9,6
+05.2014_01-06_CATS.parquet,cnae_empregador,9999,250863
+05.2014_01-06_CATS.parquet,cnae_empregador,999,10656
+05.2014_01-06_CATS.parquet,cnae_empregador,99,58
+05.2014_01-06_CATS.parquet,cnae_empregador,9,12
+06.2014_07-12_CATS.parquet,cnae_empregador,9999,275518
+06.2014_07-12_CATS.parquet,cnae_empregador,999,11854
+06.2014_07-12_CATS.parquet,cnae_empregador,99,73
+06.2014_07-12_CATS.parquet,cnae_empregador,9,5
+07.2015_01-06_CATS.parquet,cnae_empregador,9999,231678
+07.2015_01-06_CATS.parquet,cnae_empregador,999,9521
+07.2015_01-06_CATS.parquet,cnae_empregador,99,57
+07.2015_01-06_CATS.parquet,cnae_empregador,9,11
+07.2015_01-06_CATS.parquet,cnae_empregador,,9
+07.2015_01-06_CATS.parquet,cnae_empregador,-,1
+08.2015_07-12_CATS.parquet,cnae_empregador,9999,239225
+08.2015_07-12_CATS.parquet,cnae_empregador,999,11127
+08.2015_07-12_CATS.parquet,cnae_empregador,99,57
+08.2015_07-12_CATS.parquet,cnae_empregador,9,6
+09.2016_01-06_CATS.parquet,cnae_empregador,9999,219830
+09.2016_01-06_CATS.parquet,cnae_empregador,999,9096
+09.2016_01-06_CATS.parquet,cnae_empregador,99,81
+09.2016_01-06_CATS.parquet,cnae_empregador,9,16
+10.2016_07-12_CATS.parquet,cnae_empregador,9999,226245
+10.2016_07-12_CATS.parquet,cnae_empregador,999,9852
+10.2016_07-12_CATS.parquet,cnae_empregador,99,81
+10.2016_07-12_CATS.parquet,cnae_empregador,9,11
+11.2017_01-06_CATS.parquet,cnae_empregador,9999,204555
+11.2017_01-06_CATS.parquet,cnae_empregador,999,8610
+11.2017_01-06_CATS.parquet,cnae_empregador,99,78
+11.2017_01-06_CATS.parquet,cnae_empregador,9,24
+12.2017_07-12_CATS.parquet,cnae_empregador,9999,224585
+12.2017_07-12_CATS.parquet,cnae_empregador,999,9913
+12.2017_07-12_CATS.parquet,cnae_empregador,99,81
+12.2017_07-12_CATS.parquet,cnae_empregador,9,11
+12.2017_07-12_CATS.parquet,cnae_empregador,,9
+12.2017_07-12_CATS.parquet,cnae_empregador,-,1
+13.2018_01-06_CATS.parquet,cnae_empregador,9999,179261
+13.2018_01-06_CATS.parquet,cnae_empregador,999,7449
+13.2018_01-06_CATS.parquet,cnae_empregador,99,83
+13.2018_01-06_CATS.parquet,cnae_empregador,9,13
+14.2018_07-12_CATS.parquet,cnae_empregador,9999,234005
+14.2018_07-12_CATS.parquet,cnae_empregador,999,9943
+14.2018_07-12_CATS.parquet,cnae_empregador,99,81
+14.2018_07-12_CATS.parquet,cnae_empregador,9,12
+01.2012_01-06_CATS.parquet,cnpj_empregador,99.999.999/9999-99,254932
+02.2012_07-12_CATS.parquet,cnpj_empregador,99.999.999/9999-99,238318
+03.2013_01-06_CATS.parquet,cnpj_empregador,99.999.999/9999-99,260977
+04.2013_07-12_CATS.parquet,cnpj_empregador,99.999.999/9999-99,290782
+05.2014_01-06_CATS.parquet,cnpj_empregador,99.999.999/9999-99,261589
+06.2014_07-12_CATS.parquet,cnpj_empregador,99.999.999/9999-99,287450
+07.2015_01-06_CATS.parquet,cnpj_empregador,99.999.999/9999-99,241267
+07.2015_01-06_CATS.parquet,cnpj_empregador,,9
+07.2015_01-06_CATS.parquet,cnpj_empregador,-,1
+08.2015_07-12_CATS.parquet,cnpj_empregador,99.999.999/9999-99,250415
+09.2016_01-06_CATS.parquet,cnpj_empregador,99.999.999/9999-99,229023
+10.2016_07-12_CATS.parquet,cnpj_empregador,99.999.999/9999-99,236189
+11.2017_01-06_CATS.parquet,cnpj_empregador,99.999.999/9999-99,213267
+12.2017_07-12_CATS.parquet,cnpj_empregador,99.999.999/9999-99,234590
+12.2017_07-12_CATS.parquet,cnpj_empregador,,9
+12.2017_07-12_CATS.parquet,cnpj_empregador,-,1
+13.2018_01-06_CATS.parquet,cnpj_empregador,99.999.999/9999-99,186806
+14.2018_07-12_CATS.parquet,cnpj_empregador,99.999.999/9999-99,244041
+01.2012_01-06_CATS.parquet,competencia_cat,999999,254932
+02.2012_07-12_CATS.parquet,competencia_cat,999999,238318
+03.2013_01-06_CATS.parquet,competencia_cat,999999,260977
+04.2013_07-12_CATS.parquet,competencia_cat,999999,290782
+05.2014_01-06_CATS.parquet,competencia_cat,999999,261589
+06.2014_07-12_CATS.parquet,competencia_cat,999999,287450
+07.2015_01-06_CATS.parquet,competencia_cat,999999,241267
+07.2015_01-06_CATS.parquet,competencia_cat,,6
+07.2015_01-06_CATS.parquet,competencia_cat,Variável,1
+07.2015_01-06_CATS.parquet,competencia_cat,-,1
+07.2015_01-06_CATS.parquet,competencia_cat,Seleções vigentes,1
+07.2015_01-06_CATS.parquet,competencia_cat,Competência de Emissão da CAT,1
+08.2015_07-12_CATS.parquet,competencia_cat,999999,250415
+09.2016_01-06_CATS.parquet,competencia_cat,999999,229023
+10.2016_07-12_CATS.parquet,competencia_cat,999999,236189
+11.2017_01-06_CATS.parquet,competencia_cat,999999,213267
+12.2017_07-12_CATS.parquet,competencia_cat,999999,234590
+12.2017_07-12_CATS.parquet,competencia_cat,,6
+12.2017_07-12_CATS.parquet,competencia_cat,-,1
+12.2017_07-12_CATS.parquet,competencia_cat,Seleções vigentes,1
+12.2017_07-12_CATS.parquet,competencia_cat,Competência de Emissão da CAT,1
+12.2017_07-12_CATS.parquet,competencia_cat,Variável,1
+13.2018_01-06_CATS.parquet,competencia_cat,999999,186806
+14.2018_07-12_CATS.parquet,competencia_cat,999999,244041
+01.2012_01-06_CATS.parquet,data_acidente,9999-99-99 99:99:99,254932
+02.2012_07-12_CATS.parquet,data_acidente,9999-99-99 99:99:99,238318
+03.2013_01-06_CATS.parquet,data_acidente,9999-99-99 99:99:99,260977
+04.2013_07-12_CATS.parquet,data_acidente,9999-99-99 99:99:99,290782
+05.2014_01-06_CATS.parquet,data_acidente,9999-99-99 99:99:99,261589
+06.2014_07-12_CATS.parquet,data_acidente,9999-99-99 99:99:99,287450
+07.2015_01-06_CATS.parquet,data_acidente,9999-99-99 99:99:99,241267
+07.2015_01-06_CATS.parquet,data_acidente,999999,6
+07.2015_01-06_CATS.parquet,data_acidente,,2
+07.2015_01-06_CATS.parquet,data_acidente,-,1
+07.2015_01-06_CATS.parquet,data_acidente,Valor,1
+08.2015_07-12_CATS.parquet,data_acidente,9999-99-99 99:99:99,250415
+09.2016_01-06_CATS.parquet,data_acidente,9999-99-99 99:99:99,229023
+10.2016_07-12_CATS.parquet,data_acidente,9999-99-99 99:99:99,236189
+11.2017_01-06_CATS.parquet,data_acidente,9999-99-99 99:99:99,213267
+12.2017_07-12_CATS.parquet,data_acidente,9999-99-99 99:99:99,234590
+12.2017_07-12_CATS.parquet,data_acidente,999999,6
+12.2017_07-12_CATS.parquet,data_acidente,,2
+12.2017_07-12_CATS.parquet,data_acidente,Valor,1
+12.2017_07-12_CATS.parquet,data_acidente,-,1
+13.2018_01-06_CATS.parquet,data_acidente,9999-99-99 99:99:99,186806
+14.2018_07-12_CATS.parquet,data_acidente,9999-99-99 99:99:99,244041
+01.2012_01-06_CATS.parquet,data_afastamento,9999-99-99 99:99:99,203919
+01.2012_01-06_CATS.parquet,data_afastamento,99/99/9999,51013
+02.2012_07-12_CATS.parquet,data_afastamento,9999-99-99 99:99:99,190521
+02.2012_07-12_CATS.parquet,data_afastamento,99/99/9999,47797
+03.2013_01-06_CATS.parquet,data_afastamento,9999-99-99 99:99:99,208277
+03.2013_01-06_CATS.parquet,data_afastamento,99/99/9999,52700
+04.2013_07-12_CATS.parquet,data_afastamento,9999-99-99 99:99:99,235396
+04.2013_07-12_CATS.parquet,data_afastamento,99/99/9999,55386
+05.2014_01-06_CATS.parquet,data_afastamento,9999-99-99 99:99:99,210649
+05.2014_01-06_CATS.parquet,data_afastamento,99/99/9999,50940
+06.2014_07-12_CATS.parquet,data_afastamento,9999-99-99 99:99:99,232684
+06.2014_07-12_CATS.parquet,data_afastamento,99/99/9999,54766
+07.2015_01-06_CATS.parquet,data_afastamento,9999-99-99 99:99:99,192443
+07.2015_01-06_CATS.parquet,data_afastamento,99/99/9999,48824
+07.2015_01-06_CATS.parquet,data_afastamento,,9
+07.2015_01-06_CATS.parquet,data_afastamento,-,1
+08.2015_07-12_CATS.parquet,data_afastamento,9999-99-99 99:99:99,200961
+08.2015_07-12_CATS.parquet,data_afastamento,99/99/9999,49454
+09.2016_01-06_CATS.parquet,data_afastamento,9999-99-99 99:99:99,182280
+09.2016_01-06_CATS.parquet,data_afastamento,99/99/9999,46743
+10.2016_07-12_CATS.parquet,data_afastamento,9999-99-99 99:99:99,188702
+10.2016_07-12_CATS.parquet,data_afastamento,99/99/9999,47487
+11.2017_01-06_CATS.parquet,data_afastamento,9999-99-99 99:99:99,162699
+11.2017_01-06_CATS.parquet,data_afastamento,99/99/9999,50568
+12.2017_07-12_CATS.parquet,data_afastamento,9999-99-99 99:99:99,185368
+12.2017_07-12_CATS.parquet,data_afastamento,99/99/9999,49222
+12.2017_07-12_CATS.parquet,data_afastamento,,9
+12.2017_07-12_CATS.parquet,data_afastamento,-,1
+13.2018_01-06_CATS.parquet,data_afastamento,9999-99-99 99:99:99,147532
+13.2018_01-06_CATS.parquet,data_afastamento,99/99/9999,39274
+14.2018_07-12_CATS.parquet,data_afastamento,9999-99-99 99:99:99,194238
+14.2018_07-12_CATS.parquet,data_afastamento,99/99/9999,49803
+01.2012_01-06_CATS.parquet,data_despacho,99/99/9999,196295
+01.2012_01-06_CATS.parquet,data_despacho,9999-99-99 99:99:99,58637
+02.2012_07-12_CATS.parquet,data_despacho,99/99/9999,187835
+02.2012_07-12_CATS.parquet,data_despacho,9999-99-99 99:99:99,50483
+03.2013_01-06_CATS.parquet,data_despacho,99/99/9999,207996
+03.2013_01-06_CATS.parquet,data_despacho,9999-99-99 99:99:99,52981
+04.2013_07-12_CATS.parquet,data_despacho,99/99/9999,231493
+04.2013_07-12_CATS.parquet,data_despacho,9999-99-99 99:99:99,59289
+05.2014_01-06_CATS.parquet,data_despacho,99/99/9999,208963
+05.2014_01-06_CATS.parquet,data_despacho,9999-99-99 99:99:99,52626
+06.2014_07-12_CATS.parquet,data_despacho,99/99/9999,244624
+06.2014_07-12_CATS.parquet,data_despacho,9999-99-99 99:99:99,42826
+07.2015_01-06_CATS.parquet,data_despacho,99/99/9999,217508
+07.2015_01-06_CATS.parquet,data_despacho,9999-99-99 99:99:99,23759
+07.2015_01-06_CATS.parquet,data_despacho,,9
+07.2015_01-06_CATS.parquet,data_despacho,-,1
+08.2015_07-12_CATS.parquet,data_despacho,99/99/9999,239933
+08.2015_07-12_CATS.parquet,data_despacho,9999-99-99 99:99:99,10482
+09.2016_01-06_CATS.parquet,data_despacho,99/99/9999,196295
+09.2016_01-06_CATS.parquet,data_despacho,9999-99-99 99:99:99,32728
+10.2016_07-12_CATS.parquet,data_despacho,99/99/9999,211654
+10.2016_07-12_CATS.parquet,data_despacho,9999-99-99 99:99:99,24535
+11.2017_01-06_CATS.parquet,data_despacho,99/99/9999,188991
+11.2017_01-06_CATS.parquet,data_despacho,9999-99-99 99:99:99,24276
+12.2017_07-12_CATS.parquet,data_despacho,99/99/9999,220152
+12.2017_07-12_CATS.parquet,data_despacho,9999-99-99 99:99:99,14438
+12.2017_07-12_CATS.parquet,data_despacho,,9
+12.2017_07-12_CATS.parquet,data_despacho,-,1
+13.2018_01-06_CATS.parquet,data_despacho,99/99/9999,176622
+13.2018_01-06_CATS.parquet,data_despacho,9999-99-99 99:99:99,10184
+14.2018_07-12_CATS.parquet,data_despacho,99/99/9999,238156
+14.2018_07-12_CATS.parquet,data_despacho,9999-99-99 99:99:99,5885
+01.2012_01-06_CATS.parquet,data_emissao_cat,9999-99-99 99:99:99,254932
+02.2012_07-12_CATS.parquet,data_emissao_cat,9999-99-99 99:99:99,238318
+03.2013_01-06_CATS.parquet,data_emissao_cat,9999-99-99 99:99:99,260977
+04.2013_07-12_CATS.parquet,data_emissao_cat,9999-99-99 99:99:99,290782
+05.2014_01-06_CATS.parquet,data_emissao_cat,9999-99-99 99:99:99,261589
+06.2014_07-12_CATS.parquet,data_emissao_cat,9999-99-99 99:99:99,287450
+07.2015_01-06_CATS.parquet,data_emissao_cat,9999-99-99 99:99:99,241267
+07.2015_01-06_CATS.parquet,data_emissao_cat,,9
+07.2015_01-06_CATS.parquet,data_emissao_cat,-,1
+08.2015_07-12_CATS.parquet,data_emissao_cat,9999-99-99 99:99:99,250415
+09.2016_01-06_CATS.parquet,data_emissao_cat,9999-99-99 99:99:99,229023
+10.2016_07-12_CATS.parquet,data_emissao_cat,9999-99-99 99:99:99,236189
+11.2017_01-06_CATS.parquet,data_emissao_cat,9999-99-99 99:99:99,213267
+12.2017_07-12_CATS.parquet,data_emissao_cat,9999-99-99 99:99:99,234590
+12.2017_07-12_CATS.parquet,data_emissao_cat,,9
+12.2017_07-12_CATS.parquet,data_emissao_cat,-,1
+13.2018_01-06_CATS.parquet,data_emissao_cat,9999-99-99 99:99:99,186806
+14.2018_07-12_CATS.parquet,data_emissao_cat,9999-99-99 99:99:99,244041
+01.2012_01-06_CATS.parquet,data_nascimento,9999-99-99 99:99:99,254911
+01.2012_01-06_CATS.parquet,data_nascimento,{ñ class},21
+02.2012_07-12_CATS.parquet,data_nascimento,9999-99-99 99:99:99,238301
+02.2012_07-12_CATS.parquet,data_nascimento,{ñ class},17
+03.2013_01-06_CATS.parquet,data_nascimento,9999-99-99 99:99:99,260970
+03.2013_01-06_CATS.parquet,data_nascimento,{ñ class},7
+04.2013_07-12_CATS.parquet,data_nascimento,9999-99-99 99:99:99,290763
+04.2013_07-12_CATS.parquet,data_nascimento,{ñ class},19
+05.2014_01-06_CATS.parquet,data_nascimento,9999-99-99 99:99:99,261569
+05.2014_01-06_CATS.parquet,data_nascimento,{ñ class},20
+06.2014_07-12_CATS.parquet,data_nascimento,9999-99-99 99:99:99,287432
+06.2014_07-12_CATS.parquet,data_nascimento,{ñ class},18
+07.2015_01-06_CATS.parquet,data_nascimento,9999-99-99 99:99:99,241254
+07.2015_01-06_CATS.parquet,data_nascimento,{ñ class},13
+07.2015_01-06_CATS.parquet,data_nascimento,,9
+07.2015_01-06_CATS.parquet,data_nascimento,-,1
+08.2015_07-12_CATS.parquet,data_nascimento,9999-99-99 99:99:99,250409
+08.2015_07-12_CATS.parquet,data_nascimento,{ñ class},6
+09.2016_01-06_CATS.parquet,data_nascimento,9999-99-99 99:99:99,229018
+09.2016_01-06_CATS.parquet,data_nascimento,{ñ class},5
+10.2016_07-12_CATS.parquet,data_nascimento,9999-99-99 99:99:99,236184
+10.2016_07-12_CATS.parquet,data_nascimento,{ñ class},5
+11.2017_01-06_CATS.parquet,data_nascimento,9999-99-99 99:99:99,213263
+11.2017_01-06_CATS.parquet,data_nascimento,{ñ class},4
+12.2017_07-12_CATS.parquet,data_nascimento,9999-99-99 99:99:99,234584
+12.2017_07-12_CATS.parquet,data_nascimento,,9
+12.2017_07-12_CATS.parquet,data_nascimento,{ñ class},6
+12.2017_07-12_CATS.parquet,data_nascimento,-,1
+13.2018_01-06_CATS.parquet,data_nascimento,9999-99-99 99:99:99,186804
+13.2018_01-06_CATS.parquet,data_nascimento,{ñ class},2
+14.2018_07-12_CATS.parquet,data_nascimento,9999-99-99 99:99:99,244038
+14.2018_07-12_CATS.parquet,data_nascimento,{ñ class},3
+01.2012_01-06_CATS.parquet,data_obito_segurado,99/99/9999,253673
+01.2012_01-06_CATS.parquet,data_obito_segurado,9999-99-99 99:99:99,1259
+02.2012_07-12_CATS.parquet,data_obito_segurado,99/99/9999,237143
+02.2012_07-12_CATS.parquet,data_obito_segurado,9999-99-99 99:99:99,1175
+03.2013_01-06_CATS.parquet,data_obito_segurado,99/99/9999,259699
+03.2013_01-06_CATS.parquet,data_obito_segurado,9999-99-99 99:99:99,1278
+04.2013_07-12_CATS.parquet,data_obito_segurado,99/99/9999,289344
+04.2013_07-12_CATS.parquet,data_obito_segurado,9999-99-99 99:99:99,1438
+05.2014_01-06_CATS.parquet,data_obito_segurado,99/99/9999,260306
+05.2014_01-06_CATS.parquet,data_obito_segurado,9999-99-99 99:99:99,1283
+06.2014_07-12_CATS.parquet,data_obito_segurado,99/99/9999,286074
+06.2014_07-12_CATS.parquet,data_obito_segurado,9999-99-99 99:99:99,1376
+07.2015_01-06_CATS.parquet,data_obito_segurado,99/99/9999,240077
+07.2015_01-06_CATS.parquet,data_obito_segurado,9999-99-99 99:99:99,1190
+07.2015_01-06_CATS.parquet,data_obito_segurado,,9
+07.2015_01-06_CATS.parquet,data_obito_segurado,-,1
+08.2015_07-12_CATS.parquet,data_obito_segurado,99/99/9999,249217
+08.2015_07-12_CATS.parquet,data_obito_segurado,9999-99-99 99:99:99,1198
+09.2016_01-06_CATS.parquet,data_obito_segurado,99/99/9999,227987
+09.2016_01-06_CATS.parquet,data_obito_segurado,9999-99-99 99:99:99,1036
+10.2016_07-12_CATS.parquet,data_obito_segurado,99/99/9999,235074
+10.2016_07-12_CATS.parquet,data_obito_segurado,9999-99-99 99:99:99,1115
+11.2017_01-06_CATS.parquet,data_obito_segurado,99/99/9999,212385
+11.2017_01-06_CATS.parquet,data_obito_segurado,9999-99-99 99:99:99,882
+12.2017_07-12_CATS.parquet,data_obito_segurado,99/99/9999,233483
+12.2017_07-12_CATS.parquet,data_obito_segurado,9999-99-99 99:99:99,1107
+12.2017_07-12_CATS.parquet,data_obito_segurado,,9
+12.2017_07-12_CATS.parquet,data_obito_segurado,-,1
+13.2018_01-06_CATS.parquet,data_obito_segurado,99/99/9999,186008
+13.2018_01-06_CATS.parquet,data_obito_segurado,9999-99-99 99:99:99,798
+14.2018_07-12_CATS.parquet,data_obito_segurado,99/99/9999,242968
+14.2018_07-12_CATS.parquet,data_obito_segurado,9999-99-99 99:99:99,1073
+01.2012_01-06_CATS.parquet,valor_remuneracao,999,77439
+01.2012_01-06_CATS.parquet,valor_remuneracao,9999,46063
+01.2012_01-06_CATS.parquet,valor_remuneracao,9999.99,44796
+01.2012_01-06_CATS.parquet,valor_remuneracao,999.99,39412
+01.2012_01-06_CATS.parquet,valor_remuneracao,9999.9,22704
+01.2012_01-06_CATS.parquet,valor_remuneracao,999.9,22325
+01.2012_01-06_CATS.parquet,valor_remuneracao,99.99,489
+01.2012_01-06_CATS.parquet,valor_remuneracao,9.99,446
+01.2012_01-06_CATS.parquet,valor_remuneracao,9,422
+01.2012_01-06_CATS.parquet,valor_remuneracao,99999.99,369
+01.2012_01-06_CATS.parquet,valor_remuneracao,99999,228
+01.2012_01-06_CATS.parquet,valor_remuneracao,9.9,73
+01.2012_01-06_CATS.parquet,valor_remuneracao,999999,67
+01.2012_01-06_CATS.parquet,valor_remuneracao,99999.9,45
+01.2012_01-06_CATS.parquet,valor_remuneracao,99.9,36
+01.2012_01-06_CATS.parquet,valor_remuneracao,9999999,12
+01.2012_01-06_CATS.parquet,valor_remuneracao,99,6
+02.2012_07-12_CATS.parquet,valor_remuneracao,999,68984
+02.2012_07-12_CATS.parquet,valor_remuneracao,9999,46317
+02.2012_07-12_CATS.parquet,valor_remuneracao,9999.99,45049
+02.2012_07-12_CATS.parquet,valor_remuneracao,999.99,34149
+02.2012_07-12_CATS.parquet,valor_remuneracao,9999.9,22048
+02.2012_07-12_CATS.parquet,valor_remuneracao,999.9,19854
+02.2012_07-12_CATS.parquet,valor_remuneracao,99.99,445
+02.2012_07-12_CATS.parquet,valor_remuneracao,9.99,387
+02.2012_07-12_CATS.parquet,valor_remuneracao,9,335
+02.2012_07-12_CATS.parquet,valor_remuneracao,99999.99,329
+02.2012_07-12_CATS.parquet,valor_remuneracao,99999,222
+02.2012_07-12_CATS.parquet,valor_remuneracao,99999.9,53
+02.2012_07-12_CATS.parquet,valor_remuneracao,999999,49
+02.2012_07-12_CATS.parquet,valor_remuneracao,9.9,38
+02.2012_07-12_CATS.parquet,valor_remuneracao,99.9,32
+02.2012_07-12_CATS.parquet,valor_remuneracao,99,15
+02.2012_07-12_CATS.parquet,valor_remuneracao,9999999,12
+03.2013_01-06_CATS.parquet,valor_remuneracao,999,67468
+03.2013_01-06_CATS.parquet,valor_remuneracao,9999,57217
+03.2013_01-06_CATS.parquet,valor_remuneracao,9999.99,55455
+03.2013_01-06_CATS.parquet,valor_remuneracao,999.99,32498
+03.2013_01-06_CATS.parquet,valor_remuneracao,9999.9,27461
+03.2013_01-06_CATS.parquet,valor_remuneracao,999.9,18671
+03.2013_01-06_CATS.parquet,valor_remuneracao,99.99,518
+03.2013_01-06_CATS.parquet,valor_remuneracao,99999.99,465
+03.2013_01-06_CATS.parquet,valor_remuneracao,9.99,384
+03.2013_01-06_CATS.parquet,valor_remuneracao,9,301
+03.2013_01-06_CATS.parquet,valor_remuneracao,99999,276
+03.2013_01-06_CATS.parquet,valor_remuneracao,999999,77
+03.2013_01-06_CATS.parquet,valor_remuneracao,99999.9,57
+03.2013_01-06_CATS.parquet,valor_remuneracao,99,49
+03.2013_01-06_CATS.parquet,valor_remuneracao,9.9,43
+03.2013_01-06_CATS.parquet,valor_remuneracao,99.9,23
+03.2013_01-06_CATS.parquet,valor_remuneracao,9999999,11
+03.2013_01-06_CATS.parquet,valor_remuneracao,99999999,2
+03.2013_01-06_CATS.parquet,valor_remuneracao,99999999.99,1
+04.2013_07-12_CATS.parquet,valor_remuneracao,9999,71806
+04.2013_07-12_CATS.parquet,valor_remuneracao,9999.99,68157
+04.2013_07-12_CATS.parquet,valor_remuneracao,999,66382
+04.2013_07-12_CATS.parquet,valor_remuneracao,999.99,32770
+04.2013_07-12_CATS.parquet,valor_remuneracao,9999.9,31211
+04.2013_07-12_CATS.parquet,valor_remuneracao,999.9,18012
+04.2013_07-12_CATS.parquet,valor_remuneracao,99999.99,604
+04.2013_07-12_CATS.parquet,valor_remuneracao,9,459
+04.2013_07-12_CATS.parquet,valor_remuneracao,99.99,454
+04.2013_07-12_CATS.parquet,valor_remuneracao,99999,355
+04.2013_07-12_CATS.parquet,valor_remuneracao,9.99,343
+04.2013_07-12_CATS.parquet,valor_remuneracao,999999,92
+04.2013_07-12_CATS.parquet,valor_remuneracao,99999.9,57
+04.2013_07-12_CATS.parquet,valor_remuneracao,9.9,41
+04.2013_07-12_CATS.parquet,valor_remuneracao,99.9,23
+04.2013_07-12_CATS.parquet,valor_remuneracao,99,9
+04.2013_07-12_CATS.parquet,valor_remuneracao,9999999,7
+05.2014_01-06_CATS.parquet,valor_remuneracao,9999,70580
+05.2014_01-06_CATS.parquet,valor_remuneracao,9999.99,67997
+05.2014_01-06_CATS.parquet,valor_remuneracao,999,51330
+05.2014_01-06_CATS.parquet,valor_remuneracao,9999.9,30166
+05.2014_01-06_CATS.parquet,valor_remuneracao,999.99,25583
+05.2014_01-06_CATS.parquet,valor_remuneracao,999.9,13702
+05.2014_01-06_CATS.parquet,valor_remuneracao,99999.99,568
+05.2014_01-06_CATS.parquet,valor_remuneracao,9,395
+05.2014_01-06_CATS.parquet,valor_remuneracao,99999,341
+05.2014_01-06_CATS.parquet,valor_remuneracao,9.99,295
+05.2014_01-06_CATS.parquet,valor_remuneracao,99.99,291
+05.2014_01-06_CATS.parquet,valor_remuneracao,999999,111
+05.2014_01-06_CATS.parquet,valor_remuneracao,99999.9,81
+05.2014_01-06_CATS.parquet,valor_remuneracao,9.9,68
+05.2014_01-06_CATS.parquet,valor_remuneracao,99.9,52
+05.2014_01-06_CATS.parquet,valor_remuneracao,99,18
+05.2014_01-06_CATS.parquet,valor_remuneracao,9999999,10
+05.2014_01-06_CATS.parquet,valor_remuneracao,999999.99,1
+06.2014_07-12_CATS.parquet,valor_remuneracao,9999,80755
+06.2014_07-12_CATS.parquet,valor_remuneracao,9999.99,80650
+06.2014_07-12_CATS.parquet,valor_remuneracao,999,49273
+06.2014_07-12_CATS.parquet,valor_remuneracao,9999.9,35770
+06.2014_07-12_CATS.parquet,valor_remuneracao,999.99,25560
+06.2014_07-12_CATS.parquet,valor_remuneracao,999.9,13057
+06.2014_07-12_CATS.parquet,valor_remuneracao,99999.99,723
+06.2014_07-12_CATS.parquet,valor_remuneracao,99999,374
+06.2014_07-12_CATS.parquet,valor_remuneracao,9,368
+06.2014_07-12_CATS.parquet,valor_remuneracao,99.99,280
+06.2014_07-12_CATS.parquet,valor_remuneracao,9.99,267
+06.2014_07-12_CATS.parquet,valor_remuneracao,999999,121
+06.2014_07-12_CATS.parquet,valor_remuneracao,99999.9,87
+06.2014_07-12_CATS.parquet,valor_remuneracao,99.9,65
+06.2014_07-12_CATS.parquet,valor_remuneracao,9.9,62
+06.2014_07-12_CATS.parquet,valor_remuneracao,9999999,17
+06.2014_07-12_CATS.parquet,valor_remuneracao,99,16
+06.2014_07-12_CATS.parquet,valor_remuneracao,99999999,2
+06.2014_07-12_CATS.parquet,valor_remuneracao,99999999.9,1
+06.2014_07-12_CATS.parquet,valor_remuneracao,9999999.99,1
+06.2014_07-12_CATS.parquet,valor_remuneracao,999999.9,1
+07.2015_01-06_CATS.parquet,valor_remuneracao,9999.99,75528
+07.2015_01-06_CATS.parquet,valor_remuneracao,9999,70310
+07.2015_01-06_CATS.parquet,valor_remuneracao,999,34467
+07.2015_01-06_CATS.parquet,valor_remuneracao,9999.9,31721
+07.2015_01-06_CATS.parquet,valor_remuneracao,999.99,18817
+07.2015_01-06_CATS.parquet,valor_remuneracao,999.9,8369
+07.2015_01-06_CATS.parquet,valor_remuneracao,99999.99,679
+07.2015_01-06_CATS.parquet,valor_remuneracao,99999,357
+07.2015_01-06_CATS.parquet,valor_remuneracao,9.99,287
+07.2015_01-06_CATS.parquet,valor_remuneracao,9,260
+07.2015_01-06_CATS.parquet,valor_remuneracao,99.99,177
+07.2015_01-06_CATS.parquet,valor_remuneracao,999999,111
+07.2015_01-06_CATS.parquet,valor_remuneracao,99999.9,74
+07.2015_01-06_CATS.parquet,valor_remuneracao,9.9,43
+07.2015_01-06_CATS.parquet,valor_remuneracao,99.9,41
+07.2015_01-06_CATS.parquet,valor_remuneracao,9999999,14
+07.2015_01-06_CATS.parquet,valor_remuneracao,99,12
+07.2015_01-06_CATS.parquet,valor_remuneracao,,9
+07.2015_01-06_CATS.parquet,valor_remuneracao,999999999.99,1
+08.2015_07-12_CATS.parquet,valor_remuneracao,9999.99,86192
+08.2015_07-12_CATS.parquet,valor_remuneracao,9999,74449
+08.2015_07-12_CATS.parquet,valor_remuneracao,9999.9,33242
+08.2015_07-12_CATS.parquet,valor_remuneracao,999,29644
+08.2015_07-12_CATS.parquet,valor_remuneracao,999.99,17179
+08.2015_07-12_CATS.parquet,valor_remuneracao,999.9,7367
+08.2015_07-12_CATS.parquet,valor_remuneracao,99999.99,767
+08.2015_07-12_CATS.parquet,valor_remuneracao,9,435
+08.2015_07-12_CATS.parquet,valor_remuneracao,99999,401
+08.2015_07-12_CATS.parquet,valor_remuneracao,9.99,300
+08.2015_07-12_CATS.parquet,valor_remuneracao,99.99,164
+08.2015_07-12_CATS.parquet,valor_remuneracao,999999,98
+08.2015_07-12_CATS.parquet,valor_remuneracao,99999.9,86
+08.2015_07-12_CATS.parquet,valor_remuneracao,9.9,31
+08.2015_07-12_CATS.parquet,valor_remuneracao,99.9,29
+08.2015_07-12_CATS.parquet,valor_remuneracao,9999999,17
+08.2015_07-12_CATS.parquet,valor_remuneracao,99,11
+08.2015_07-12_CATS.parquet,valor_remuneracao,99999999,2
+08.2015_07-12_CATS.parquet,valor_remuneracao,99999999.9,1
+09.2016_01-06_CATS.parquet,valor_remuneracao,9999.99,86226
+09.2016_01-06_CATS.parquet,valor_remuneracao,9999,72012
+09.2016_01-06_CATS.parquet,valor_remuneracao,9999.9,30936
+09.2016_01-06_CATS.parquet,valor_remuneracao,999,23000
+09.2016_01-06_CATS.parquet,valor_remuneracao,999.99,10064
+09.2016_01-06_CATS.parquet,valor_remuneracao,999.9,4429
+09.2016_01-06_CATS.parquet,valor_remuneracao,99999.99,768
+09.2016_01-06_CATS.parquet,valor_remuneracao,9,406
+09.2016_01-06_CATS.parquet,valor_remuneracao,99999,380
+09.2016_01-06_CATS.parquet,valor_remuneracao,9.99,298
+09.2016_01-06_CATS.parquet,valor_remuneracao,99.99,175
+09.2016_01-06_CATS.parquet,valor_remuneracao,999999,140
+09.2016_01-06_CATS.parquet,valor_remuneracao,99999.9,112
+09.2016_01-06_CATS.parquet,valor_remuneracao,99.9,21
+09.2016_01-06_CATS.parquet,valor_remuneracao,99999999,18
+09.2016_01-06_CATS.parquet,valor_remuneracao,9.9,17
+09.2016_01-06_CATS.parquet,valor_remuneracao,9999999,14
+09.2016_01-06_CATS.parquet,valor_remuneracao,99,7
+10.2016_07-12_CATS.parquet,valor_remuneracao,9999.99,95518
+10.2016_07-12_CATS.parquet,valor_remuneracao,9999,75465
+10.2016_07-12_CATS.parquet,valor_remuneracao,9999.9,31901
+10.2016_07-12_CATS.parquet,valor_remuneracao,999,18575
+10.2016_07-12_CATS.parquet,valor_remuneracao,999.99,8487
+10.2016_07-12_CATS.parquet,valor_remuneracao,999.9,3750
+10.2016_07-12_CATS.parquet,valor_remuneracao,99999.99,848
+10.2016_07-12_CATS.parquet,valor_remuneracao,99999,438
+10.2016_07-12_CATS.parquet,valor_remuneracao,9,340
+10.2016_07-12_CATS.parquet,valor_remuneracao,9.99,273
+10.2016_07-12_CATS.parquet,valor_remuneracao,99.99,227
+10.2016_07-12_CATS.parquet,valor_remuneracao,999999,158
+10.2016_07-12_CATS.parquet,valor_remuneracao,99999.9,126
+10.2016_07-12_CATS.parquet,valor_remuneracao,9.9,34
+10.2016_07-12_CATS.parquet,valor_remuneracao,9999999,21
+10.2016_07-12_CATS.parquet,valor_remuneracao,99.9,18
+10.2016_07-12_CATS.parquet,valor_remuneracao,99,8
+10.2016_07-12_CATS.parquet,valor_remuneracao,99999999,1
+10.2016_07-12_CATS.parquet,valor_remuneracao,999999999,1
+11.2017_01-06_CATS.parquet,valor_remuneracao,9999.99,91697
+11.2017_01-06_CATS.parquet,valor_remuneracao,9999,67585
+11.2017_01-06_CATS.parquet,valor_remuneracao,9999.9,30869
+11.2017_01-06_CATS.parquet,valor_remuneracao,999,13047
+11.2017_01-06_CATS.parquet,valor_remuneracao,999.99,5444
+11.2017_01-06_CATS.parquet,valor_remuneracao,999.9,2376
+11.2017_01-06_CATS.parquet,valor_remuneracao,99999.99,714
+11.2017_01-06_CATS.parquet,valor_remuneracao,9,406
+11.2017_01-06_CATS.parquet,valor_remuneracao,99999,397
+11.2017_01-06_CATS.parquet,valor_remuneracao,9.99,277
+11.2017_01-06_CATS.parquet,valor_remuneracao,99.99,165
+11.2017_01-06_CATS.parquet,valor_remuneracao,99999.9,107
+11.2017_01-06_CATS.parquet,valor_remuneracao,999999,104
+11.2017_01-06_CATS.parquet,valor_remuneracao,9.9,43
+11.2017_01-06_CATS.parquet,valor_remuneracao,99.9,13
+11.2017_01-06_CATS.parquet,valor_remuneracao,9999999,12
+11.2017_01-06_CATS.parquet,valor_remuneracao,99,10
+11.2017_01-06_CATS.parquet,valor_remuneracao,99999999,1
+12.2017_07-12_CATS.parquet,valor_remuneracao,9999.99,102410
+12.2017_07-12_CATS.parquet,valor_remuneracao,9999,76176
+12.2017_07-12_CATS.parquet,valor_remuneracao,9999.9,34754
+12.2017_07-12_CATS.parquet,valor_remuneracao,999,11238
+12.2017_07-12_CATS.parquet,valor_remuneracao,999.99,5424
+12.2017_07-12_CATS.parquet,valor_remuneracao,999.9,1997
+12.2017_07-12_CATS.parquet,valor_remuneracao,99999.99,824
+12.2017_07-12_CATS.parquet,valor_remuneracao,9,550
+12.2017_07-12_CATS.parquet,valor_remuneracao,99999,451
+12.2017_07-12_CATS.parquet,valor_remuneracao,9.99,271
+12.2017_07-12_CATS.parquet,valor_remuneracao,99.99,221
+12.2017_07-12_CATS.parquet,valor_remuneracao,99999.9,102
+12.2017_07-12_CATS.parquet,valor_remuneracao,999999,93
+12.2017_07-12_CATS.parquet,valor_remuneracao,9.9,36
+12.2017_07-12_CATS.parquet,valor_remuneracao,9999999,20
+12.2017_07-12_CATS.parquet,valor_remuneracao,99.9,13
+12.2017_07-12_CATS.parquet,valor_remuneracao,,9
+12.2017_07-12_CATS.parquet,valor_remuneracao,99,7
+12.2017_07-12_CATS.parquet,valor_remuneracao,999999.99,3
+12.2017_07-12_CATS.parquet,valor_remuneracao,999999999.99,1
+13.2018_01-06_CATS.parquet,valor_remuneracao,9999.99,81946
+13.2018_01-06_CATS.parquet,valor_remuneracao,9999,61275
+13.2018_01-06_CATS.parquet,valor_remuneracao,9999.9,28620
+13.2018_01-06_CATS.parquet,valor_remuneracao,999,8041
+13.2018_01-06_CATS.parquet,valor_remuneracao,999.99,3622
+13.2018_01-06_CATS.parquet,valor_remuneracao,999.9,1224
+13.2018_01-06_CATS.parquet,valor_remuneracao,99999.99,621
+13.2018_01-06_CATS.parquet,valor_remuneracao,9,446
+13.2018_01-06_CATS.parquet,valor_remuneracao,99999,335
+13.2018_01-06_CATS.parquet,valor_remuneracao,9.99,252
+13.2018_01-06_CATS.parquet,valor_remuneracao,99.99,174
+13.2018_01-06_CATS.parquet,valor_remuneracao,99999.9,82
+13.2018_01-06_CATS.parquet,valor_remuneracao,999999,74
+13.2018_01-06_CATS.parquet,valor_remuneracao,9.9,48
+13.2018_01-06_CATS.parquet,valor_remuneracao,99.9,18
+13.2018_01-06_CATS.parquet,valor_remuneracao,9999999,15
+13.2018_01-06_CATS.parquet,valor_remuneracao,99,12
+13.2018_01-06_CATS.parquet,valor_remuneracao,99999999,1
+14.2018_07-12_CATS.parquet,valor_remuneracao,,244041
