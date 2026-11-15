@@ -59,3 +59,13 @@ ano_competencia,derivada,,INTEGER,Ano da competência de emissão da CAT.,,,,,,F
 idade,derivada,,INTEGER,Idade em anos completos na data do acidente; NULL fora de 14-90.,,,fora de 14-90 -> NULL,,,False
 salario_minimo,derivada,,DOUBLE,Salário mínimo vigente no ano da competência (ver regras_limpeza.yaml).,,,,,,False
 remuneracao_sm,derivada,,DOUBLE,valor_remuneracao dividido pelo salário mínimo do ano. NULL no arquivo 14.,,,,,,False
+ano_acidente,derivada,,INTEGER,Ano de data_acidente. Em tipo_acidente = DOENCA é o ano do diagnóstico.,,,,,,False
+mes_acidente,derivada,,INTEGER,Mês (1-12) de data_acidente.,,,,,,False
+dia_semana_acidente,derivada,,INTEGER,"Dia da semana de data_acidente, ISO 8601 (1 = segunda ... 7 = domingo).",,,,,,False
+atraso_cat_dias,derivada,,INTEGER,Dias entre data_acidente e data_emissao_cat. Só para tipo_cat = 1; NULL em reabertura e comunicação de óbito.,,,,,,False
+faixa_atraso_cat,derivada,,VARCHAR,Faixa de atraso: 0 | 1 | 2-7 | 8-30 | 31+; NAO_APLICAVEL para tipo_cat diferente de 1.,,,,,,False
+faixa_etaria,derivada,,VARCHAR,Faixa de idade: 14-17 | 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+; DESCONHECIDA se idade é NULL.,,,,,,False
+regiao,derivada,,VARCHAR,Região do Brasil (IBGE) a partir de uf_segurado; NAO_INFORMADO se a UF não é uma das 27.,,,,,,False
+emitente_empregador,derivada,,BOOLEAN,TRUE se emitente_cat = EMPREGADOR; NULL se NAO_INFORMADO.,,,,,,False
+houve_obito,derivada,,BOOLEAN,"DESFECHO (candidato a alvo, nunca preditor): indica_obito_acidente OU indica_obito OU data_obito_segurado preenchida OU tipo_cat = 3.",,,,,,False
+houve_afastamento,derivada,,BOOLEAN,"DESFECHO (candidato a alvo, nunca preditor): indica_afastamento OU data_afastamento preenchida.",,,,,,False
