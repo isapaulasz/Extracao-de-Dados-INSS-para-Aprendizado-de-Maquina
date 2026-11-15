@@ -102,7 +102,7 @@ Executada por `scripts/cat_06_limpeza.py` (regras em `configs/cat/regras_limpeza
 |---|---|---|---|
 | 1 | Linhas-lixo | Remover as linhas de cabeçalho/total da exportação (`data_acidente` fora de AAAA-MM-DD). | Não são registros. |
 | 2 | Texto | trim, colapso de espaços, remoção de acentos, maiúsculas (em todas as colunas). | Evita níveis duplicados ("Não"/"Nao", "Motocicleta"/"MOTOCICLETA"). |
-| 3 | Nulos disfarçados | Lista em `nulos_disfarcados` (inclui IGNORADO, NAO INFORMADO, NAO CLASSIFICADO, 9999, 000000, `{ñ class}`, `00/00/0000`) vira NULL. | "Ignorado" e "não informado" equivalem a ausência de informação. |
+| 3 | Nulos disfarçados | Lista em `nulos_disfarcados` (inclui IGNORADO, NAO INFORMADO, NAO CLASSIFICADO, 9999, 000000, `{ñ class}`, `00/00/0000`, `ZERADO`) vira NULL. `ZERADO` aparece só em `uf_segurado` (70.049 linhas, nos 14 arquivos, sem concentração em nenhum) e é o 28º nível dessa coluna. | "Ignorado" e "não informado" equivalem a ausência de informação. |
 | 4 | Valores fora da regra | CBO `0`, CNAE com 1-2 dígitos, CID fora de `^[A-Z][0-9]{2,3}$`, idade fora de 14-90, remuneração fora de R$ 100-100.000 viram NULL, sem remover a linha. | Preserva a linha e evita valores impossíveis. |
 | 5 | Zeros à esquerda | CBO 5 -> 6 dígitos; CNAE 3 -> 4 dígitos. | Perda de zero na conversão da origem. |
 | 6 | Escopo por tipo de CAT | **Manter os três tipos** (1, 2 e 3) e usar `tipo_cat` como variável. Reversível: `escopo.tipo_cat_manter: [1]` faz "um acidente = uma linha". | Reaberturas e comunicações de óbito somam 0,6% das linhas; a decisão final fica para a Fase 6 e é um parâmetro, não código. |
@@ -116,3 +116,61 @@ Executada por `scripts/cat_06_limpeza.py` (regras em `configs/cat/regras_limpeza
 | 14 | Colunas só do arquivo 14 | `numero_cat` e `razao_social` ficam no limpo, mas fora das visões A e B. | Existem em 1 de 14 arquivos. |
 
 Rastreabilidade: `docs/qualidade/cat_atrito.csv` registra, por etapa, as linhas removidas e os valores alterados, e fecha com a saída (`entrada - removidas = linhas finais`, verificado em código). Detalhes por coluna: `cat_valores_anulados.csv`, `cat_nao_informado.csv`, `cat_categorias_raras.csv`. Verificação do arquivo final: `cat_verificacao_limpo.csv`.
+
+## Fase 4: Engenharia de atributos (CAT)
+**Situação:** concluída. `houve_obito` e `houve_afastamento` foram validados por crosstab nos dados reais (seções abaixo).
+
+Executada por `scripts/cat_08_features.py` (regras em `configs/cat/features.yaml`). Lê `cat_limpo.parquet` e grava **`cat_features.parquet`** em `data/cat/processed/`; o arquivo da Fase 3 nunca é sobrescrito. A etapa só acrescenta colunas (nenhuma linha é removida; o número de linhas é conferido em código) e é idempotente. Resumo de nulos por feature: `docs/qualidade/cat_features_resumo.csv`; UFs sem região: `cat_features_uf_sem_regiao.csv`.
+
+| # | Feature | Decisão | Justificativa |
+|---|---|---|---|
+| 1 | `ano_acidente`, `mes_acidente`, `dia_semana_acidente` | Derivadas de `data_acidente`. Dia da semana em ISO 8601 (1 = segunda ... 7 = domingo). | `ano_competencia` é o ano da emissão, não do acidente. Em `tipo_acidente = DOENCA` a data é a do diagnóstico, então mês e dia da semana têm outro significado (limitação a citar no artigo). |
+| 2 | `atraso_cat_dias`, `faixa_atraso_cat` | Dias entre `data_acidente` e `data_emissao_cat`, **apenas para `tipo_cat = 1`**; NULL (e `NAO_APLICAVEL` na faixa) para reabertura e comunicação de óbito. Faixas: 0, 1, 2-7, 8-30, 31+. | Em reabertura a data do acidente é a original e a emissão é posterior por natureza; em comunicação de óbito a emissão decorre do óbito. O atraso mediria outra coisa. A limpeza já garante atraso >= 0. |
+| 3 | `faixa_etaria` | 14-17, 18-24, 25-34, 35-44, 45-54, 55-64, 65+; `DESCONHECIDA` se a idade é NULL. | Decisão #10 da Fase 3 (idade nunca imputada na limpeza). |
+| 4 | `regiao` | Região IBGE a partir de **`uf_segurado`** (decisão do autor). UF fora das 27 (incl. `NAO_INFORMADO`) vira `NAO_INFORMADO`. | `uf_segurado` não tem vazios no bruto, ao contrário de `uf_acidente` (29,4%). Depois de tratar o `ZERADO` na limpeza, as 70.049 linhas sem UF são as únicas com região `NAO_INFORMADO`: as outras 27 UFs foram todas mapeadas. Atenção: é a UF de residência, não a do acidente; o artigo deve dizer isso. |
+| 5 | Setor e ocupação | Já derivados na Fase 3: `cnae_secao`, `cnae_divisao`, `cbo_grande_grupo`, `cbo_subgrupo`. | Nada a refazer. |
+| 6 | Porte da empresa | **Não derivado.** | A CNAE informa atividade, não tamanho, e a base não traz número de empregados. Contar CATs por `cnpj_raiz` mediria volume de CATs, não porte, e teria de ser calculado só no treino; fica fora. |
+| 7 | `emitente_empregador` | TRUE se `emitente_cat = EMPREGADOR` (98,3% dos casos); NULL se `NAO_INFORMADO`. | Binário útil, mesmo com baixa variância. |
+| 8 | `houve_obito`, `houve_afastamento` | Desfechos derivados: óbito = `indica_obito_acidente` OU `indica_obito` OU `data_obito_segurado` OU `tipo_cat = 3`; afastamento = `indica_afastamento` OU `data_afastamento`. **Candidatos a alvo, nunca preditores.** | Unem os indicadores redundantes. Ambos validados por crosstab nos dados reais (seções abaixo). As descrições das `indica_*` ainda não foram conferidas contra a documentação do INSS (`validado = False`). |
+
+### Validação de `houve_obito` (crosstab em `cat_limpo.parquet`)
+| indica_obito | indica_obito_acidente | indica_acidente | tipo_cat | data de óbito | linhas |
+|---|---|---|---|---|---|
+| não | não | não | 1 | não | 3.394.460 |
+| não | não | não | 2 | não | 18.913 |
+| não | sim | sim | 1 | sim | 13.995 |
+| sim | sim | sim | 3 | sim | 2.197 |
+| sim | sim | sim | 3 | não | 25 |
+| não | não | sim | 1 | sim | 15 |
+
+- `indica_obito` coincide exatamente com `tipo_cat = 3` (2.222 linhas): são a mesma informação, e ambas ficam proibidas como preditoras do óbito.
+- `indica_obito_acidente` e `indica_acidente` diferem em apenas 15 linhas.
+- A data de óbito acompanha os indicadores, com 40 exceções (25 do tipo 3 sem data; 15 com data mas sem `indica_obito_acidente`), 0,25% dos positivos. A união dos sinais em `houve_obito` cobre os dois casos.
+- `houve_obito` tem **16.232 positivos (0,47%)**. O desbalanceamento exige split estratificado, pesos de classe ou reamostragem só no treino, e métricas como PR-AUC, recall e F1 da classe positiva.
+- O `tipo_cat` define o óbito quase por completo: o tipo 3 é 100% positivo, o tipo 2 tem 0 óbitos e só o tipo 1 varia (14.010 óbitos em cerca de 3,41 milhões). Como `atraso_cat_dias` e `faixa_atraso_cat` são NULL / `NAO_APLICAVEL` nos tipos 2 e 3, também denunciam o tipo e estão no mapa de vazamento do óbito.
+- **Recomendação para a Fase 6 (decisão ainda aberta):** restringir a modelagem do óbito a `tipo_cat = 1`, para que o alvo meça o desfecho do acidente e não o tipo de comunicação. O recorte deve ser citado no artigo.
+
+### Validação de `houve_afastamento` (crosstab em `cat_limpo.parquet`)
+Total de 3.429.605 linhas, consistente com o crosstab do óbito.
+
+| indica_afastamento | data de afastamento | linhas |
+|---|---|---|
+| sim | sim | 2.735.594 |
+| não | não | 693.967 |
+| não | sim | 40 |
+| sim | não | 4 |
+
+- Os dois sinais coincidem em 99,998% das linhas; só 44 divergem. A união em `houve_afastamento` cobre os dois casos e dá **2.735.638 positivos (79,77%)**, sem desbalanceamento forte.
+- **Todas as 16.232 linhas de óbito têm afastamento.** Os indicadores de óbito (`indica_obito`, `indica_obito_acidente`, `indica_acidente`) e `data_obito_segurado` são, portanto, consequência do mesmo evento e foram acrescentados ao mapa de vazamento do afastamento.
+- **`tipo_cat` também denuncia o afastamento:** o tipo 3 é 100% positivo, o tipo 2 tem 99,93% (18.899 de 18.913) e o tipo 1 tem 79,6% (2.714.517 de 3.408.470). Como no óbito, `tipo_cat`, `atraso_cat_dias` e `faixa_atraso_cat` entram na lista de proibidas. Restringir a `tipo_cat = 1` também vale para este alvo (recomendação para a Fase 6, decisão aberta).
+
+### Mapa de vazamento (data leakage)
+Fica em `configs/cat/features.yaml` (`vazamento`) e é lido por `colunas_proibidas(alvo)` em `cat/features.py`; a Fase 6 (`visoes.py`) deve usá-lo para descartar colunas.
+
+| Alvo | Colunas proibidas como preditor (além das de `sempre`) |
+|---|---|
+| `obito` | `indica_obito`, `indica_obito_acidente`, `indica_acidente`, `tipo_cat`, `tipo_cat_cod`, `data_obito_segurado`, `especie_beneficio`, `especie_codigo`, `data_despacho`, `atraso_cat_dias`, `faixa_atraso_cat` |
+| `afastamento` | `indica_afastamento`, `data_afastamento`, `especie_beneficio`, `especie_codigo`, `data_despacho`, `indica_obito`, `indica_obito_acidente`, `indica_acidente`, `data_obito_segurado`, `tipo_cat`, `tipo_cat_cod`, `atraso_cat_dias`, `faixa_atraso_cat` |
+| `beneficio` | `especie_codigo`, `data_despacho`, `indica_afastamento`, `data_afastamento`, `ano_competencia`, `ano_acidente` |
+
+`sempre`: `arquivo_origem`, `ano_arquivo`, `semestre_arquivo` (o % de CATs com benefício cai de 23% para 2,4% entre arquivos, provavelmente por data de extração), `numero_cat`, `razao_social`, `local_acidente`, `cnpj_empregador`, `cnpj_raiz` (identificadores ou alta cardinalidade) e os desfechos `houve_*`. A lista é uma proposta inicial: revise-a quando o alvo for escolhido (Fase 6).

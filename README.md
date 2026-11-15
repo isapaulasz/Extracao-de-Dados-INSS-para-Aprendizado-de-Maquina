@@ -9,7 +9,8 @@ Estratégia: construir um único dataset limpo e auditado (base CAT) e derivar d
 | 0-1 | Ambiente, ingestão e consolidação | concluída |
 | 2 | Auditoria de qualidade | concluída |
 | 3 | Limpeza e tabela de atrito | concluída |
-| 4-6 | Features, visões A e B | pendente |
+| 4 | Engenharia de atributos (`cat_features.parquet`) | concluída |
+| 5-6 | Visões A e B | pendente |
 | 7+ | Apriori, clusterização, predição e XAI | pendente |
 
 A base de Benefícios Concedidos seguirá a mesma estrutura em etapa posterior.
@@ -34,6 +35,8 @@ make test               # testes unitários e de ponta a ponta (dados sintético
 make cat-ingestao       # Fase 1: consolida os 14 parquets
 make cat-dicionario     # esqueleto do dicionário
 make cat-fase2-3        # Fase 2 (auditoria), Fase 3 (limpeza) e verificação
+make cat-features       # Fase 4: engenharia de atributos (exige a limpeza já rodada)
+make cat-fase3-4        # limpeza, verificação e features em sequência
 python scripts/cat_02_dicionario.py --montar   # dicionário completo (exige a auditoria já rodada)
 ```
 
@@ -46,6 +49,7 @@ python scripts/cat_02_dicionario.py --montar   # dicionário completo (exige a a
 | `cat_05_auditoria.py` | 2 | `docs/qualidade/cat_auditoria.md` e tabelas |
 | `cat_06_limpeza.py` | 3 | `data/cat/processed/cat_limpo.parquet`, `cat_atrito.csv` |
 | `cat_07_verificacao.py` | 3 | `docs/qualidade/cat_verificacao_limpo.csv` |
+| `cat_08_features.py` | 4 | `data/cat/processed/cat_features.parquet`, `docs/qualidade/cat_features_resumo.csv` |
 
 ## Estrutura do repositório
 - `configs/`: parâmetros e regras em YAML (limpeza, schema, dicionário).
