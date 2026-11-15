@@ -62,3 +62,14 @@ ano_competencia:        {tipo: INTEGER, derivada: true, descricao: "Ano da compe
 idade:                  {tipo: INTEGER, derivada: true, descricao: "Idade em anos completos na data do acidente; NULL fora de 14-90."}
 salario_minimo:         {tipo: DOUBLE,  derivada: true, descricao: "Salário mínimo vigente no ano da competência (ver regras_limpeza.yaml)."}
 remuneracao_sm:         {tipo: DOUBLE,  derivada: true, descricao: "valor_remuneracao dividido pelo salário mínimo do ano. NULL no arquivo 14."}
+# --- Fase 4 (cat_features.parquet) ---
+ano_acidente:           {tipo: INTEGER, derivada: true, descricao: "Ano de data_acidente. Em tipo_acidente = DOENCA é o ano do diagnóstico."}
+mes_acidente:           {tipo: INTEGER, derivada: true, descricao: "Mês (1-12) de data_acidente."}
+dia_semana_acidente:    {tipo: INTEGER, derivada: true, descricao: "Dia da semana de data_acidente, ISO 8601 (1 = segunda ... 7 = domingo)."}
+atraso_cat_dias:        {tipo: INTEGER, derivada: true, descricao: "Dias entre data_acidente e data_emissao_cat. Só para tipo_cat = 1; NULL em reabertura e comunicação de óbito."}
+faixa_atraso_cat:       {tipo: VARCHAR, derivada: true, descricao: "Faixa de atraso: 0 | 1 | 2-7 | 8-30 | 31+; NAO_APLICAVEL para tipo_cat diferente de 1."}
+faixa_etaria:           {tipo: VARCHAR, derivada: true, descricao: "Faixa de idade: 14-17 | 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+; DESCONHECIDA se idade é NULL."}
+regiao:                 {tipo: VARCHAR, derivada: true, descricao: "Região do Brasil (IBGE) a partir de uf_segurado; NAO_INFORMADO se a UF não é uma das 27."}
+emitente_empregador:    {tipo: BOOLEAN, derivada: true, descricao: "TRUE se emitente_cat = EMPREGADOR; NULL se NAO_INFORMADO."}
+houve_obito:            {tipo: BOOLEAN, derivada: true, descricao: "DESFECHO (candidato a alvo, nunca preditor): indica_obito_acidente OU indica_obito OU data_obito_segurado preenchida OU tipo_cat = 3."}
+houve_afastamento:      {tipo: BOOLEAN, derivada: true, descricao: "DESFECHO (candidato a alvo, nunca preditor): indica_afastamento OU data_afastamento preenchida."}

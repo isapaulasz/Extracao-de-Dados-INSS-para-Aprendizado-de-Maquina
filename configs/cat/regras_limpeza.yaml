@@ -2,7 +2,7 @@
 # Itens novos em relação à versão anterior: IGNORADO, NAO INFORMADO, NAO CLASSIFICADO, 9999, 000000.
 # Confira em cat_top_valores_categoricas.csv se algum deles é valor legítimo em alguma coluna.
 nulos_disfarcados: ["", "{ñ class}", "-", "None", "none", "nan", "NaN", "NULL", "00/00/0000",
-                    "Ignorado", "Não informado", "Nao informado", "Não classificado", "9999", "000000"]
+                    "Ignorado", "Não informado", "Nao informado", "Não classificado", "9999", "000000", "Zerado"]
 
 colunas_descartadas: [cbo_2, cid_10_2, cnae_empregador_2]
 
