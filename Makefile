@@ -11,6 +11,9 @@ cat-limpeza:
 cat-verificacao:
 	python scripts/cat_07_verificacao.py
 cat-fase2-3: cat-auditoria cat-limpeza cat-verificacao
+cat-features:
+	python scripts/cat_08_features.py
+cat-fase3-4: cat-limpeza cat-verificacao cat-features
 test:
 	pytest -q
 cat-relatorio:
