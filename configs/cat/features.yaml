@@ -1,0 +1,64 @@
+# Fase 4: engenharia de atributos. Entrada: cat_limpo.parquet. Saída: cat_features.parquet
+# (arquivo separado; o cat_limpo.parquet da Fase 3 nunca é sobrescrito).
+
+arquivos:
+  entrada: cat_limpo.parquet
+  saida: cat_features.parquet
+
+# Dia da semana segue ISO 8601: 1 = segunda ... 7 = domingo.
+
+# Região (IBGE) a partir de uf_segurado (decisão do autor). Nomes já normalizados (sem acento,
+# maiúsculas), como saem da limpeza; as siglas entram por segurança. UF fora da lista, incluindo
+# NAO_INFORMADO, vira região NAO_INFORMADO e é contada no resumo.
+regiao_uf_coluna: uf_segurado
+regioes:
+  NORTE: [ACRE, AC, AMAPA, AP, AMAZONAS, AM, PARA, PA, RONDONIA, RO, RORAIMA, RR, TOCANTINS, TO]
+  NORDESTE: [ALAGOAS, AL, BAHIA, BA, CEARA, CE, MARANHAO, MA, PARAIBA, PB, PERNAMBUCO, PE,
+             PIAUI, PI, "RIO GRANDE DO NORTE", RN, SERGIPE, SE]
+  CENTRO-OESTE: [GOIAS, GO, "MATO GROSSO", MT, "MATO GROSSO DO SUL", MS, "DISTRITO FEDERAL", DF]
+  SUDESTE: [ESPIRITO SANTO, ES, "MINAS GERAIS", MG, "RIO DE JANEIRO", RJ, "SAO PAULO", SP]
+  SUL: [PARANA, PR, "RIO GRANDE DO SUL", RS, "SANTA CATARINA", SC]
+
+# Faixa etária: [limite superior inclusivo, rótulo]. null = sem limite. idade NULL -> DESCONHECIDA.
+faixas_etarias:
+  - [17, "14-17"]
+  - [24, "18-24"]
+  - [34, "25-34"]
+  - [44, "35-44"]
+  - [54, "45-54"]
+  - [64, "55-64"]
+  - [null, "65+"]
+
+# Atraso de comunicação (dias entre acidente e emissão da CAT). Calculado só para tipo_cat = 1
+# (CAT inicial). Em reabertura e comunicação de óbito a data do acidente é a original e a emissão
+# é posterior por natureza, então o "atraso" mediria outra coisa: NULL / NAO_APLICAVEL.
+atraso:
+  tipo_cat_cod: 1
+  faixas:                 # [limite superior inclusivo, rótulo]
+    - [0, "0"]
+    - [1, "1"]
+    - [7, "2-7"]
+    - [30, "8-30"]
+    - [null, "31+"]
+
+# Mapa de vazamento (data leakage): colunas que NÃO podem ser preditoras para cada alvo.
+# `sempre` vale para todos os alvos. Metadados de arquivo entram porque a proporção de CATs com
+# benefício varia de 23% a 2,4% entre arquivos (provável data de extração), o que cria um
+# preditor espúrio. As colunas houve_* são desfechos derivados, nunca preditores.
+vazamento:
+  sempre: [arquivo_origem, ano_arquivo, semestre_arquivo, numero_cat, razao_social,
+           local_acidente, cnpj_empregador, cnpj_raiz, houve_obito, houve_afastamento]
+  obito:
+    alvo: houve_obito
+    proibidas: [indica_obito, indica_obito_acidente, indica_acidente, tipo_cat, tipo_cat_cod,
+                data_obito_segurado, especie_beneficio, especie_codigo, data_despacho,
+                atraso_cat_dias, faixa_atraso_cat]
+  afastamento:
+    alvo: houve_afastamento
+    proibidas: [indica_afastamento, data_afastamento, especie_beneficio, especie_codigo,
+                data_despacho, indica_obito, indica_obito_acidente, indica_acidente,
+                data_obito_segurado, tipo_cat, tipo_cat_cod, atraso_cat_dias, faixa_atraso_cat]
+  beneficio:
+    alvo: especie_beneficio
+    proibidas: [especie_codigo, data_despacho, indica_afastamento, data_afastamento,
+                ano_competencia, ano_acidente]
