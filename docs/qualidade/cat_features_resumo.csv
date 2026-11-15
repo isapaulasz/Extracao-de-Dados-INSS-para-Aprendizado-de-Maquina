@@ -1,0 +1,11 @@
+﻿feature,n_nulos,pct_nulos,n_distintos
+ano_acidente,0,0.0,7
+mes_acidente,0,0.0,12
+dia_semana_acidente,0,0.0,7
+atraso_cat_dias,21135,0.616,355
+faixa_atraso_cat,0,0.0,6
+faixa_etaria,0,0.0,8
+regiao,0,0.0,6
+emitente_empregador,16,0.0,2
+houve_obito,0,0.0,2
+houve_afastamento,0,0.0,2
