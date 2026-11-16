@@ -57,6 +57,9 @@ class ConfigEDA:
     formatos: list[str] = field(default_factory=lambda: ["png"])
     dpi: int = 150
     bivariada: dict = field(default_factory=dict)   # seção `bivariada:` do YAML (ver eda_bivariada.py)
+    mi: dict = field(default_factory=dict)          # seção `mi:` (ver eda_informacao_mutua.py)
+    temporal: dict = field(default_factory=dict)    # seção `temporal:` (ver eda_temporal.py)
+    territorial: dict = field(default_factory=dict)  # seção `territorial:` (ver eda_territorial.py)
 
     @classmethod
     def from_yaml(cls, caminho: str | Path, raiz: str | Path = ".") -> "ConfigEDA":
@@ -83,6 +86,9 @@ class ConfigEDA:
             if col.get(k) is not None:
                 kw[k] = col[k]
         kw["bivariada"] = d.get("bivariada") or {}
+        kw["mi"] = d.get("mi") or {}
+        kw["temporal"] = d.get("temporal") or {}
+        kw["territorial"] = d.get("territorial") or {}
         for k in ("limiar_cat_numerica", "top_n_pareto", "limiar_pareto", "alta_cardinalidade",
                   "limiar_dominancia", "limiar_nulos", "max_linhas_csv", "recortar_percentil"):
             if k in uni:

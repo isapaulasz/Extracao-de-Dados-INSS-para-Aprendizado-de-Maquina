@@ -1,70 +1,110 @@
-# EDA (Fase 5) — base CAT (uso final: predição + XAI)
-# Ajuste os nomes das colunas conforme o dataset PÓS-limpeza/features (cat_limpo.parquet).
-# Colunas não listadas são classificadas automaticamente (ver --so-tipos no script).
+# EDA (Fase 5) — base BC (Benefícios Concedidos). Uso final: Apriori/FP-Growth + clusterização
+# (decisão de 15/11/2026, docs/decisoes_bc_fases1_3.md). NÃO é base de predição.
+#
+# CORREÇÃO: este arquivo era cópia do configs/cat/eda.yaml (candidatos a alvo, `excluir` e
+# `discretizar` do CAT, colunas que não existem no BC). Foi reescrito com as colunas reais do BC.
+#
+# Entrada: bc_features.parquet (e não bc_limpo.parquet), porque a Fase 4 do BC cria grupo_especie,
+# faixa_etaria, regiao, faixa_rmi, faixa_atraso_concessao e faixa_duracao_beneficio, que são as
+# variáveis discretas que o Apriori vai usar.
 base: beneficios
-entrada: data/beneficios/processed/bc_limpo.parquet        # AJUSTAR se o nome for outro
+entrada: data/beneficios/processed/bc_features.parquet
 
 saidas:
   figuras: reports/beneficios/figures/eda/univariada
   tabelas: reports/beneficios/tables/eda/univariada
 
 colunas:
-  # Listas explícitas sobrescrevem a detecção automática. Deixe [] para tudo automático.
-  categoricas: []        # ex.: [sexo, tipo_acidente, indica_obito, uf_acidente, cid10_capitulo]
-  numericas: []          # ex.: [idade]
-  datas: []              # ex.: [data_acidente, data_emissao_cat]
-  # Candidatos a alvo (predição + XAI). Os três últimos são multiclasse; tem_data_despacho é derivado
-  # (ver bivariada.indicadores_presenca) e depende de confirmar o que "despacho" significa no dicionário.
+  categoricas: []
+  numericas: []
+  datas: []
+  # Sem desfecho natural no BC. "Candidatos a alvo" aqui são as variáveis que interessam como
+  # CONSEQUENTE de regras (Apriori) e como perfil dos clusters. [CONFIRMAR com a autora]
   candidatos_alvo:
-    - indica_obito_acidente
-    - indica_obito
-    - indica_afastamento
-    - tipo_acidente
-    - natureza_lesao_agrup
-    - parte_corpo_atingida_agrup
-    - tem_data_despacho
-  # Fora de toda a EDA: proveniência do arquivo, texto livre e identificadores
-  excluir: [arquivo_origem, ano_arquivo, semestre_arquivo, local_acidente, razao_social,
-            numero_cat, cnpj_empregador, cnpj_raiz]
-  padroes_excluir: ['^id($|_)']   # regex (case-insensitive) de colunas a excluir
-  padroes_data: ['^data_']        # convertidas para datetime (aceita ISO, dd/mm/aaaa, aaaammdd)
-  padroes_periodo: ['^competencia_']   # inteiros AAAAMM -> datetime (1º dia do mês)
+    - grupo_especie
+    - faixa_rmi
+    - faixa_duracao_beneficio
+  excluir: [arquivo_origem, ano_arquivo, municipio_residencia_cod]
+  padroes_excluir: ['^id($|_)']
+  padroes_data: ['^data_']
+  padroes_periodo: ['^competencia_']
 
 univariada:
-  limiar_cat_numerica: 15     # numérica com <= 15 valores distintos é tratada como categórica
-  top_n_pareto: 20            # barras individuais no Pareto (resto vira "Outras")
-  limiar_pareto: 0.80         # linha de corte do Pareto
-  alta_cardinalidade: 50      # acima disso: sinaliza para agrupar (CID/CBO/CNAE, município)
-  limiar_dominancia: 0.95     # categoria modal >= 95%: variável quase constante
-  limiar_nulos: 0.30          # >= 30% ausentes: sinaliza
-  max_linhas_csv: 1000        # linhas gravadas por tabela de frequência
-  recortar_percentil: 99.5    # recorte visual dos histogramas (null = sem recorte)
+  limiar_cat_numerica: 15
+  top_n_pareto: 20
+  limiar_pareto: 0.80
+  alta_cardinalidade: 50
+  limiar_dominancia: 0.95
+  limiar_nulos: 0.30
+  max_linhas_csv: 1000
+  recortar_percentil: 99.5
 
 graficos:
-  formatos: [png]             # [png, pdf] para versão vetorial no artigo
+  formatos: [png]
   dpi: 150
 
 # ---------------------------------------------------------------------------
 # Bivariada (qui-quadrado + V de Cramér corrigido)
 # ---------------------------------------------------------------------------
 bivariada:
-  max_niveis: 250             # variável com mais níveis (após agrupar raros) não entra
-  min_pct_nivel: 0.0005       # níveis com < 0,05% das linhas válidas viram "Outras"
-  limiar_redundancia: 0.90    # V >= 0,90: variável derivada de outra ou possível vazamento
+  max_niveis: 250
+  min_pct_nivel: 0.0005
+  limiar_redundancia: 0.90
   top_n_alvo: 15
-  # Usa-se a versão agrupada (_agrup) de cada hierarquia; as originais e níveis intermediários
-  # ficam de fora para a matriz não ser dominada por pares V~1 por construção.
-  excluir: [cid_10, cid_categoria, agente_causador, cbo, cnae_empregador, municipio_empresa_cod,
-            municipio_segurado_cod, natureza_lesao, parte_corpo_atingida, situacao_geradora,
-            tipo_cat_cod, salario_minimo, cbo_subgrupo, cnae_divisao]
-  discretizar:                # faixas fixas [a, b); gera <coluna>_faixa
-    idade:
-      bordas: [18, 30, 40, 50, 60]
-      rotulos: ["<18", "18-29", "30-39", "40-49", "50-59", "60+"]
-    remuneracao_sm:
-      bordas: [1, 2, 3, 5, 10]
-      rotulos: ["<1 SM", "1 a <2 SM", "2 a <3 SM", "3 a <5 SM", "5 a <10 SM", ">=10 SM"]
-  indicadores_presenca:       # novo_nome: coluna_de_data -> "sim" se a data existe
-    tem_data_despacho: data_despacho
-    tem_data_afastamento: data_afastamento
-    tem_data_obito_segurado: data_obito_segurado
+  # Segue a tabela de redundância de docs/decisoes_bc_fase4.md: fica uma versão de cada grupo.
+  # Fora da matriz: versões brutas/intermediárias das hierarquias e colunas que repetem outra.
+  excluir: [cid_10, cid_categoria, despacho, especie, municipio_residencia_cod,
+            ano_dib, mes_dib, tem_data_cessacao, rmi_abaixo_piso]
+  # Sem `discretizar`: a Fase 4 já entrega faixa_etaria e faixa_rmi. idade, qt_sm_rmi,
+  # atraso_concessao_dias e duracao_beneficio_dias aparecem como "numerica_sem_discretizacao" e
+  # ficam para a clusterização (K-Prototypes), que aceita numéricas.
+  discretizar: {}
+  indicadores_presenca: {}
+
+# ---------------------------------------------------------------------------
+# Informação mútua vs candidatos a alvo (+ desbalanceamento)
+# ---------------------------------------------------------------------------
+mi:
+  top_n: 15
+  limiar_determinismo: 0.90
+  limiar_irrelevante: 0.001
+  # alvo da EDA -> chave em configs/beneficios/features.yaml (vazamento). No BC o mapa é só
+  # REGISTRO de redundância (decisões da Fase 4): aqui marca o que geraria regra trivial.
+  alvos_vazamento:
+    grupo_especie: especie
+    faixa_rmi: rmi
+    faixa_duracao_beneficio: duracao
+  recortes: []
+
+# ---------------------------------------------------------------------------
+# Séries temporais
+# ---------------------------------------------------------------------------
+temporal:
+  inicio: "2012-01"
+  fim: "2018-12"
+  # competencia_concessao = mês da DDB em 100% das linhas (auditoria). data_dib é a data de início
+  # do benefício e pode ser bem anterior (efeito retroativo): vai aparecer em n_antes_inicio.
+  colunas_data: [competencia_concessao, data_dib]
+  eixo_categorias: competencia_concessao
+  series_categoria: [grupo_especie, faixa_etaria]
+  top_n_categorias: 6
+  eixo_taxas: competencia_concessao
+  taxas_alvo:
+    - {coluna: grupo_especie, positiva: PENSAO_POR_MORTE}
+    - {coluna: grupo_especie, positiva: AUXILIO_ACIDENTE}
+    - {coluna: rmi_abaixo_piso, positiva: true}
+    - {coluna: tem_data_cessacao, positiva: true}
+  controle_arquivo: arquivo_origem
+  suavizacao_meses: 12
+
+# ---------------------------------------------------------------------------
+# Ranking por UF / região (UF de residência do beneficiário, não a do acidente)
+# ---------------------------------------------------------------------------
+territorial:
+  coluna_uf: uf
+  coluna_regiao: regiao
+  min_n_taxa: 200
+  taxas_alvo:
+    - {coluna: grupo_especie, positiva: PENSAO_POR_MORTE}
+    - {coluna: grupo_especie, positiva: AUXILIO_ACIDENTE}
+    - {coluna: rmi_abaixo_piso, positiva: true}

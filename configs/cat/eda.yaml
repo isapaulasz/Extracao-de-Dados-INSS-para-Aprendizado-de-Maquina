@@ -1,8 +1,9 @@
 # EDA (Fase 5) — base CAT (uso final: predição + XAI)
-# Ajuste os nomes das colunas conforme o dataset PÓS-limpeza/features (cat_limpo.parquet).
+# Entrada: cat_features.parquet (Fase 4), e não cat_limpo.parquet: os alvos oficiais houve_obito e
+# houve_afastamento, e as features faixa_etaria, regiao, ano_acidente etc., só existem lá.
 # Colunas não listadas são classificadas automaticamente (ver --so-tipos no script).
 base: cat
-entrada: data/cat/processed/cat_limpo.parquet        # AJUSTAR se o nome for outro
+entrada: data/cat/processed/cat_features.parquet
 
 saidas:
   figuras: reports/cat/figures/eda/univariada
@@ -13,16 +14,17 @@ colunas:
   categoricas: []        # ex.: [sexo, tipo_acidente, indica_obito, uf_acidente, cid10_capitulo]
   numericas: []          # ex.: [idade]
   datas: []              # ex.: [data_acidente, data_emissao_cat]
-  # Candidatos a alvo (predição + XAI). Os três últimos são multiclasse; tem_data_despacho é derivado
-  # (ver bivariada.indicadores_presenca) e depende de confirmar o que "despacho" significa no dicionário.
+  # Candidatos a alvo (predição + XAI). houve_obito e houve_afastamento são os desfechos derivados da Fase 4
+  # (uniões validadas por crosstab); os indica_* continuam como VARIÁVEIS e são marcados pelo mapa de
+  # vazamento. tem_data_despacho é derivado (bivariada.indicadores_presenca) e significa "a CAT gerou
+  # benefício do INSS (exceto espécie 99)": confirmado por crosstab com especie_beneficio.
   candidatos_alvo:
-    - indica_obito_acidente
-    - indica_obito
-    - indica_afastamento
+    - houve_obito
+    - houve_afastamento
+    - tem_data_despacho
     - tipo_acidente
     - natureza_lesao_agrup
     - parte_corpo_atingida_agrup
-    - tem_data_despacho
   # Fora de toda a EDA: proveniência do arquivo, texto livre e identificadores
   excluir: [arquivo_origem, ano_arquivo, semestre_arquivo, local_acidente, razao_social,
             numero_cat, cnpj_empregador, cnpj_raiz]
@@ -58,9 +60,7 @@ bivariada:
             municipio_segurado_cod, natureza_lesao, parte_corpo_atingida, situacao_geradora,
             tipo_cat_cod, salario_minimo, cbo_subgrupo, cnae_divisao]
   discretizar:                # faixas fixas [a, b); gera <coluna>_faixa
-    idade:
-      bordas: [18, 30, 40, 50, 60]
-      rotulos: ["<18", "18-29", "30-39", "40-49", "50-59", "60+"]
+    # idade: removida, a Fase 4 já entrega faixa_etaria (manter as duas geraria um par com V ~ 1)
     remuneracao_sm:
       bordas: [1, 2, 3, 5, 10]
       rotulos: ["<1 SM", "1 a <2 SM", "2 a <3 SM", "3 a <5 SM", "5 a <10 SM", ">=10 SM"]
@@ -68,3 +68,60 @@ bivariada:
     tem_data_despacho: data_despacho
     tem_data_afastamento: data_afastamento
     tem_data_obito_segurado: data_obito_segurado
+
+# ---------------------------------------------------------------------------
+# Informação mútua vs candidatos a alvo (+ desbalanceamento)
+# ---------------------------------------------------------------------------
+mi:
+  top_n: 15
+  limiar_determinismo: 0.90
+  limiar_irrelevante: 0.001
+  # alvo da EDA -> chave em configs/cat/features.yaml (vazamento)
+  alvos_vazamento:
+    houve_obito: obito
+    houve_afastamento: afastamento
+    tem_data_despacho: beneficio
+  # PROPOSTAS desta fase (migrar para features.yaml na Fase 6 se confirmadas). ramo_atividade só vem
+  # preenchido quando há benefício (463.125 linhas = as com data_despacho; crosstab de 16/11/2026):
+  # é atributo do benefício, conhecido depois da CAT.
+  proibidas_extra:
+    houve_obito: [ramo_atividade, tem_data_despacho, tem_data_obito_segurado, tem_data_afastamento]
+    houve_afastamento: [ramo_atividade, tem_data_despacho, tem_data_obito_segurado, tem_data_afastamento]
+    tem_data_despacho: [ramo_atividade]
+  # Mesma análise num subconjunto. Recomendação da Fase 4: óbito e afastamento só em tipo_cat = 1.
+  recortes:
+    - {nome: tipo1_obito, alvo: houve_obito, query: "tipo_cat == '1-INICIAL'"}
+    - {nome: tipo1_afastamento, alvo: houve_afastamento, query: "tipo_cat == '1-INICIAL'"}
+
+# ---------------------------------------------------------------------------
+# Séries temporais
+# ---------------------------------------------------------------------------
+temporal:
+  inicio: "2012-01"
+  fim: "2018-12"
+  # data_acidente = ocorrência (em tipo_acidente = DOENCA é a data do diagnóstico); data_emissao_cat =
+  # registro. Acidente anterior a 2012 não foi removido na limpeza: aparece em n_antes_inicio.
+  colunas_data: [data_acidente, data_emissao_cat]
+  eixo_categorias: data_acidente
+  series_categoria: [tipo_acidente, tipo_cat]
+  top_n_categorias: 6
+  eixo_taxas: data_emissao_cat
+  taxas_alvo:
+    - {coluna: houve_obito, positiva: true}
+    - {coluna: houve_afastamento, positiva: true}
+    - {coluna: tem_data_despacho, positiva: sim}
+  # A taxa de benefício varia 23% -> 2,4% entre arquivos (extração): este controle mostra se o que se
+  # vê no tempo é fenômeno ou artefato.
+  controle_arquivo: arquivo_origem
+  suavizacao_meses: 12
+
+# ---------------------------------------------------------------------------
+# Ranking por UF / região (uf_segurado = residência do segurado, não a UF do acidente)
+# ---------------------------------------------------------------------------
+territorial:
+  coluna_uf: uf_segurado
+  coluna_regiao: regiao
+  min_n_taxa: 200
+  taxas_alvo:
+    - {coluna: houve_obito, positiva: true}
+    - {coluna: houve_afastamento, positiva: true}

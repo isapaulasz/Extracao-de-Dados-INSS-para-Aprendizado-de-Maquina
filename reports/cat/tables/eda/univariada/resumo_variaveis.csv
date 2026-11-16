@@ -16,10 +16,10 @@ tipo_local_acidente,categorica,category,3429605,0,0.0,6.0,EMPREGADORA,0.56172241
 uf_acidente,categorica,category,3429605,0,0.0,16.0,MARANHAO,0.37241023383159283,False,False,False,False,
 uf_empregador,categorica,category,3429605,0,0.0,27.0,SAO PAULO,0.3777884042039827,False,False,False,False,
 uf_segurado,categorica,category,3429605,0,0.0,28.0,SAO PAULO,0.36226854112937207,False,False,False,False,
-indica_obito_acidente,categorica,bool,3429605,0,0.0,2.0,False,0.9952714671223071,False,True,False,True,candidato a alvo: classe majoritária 99.53% (ver desbalanceamento)
-indica_afastamento,categorica,bool,3429605,0,0.0,2.0,True,0.7976422940834295,False,False,False,True,candidato a alvo: classe majoritária 79.76% (ver desbalanceamento)
+indica_obito_acidente,categorica,bool,3429605,0,0.0,2.0,False,0.9952714671223071,False,True,False,False,quase constante: pouco informativa
+indica_afastamento,categorica,bool,3429605,0,0.0,2.0,True,0.7976422940834295,False,False,False,False,
 indica_acidente,categorica,bool,3429605,0,0.0,2.0,False,0.9952670934407898,False,True,False,False,quase constante: pouco informativa
-indica_obito,categorica,bool,3429605,0,0.0,2.0,False,0.99935211197791,False,True,False,True,candidato a alvo: classe majoritária 99.94% (ver desbalanceamento)
+indica_obito,categorica,bool,3429605,0,0.0,2.0,False,0.99935211197791,False,True,False,False,quase constante: pouco informativa
 cbo,categorica,category,3429605,0,0.0,2342.0,784205,0.05497513562057438,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
 cnae_empregador,categorica,category,3429605,0,0.0,1379.0,8610,0.10080840213377343,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
 cid_10,categorica,category,3429605,0,0.0,8994.0,S610,0.062603710922978,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
@@ -45,9 +45,19 @@ municipio_segurado_cod_agrup,categorica,category,3429605,0,0.0,185.0,OUTROS,0.35
 natureza_lesao_agrup,categorica,category,3429605,0,0.0,24.0,"CORTE, LACERACAO, FERIDA CONTUSA, PUNCTURA",0.20971015612585123,False,False,False,True,candidato a alvo: classe majoritária 20.97% (ver desbalanceamento)
 parte_corpo_atingida_agrup,categorica,category,3429605,0,0.0,42.0,DEDO,0.2381871964847264,False,False,False,True,candidato a alvo: classe majoritária 23.82% (ver desbalanceamento)
 situacao_geradora_agrup,categorica,category,3429605,0,0.0,45.0,IMPACTO DE PES. CONTRA OBJETO EM MOVIMENTO,0.1081812628568013,False,False,False,False,
+ano_acidente,categorica,int64,3429605,0,0.0,7.0,2013,0.16088004303702613,False,False,False,False,
+mes_acidente,categorica,int64,3429605,0,0.0,12.0,8,0.09509374986332245,False,False,False,False,
+dia_semana_acidente,categorica,int64,3429605,0,0.0,7.0,1,0.1843241422846071,False,False,False,False,
+faixa_etaria,categorica,category,3429605,0,0.0,8.0,25-34,0.3454176209796755,False,False,False,False,
+regiao,categorica,category,3429605,0,0.0,6.0,SUDESTE,0.5588153737821119,False,False,False,False,
+emitente_empregador,categorica,category,3429605,16,4.6652602850765615e-06,2.0,True,0.9830233302007908,False,True,False,False,quase constante: pouco informativa
+houve_obito,categorica,bool,3429605,0,0.0,2.0,False,0.9952670934407898,False,True,False,True,candidato a alvo: classe majoritária 99.53% (ver desbalanceamento)
+houve_afastamento,categorica,bool,3429605,0,0.0,2.0,True,0.7976539572341421,False,False,False,True,candidato a alvo: classe majoritária 79.77% (ver desbalanceamento)
+faixa_atraso_cat,categorica,category,3429605,0,0.0,6.0,2-7,0.34820686347261565,False,False,False,False,
 valor_remuneracao,numerica,float64,3429605,259688,0.07571950705693513,,,,False,False,False,,
 idade,numerica,float64,3429605,430,0.0001253788701614326,,,,False,False,False,,
 remuneracao_sm,numerica,float64,3429605,259688,0.07571950705693513,,,,False,False,False,,
+atraso_cat_dias,numerica,float64,3429605,21135,0.00616251725781832,,,,False,False,False,,
 data_acidente,data,datetime64[us],3429605,0,0.0,,,,,,,,2012-01-01 → 2018-12-31 (análise na etapa temporal)
 data_emissao_cat,data,datetime64[us],3429605,0,0.0,,,,,,,,2012-01-01 → 2018-12-31 (análise na etapa temporal)
 data_nascimento,data,datetime64[us],3429605,146,4.257050010132362e-05,,,,,,,,1901-01-01 → 2016-10-11 (análise na etapa temporal)

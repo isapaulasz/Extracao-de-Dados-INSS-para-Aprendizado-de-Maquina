@@ -8,20 +8,34 @@ forma_filiacao,categorica,category,1935686,0,0.0,6.0,EMPREGADO,0.866669490816175
 uf,categorica,category,1935686,0,0.0,27.0,SAO PAULO,0.29928149503586843,False,False,False,False,
 ramo_atividade,categorica,category,1935686,0,0.0,9.0,COMERCIARIO,0.9423258731013191,False,False,False,False,
 classificador_pa,categorica,category,1935686,0,0.0,3.0,SEM PENSAO ALIMENTICIA,0.9942588828973294,False,True,False,False,quase constante: pouco informativa
-data_nascimento,categorica,category,1935686,2,1.0332254301575772e-06,25120.0,1981-09-17,0.00011778782073933555,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
-data_dcb,categorica,category,1935686,250283,0.12929938016806444,3866.0,2012-09-30,0.004870645181004187,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
-data_ddb,categorica,category,1935686,0,0.0,2245.0,2013-04-18,0.002163574050749967,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
-data_dib,categorica,category,1935686,0,0.0,10177.0,2015-07-16,0.0007811184251991283,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
 acordo_internacional,categorica,bool,1935686,0,0.0,2.0,False,0.9999297406707492,False,True,False,False,quase constante: pouco informativa
 cid_10,categorica,category,1935686,0,0.0,5048.0,NAO_INFORMADO,0.0754776342857261,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
 cid_categoria,categorica,category,1935686,0,0.0,1470.0,S62,0.10358601550044791,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
-municipio_residencia_cod,categorica,category,1935686,0,0.0,5562.0,21504,0.06952935548430893,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
-arquivo_origem,categorica,category,1935686,0,0.0,7.0,02.2013_01-12_BC.parquet,0.17565348925393892,False,False,False,False,
-ano_arquivo,categorica,int32,1935686,0,0.0,7.0,2013,0.17565348925393892,False,False,False,False,
 ano_competencia,categorica,int32,1935686,0,0.0,7.0,2013,0.17565348925393892,False,False,False,False,
 capitulo_cid,categorica,category,1935686,0,0.0,22.0,XIX,0.5976697666873656,False,False,False,False,
 cid_categoria_agrup,categorica,category,1935686,0,0.0,79.0,S62,0.10358601550044791,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
 despacho_agrup,categorica,category,1935686,0,0.0,6.0,CONCESSAO NORMAL,0.9218643932951935,False,False,False,False,
-competencia_concessao,numerica,int32,1935686,0,0.0,,,,False,False,False,,
+mes_dib,categorica,int64,1935686,0,0.0,12.0,8,0.09090368995797872,False,False,False,False,
+dia_semana_dib,categorica,int64,1935686,0,0.0,7.0,3,0.18356334653451026,False,False,False,False,
+mes_competencia,categorica,int32,1935686,0,0.0,12.0,3,0.09572523642780906,False,False,False,False,
+tem_data_cessacao,categorica,bool,1935686,0,0.0,2.0,True,0.8707006198319356,False,False,False,False,
+faixa_etaria,categorica,category,1935686,0,0.0,9.0,25-34,0.2785022984099694,False,False,False,False,
+regiao,categorica,category,1935686,0,0.0,5.0,SUDESTE,0.4741807297257923,False,False,False,False,
+faixa_rmi,categorica,category,1935686,0,0.0,6.0,1-2 SM,0.5492967351109632,False,False,False,True,candidato a alvo: classe majoritária 54.93% (ver desbalanceamento)
+rmi_abaixo_piso,categorica,category,1935686,2,1.0332254301575772e-06,2.0,False,0.9612736376392015,False,True,False,False,quase constante: pouco informativa
+grupo_especie,categorica,category,1935686,0,0.0,5.0,AUXILIO_DOENCA,0.8864660900579949,False,False,False,True,candidato a alvo: classe majoritária 88.65% (ver desbalanceamento)
+faixa_atraso_concessao,categorica,category,1935686,0,0.0,6.0,1-30,0.5102805930300679,False,False,False,False,
+faixa_duracao_beneficio,categorica,category,1935686,0,0.0,6.0,31-90,0.4808894624438054,False,False,False,True,candidato a alvo: classe majoritária 48.09% (ver desbalanceamento)
 qt_sm_rmi,numerica,float64,1935686,2,1.0332254301575772e-06,,,,False,False,False,,
 idade,numerica,float64,1935686,2036,0.0010518234879004136,,,,False,False,False,,
+ano_dib,numerica,int64,1935686,0,0.0,,,,False,False,False,,
+atraso_concessao_dias,numerica,float64,1935686,3,1.5498381452363658e-06,,,,False,False,False,,
+duracao_beneficio_dias,numerica,float64,1935686,250283,0.12929938016806444,,,,False,False,False,,
+data_nascimento,data,datetime64[us],1935686,2,1.0332254301575772e-06,,,,,,,,1913-09-10 → 2018-08-18 (análise na etapa temporal)
+data_dcb,data,datetime64[us],1935686,250283,0.12929938016806444,,,,,,,,1980-03-16 → 2020-12-28 (análise na etapa temporal)
+data_ddb,data,datetime64[us],1935686,0,0.0,,,,,,,,2012-01-02 → 2018-12-31 (análise na etapa temporal)
+data_dib,data,datetime64[us],1935686,0,0.0,,,,,,,,1968-02-28 → 2018-12-31 (análise na etapa temporal)
+competencia_concessao,data,datetime64[us],1935686,0,0.0,,,,,,,,2012-01-01 → 2018-12-01 (análise na etapa temporal)
+municipio_residencia_cod,excluida,category,1935686,0,0.0,,,,,,,,excluída da EDA (identificador / config)
+arquivo_origem,excluida,category,1935686,0,0.0,,,,,,,,excluída da EDA (identificador / config)
+ano_arquivo,excluida,int32,1935686,0,0.0,,,,,,,,excluída da EDA (identificador / config)

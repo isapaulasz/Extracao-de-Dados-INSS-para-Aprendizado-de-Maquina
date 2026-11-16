@@ -1,0 +1,58 @@
+﻿cenario,alvo,variavel,k_x,u_alvo,nmi,v_corrigido,posicao_mi,posicao_v,no_mapa_vazamento,quase_determina_alvo,recomendacao
+completo,grupo_especie,faixa_duracao_beneficio,6,0.6893460012202802,0.33896327779377444,0.46216181293562403,1,1,True,False,excluir: no mapa de vazamento
+completo,grupo_especie,cid_categoria_agrup,79,0.400101832687615,0.08931238443082018,0.3839000585795564,2,2,False,False,candidata
+completo,grupo_especie,capitulo_cid,19,0.3652003350615692,0.18524169661351722,0.3763207485612811,3,4,False,False,candidata
+completo,grupo_especie,faixa_atraso_concessao,6,0.34778741667631996,0.19874466549771672,0.3746808792864206,4,5,False,False,candidata
+completo,grupo_especie,despacho_agrup,6,0.3358830032016616,0.3930636035850273,0.37268431097928983,5,6,False,False,candidata
+completo,grupo_especie,faixa_etaria,9,0.06377094232180026,0.027678504168064177,0.15400076986963682,6,7,False,False,candidata
+completo,grupo_especie,vinculo_dependentes,6,0.05731972954592944,0.0514188961769513,0.37905865616007817,7,3,True,False,excluir: no mapa de vazamento
+completo,grupo_especie,forma_filiacao,5,0.053159798253419224,0.04983382077934341,0.12926744645769553,8,8,False,False,candidata
+completo,grupo_especie,faixa_rmi,6,0.04782755868333784,0.02603191516412575,0.11045145489371824,9,9,True,False,excluir: no mapa de vazamento
+completo,grupo_especie,uf,27,0.03679462469566642,0.010843958907574159,0.0901159666228759,10,11,False,False,candidata
+completo,grupo_especie,dia_semana_dib,7,0.024873792490411377,0.00925995397383777,0.06894605960264635,11,13,False,False,candidata
+completo,grupo_especie,regiao,5,0.013004227344138858,0.006473749299343805,0.05111522287663499,12,15,False,False,candidata
+completo,grupo_especie,classificador_pa,3,0.011360141271070117,0.020979430142589555,0.10431836926615287,13,10,False,False,candidata
+completo,grupo_especie,ramo_atividade,5,0.006946627686907504,0.008986040556381627,0.06334203027408754,14,14,False,False,candidata
+completo,grupo_especie,sexo,2,0.006444109611595013,0.00543205566993974,0.07568814569856451,15,12,False,False,candidata
+completo,grupo_especie,ano_competencia,7,0.004336565025846524,0.0016072797438971347,0.030746476953321264,16,16,False,False,candidata
+completo,grupo_especie,clientela,2,0.0009765041335352167,0.0013261464930577188,0.027125061780377723,17,17,False,False,pouco informativa isoladamente
+completo,grupo_especie,mes_competencia,12,0.0009022992959638534,0.0002715225987297074,0.013962873585172115,18,19,False,False,pouco informativa isoladamente
+completo,grupo_especie,acordo_internacional,2,0.0003278311647579989,0.0006545564083200691,0.023379841220164628,19,18,False,False,pouco informativa isoladamente
+completo,faixa_rmi,forma_filiacao,5,0.07170036052154187,0.10071647911738335,0.21648941924721785,1,2,False,False,candidata
+completo,faixa_rmi,ramo_atividade,5,0.06918249908080461,0.11490366426340114,0.21399064987696473,2,3,False,False,candidata
+completo,faixa_rmi,clientela,2,0.06809716630185766,0.11573877614840328,0.4230585734819366,3,1,False,False,candidata
+completo,faixa_rmi,uf,27,0.03625416070931547,0.02292070009859332,0.13035672343788487,4,5,False,False,candidata
+completo,faixa_rmi,cid_categoria_agrup,79,0.027827058956602285,0.013997256369967957,0.12097303400150118,5,6,False,False,candidata
+completo,faixa_rmi,faixa_etaria,9,0.022389155518302575,0.019062615840047866,0.09872220921804852,6,10,False,False,candidata
+completo,faixa_rmi,capitulo_cid,19,0.020807408118302027,0.01981314086780497,0.10536005392573349,7,9,False,False,candidata
+completo,faixa_rmi,regiao,5,0.019351493281602683,0.01818540668753825,0.10821501354216467,8,8,False,False,candidata
+completo,faixa_rmi,grupo_especie,5,0.017882586706221587,0.026031915164125754,0.11045145489371826,9,7,False,False,candidata
+completo,faixa_rmi,faixa_duracao_beneficio,6,0.011307529547911007,0.010533898631420024,0.07479468109694165,10,11,False,False,candidata
+completo,faixa_rmi,despacho_agrup,6,0.010798216254465604,0.017070762138087586,0.07429936912515571,11,12,False,False,candidata
+completo,faixa_rmi,sexo,2,0.007640446853438777,0.010098264945192255,0.13145334577568307,12,4,False,False,candidata
+completo,faixa_rmi,faixa_atraso_concessao,6,0.0065469320054385135,0.0067679615821986915,0.05684732083714975,13,13,False,False,candidata
+completo,faixa_rmi,vinculo_dependentes,6,0.004241532233972457,0.005811456513919864,0.04592025866767587,14,14,True,False,excluir: no mapa de vazamento
+completo,faixa_rmi,dia_semana_dib,7,0.002683109863037106,0.0020366675983323106,0.03545731495408507,15,16,False,False,candidata
+completo,faixa_rmi,ano_competencia,7,0.0012076901694567763,0.0009136330079205937,0.023677231823291168,16,17,False,False,candidata
+completo,faixa_rmi,classificador_pa,3,0.0007797826149308743,0.0015126348057942106,0.03849523675341037,17,15,False,False,pouco informativa isoladamente
+completo,faixa_rmi,mes_competencia,12,0.00046780856382706994,0.0003007346706528626,0.014789548266540347,18,18,False,False,pouco informativa isoladamente
+completo,faixa_rmi,acordo_internacional,2,6.896398135908752e-06,1.378408849515837e-05,0.00425651527585479,19,19,False,False,pouco informativa isoladamente
+completo,faixa_duracao_beneficio,grupo_especie,5,0.22473456255335914,0.33896327779377444,0.46216181293562403,1,1,False,False,candidata
+completo,faixa_duracao_beneficio,cid_categoria_agrup,79,0.17873315367918777,0.09943648957989074,0.3606431326296811,2,2,False,False,candidata
+completo,faixa_duracao_beneficio,faixa_atraso_concessao,6,0.1591041432892998,0.17532363998974299,0.3448120101542449,3,3,False,False,candidata
+completo,faixa_duracao_beneficio,capitulo_cid,19,0.13017293125608792,0.13286760326759414,0.3232913005795368,4,4,False,False,candidata
+completo,faixa_duracao_beneficio,despacho_agrup,6,0.11597289816031066,0.18839632259589656,0.3085329921307527,5,5,False,False,candidata
+completo,faixa_duracao_beneficio,forma_filiacao,5,0.02802945345172853,0.04093300834102312,0.1578992446705066,6,6,False,False,candidata
+completo,faixa_duracao_beneficio,faixa_etaria,9,0.01564266286610961,0.014375856341257494,0.10601994193892113,7,8,False,False,candidata
+completo,faixa_duracao_beneficio,uf,27,0.015360365324692439,0.010643395322362956,0.09339151808591911,8,9,False,False,candidata
+completo,faixa_duracao_beneficio,vinculo_dependentes,6,0.010485313071632356,0.014970064624284239,0.07898151796763718,9,10,True,False,excluir: no mapa de vazamento
+completo,faixa_duracao_beneficio,faixa_rmi,6,0.009859348394589615,0.010533898631420029,0.07479468109694165,10,11,False,False,candidata
+completo,faixa_duracao_beneficio,dia_semana_dib,7,0.007484866487228258,0.006171989245970322,0.0620447335647064,11,13,False,False,candidata
+completo,faixa_duracao_beneficio,classificador_pa,3,0.007065555817502809,0.013758904472074797,0.1332258683857997,12,7,False,False,candidata
+completo,faixa_duracao_beneficio,regiao,5,0.0064020737147587985,0.006454525125861224,0.06669334185583753,13,12,False,False,candidata
+completo,faixa_duracao_beneficio,ano_competencia,7,0.003917433889709472,0.0032199904863100402,0.04693052001857752,14,16,False,False,candidata
+completo,faixa_duracao_beneficio,ramo_atividade,5,0.003020612094003591,0.005128232166470292,0.053637691560451374,15,15,False,False,candidata
+completo,faixa_duracao_beneficio,clientela,2,0.0011371822146176807,0.0019706760746735713,0.058055599312484295,16,14,False,False,candidata
+completo,faixa_duracao_beneficio,mes_competencia,12,0.0009599700826444726,0.0006758613234887213,0.022691410655586365,17,18,False,False,pouco informativa isoladamente
+completo,faixa_duracao_beneficio,sexo,2,0.0006930772159507735,0.0009576259256038544,0.04284522676620748,18,17,False,False,pouco informativa isoladamente
+completo,faixa_duracao_beneficio,acordo_internacional,2,0.00010201740189900424,0.00020392247921541384,0.021325424984085625,19,19,False,False,pouco informativa isoladamente

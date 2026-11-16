@@ -15,8 +15,9 @@ data_despacho,data (ver séries temporais)
 data_obito_segurado,data (ver séries temporais)
 competencia_cat,data (ver séries temporais)
 valor_remuneracao,numerica_sem_discretizacao
-idade,substituida_por_faixa
+idade,numerica_sem_discretizacao
 remuneracao_sm,substituida_por_faixa
+atraso_cat_dias,numerica_sem_discretizacao
 agente_causador,excluida_bivariada (config)
 natureza_lesao,excluida_bivariada (config)
 parte_corpo_atingida,excluida_bivariada (config)

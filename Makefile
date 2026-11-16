@@ -34,10 +34,11 @@ bc-features:
 	python scripts/bc_05_features.py
 bc-fase3-4: bc-limpeza bc-verificacao bc-features
 
-.PHONY: eda-cat eda-bc eda-cat-univariada eda-cat-bivariada eda-bc-univariada eda-bc-bivariada
+.PHONY: eda-cat eda-bc eda-cat-univariada eda-cat-bivariada eda-bc-univariada eda-bc-bivariada \
+        eda-cat-mi eda-cat-temporal eda-cat-territorial eda-bc-mi eda-bc-temporal eda-bc-territorial
 
-eda-cat: eda-cat-univariada eda-cat-bivariada
-eda-bc: eda-bc-univariada eda-bc-bivariada
+eda-cat: eda-cat-univariada eda-cat-bivariada eda-cat-mi eda-cat-temporal eda-cat-territorial
+eda-bc: eda-bc-univariada eda-bc-bivariada eda-bc-mi eda-bc-temporal eda-bc-territorial
 
 eda-cat-univariada:
 	python scripts/eda_05_univariada.py --base cat
@@ -47,3 +48,15 @@ eda-bc-univariada:
 	python scripts/eda_05_univariada.py --base beneficios
 eda-bc-bivariada:
 	python scripts/eda_05_bivariada.py --base beneficios
+eda-cat-mi:
+	python scripts/eda_05_informacao_mutua.py --base cat
+eda-cat-temporal:
+	python scripts/eda_05_temporal.py --base cat
+eda-cat-territorial:
+	python scripts/eda_05_territorial.py --base cat
+eda-bc-mi:
+	python scripts/eda_05_informacao_mutua.py --base beneficios
+eda-bc-temporal:
+	python scripts/eda_05_temporal.py --base beneficios
+eda-bc-territorial:
+	python scripts/eda_05_territorial.py --base beneficios

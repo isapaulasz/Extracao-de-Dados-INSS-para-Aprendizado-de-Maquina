@@ -1,0 +1,349 @@
+﻿cenario,alvo,variavel,k_x,u_alvo,nmi,v_corrigido,posicao_mi,posicao_v,no_mapa_vazamento,quase_determina_alvo,recomendacao
+completo,houve_obito,indica_acidente,2,1.0,1.0,1.0,1,1,True,True,excluir: no mapa de vazamento
+completo,houve_obito,indica_obito_acidente,2,0.9980596234501812,0.9984481767557274,0.9995356465815446,2,2,True,True,excluir: no mapa de vazamento
+completo,houve_obito,tem_data_obito_segurado,2,0.9968899209816245,0.997536956277844,0.9992259600204915,3,3,True,True,excluir: no mapa de vazamento
+completo,houve_obito,especie_codigo,5,0.8910873503074039,0.5755873463074284,0.9244133878395954,4,4,True,False,excluir: no mapa de vazamento
+completo,houve_obito,cid_categoria_agrup,97,0.3428291036376425,0.005420895579320513,0.34072409606621074,5,8,False,False,candidata
+completo,houve_obito,parte_corpo_atingida_agrup,42,0.3049786342832125,0.005989755673613865,0.231546064982608,6,10,False,False,candidata
+completo,houve_obito,natureza_lesao_agrup,24,0.30192475085722026,0.007573324225789852,0.36217909188065467,7,7,False,False,candidata
+completo,houve_obito,capitulo_cid,16,0.1467680677426153,0.009368316679250607,0.20519126951724256,8,11,False,False,candidata
+completo,houve_obito,agente_causador_agrup,119,0.12207622409399069,0.0017990704541790707,0.10624789881973487,9,13,False,False,candidata
+completo,houve_obito,tipo_cat,3,0.11768079584819528,0.10159224142187287,0.3692555471106881,10,5,True,False,excluir: no mapa de vazamento
+completo,houve_obito,indica_obito,2,0.11692722347240402,0.19821579630961217,0.3692293064091061,11,6,True,False,excluir: no mapa de vazamento
+completo,houve_obito,especie_beneficio,4,0.10511949758002276,0.014576591165694005,0.31314675424625193,12,9,True,False,excluir: no mapa de vazamento
+completo,houve_obito,situacao_geradora_agrup,45,0.07564249046702216,0.001338504150146648,0.08074157027131595,13,15,False,False,candidata
+completo,houve_obito,cbo_agrup,158,0.06882937130795042,0.0010282860345449286,0.0977718583024988,14,14,False,False,candidata
+completo,houve_obito,tipo_local_acidente,6,0.0610620372493092,0.0031113678150670562,0.06329162058887156,15,19,False,False,candidata
+completo,houve_obito,cnae_empregador_agrup,203,0.05055240035774807,0.000694876389291727,0.0586493432707682,16,20,False,False,candidata
+completo,houve_obito,faixa_atraso_cat,6,0.04892571671877353,0.0019172309344062726,0.1152316573538093,17,12,True,False,excluir: no mapa de vazamento
+completo,houve_obito,indica_afastamento,2,0.035695645951824645,0.004020667263163267,0.03472941790544116,18,24,False,False,candidata
+completo,houve_obito,tem_data_afastamento,2,0.03569356765548791,0.004020541632097373,0.0347282883584355,19,25,True,False,excluir: no mapa de vazamento
+completo,houve_obito,houve_afastamento,2,0.03569333673537332,0.0040205276731806435,0.034728162852779965,20,26,True,False,excluir: no mapa de vazamento
+completo,houve_obito,cnae_secao,20,0.030074507219647415,0.0007794493936511842,0.04077404581946353,21,21,False,False,candidata
+completo,houve_obito,sexo,3,0.026830514348745015,0.0024736461121575427,0.035544100422986544,22,23,False,False,candidata
+completo,houve_obito,municipio_segurado_cod_agrup,185,0.02370656797553045,0.00039057439136506387,0.07430029481230106,23,16,False,False,candidata
+completo,houve_obito,cbo_grande_grupo,10,0.02344604381025812,0.0007436998608283084,0.07135286815515202,24,18,False,False,candidata
+completo,houve_obito,tipo_acidente,4,0.022017649976031044,0.0019950337313415336,0.0395464130413906,25,22,False,False,candidata
+completo,houve_obito,area_atividade,3,0.016927183964714456,0.003445430991565972,0.07259457824452817,26,17,False,False,candidata
+completo,houve_obito,municipio_empresa_cod_agrup,171,0.013994279258894949,0.00022930763370073646,0.028619146663224994,27,28,False,False,candidata
+completo,houve_obito,uf_segurado,28,0.009639014191795045,0.00023702976358044224,0.025451404497264584,28,31,False,False,candidata
+completo,houve_obito,uf_empregador,27,0.009637609051393433,0.00024502167085497264,0.02545285110094001,29,30,False,False,candidata
+completo,houve_obito,uf_acidente,16,0.008297486633833572,0.00028757410746092256,0.023236477260807697,30,32,False,False,candidata
+completo,houve_obito,faixa_etaria,8,0.005738266567053578,0.0002216128042078367,0.020627800984912407,31,33,False,False,candidata
+completo,houve_obito,estado_civil,6,0.005646739985621563,0.00028638973910189737,0.019239215088948523,32,34,False,False,candidata
+completo,houve_obito,regiao,6,0.0046019216357119875,0.00021081266761340583,0.017218397037505905,33,35,False,False,candidata
+completo,houve_obito,ramo_atividade,3,0.0030185799478797334,0.00042403846076645495,0.027836122303236423,34,29,True,False,excluir: no mapa de vazamento
+completo,houve_obito,dia_semana_acidente,7,0.0021969393531751633,7.008037622289856e-05,0.012100212413722245,35,36,False,False,candidata
+completo,houve_obito,emitente_cat,6,0.0017571470343709832,0.0007918192043860292,0.03209128116800903,36,27,False,False,candidata
+completo,houve_obito,remuneracao_sm_faixa,6,0.0010577595153661208,6.088038842534328e-05,0.008112085905432541,37,37,False,False,candidata
+completo,houve_obito,tem_data_despacho,2,0.00029874045568617784,4.216635640483364e-05,0.004140760477625765,38,38,True,False,excluir: no mapa de vazamento
+completo,houve_obito,emitente_empregador,2,0.00016899407656123636,8.746174748178756e-05,0.0029882923157557883,39,39,False,False,pouco informativa isoladamente
+completo,houve_obito,ano_competencia,7,0.00013775623945452947,4.1993347278303244e-06,0.002858312782031282,40,40,False,False,pouco informativa isoladamente
+completo,houve_obito,ano_acidente,7,0.00013775623945452947,4.1993347278303244e-06,0.002858312782031282,41,40,False,False,pouco informativa isoladamente
+completo,houve_obito,filiacao_segurado,3,7.636652679084439e-05,0.00010328454928421442,0.002332719492107674,42,42,False,False,pouco informativa isoladamente
+completo,houve_obito,mes_acidente,12,4.2633959931535034e-05,1.0233196215045971e-06,0.001610563176249162,43,43,False,False,pouco informativa isoladamente
+completo,houve_obito,origem_cadastramento,2,1.518693548867726e-06,3.025231881488676e-06,0.0,44,44,False,False,pouco informativa isoladamente
+completo,houve_afastamento,tem_data_afastamento,2,0.9999697468768831,0.9999681586573933,0.9999963869409424,1,1,True,True,excluir: no mapa de vazamento
+completo,houve_afastamento,indica_afastamento,2,0.9997507910297904,0.999734912915879,0.9999638706962187,2,2,True,True,excluir: no mapa de vazamento
+completo,houve_afastamento,cid_categoria_agrup,97,0.1439257166812913,0.03390827894046481,0.39201388937326503,3,4,False,False,candidata
+completo,houve_afastamento,cnae_empregador_agrup,203,0.1424678352384513,0.0296066787279055,0.39268268455959515,4,3,False,False,candidata
+completo,houve_afastamento,agente_causador_agrup,119,0.12442318187242424,0.02752802991198446,0.38210450641098737,5,6,False,False,candidata
+completo,houve_afastamento,situacao_geradora_agrup,45,0.12049451613149563,0.03135481688384352,0.3861132921787917,6,5,False,False,candidata
+completo,houve_afastamento,cbo_agrup,158,0.1079550053761952,0.024177966221339876,0.35143969289927457,7,7,False,False,candidata
+completo,houve_afastamento,cnae_secao,20,0.09403089208912593,0.03391022192189837,0.3239744237457004,8,8,False,False,candidata
+completo,houve_afastamento,natureza_lesao_agrup,24,0.08829334706990155,0.03098574500558788,0.2839365703597244,9,10,False,False,candidata
+completo,houve_afastamento,capitulo_cid,16,0.06610916802293824,0.04704747722954787,0.28881059735636383,10,9,False,False,candidata
+completo,houve_afastamento,especie_beneficio,4,0.05861706643511068,0.06508989410038106,0.19396692123337222,11,13,True,False,excluir: no mapa de vazamento
+completo,houve_afastamento,ramo_atividade,3,0.05845306621706107,0.06530979569181854,0.19369259382932197,12,15,True,False,excluir: no mapa de vazamento
+completo,houve_afastamento,tem_data_despacho,2,0.05845100354832663,0.06545519577296101,0.19369305922361513,13,14,True,False,excluir: no mapa de vazamento
+completo,houve_afastamento,cbo_grande_grupo,10,0.052734269567453605,0.022423910835266448,0.24591386633499307,14,11,False,False,candidata
+completo,houve_afastamento,parte_corpo_atingida_agrup,42,0.047667786622829056,0.013584606719867597,0.2272321291264221,15,12,False,False,candidata
+completo,houve_afastamento,tipo_local_acidente,6,0.036690842167479455,0.0223528289438847,0.1887695559289249,16,16,False,False,candidata
+completo,houve_afastamento,tipo_acidente,4,0.029833126404291845,0.026428587108872654,0.16801148833486912,17,17,False,False,candidata
+completo,houve_afastamento,municipio_empresa_cod_agrup,171,0.02402136623612131,0.005841147558157755,0.1636220804579217,18,18,False,False,candidata
+completo,houve_afastamento,sexo,3,0.015345611120982526,0.01373209482206013,0.12678929802040764,19,20,False,False,candidata
+completo,houve_afastamento,municipio_segurado_cod_agrup,185,0.01530121769520697,0.003738714427606814,0.12705690452794766,20,19,False,False,candidata
+completo,houve_afastamento,faixa_atraso_cat,6,0.012014514398394485,0.006027830371199731,0.10269978965109462,21,22,True,False,excluir: no mapa de vazamento
+completo,houve_afastamento,remuneracao_sm_faixa,6,0.010319789572949222,0.006885682638560332,0.1052950563234309,22,21,False,False,candidata
+completo,houve_afastamento,uf_empregador,27,0.006855326234137989,0.00243298373101741,0.0825010884253467,23,23,False,False,candidata
+completo,houve_afastamento,uf_segurado,28,0.006054416648645335,0.002089771739909234,0.07768380714908045,24,24,False,False,candidata
+completo,houve_afastamento,uf_acidente,16,0.004814990025784088,0.002196440256216083,0.06924309742393656,25,25,False,False,candidata
+completo,houve_afastamento,tipo_cat,3,0.0027201686059836277,0.005043959673794932,0.03952362003128438,26,28,True,False,excluir: no mapa de vazamento
+completo,houve_afastamento,faixa_etaria,8,0.0026647455257036265,0.0013221194297715726,0.05053546613146702,27,26,False,False,candidata
+completo,houve_afastamento,emitente_cat,6,0.0022280071282910355,0.00369732080231677,0.04181199990045352,28,27,False,False,candidata
+completo,houve_afastamento,indica_acidente,2,0.0021302398466428027,0.0040205276731806435,0.034728162852779965,29,30,True,False,excluir: no mapa de vazamento
+completo,houve_afastamento,houve_obito,2,0.0021302398466428027,0.0040205276731806435,0.034728162852779965,30,30,True,False,excluir: no mapa de vazamento
+completo,houve_afastamento,indica_obito_acidente,2,0.0021282660451861285,0.004016978485176593,0.03471203281671259,31,32,True,False,excluir: no mapa de vazamento
+completo,houve_afastamento,tem_data_obito_segurado,2,0.002126950182958443,0.0040146122141603135,0.03470127537277389,32,33,True,False,excluir: no mapa de vazamento
+completo,houve_afastamento,emitente_empregador,2,0.001842363347797033,0.0031471567585668616,0.03903828706562532,33,29,False,False,candidata
+completo,houve_afastamento,dia_semana_acidente,7,0.0010106724850757112,0.00043170604432626354,0.03276086124136331,34,34,False,False,candidata
+completo,houve_afastamento,area_atividade,3,0.0006605517579684614,0.0008653082010772346,0.024400428821208024,35,36,False,False,pouco informativa isoladamente
+completo,houve_afastamento,estado_civil,6,0.0006595766719907026,0.00040049531971149226,0.025884431633623313,36,35,False,False,pouco informativa isoladamente
+completo,houve_afastamento,especie_codigo,5,0.0005808581679082425,0.00044111695942487236,0.004429225655464674,37,42,True,False,excluir: no mapa de vazamento
+completo,houve_afastamento,ano_competencia,7,0.0004881558003300394,0.00020105459525320764,0.022323179576211823,38,37,False,False,pouco informativa isoladamente
+completo,houve_afastamento,ano_acidente,7,0.0004881558003300394,0.00020105459525320764,0.022323179576211823,39,37,False,False,pouco informativa isoladamente
+completo,houve_afastamento,indica_obito,2,0.00029093948701512765,0.0005757013483147029,0.01281284392808064,40,41,True,False,excluir: no mapa de vazamento
+completo,houve_afastamento,regiao,6,0.0002859306608053437,0.0001612714550587395,0.016906471936917963,41,39,False,False,pouco informativa isoladamente
+completo,houve_afastamento,mes_acidente,12,0.0001883611830514358,6.370777717973235e-05,0.013858981031583086,42,40,False,False,pouco informativa isoladamente
+completo,houve_afastamento,filiacao_segurado,3,1.6066290603859534e-05,3.1239955156225655e-05,0.0039249387875187865,43,43,False,False,pouco informativa isoladamente
+completo,houve_afastamento,origem_cadastramento,2,1.250066704437087e-06,2.499534025863397e-06,0.0009519062322674409,44,44,False,False,pouco informativa isoladamente
+completo,tem_data_despacho,ramo_atividade,3,1.0,0.9974373572543018,0.9999998542105204,1,1,True,True,excluir: no mapa de vazamento
+completo,tem_data_despacho,especie_codigo,5,1.0,0.46352950537391757,0.9999967686985988,2,2,True,True,excluir: no mapa de vazamento
+completo,tem_data_despacho,especie_beneficio,4,0.9992089289132676,0.9896858613992834,0.9995291333215753,3,3,True,True,excluir: no mapa de vazamento
+completo,tem_data_despacho,cid_categoria_agrup,97,0.21309159521696242,0.04047968794997922,0.43704355070764933,4,4,False,False,candidata
+completo,tem_data_despacho,natureza_lesao_agrup,24,0.14169770974822302,0.04061013496796805,0.36459146202085263,5,5,False,False,candidata
+completo,tem_data_despacho,indica_afastamento,2,0.07437187630632405,0.06545871937579385,0.19370036377442576,6,7,True,False,excluir: no mapa de vazamento
+completo,tem_data_despacho,tem_data_afastamento,2,0.07436708286675764,0.06545554813242657,0.19369378968145776,7,8,False,False,candidata
+completo,tem_data_despacho,houve_afastamento,2,0.07436655026702983,0.06545519577296101,0.19369305922361513,8,9,True,False,excluir: no mapa de vazamento
+completo,tem_data_despacho,agente_causador_agrup,119,0.05550760282414821,0.00988658198905518,0.19567586268813159,9,6,False,False,candidata
+completo,tem_data_despacho,cnae_empregador_agrup,203,0.05004100527897332,0.008359491677609122,0.1894059684744501,10,12,False,False,candidata
+completo,tem_data_despacho,ano_acidente,7,0.04892265867497187,0.016567426918165994,0.18971399894730417,11,10,True,False,excluir: no mapa de vazamento
+completo,tem_data_despacho,ano_competencia,7,0.04892265867497187,0.016567426918165994,0.18971399894730417,12,10,True,False,excluir: no mapa de vazamento
+completo,tem_data_despacho,situacao_geradora_agrup,45,0.04540601587859795,0.009552769775933855,0.17180156623743092,13,13,False,False,candidata
+completo,tem_data_despacho,cbo_agrup,158,0.03778226440453082,0.006814190046104425,0.16233245524906623,14,14,False,False,candidata
+completo,tem_data_despacho,capitulo_cid,16,0.03625648833699741,0.021952035630457098,0.14013314609225963,15,15,False,False,candidata
+completo,tem_data_despacho,cnae_secao,20,0.02944636455201009,0.008681553184585744,0.13679221945073047,16,17,False,False,candidata
+completo,tem_data_despacho,parte_corpo_atingida_agrup,42,0.02552584152562157,0.005897482582650746,0.13017225815350353,17,18,False,False,candidata
+completo,tem_data_despacho,faixa_atraso_cat,6,0.022637487470392355,0.009433275754643766,0.13989175615344532,18,16,False,False,candidata
+completo,tem_data_despacho,cbo_grande_grupo,10,0.015367843022757831,0.0053810960137161724,0.10489313709972897,19,19,False,False,candidata
+completo,tem_data_despacho,mes_acidente,12,0.012872226771354946,0.003550410949458194,0.09283087607445902,20,21,False,False,candidata
+completo,tem_data_despacho,municipio_empresa_cod_agrup,171,0.012750069495758742,0.0025019435797547602,0.0994678413700263,21,20,False,False,candidata
+completo,tem_data_despacho,municipio_segurado_cod_agrup,185,0.010755405139905036,0.0021210147632869793,0.09117088900176365,22,23,False,False,candidata
+completo,tem_data_despacho,tipo_acidente,4,0.010336744353803577,0.007951091118561758,0.09228093156926098,23,22,False,False,candidata
+completo,tem_data_despacho,tipo_local_acidente,6,0.010136797735852592,0.005192387830253606,0.08972888907488423,24,24,False,False,candidata
+completo,tem_data_despacho,sexo,3,0.008310256383123027,0.00646391721099825,0.07888563060203393,25,25,False,False,candidata
+completo,tem_data_despacho,uf_empregador,27,0.004456050587609698,0.0012920824964206894,0.05936848613089495,26,26,False,False,candidata
+completo,tem_data_despacho,uf_segurado,28,0.004443883837049874,0.0012518378328645423,0.059033805899264886,27,27,False,False,candidata
+completo,tem_data_despacho,remuneracao_sm_faixa,6,0.0035778092634487593,0.002081289093576854,0.05214747589418401,28,28,False,False,candidata
+completo,tem_data_despacho,uf_acidente,16,0.001723868109543489,0.0006497953416038368,0.036949058333792556,29,29,False,False,candidata
+completo,tem_data_despacho,regiao,6,0.001660939075665378,0.0007836115783466973,0.03643985080985992,30,30,False,False,candidata
+completo,tem_data_despacho,faixa_etaria,8,0.001404222923005487,0.0005783057933606087,0.03144457785095222,31,31,False,False,candidata
+completo,tem_data_despacho,tipo_cat,3,0.0004620591372614865,0.0008401210457034012,0.020639927287464128,32,32,False,False,pouco informativa isoladamente
+completo,tem_data_despacho,dia_semana_acidente,7,0.0004186709953547881,0.00014729350135253073,0.018351216999196007,33,33,False,False,pouco informativa isoladamente
+completo,tem_data_despacho,area_atividade,3,0.00023679975816132744,0.0002835637328951518,0.013661844260747001,34,34,False,False,pouco informativa isoladamente
+completo,tem_data_despacho,estado_civil,6,8.958437191120683e-05,4.572518915144941e-05,0.008318474162641825,35,35,False,False,pouco informativa isoladamente
+completo,tem_data_despacho,emitente_cat,6,4.8031734456936303e-05,7.617587228865944e-05,0.006909281546823507,36,36,False,False,pouco informativa isoladamente
+completo,tem_data_despacho,indica_obito_acidente,2,2.456999055450984e-05,4.5674506412495736e-05,0.004305367794716483,37,37,False,False,pouco informativa isoladamente
+completo,tem_data_despacho,tem_data_obito_segurado,2,2.2809158473306395e-05,4.240275189237043e-05,0.0041518207695178284,38,38,False,False,pouco informativa isoladamente
+completo,tem_data_despacho,houve_obito,2,2.268407412397559e-05,4.216635640483364e-05,0.004140760477625765,39,39,True,False,excluir: no mapa de vazamento
+completo,tem_data_despacho,indica_acidente,2,2.268407412397559e-05,4.216635640483364e-05,0.004140760477625765,40,39,False,False,pouco informativa isoladamente
+completo,tem_data_despacho,indica_obito,2,9.525977180325996e-06,1.879535210169433e-05,0.0026292273203326194,41,42,False,False,pouco informativa isoladamente
+completo,tem_data_despacho,emitente_empregador,2,9.078717140776703e-06,1.4915835960475695e-05,0.0026604596709203948,42,41,False,False,pouco informativa isoladamente
+completo,tem_data_despacho,filiacao_segurado,3,6.939620975017415e-07,1.3392383516540157e-06,0.0,43,44,False,False,pouco informativa isoladamente
+completo,tem_data_despacho,origem_cadastramento,2,6.386545333045939e-07,1.2769194884915213e-06,0.0008114329760093109,44,43,False,False,pouco informativa isoladamente
+completo,tipo_acidente,agente_causador_agrup,119,0.5648745741434037,0.15281914229280896,0.8383799084603715,1,1,False,False,candidata
+completo,tipo_acidente,tipo_local_acidente,6,0.43660044065436926,0.3101726077878524,0.7134901171361758,2,2,False,False,candidata
+completo,tipo_acidente,situacao_geradora_agrup,45,0.2883139800071121,0.09129348972956265,0.42957913966180006,3,5,False,False,candidata
+completo,tipo_acidente,cid_categoria_agrup,97,0.20797320608880382,0.059806272017656904,0.3906134298854665,4,6,False,False,candidata
+completo,tipo_acidente,parte_corpo_atingida_agrup,42,0.1743339148406238,0.06027017673896104,0.639658219912767,5,3,False,False,candidata
+completo,tipo_acidente,natureza_lesao_agrup,24,0.1683798649029382,0.07110134726232402,0.374933233653933,6,7,False,False,candidata
+completo,tipo_acidente,capitulo_cid,16,0.08557649495691028,0.07016033679174469,0.2704165688182626,7,9,False,False,candidata
+completo,tipo_acidente,cbo_agrup,158,0.07876772908941845,0.0215640027577178,0.21573170262587893,8,11,False,False,candidata
+completo,tipo_acidente,cnae_empregador_agrup,203,0.06897088827466293,0.01755584958645939,0.22958170955913673,9,10,False,False,candidata
+completo,tipo_acidente,emitente_cat,6,0.04568064041765105,0.0785455286608775,0.2894242889494793,10,8,False,False,candidata
+completo,tipo_acidente,emitente_empregador,2,0.044158407098978295,0.07775605308253224,0.4819913001217511,11,4,False,False,candidata
+completo,tipo_acidente,cnae_secao,20,0.044058182926804676,0.019095108741333768,0.17450115135150424,12,12,False,False,candidata
+completo,tipo_acidente,cbo_grande_grupo,10,0.03764655065169179,0.019087071192508607,0.13079554300360963,13,17,False,False,candidata
+completo,tipo_acidente,faixa_atraso_cat,6,0.03343489195759424,0.019815830887145138,0.14638415902682403,14,16,False,False,candidata
+completo,tipo_acidente,indica_afastamento,2,0.023859054193735667,0.026581461793742163,0.168349262007377,15,13,False,False,candidata
+completo,tipo_acidente,houve_afastamento,2,0.023721502798335525,0.026428587108872657,0.16801148833486912,16,14,False,False,candidata
+completo,tipo_acidente,tem_data_afastamento,2,0.023720262990811616,0.026427168631733153,0.16800778409715186,17,15,False,False,candidata
+completo,tipo_acidente,municipio_empresa_cod_agrup,171,0.01840756734676973,0.005458308564160733,0.09229237676931863,18,18,False,False,candidata
+completo,tipo_acidente,municipio_segurado_cod_agrup,185,0.016703216428623126,0.004976154026935,0.08879735849939345,19,20,False,False,candidata
+completo,tipo_acidente,estado_civil,6,0.014691326186091843,0.010405008421479355,0.07034857777345171,20,22,False,False,candidata
+completo,tipo_acidente,uf_segurado,28,0.012146058484058479,0.005048064622728321,0.06828155794071201,21,24,False,False,candidata
+completo,tipo_acidente,remuneracao_sm_faixa,6,0.008518233763288904,0.006592427159180356,0.07102677695380395,22,21,False,False,candidata
+completo,tipo_acidente,sexo,3,0.007532490389696118,0.007600910161450509,0.07004421530020645,23,23,False,False,candidata
+completo,tipo_acidente,regiao,6,0.007486519906795623,0.004950763795203375,0.049950558704151514,24,32,False,False,candidata
+completo,tipo_acidente,ano_competencia,7,0.0070885296391386445,0.0034867156982979473,0.06795249369049383,25,25,False,False,candidata
+completo,tipo_acidente,ano_acidente,7,0.0070885296391386445,0.0034867156982979473,0.06795249369049383,26,25,False,False,candidata
+completo,tipo_acidente,especie_beneficio,4,0.006601165869138811,0.008064978622236927,0.054372877235640736,27,29,False,False,candidata
+completo,tipo_acidente,uf_empregador,27,0.006494902384866501,0.002772204925059058,0.05432124460413963,28,30,False,False,candidata
+completo,tipo_acidente,ramo_atividade,3,0.006472493429261551,0.007950587998752277,0.06531935960161452,29,27,False,False,candidata
+completo,tipo_acidente,tem_data_despacho,2,0.006460134235793666,0.007951091118561753,0.09228093156926098,30,19,False,False,candidata
+completo,tipo_acidente,faixa_etaria,8,0.005774661778400467,0.0033868139727211448,0.04805901725428725,31,33,False,False,candidata
+completo,tipo_acidente,mes_acidente,12,0.0055196579764767995,0.0022498226381943848,0.062318872341441935,32,28,False,False,candidata
+completo,tipo_acidente,area_atividade,3,0.004692645349604342,0.006614788810233581,0.05145426457568421,33,31,False,False,candidata
+completo,tipo_acidente,uf_acidente,16,0.002978063834925719,0.0016136731479670756,0.03705166955776505,34,38,False,False,candidata
+completo,tipo_acidente,indica_obito_acidente,2,0.0010456518121339448,0.00199662683114668,0.03956505334861528,35,34,False,False,candidata
+completo,tipo_acidente,tem_data_obito_segurado,2,0.0010451871233178682,0.0019957864531015357,0.03955692139544589,36,35,False,False,candidata
+completo,tipo_acidente,houve_obito,2,0.0010448543345665845,0.0019950337313415336,0.0395464130413906,37,36,False,False,candidata
+completo,tipo_acidente,indica_acidente,2,0.0010448543345665845,0.0019950337313415336,0.0395464130413906,38,36,False,False,candidata
+completo,tipo_acidente,especie_codigo,5,0.0009097419032131915,0.0016918221524452883,0.035383240415029306,39,39,False,False,pouco informativa isoladamente
+completo,tipo_acidente,dia_semana_acidente,7,0.0006391024574381108,0.0003254182358515885,0.015430778964283288,40,41,False,False,pouco informativa isoladamente
+completo,tipo_acidente,tipo_cat,3,0.00039134512845112704,0.0007366595460310486,0.018701277904927427,41,40,False,False,pouco informativa isoladamente
+completo,tipo_acidente,indica_obito,2,9.736730369184976e-05,0.00019308712382339117,0.011928394193895906,42,42,False,False,pouco informativa isoladamente
+completo,tipo_acidente,filiacao_segurado,3,4.550411709012689e-05,8.898648789894048e-05,0.005309532757134837,43,43,False,False,pouco informativa isoladamente
+completo,tipo_acidente,origem_cadastramento,2,2.1577668385821635e-07,4.314710979022838e-07,0.0,44,44,False,False,pouco informativa isoladamente
+completo,natureza_lesao_agrup,cid_categoria_agrup,97,0.3766765167514814,0.2904459508653968,0.4598685678741284,1,3,False,False,candidata
+completo,natureza_lesao_agrup,agente_causador_agrup,119,0.1953544683294894,0.14412195562516877,0.32193425501809064,2,12,False,False,candidata
+completo,natureza_lesao_agrup,situacao_geradora_agrup,45,0.17933064032473295,0.1480335018415602,0.33853711979915896,3,11,False,False,candidata
+completo,natureza_lesao_agrup,parte_corpo_atingida_agrup,42,0.15145670333861755,0.13281664111885688,0.25653077987917333,4,18,False,False,candidata
+completo,natureza_lesao_agrup,capitulo_cid,16,0.08902670797667485,0.12853441719518127,0.29335333663649743,5,13,False,False,candidata
+completo,natureza_lesao_agrup,cnae_empregador_agrup,203,0.05646641325820734,0.0398309312883137,0.13789922123469278,6,26,False,False,candidata
+completo,natureza_lesao_agrup,cbo_agrup,158,0.05608189890190529,0.041733623261730385,0.1434779765350218,7,25,False,False,candidata
+completo,natureza_lesao_agrup,tipo_acidente,4,0.04506552788517513,0.07110134726232384,0.374933233653933,8,4,False,False,candidata
+completo,natureza_lesao_agrup,cnae_secao,20,0.03536366263145424,0.03594927742333006,0.10996468867436165,9,29,False,False,candidata
+completo,natureza_lesao_agrup,tipo_local_acidente,6,0.024721869305436378,0.03327692937463924,0.14693646003133223,10,24,False,False,candidata
+completo,natureza_lesao_agrup,especie_beneficio,4,0.024190244913094107,0.04133365192851695,0.21893417985663227,11,19,False,False,candidata
+completo,natureza_lesao_agrup,ramo_atividade,3,0.0237228480000364,0.040616887689234674,0.2579818180844167,12,17,False,False,candidata
+completo,natureza_lesao_agrup,tem_data_despacho,2,0.023701449322610573,0.04061013496796813,0.36459146202085263,13,6,False,False,candidata
+completo,natureza_lesao_agrup,cbo_grande_grupo,10,0.022834026097167424,0.025539557625687978,0.13390584795479027,14,28,False,False,candidata
+completo,natureza_lesao_agrup,houve_afastamento,2,0.018789954009681222,0.03098574500558788,0.2839365703597244,15,14,False,False,candidata
+completo,natureza_lesao_agrup,tem_data_afastamento,2,0.01878938546630206,0.03098479017336596,0.28393338802831447,16,15,False,False,candidata
+completo,natureza_lesao_agrup,indica_afastamento,2,0.01878844635608877,0.030983086103495597,0.2839271696713691,17,16,False,False,candidata
+completo,natureza_lesao_agrup,municipio_empresa_cod_agrup,171,0.01667784458547676,0.013144857169689732,0.06462367137279683,18,32,False,False,candidata
+completo,natureza_lesao_agrup,municipio_segurado_cod_agrup,185,0.01254786948803487,0.009922715220948584,0.07025735893713471,19,31,False,False,candidata
+completo,natureza_lesao_agrup,faixa_atraso_cat,6,0.011803412369487001,0.014433719262404127,0.1619035714718552,20,21,False,False,candidata
+completo,natureza_lesao_agrup,emitente_cat,6,0.009958469417970125,0.01908357127634445,0.17135112028326913,21,20,False,False,candidata
+completo,natureza_lesao_agrup,emitente_empregador,2,0.00937510567187513,0.018092529857815055,0.3669791539739257,22,5,False,False,candidata
+completo,natureza_lesao_agrup,sexo,3,0.007845682489773976,0.012425618534440689,0.13604971136280236,23,27,False,False,candidata
+completo,natureza_lesao_agrup,uf_segurado,28,0.006701794160727008,0.006634469546893395,0.03933486262724327,24,36,False,False,candidata
+completo,natureza_lesao_agrup,uf_empregador,27,0.006563630548879398,0.006608381406655534,0.03869056366425357,25,37,False,False,candidata
+completo,natureza_lesao_agrup,remuneracao_sm_faixa,6,0.005217618357968076,0.007327346922568843,0.07966299181207706,26,30,False,False,candidata
+completo,natureza_lesao_agrup,especie_codigo,5,0.004499194934342386,0.008745158493347413,0.15270981363106387,27,23,False,False,candidata
+completo,natureza_lesao_agrup,houve_obito,2,0.0038347566385479306,0.00757332422578997,0.36217909188065467,28,8,False,False,candidata
+completo,natureza_lesao_agrup,indica_acidente,2,0.0038347566385479306,0.00757332422578997,0.36217909188065467,29,8,False,False,candidata
+completo,natureza_lesao_agrup,indica_obito_acidente,2,0.0038333889211362195,0.007570696998820839,0.3622469300000122,30,7,False,False,candidata
+completo,natureza_lesao_agrup,tem_data_obito_segurado,2,0.003817625378667783,0.007539614087000102,0.36020731843056664,31,10,False,False,candidata
+completo,natureza_lesao_agrup,uf_acidente,16,0.003747988636463083,0.004357531842225287,0.036934272862679765,32,38,False,False,candidata
+completo,natureza_lesao_agrup,faixa_etaria,8,0.002999470108519494,0.0036466834278017233,0.04410634707574933,33,34,False,False,candidata
+completo,natureza_lesao_agrup,regiao,6,0.002230236887120995,0.0028930079374686955,0.04666952111910315,34,33,False,False,candidata
+completo,natureza_lesao_agrup,tipo_cat,3,0.0017937284189794647,0.003528447755983545,0.572191465051705,35,2,False,False,candidata
+completo,natureza_lesao_agrup,estado_civil,6,0.0016330293446360658,0.002194709230731275,0.039863759467558234,36,35,False,False,candidata
+completo,natureza_lesao_agrup,indica_obito,2,0.0015223283242748837,0.0030377196791822594,0.8081985709144898,37,1,False,False,candidata
+completo,natureza_lesao_agrup,area_atividade,3,0.0013187503503575583,0.002371644736721817,0.15803616093929632,38,22,False,False,candidata
+completo,natureza_lesao_agrup,dia_semana_acidente,7,0.0005461303578681338,0.0006123826039781395,0.020929238497079262,39,39,False,False,pouco informativa isoladamente
+completo,natureza_lesao_agrup,ano_competencia,7,0.00042608437395233803,0.0004680712885343574,0.018264544646934396,40,40,False,False,pouco informativa isoladamente
+completo,natureza_lesao_agrup,ano_acidente,7,0.00042608437395233803,0.0004680712885343574,0.018264544646934396,41,40,False,False,pouco informativa isoladamente
+completo,natureza_lesao_agrup,mes_acidente,12,0.0003231406508809929,0.0003159356860141354,0.011618259931436793,42,42,False,False,pouco informativa isoladamente
+completo,natureza_lesao_agrup,filiacao_segurado,3,2.9713860942594673e-05,5.906854106588293e-05,0.00827438233830747,43,43,False,False,pouco informativa isoladamente
+completo,natureza_lesao_agrup,origem_cadastramento,2,1.773173654001969e-06,3.5461663398252803e-06,0.004997546782240824,44,44,False,False,pouco informativa isoladamente
+completo,parte_corpo_atingida_agrup,cid_categoria_agrup,97,0.40946620758801705,0.3648664883192061,0.37780962948203123,1,4,False,False,candidata
+completo,parte_corpo_atingida_agrup,agente_causador_agrup,119,0.13832386344907258,0.11842952853803777,0.25697405422666,2,5,False,False,candidata
+completo,parte_corpo_atingida_agrup,situacao_geradora_agrup,45,0.1298429269061523,0.12301585927354133,0.24201812394077699,3,7,False,False,candidata
+completo,parte_corpo_atingida_agrup,natureza_lesao_agrup,24,0.11826192312555417,0.13281664111885683,0.25653077987917333,4,6,False,False,candidata
+completo,parte_corpo_atingida_agrup,capitulo_cid,16,0.07079288116626603,0.10884334499006271,0.3816951925197679,5,3,False,False,candidata
+completo,parte_corpo_atingida_agrup,cbo_agrup,158,0.04104790801280663,0.03542066084818127,0.11589417804140952,6,19,False,False,candidata
+completo,parte_corpo_atingida_agrup,cnae_empregador_agrup,203,0.03788339701327398,0.031140526516504317,0.11497124218590338,7,20,False,False,candidata
+completo,parte_corpo_atingida_agrup,tipo_acidente,4,0.03643280641102178,0.060270176738961,0.639658219912767,8,1,False,False,candidata
+completo,parte_corpo_atingida_agrup,tipo_local_acidente,6,0.033400704587692606,0.048429708490535295,0.48266872063798943,9,2,False,False,candidata
+completo,parte_corpo_atingida_agrup,cnae_secao,20,0.024256624044605962,0.02763672830210663,0.10808874241705042,10,21,False,False,candidata
+completo,parte_corpo_atingida_agrup,cbo_grande_grupo,10,0.018172186173423477,0.022498744670489162,0.12280281956934766,11,17,False,False,candidata
+completo,parte_corpo_atingida_agrup,municipio_empresa_cod_agrup,171,0.011076678112478167,0.010067133592062096,0.04791853009894178,12,32,False,False,candidata
+completo,parte_corpo_atingida_agrup,indica_afastamento,2,0.007949730337192226,0.01363384463925866,0.22747977272682252,13,12,False,False,candidata
+completo,parte_corpo_atingida_agrup,houve_afastamento,2,0.007920984448219514,0.013584606719867649,0.2272321291264221,14,13,False,False,candidata
+completo,parte_corpo_atingida_agrup,tem_data_afastamento,2,0.007920935867335789,0.013584517254122038,0.22723119505912986,15,14,False,False,candidata
+completo,parte_corpo_atingida_agrup,municipio_segurado_cod_agrup,185,0.00777877125471218,0.007091004976607463,0.039334724311637766,16,37,False,False,candidata
+completo,parte_corpo_atingida_agrup,remuneracao_sm_faixa,6,0.004593155418070327,0.006901011278858335,0.0820786322199035,17,25,False,False,candidata
+completo,parte_corpo_atingida_agrup,faixa_atraso_cat,6,0.004232250353819252,0.005657169031332326,0.0739642852007473,18,27,False,False,candidata
+completo,parte_corpo_atingida_agrup,uf_segurado,28,0.003960745991865802,0.004408967930387259,0.03185458749561622,19,41,False,False,candidata
+completo,parte_corpo_atingida_agrup,uf_empregador,27,0.003829252780467623,0.0043262169993786665,0.031992779056024045,20,40,False,False,candidata
+completo,parte_corpo_atingida_agrup,emitente_cat,6,0.0037701244490551513,0.007291616789529214,0.08493294886916974,21,24,False,False,candidata
+completo,parte_corpo_atingida_agrup,especie_beneficio,4,0.0037606824573853644,0.006637741391350538,0.08901679102037591,22,23,False,False,candidata
+completo,parte_corpo_atingida_agrup,emitente_empregador,2,0.0033889223952808033,0.006590772709269912,0.174271057843676,23,15,False,False,candidata
+completo,parte_corpo_atingida_agrup,ramo_atividade,3,0.0033460026523223873,0.005915434012999656,0.09224931443806576,24,22,False,False,candidata
+completo,parte_corpo_atingida_agrup,tem_data_despacho,2,0.0033338693685776785,0.005897482582650734,0.13017225815350356,25,16,False,False,candidata
+completo,parte_corpo_atingida_agrup,especie_codigo,5,0.0032830674750092795,0.006445058866226806,0.1203366445245129,26,18,False,False,candidata
+completo,parte_corpo_atingida_agrup,indica_acidente,2,0.0030245790808835784,0.005989755673613863,0.23154606498260796,27,9,False,False,candidata
+completo,parte_corpo_atingida_agrup,houve_obito,2,0.0030245790808835784,0.005989755673613863,0.23154606498260796,28,9,False,False,candidata
+completo,parte_corpo_atingida_agrup,indica_obito_acidente,2,0.0030227790604531526,0.0059862367379119735,0.2315105429195919,29,11,False,False,candidata
+completo,parte_corpo_atingida_agrup,tem_data_obito_segurado,2,0.003021690261472843,0.005984111003146706,0.231573644865406,30,8,False,False,candidata
+completo,parte_corpo_atingida_agrup,faixa_etaria,8,0.0025949484726118057,0.003451494589934911,0.04627441451597786,31,34,False,False,candidata
+completo,parte_corpo_atingida_agrup,uf_acidente,16,0.0025776475935334604,0.003299640739225966,0.03481954958418401,32,38,False,False,candidata
+completo,parte_corpo_atingida_agrup,sexo,3,0.0016978444582506367,0.002817483379373426,0.07184725249164425,33,28,False,False,candidata
+completo,parte_corpo_atingida_agrup,estado_civil,6,0.0016059564039157853,0.0023255134136779577,0.04406683732226168,34,35,False,False,candidata
+completo,parte_corpo_atingida_agrup,ano_acidente,7,0.0015169026782321288,0.0018490402837412151,0.048462584995400904,35,30,False,False,candidata
+completo,parte_corpo_atingida_agrup,ano_competencia,7,0.0015169026782321288,0.0018490402837412151,0.048462584995400904,36,30,False,False,candidata
+completo,parte_corpo_atingida_agrup,regiao,6,0.0013706722224135872,0.0019263691932896788,0.04060916061438796,37,36,False,False,candidata
+completo,parte_corpo_atingida_agrup,mes_acidente,12,0.0010855173623463752,0.0011952116062731756,0.032075272466305656,38,39,False,False,candidata
+completo,parte_corpo_atingida_agrup,area_atividade,3,0.0007782792442661386,0.0014312796529069199,0.046673044818033145,39,33,False,False,pouco informativa isoladamente
+completo,parte_corpo_atingida_agrup,tipo_cat,3,0.000490421108778446,0.0009681990395730864,0.06109003076880875,40,29,False,False,pouco informativa isoladamente
+completo,parte_corpo_atingida_agrup,indica_obito,2,0.00038049071413370344,0.0007596269286972616,0.08205361755252708,41,26,False,False,pouco informativa isoladamente
+completo,parte_corpo_atingida_agrup,dia_semana_acidente,7,0.00028335912560581,0.000351588893343789,0.016376001663279807,42,42,False,False,pouco informativa isoladamente
+completo,parte_corpo_atingida_agrup,filiacao_segurado,3,2.7120814133871292e-05,5.398530449590451e-05,0.00978705639548984,43,43,False,False,pouco informativa isoladamente
+completo,parte_corpo_atingida_agrup,origem_cadastramento,2,9.022082144406325e-07,1.8043445305158028e-06,0.0,44,44,False,False,pouco informativa isoladamente
+tipo1_obito,houve_obito,tem_data_obito_segurado,2,1.0,1.0,0.9999999999999999,1,1,True,True,excluir: no mapa de vazamento
+tipo1_obito,houve_obito,indica_acidente,2,1.0,1.0,0.9999999999999999,2,1,True,True,excluir: no mapa de vazamento
+tipo1_obito,houve_obito,indica_obito_acidente,2,0.9978017388032059,0.9982536966438306,0.9994623162774751,3,3,True,True,excluir: no mapa de vazamento
+tipo1_obito,houve_obito,especie_codigo,4,0.9147381126438726,0.6823970657090701,0.9283421129996284,4,4,True,True,excluir: no mapa de vazamento
+tipo1_obito,houve_obito,parte_corpo_atingida_agrup,42,0.3030358065125548,0.005291932822592608,0.21951690416768188,5,6,False,False,candidata
+tipo1_obito,houve_obito,cid_categoria_agrup,97,0.28918310429835814,0.004066333809696123,0.17393853479754504,6,8,False,False,candidata
+tipo1_obito,houve_obito,natureza_lesao_agrup,24,0.2456661316813856,0.005487099608016299,0.21155606637042196,7,7,False,False,candidata
+tipo1_obito,houve_obito,agente_causador_agrup,119,0.12366345548095987,0.001619392782032129,0.10158602261533885,8,10,False,False,candidata
+tipo1_obito,houve_obito,especie_beneficio,4,0.10940613376512477,0.013676885616692985,0.3174340891241431,9,5,True,False,excluir: no mapa de vazamento
+tipo1_obito,houve_obito,capitulo_cid,16,0.10883417100339329,0.0062124913377971675,0.13937583355510247,10,9,False,False,candidata
+tipo1_obito,houve_obito,situacao_geradora_agrup,45,0.07775488832086158,0.001222885316765534,0.07757315273152547,11,11,False,False,candidata
+tipo1_obito,houve_obito,tipo_local_acidente,6,0.06303388755443767,0.0028610177228150816,0.06042737965133747,12,13,False,False,candidata
+tipo1_obito,houve_obito,cbo_agrup,158,0.06202077323562097,0.0008236157521832261,0.07020018200125493,13,12,False,False,candidata
+tipo1_obito,houve_obito,cnae_empregador_agrup,203,0.050355408020408304,0.0006150853715316224,0.05572459502933352,14,14,False,False,candidata
+tipo1_obito,houve_obito,indica_afastamento,2,0.035148584949387225,0.0035257846330829694,0.03247938983922389,15,19,False,False,candidata
+tipo1_obito,houve_obito,tem_data_afastamento,2,0.03514653687641791,0.003525674649680772,0.03247833175395402,16,20,True,False,excluir: no mapa de vazamento
+tipo1_obito,houve_obito,houve_afastamento,2,0.035146309314438996,0.0035256624293855013,0.03247821418852865,17,21,True,False,excluir: no mapa de vazamento
+tipo1_obito,houve_obito,cnae_secao,20,0.03001338886759278,0.000691669529001789,0.0384587663186063,18,15,False,False,candidata
+tipo1_obito,houve_obito,sexo,3,0.02651394347616702,0.0021804954191936747,0.03326465448640993,19,18,False,False,candidata
+tipo1_obito,houve_obito,tipo_acidente,4,0.022682710988271546,0.001836246806289912,0.037886964132162436,20,16,False,False,candidata
+tipo1_obito,houve_obito,cbo_grande_grupo,10,0.015001209106697343,0.00042369666675350873,0.028204645287687218,21,22,False,False,candidata
+tipo1_obito,houve_obito,municipio_segurado_cod_agrup,185,0.014050299159947969,0.00020576060633796162,0.026665116694332622,22,24,False,False,candidata
+tipo1_obito,houve_obito,municipio_empresa_cod_agrup,171,0.013385206163480896,0.00019487459324298422,0.02630923162523093,23,25,False,False,candidata
+tipo1_obito,houve_obito,uf_segurado,28,0.008738712502266273,0.00019109595999337875,0.022949339523308982,24,27,False,False,candidata
+tipo1_obito,houve_obito,uf_empregador,27,0.008578778112798377,0.00019395165194420418,0.022580273531926313,25,28,False,False,candidata
+tipo1_obito,houve_obito,area_atividade,3,0.007968183903425094,0.0014736165523595622,0.023822807349866356,26,26,False,False,candidata
+tipo1_obito,houve_obito,uf_acidente,16,0.007506706099413604,0.00023145669182597905,0.02087046867579665,27,29,False,False,candidata
+tipo1_obito,houve_obito,estado_civil,6,0.00587331862312339,0.0002653946414460588,0.018772184420154468,28,30,False,False,candidata
+tipo1_obito,houve_obito,faixa_etaria,8,0.005034193332545069,0.00017298760176315286,0.017936184166767746,29,31,False,False,candidata
+tipo1_obito,houve_obito,regiao,6,0.00410544084103088,0.00016747148568853625,0.015388012864796921,30,32,False,False,candidata
+tipo1_obito,houve_obito,ramo_atividade,3,0.0029873893522041526,0.0003763698391977592,0.02696093288783734,31,23,True,False,excluir: no mapa de vazamento
+tipo1_obito,houve_obito,dia_semana_acidente,7,0.0022743242217176975,6.452581920493186e-05,0.01161084374083375,32,33,False,False,candidata
+tipo1_obito,houve_obito,emitente_cat,6,0.001834806303124077,0.0007568195723248406,0.03431359688352073,33,17,False,False,candidata
+tipo1_obito,houve_obito,remuneracao_sm_faixa,6,0.0012008556919485588,6.275994859409002e-05,0.008238115768489374,34,34,False,False,candidata
+tipo1_obito,houve_obito,ano_competencia,7,0.00022854349050908747,6.195621545532665e-06,0.0034718375052101725,35,35,False,False,pouco informativa isoladamente
+tipo1_obito,houve_obito,ano_acidente,7,0.00022854349050908747,6.195621545532665e-06,0.0034718375052101725,36,35,False,False,pouco informativa isoladamente
+tipo1_obito,houve_obito,tem_data_despacho,2,0.0002124526620541272,2.6893696725970715e-05,0.0033005992236461654,37,38,True,False,excluir: no mapa de vazamento
+tipo1_obito,houve_obito,faixa_atraso_cat,5,0.00020591613026442744,7.315277117421422e-06,0.003306034485260025,38,37,True,False,excluir: no mapa de vazamento
+tipo1_obito,houve_obito,emitente_empregador,2,0.00020114922039817852,9.558973651534881e-05,0.0030491653645509584,39,39,False,False,pouco informativa isoladamente
+tipo1_obito,houve_obito,filiacao_segurado,3,0.00010081848513546286,0.00013094774650137378,0.0025753930178518346,40,40,False,False,pouco informativa isoladamente
+tipo1_obito,houve_obito,mes_acidente,12,5.516398421804303e-05,1.1770408909226885e-06,0.0017376546617455522,41,41,False,False,pouco informativa isoladamente
+tipo1_obito,houve_obito,origem_cadastramento,2,1.494374579735878e-06,2.975207198387965e-06,0.0,42,42,False,False,pouco informativa isoladamente
+tipo1_afastamento,houve_afastamento,tem_data_afastamento,2,0.99996966237302,0.9999680786907191,0.9999963811943637,1,1,True,True,excluir: no mapa de vazamento
+tipo1_afastamento,houve_afastamento,indica_afastamento,2,0.9997500950149417,0.999734262273026,0.9999638132315812,2,2,True,True,excluir: no mapa de vazamento
+tipo1_afastamento,houve_afastamento,cid_categoria_agrup,97,0.14351729445975775,0.03393698040346759,0.3918147583619494,3,4,False,False,candidata
+tipo1_afastamento,houve_afastamento,cnae_empregador_agrup,203,0.1432188621043877,0.02985814255161993,0.39417645686414077,4,3,False,False,candidata
+tipo1_afastamento,houve_afastamento,agente_causador_agrup,119,0.12440796573013793,0.027609150267256525,0.38227148436446734,5,6,False,False,candidata
+tipo1_afastamento,houve_afastamento,situacao_geradora_agrup,45,0.1204035947304076,0.03142764271927632,0.38611034362258334,6,5,False,False,candidata
+tipo1_afastamento,houve_afastamento,cbo_agrup,158,0.10810684121451745,0.024293606370860903,0.35200971933930664,7,7,False,False,candidata
+tipo1_afastamento,houve_afastamento,cnae_secao,20,0.09419915449635237,0.03406879310999441,0.32451839536791605,8,8,False,False,candidata
+tipo1_afastamento,houve_afastamento,natureza_lesao_agrup,24,0.08798214605047787,0.031003831655101958,0.28389043092433686,9,10,False,False,candidata
+tipo1_afastamento,houve_afastamento,capitulo_cid,16,0.06594985548499387,0.04715163716534875,0.2887108136184335,10,9,False,False,candidata
+tipo1_afastamento,houve_afastamento,especie_beneficio,4,0.05843915003031357,0.06522177929038947,0.19405910008277522,11,13,True,False,excluir: no mapa de vazamento
+tipo1_afastamento,houve_afastamento,ramo_atividade,3,0.058408952588770956,0.06542702060222705,0.19400804288630114,12,15,True,False,excluir: no mapa de vazamento
+tipo1_afastamento,houve_afastamento,tem_data_despacho,2,0.05840683918311251,0.06557070912580361,0.1940085021100903,13,14,True,False,excluir: no mapa de vazamento
+tipo1_afastamento,houve_afastamento,cbo_grande_grupo,10,0.05271102325475183,0.022495272953577092,0.2462395878894066,14,11,False,False,candidata
+tipo1_afastamento,houve_afastamento,parte_corpo_atingida_agrup,42,0.04750924274580025,0.013584016653193184,0.2271111655210378,15,12,False,False,candidata
+tipo1_afastamento,houve_afastamento,tipo_local_acidente,6,0.036776610055448966,0.02246576241149308,0.18921515054057245,16,16,False,False,candidata
+tipo1_afastamento,houve_afastamento,tipo_acidente,4,0.029896686370767745,0.026553807433548716,0.16836234527725066,17,17,False,False,candidata
+tipo1_afastamento,houve_afastamento,municipio_empresa_cod_agrup,171,0.024458783753084468,0.0059646706721197115,0.1655486395792448,18,18,False,False,candidata
+tipo1_afastamento,houve_afastamento,municipio_segurado_cod_agrup,185,0.0153343399397402,0.0037589654281167573,0.1276409010846329,19,19,False,False,candidata
+tipo1_afastamento,houve_afastamento,sexo,3,0.015311858694318024,0.013724106079431801,0.12684406262356449,20,20,False,False,candidata
+tipo1_afastamento,houve_afastamento,remuneracao_sm_faixa,6,0.010470350478883967,0.007004641635681443,0.10623993863144625,21,21,False,False,candidata
+tipo1_afastamento,houve_afastamento,faixa_atraso_cat,5,0.009321224579942597,0.00475570826481142,0.09486372146890269,22,22,True,False,excluir: no mapa de vazamento
+tipo1_afastamento,houve_afastamento,uf_empregador,27,0.0069527721085908805,0.0024749433055252117,0.08324319500285059,23,23,False,False,candidata
+tipo1_afastamento,houve_afastamento,uf_segurado,28,0.006141367371711672,0.002126244632552886,0.07837915016533073,24,24,False,False,candidata
+tipo1_afastamento,houve_afastamento,uf_acidente,16,0.0048931418576213465,0.002238186158541835,0.06993435251321589,25,25,False,False,candidata
+tipo1_afastamento,houve_afastamento,faixa_etaria,8,0.0026878411694606576,0.0013370249857413794,0.05083258819810513,26,26,False,False,candidata
+tipo1_afastamento,houve_afastamento,emitente_cat,6,0.0022071132331003915,0.0036686350019704593,0.041712912030597786,27,27,False,False,candidata
+tipo1_afastamento,houve_afastamento,houve_obito,2,0.0018559183963881396,0.0035256624293855013,0.03247821418852865,28,30,True,False,excluir: no mapa de vazamento
+tipo1_afastamento,houve_afastamento,tem_data_obito_segurado,2,0.0018559183963881396,0.0035256624293855013,0.03247821418852865,29,30,True,False,excluir: no mapa de vazamento
+tipo1_afastamento,houve_afastamento,indica_acidente,2,0.0018559183963881396,0.0035256624293855013,0.03247821418852865,30,30,True,False,excluir: no mapa de vazamento
+tipo1_afastamento,houve_afastamento,indica_obito_acidente,2,0.0018539267328579949,0.0035220388540835325,0.03246074632815915,31,33,True,False,excluir: no mapa de vazamento
+tipo1_afastamento,houve_afastamento,emitente_empregador,2,0.0018156827781177335,0.0031056742270857054,0.038854290319117406,32,28,False,False,candidata
+tipo1_afastamento,houve_afastamento,dia_semana_acidente,7,0.001019668242051576,0.0004367227033311307,0.03296095870450911,33,29,False,False,candidata
+tipo1_afastamento,houve_afastamento,estado_civil,6,0.0006803281319888078,0.00041427600440744434,0.026330911460640604,34,34,False,False,pouco informativa isoladamente
+tipo1_afastamento,houve_afastamento,area_atividade,3,0.0005176316541454884,0.0006818759826500462,0.022432437078805698,35,35,False,False,pouco informativa isoladamente
+tipo1_afastamento,houve_afastamento,ano_competencia,7,0.0004823597044840893,0.00019920025144546893,0.02222693182659368,36,36,False,False,pouco informativa isoladamente
+tipo1_afastamento,houve_afastamento,ano_acidente,7,0.0004823597044840893,0.00019920025144546893,0.02222693182659368,37,36,False,False,pouco informativa isoladamente
+tipo1_afastamento,houve_afastamento,regiao,6,0.0002942309089784126,0.0001664121602452391,0.017182194649922575,38,38,False,False,pouco informativa isoladamente
+tipo1_afastamento,houve_afastamento,mes_acidente,12,0.00018351293463418945,6.224121561418038e-05,0.013697816704580713,39,39,False,False,pouco informativa isoladamente
+tipo1_afastamento,houve_afastamento,especie_codigo,4,0.00015394695088440666,0.00014155233325090254,0.002526205855100731,40,41,True,False,excluir: no mapa de vazamento
+tipo1_afastamento,houve_afastamento,filiacao_segurado,3,1.6338330528973574e-05,3.177100096514866e-05,0.003964428028849762,41,40,False,False,pouco informativa isoladamente
+tipo1_afastamento,houve_afastamento,origem_cadastramento,2,1.2746455186963038e-06,2.5486784634144703e-06,0.0009630599248911731,42,42,False,False,pouco informativa isoladamente

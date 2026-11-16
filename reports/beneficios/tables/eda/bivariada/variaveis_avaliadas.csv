@@ -1,6 +1,4 @@
 ﻿variavel,k_niveis,n_validos,pct_nulos,niveis_agrupados_em_outras
-especie,6,1935686,0.0,0
-despacho,6,1935686,0.0,4
 sexo,2,1935686,0.0,0
 clientela,2,1935686,0.0,0
 vinculo_dependentes,6,1935686,0.0,3
@@ -13,4 +11,11 @@ ano_competencia,7,1935686,0.0,0
 capitulo_cid,19,1935686,0.0,4
 cid_categoria_agrup,79,1935686,0.0,0
 despacho_agrup,6,1935686,0.0,0
-idade_faixa,6,1933650,0.0010518234879004495,0
+dia_semana_dib,7,1935686,0.0,0
+mes_competencia,12,1935686,0.0,0
+faixa_etaria,9,1935686,0.0,0
+regiao,5,1935686,0.0,0
+faixa_rmi,6,1935686,0.0,0
+grupo_especie,5,1935686,0.0,0
+faixa_atraso_concessao,6,1935686,0.0,0
+faixa_duracao_beneficio,6,1935686,0.0,0

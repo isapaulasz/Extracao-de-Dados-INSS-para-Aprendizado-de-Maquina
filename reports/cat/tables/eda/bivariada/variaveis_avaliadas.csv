@@ -31,7 +31,15 @@ municipio_segurado_cod_agrup,185,3429605,0.0,0
 natureza_lesao_agrup,24,3429605,0.0,0
 parte_corpo_atingida_agrup,42,3429605,0.0,0
 situacao_geradora_agrup,45,3429605,0.0,0
-idade_faixa,6,3429175,0.0001253788701613967,0
+ano_acidente,7,3429605,0.0,0
+mes_acidente,12,3429605,0.0,0
+dia_semana_acidente,7,3429605,0.0,0
+faixa_etaria,8,3429605,0.0,0
+regiao,6,3429605,0.0,0
+emitente_empregador,2,3429589,4.66526028508607e-06,0
+houve_obito,2,3429605,0.0,0
+houve_afastamento,2,3429605,0.0,0
+faixa_atraso_cat,6,3429605,0.0,0
 remuneracao_sm_faixa,6,3169917,0.07571950705693509,0
 tem_data_despacho,2,3429605,0.0,0
 tem_data_afastamento,2,3429605,0.0,0
