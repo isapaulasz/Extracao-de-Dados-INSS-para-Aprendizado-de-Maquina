@@ -18,3 +18,18 @@ test:
 	pytest -q
 cat-relatorio:
 	mkdir -p reports/cat/tables && cp docs/qualidade/cat_atrito.csv reports/cat/tables/
+
+bc-schema:
+	python scripts/bc_01_ingestao.py --so-schema
+bc-ingestao:
+	python scripts/bc_01_ingestao.py
+bc-auditoria:
+	python scripts/bc_02_auditoria.py
+bc-limpeza:
+	python scripts/bc_03_limpeza.py
+bc-verificacao:
+	python scripts/bc_04_verificacao.py
+bc-fase2-3: bc-auditoria bc-limpeza bc-verificacao
+bc-features:
+	python scripts/bc_05_features.py
+bc-fase3-4: bc-limpeza bc-verificacao bc-features
