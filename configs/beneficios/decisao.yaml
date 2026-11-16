@@ -1,0 +1,86 @@
+# Fase 5 (fechamento) — BC: variáveis por técnica (Apriori/FP-Growth e clusterização) e desbalanceamento de itens.
+# O BC não tem alvo supervisionado; os "candidatos a alvo" são consequentes de interesse nas regras.
+# Tudo aqui é PROPOSTA a confirmar.
+base: beneficios
+tabelas_eda: reports/beneficios/tables/eda
+saidas:
+  tabelas: reports/beneficios/tables/eda/decisao
+  figuras: reports/beneficios/figures/eda/decisao
+
+limiares_desbalanceamento: {muito: 0.01, forte: 0.10}
+
+mineracao:
+  limiar_dominancia: 0.95          # item com suporte >= 95% gera regras triviais e distorce clusters
+  suportes_teste: [0.001, 0.005, 0.01, 0.05]
+  consequentes_interesse: [grupo_especie, faixa_rmi, faixa_duracao_beneficio]
+  frequencias: univariada/frequencias
+
+# Consequentes de interesse (sem papel supervisionado): o desbalanceamento deles define o suporte mínimo.
+alvos:
+  grupo_especie:
+    papel: consequente_interesse
+    cenario: completo
+    motivo: "Espécie do benefício; AUXILIO_SUPLEMENTAR e as aposentadorias têm <1% (suporte mínimo precisa ser menor que isso para aparecerem)."
+  faixa_rmi:
+    papel: consequente_interesse
+    cenario: completo
+    motivo: "Faixa da renda mensal inicial; o nível DESCONHECIDA tem 2 linhas e deve ser removido das transações."
+  faixa_duracao_beneficio:
+    papel: consequente_interesse
+    cenario: completo
+    motivo: "Depende da semântica da DCB (pendente); usar só depois de confirmada."
+
+variaveis:
+  tecnicas: [apriori, clusterizacao]
+  identificadores: [arquivo_origem, ano_arquivo, municipio_residencia_cod]
+  excluir_sempre:
+    vinculo_dependentes: "Significado desconhecido (pendência aberta na Fase 4); 78% NAO_INFORMADO."
+    dia_semana_dib: "Data administrativa: geraria regras por calendário sem leitura substantiva. [propor]"
+    classificador_pa: "99,4% em uma categoria: regras triviais."
+    acordo_internacional: "99,99% em uma categoria."
+    cid_10: "5.048 níveis; usar capitulo_cid ou cid_categoria_agrup."
+    cid_categoria: "1.470 níveis; usar cid_categoria_agrup."
+    ano_dib: "redundante com ano_competencia."
+  # Dependem da semântica da DCB (real ou programada), ainda não confirmada.
+  condicionais:
+    faixa_duracao_beneficio: "Usar só depois de confirmar se a DCB é real ou programada."
+    tem_data_cessacao: "idem; além disso redundante com faixa_duracao_beneficio."
+    duracao_beneficio_dias: "idem."
+    data_dcb: "idem."
+  grupos_redundancia:
+    - nome: especie
+      motivo: "grupo_especie agrega especie"
+      preferida: {apriori: grupo_especie, clusterizacao: grupo_especie}
+      membros: [grupo_especie, especie]
+    - nome: cid
+      motivo: "mesma hierarquia CID-10"
+      preferida: {apriori: cid_categoria_agrup, clusterizacao: capitulo_cid}
+      membros: [capitulo_cid, cid_categoria_agrup]
+    - nome: renda
+      motivo: "faixa_rmi, qt_sm_rmi e rmi_abaixo_piso medem a mesma coisa"
+      preferida: {apriori: faixa_rmi, clusterizacao: qt_sm_rmi}
+      membros: [faixa_rmi, qt_sm_rmi, rmi_abaixo_piso]
+    - nome: idade
+      motivo: "faixa_etaria discretiza idade"
+      preferida: {apriori: faixa_etaria, clusterizacao: idade}
+      membros: [faixa_etaria, idade]
+    - nome: atraso
+      motivo: "faixa discretiza o atraso em dias"
+      preferida: {apriori: faixa_atraso_concessao, clusterizacao: atraso_concessao_dias}
+      membros: [faixa_atraso_concessao, atraso_concessao_dias]
+    - nome: despacho
+      motivo: "despacho_agrup agrega despacho"
+      preferida: {apriori: despacho_agrup, clusterizacao: despacho_agrup}
+      membros: [despacho_agrup, despacho]
+    - nome: filiacao
+      motivo: "clientela é função de forma_filiacao (V=0,998) e de ramo_atividade (V=1,0)"
+      preferida: {apriori: forma_filiacao, clusterizacao: forma_filiacao}
+      membros: [forma_filiacao, clientela]
+    - nome: geografia
+      motivo: "uf e regiao têm V=1,0 (região é função da UF)"
+      preferida: {apriori: uf, clusterizacao: regiao}
+      membros: [uf, regiao]
+    - nome: sazonalidade
+      motivo: "mês da DIB (início da incapacidade) é mais próximo do evento que o mês da competência (processamento)"
+      preferida: {apriori: mes_dib, clusterizacao: mes_dib}
+      membros: [mes_dib, mes_competencia]

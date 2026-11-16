@@ -1,0 +1,4 @@
+﻿alvo,cenario,papel,cenario_adotado,n_validos,n_classes,nivel,pct_majoritaria,pct_minoritaria,n_minoritaria,razao_maj_min,n_classes_lt_1pct,acuracia_classificador_trivial,motivo_papel
+faixa_duracao_beneficio,completo,consequente_interesse,True,1935686,6,multiclasse,0.4808894624438054,0.004557557372425073,8822,105.51473588755384,1,0.4808894624438054,Depende da semântica da DCB (pendente); usar só depois de confirmada.
+faixa_rmi,completo,consequente_interesse,True,1935686,6,multiclasse,0.5492967351109632,1.0332254301575772e-06,2,531633.0,1,0.5492967351109632,Faixa da renda mensal inicial; o nível DESCONHECIDA tem 2 linhas e deve ser removido das transações.
+grupo_especie,completo,consequente_interesse,True,1935686,5,multiclasse,0.8864660900579949,0.0005532922178493826,1071,1602.1661998132586,2,0.8864660900579949,Espécie do benefício; AUXILIO_SUPLEMENTAR e as aposentadorias têm <1% (suporte mínimo precisa ser menor que isso para aparecerem).

@@ -35,10 +35,11 @@ bc-features:
 bc-fase3-4: bc-limpeza bc-verificacao bc-features
 
 .PHONY: eda-cat eda-bc eda-cat-univariada eda-cat-bivariada eda-bc-univariada eda-bc-bivariada \
-        eda-cat-mi eda-cat-temporal eda-cat-territorial eda-bc-mi eda-bc-temporal eda-bc-territorial
+        eda-cat-mi eda-cat-temporal eda-cat-territorial eda-bc-mi eda-bc-temporal eda-bc-territorial \
+        eda-cat-decisao eda-bc-decisao
 
-eda-cat: eda-cat-univariada eda-cat-bivariada eda-cat-mi eda-cat-temporal eda-cat-territorial
-eda-bc: eda-bc-univariada eda-bc-bivariada eda-bc-mi eda-bc-temporal eda-bc-territorial
+eda-cat: eda-cat-univariada eda-cat-bivariada eda-cat-mi eda-cat-temporal eda-cat-territorial eda-cat-decisao
+eda-bc: eda-bc-univariada eda-bc-bivariada eda-bc-mi eda-bc-temporal eda-bc-territorial eda-bc-decisao
 
 eda-cat-univariada:
 	python scripts/eda_05_univariada.py --base cat
@@ -60,3 +61,7 @@ eda-bc-temporal:
 	python scripts/eda_05_temporal.py --base beneficios
 eda-bc-territorial:
 	python scripts/eda_05_territorial.py --base beneficios
+eda-cat-decisao:
+	python scripts/eda_05_decisao.py --base cat
+eda-bc-decisao:
+	python scripts/eda_05_decisao.py --base beneficios

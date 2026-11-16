@@ -1,0 +1,15 @@
+﻿tecnica,status,n_variaveis
+apriori,condicional,4
+apriori,entra,11
+apriori,entra_com_cuidado,1
+apriori,excluir_data_bruta,4
+apriori,excluir_identificador,3
+apriori,excluir_outro,7
+apriori,excluir_redundante,10
+clusterizacao,condicional,4
+clusterizacao,entra,9
+clusterizacao,entra_numerica,3
+clusterizacao,excluir_data_bruta,4
+clusterizacao,excluir_identificador,3
+clusterizacao,excluir_outro,7
+clusterizacao,excluir_redundante,10

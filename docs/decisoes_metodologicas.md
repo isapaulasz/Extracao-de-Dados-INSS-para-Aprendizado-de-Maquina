@@ -174,3 +174,79 @@ Fica em `configs/cat/features.yaml` (`vazamento`) e é lido por `colunas_proibid
 | `beneficio` | `especie_codigo`, `data_despacho`, `indica_afastamento`, `data_afastamento`, `ano_competencia`, `ano_acidente` |
 
 `sempre`: `arquivo_origem`, `ano_arquivo`, `semestre_arquivo` (o % de CATs com benefício cai de 23% para 2,4% entre arquivos, provavelmente por data de extração), `numero_cat`, `razao_social`, `local_acidente`, `cnpj_empregador`, `cnpj_raiz` (identificadores ou alta cardinalidade) e os desfechos `houve_*`. A lista é uma proposta inicial: revise-a quando o alvo for escolhido (Fase 6).
+
+## Fase 5: Análise exploratória (fechamento: desbalanceamento e variáveis por técnica)
+
+**Escopo desta seção:** os dois últimos itens do roadmap da Fase 5 (desbalanceamento dos candidatos a alvo; quais variáveis entram em cada técnica). As subseções de univariada, bivariada, informação mútua, séries temporais e território serão acrescentadas como 5.1 a 5.5. **Data:** 16/11/2026. **Status:** propostas; os pontos marcados [CONFIRMAR] dependem de decisão do autor.
+
+Executada por `scripts/eda_05_decisao.py` (`make eda-cat-decisao`, `make eda-bc-decisao`), com regras em `configs/<base>/decisao.yaml` e código em `common/eda_decisao.py`. O script **não lê o parquet**: consolida as tabelas que a EDA já gravou em `reports/<base>/tables/eda/`, então roda em segundos e cada decisão sai com o motivo. Saídas em `reports/<base>/tables/eda/decisao/`:
+
+| Arquivo | Conteúdo |
+|---|---|
+| `plano_desbalanceamento.csv` | baselines, positivos por partição, métricas e estratégia por técnica |
+| `heterogeneidade_taxas.csv` | (CAT) estabilidade da prevalência por arquivo e por território |
+| `variaveis_por_tecnica.csv` | status e motivo de cada variável por alvo × técnica |
+| `matriz_variaveis_tecnica.csv` | mesma informação em formato largo (tabela do artigo) |
+| `suporte_itens.csv`, `cobertura_suporte.csv` | (BC) itens e quantos sobrevivem a cada suporte mínimo |
+
+### 5.6 Desbalanceamento dos candidatos a alvo (CAT)
+
+| Alvo | Recorte | Classe positiva | Positivos | % | Razão maj:min | Acurácia do classificador trivial | Papel proposto |
+|---|---|---|---:|---:|---:|---:|---|
+| `houve_obito` | `tipo_cat = 1` | True | 14.010 | 0,41% | 1:242 | 99,59% | **primário** |
+| `houve_obito` | completo | True | 16.232 | 0,47% | 1:210 | 99,53% | sensibilidade |
+| `houve_afastamento` | `tipo_cat = 1` | True | 2.714.517 | 79,64% | 1:3,9 | 79,64% | secundário (controle) |
+| `tem_data_despacho` | completo | sim | 463.125 | 13,50% | 1:6,4 | 86,50% | descartado |
+| `tipo_acidente` | completo | (4 classes) | | NAO_INFORMADO 0,19% | 1:404 | | reserva |
+| `natureza_lesao_agrup` | completo | (24 classes, 11 < 1%) | | | 1:489 | | reserva |
+| `parte_corpo_atingida_agrup` | completo | (42 classes, 21 < 1%) | | | 1:233 | | reserva |
+
+**Decisões:**
+
+1. **Alvos.** Óbito (`tipo_cat = 1`) é o alvo principal; afastamento (`tipo_cat = 1`) entra como contraste com um alvo balanceado, para mostrar que a escolha da métrica muda a conclusão. `tem_data_despacho` sai: a taxa de benefício cai de 23,0% para 2,4% entre os arquivos (V = 0,20 entre arquivo e alvo), ou seja, o alvo mede a data de extração e não o fenômeno. Os multiclasse ficam de reserva: CID-10 (capítulos S e T) já codifica natureza da lesão e parte do corpo, o que cria vazamento por construção. [CONFIRMAR]
+2. **Métricas do óbito.** Um classificador que sempre responde "não" acerta 99,59%, então a **acurácia é proibida**. Métrica primária: **PR-AUC** (average precision), sempre ao lado da linha de base, que é a prevalência (0,0041), e não 0,5. Secundárias: recall com precisão fixa, F2 e F1 da classe positiva, MCC, balanced accuracy e Brier com curva de calibração. ROC-AUC só como complemento (é otimista com classe rara). O limiar de decisão é escolhido na validação, nunca no teste. Para o afastamento: ROC-AUC primária, com PR-AUC, F1, balanced accuracy e MCC, e acurácia só comparada ao baseline de 79,64%.
+3. **Partição.** Split estratificado pelo alvo (80/20, semente 42) e validação cruzada estratificada de 5 dobras. Com 14.010 positivos sobram **11.208 no treino, 2.802 no teste e cerca de 2.242 por dobra**; a meia-largura do IC95% do recall no pior caso é ±1,85 p.p. O problema do óbito, portanto, não é falta de positivos, e sim o viés do otimizador para a classe majoritária.
+4. **Tratamento do desbalanceamento, só no treino.** Árvore: `class_weight='balanced'` e `min_samples_leaf` alto. Random Forest: `class_weight='balanced_subsample'`. Rede neural: subamostragem aleatória dos negativos (ou `sample_weight`, se a versão instalada do scikit-learn suportar no `MLPClassifier`). Pesos e subamostragem distorcem as probabilidades: recalibrar antes de interpretar com SHAP ou de escolher limiar.
+5. **Estabilidade da prevalência** (`heterogeneidade_taxas.csv`). Com milhões de linhas o p-valor sempre rejeita; a leitura usa a razão máx/mín e o V de Cramér.
+
+| Alvo | Eixo | Taxa mín. | Taxa máx. | Razão | V | Leitura |
+|---|---|---:|---:|---:|---:|---|
+| óbito | arquivo | 0,415% | 0,495% | 1,19 | 0,004 | estável (tendência decrescente, z = -5,3) |
+| afastamento | arquivo | 76,3% | 81,0% | 1,06 | 0,026 | estável (2017-S1 é o ponto baixo) |
+| despacho | arquivo | 2,4% | 23,0% | 9,5 | 0,199 | **artefato de extração** |
+| óbito | região | 0,39% (Sudeste) | 0,73% (Norte) | 1,88 | 0,017 | heterogênea |
+| óbito | UF do segurado | 0,32% (SP) | 1,53% (TO) | 4,70 | 0,026 | heterogênea |
+| afastamento | UF do segurado | 72,2% (SE) | 88,6% (DF) | 1,23 | 0,079 | estável (no limite do limiar 1,25) |
+
+   Prevalência estável entre arquivos sustenta o split estratificado aleatório. Como a taxa de óbito decresce de leve, a validação temporal (treino nos arquivos 2012-2016, teste em 2017-2018, cerca de 3,9 mil positivos com todos os tipos de CAT) entra como **análise de sensibilidade**. A UF é a UF de residência, não a do acidente (limitação já registrada na Fase 4).
+6. **BC (sem alvo supervisionado).** O desbalanceamento aparece como itens raros: `grupo_especie` tem 88,65% em AUXILIO_DOENCA, PENSAO_POR_MORTE com 0,19% e AUXILIO_SUPLEMENTAR com 0,055% (1.071 linhas); `faixa_rmi = DESCONHECIDA` tem 2 linhas; `faixa_duracao_beneficio = 366+` tem 0,46%. Consequências para o Apriori/FP-Growth: (a) a confiança sozinha engana, porque a classe dominante já tem 88,65% de base; ranquear por **lift**, leverage e suporte absoluto; (b) para um consequente raro aparecer, o suporte mínimo precisa ficar abaixo da frequência dele (≈ 0,05% para AUXILIO_SUPLEMENTAR); com 179 itens, 168 sobrevivem a suporte ≥ 0,1%, 109 a ≥ 0,5%, 91 a ≥ 1% e 61 a ≥ 5% (`cobertura_suporte.csv`); ponto de partida sugerido: suporte mínimo de 0,05% e `max_len` 4, a calibrar na Fase 7 [propor]; (c) itens `NAO_INFORMADO` e `faixa_rmi = DESCONHECIDA` saem das transações. Para o K-Prototypes (1,9 milhão de linhas) uma amostra proporcional teria só ~55 linhas de AUXILIO_SUPLEMENTAR em 100 mil; verificar a cobertura dos grupos raros na amostra ou agrupar por espécie [propor].
+
+### 5.7 Variáveis por técnica
+
+**Ordem das regras** (a primeira que casa define o status): identificador → vazamento (mapa da Fase 4, `u_alvo` ≥ 0,90 ou marca da EDA) → exclusão extra por alvo → exclusão própria → redundância (um nível por hierarquia e por técnica) → baixa informação → cardinalidade. Status possíveis: `entra`, `entra_com_cuidado` (> 50 níveis), `entra_opcional`, `entra_numerica` e as exclusões (`excluir_identificador`, `excluir_vazamento`, `excluir_redundante`, `excluir_baixa_informacao`, `excluir_outro`, `excluir_constante_no_recorte`); no BC também `condicional` (depende de confirmação).
+
+**CAT (predição + XAI).** Mesma lista base para Árvore, Random Forest e Rede Neural; a diferença é o nível da hierarquia e o tratamento das variáveis fracas.
+
+| Alvo | Árvore | Random Forest / Rede neural |
+|---|---:|---:|
+| `houve_obito` (`tipo_cat = 1`) | 16 variáveis | 21 (5 delas opcionais) |
+| `houve_afastamento` (`tipo_cat = 1`) | 15 | 21 (6 opcionais) |
+
+- **Excluídas por vazamento (10 em cada alvo):** `especie_beneficio`, `especie_codigo`, `indica_acidente`, `indica_obito_acidente`, `tem_data_obito_segurado`, `ramo_atividade`, `tem_data_despacho`, `tem_data_afastamento`, `indica_afastamento` e `houve_afastamento` (no óbito); no afastamento, `houve_obito` ocupa o lugar de `houve_afastamento`.
+- **Correção ao mapa da Fase 4.** `indica_afastamento` estava como "candidata" para o óbito, mas todos os 16.232 óbitos têm afastamento, e `tem_data_afastamento` e `houve_afastamento` já eram excluídas. Passa a ser excluída também. Migrar para `features.yaml` na Fase 6. [CONFIRMAR]
+- **`faixa_atraso_cat` liberada dentro do recorte `tipo_cat = 1`.** Ela estava no mapa só porque denunciava o tipo da CAT (NAO_APLICAVEL nos tipos 2 e 3); com o recorte esse motivo some. No óbito ela tem U ≈ 0 (fica opcional); no afastamento entra. [CONFIRMAR]
+- **Um nível por hierarquia:** CID (`capitulo_cid` na árvore, `cid_categoria_agrup` nos demais), CNAE (`cnae_secao` / `cnae_empregador_agrup`), CBO (`cbo_grande_grupo` / `cbo_agrup`).
+- **Geografia:** `uf_segurado` em todas as técnicas. Carrega mais informação que `regiao` (afastamento: V = 0,078 contra 0,017) e as demais UFs e municípios são redundantes (V entre 0,65 e 1,0) ou têm MI ≈ 0. `regiao` fica para descrição e mapas.
+- **Fora de todas as técnicas:** `ano_acidente` e `ano_competencia` (V = 1,0 entre si, MI ≈ 0, e a prevalência deriva entre arquivos; servem só para partição temporal), `emitente_empregador` (função de `emitente_cat`) e os identificadores.
+- **Baixa informação marginal:** sai da árvore única, que precisa ser interpretável, mas fica `entra_opcional` em RF e rede neural, porque a MI univariada não enxerga interações. Testar por ablação na Fase 7.
+- **Alta cardinalidade** (`agente_causador_agrup`, `cid_categoria_agrup`, `cnae_empregador_agrup`, `cbo_agrup`): agrupamento de raros já feito na Fase 3; codificação por frequência ou por alvo **ajustada só dentro do treino**.
+- **Verificação pendente:** `natureza_lesao_agrup`, `parte_corpo_atingida_agrup` e `cid_categoria_agrup` são os preditores mais fortes do óbito (V entre 0,17 e 0,22 no recorte). Confirmar na documentação do INSS que são preenchidos no registro da CAT e não depois do desfecho. O XAI vai colocá-los no topo; o artigo precisa dizer por que isso não é vazamento. [CONFIRMAR]
+
+**BC (Apriori e clusterização).** 12 variáveis em cada técnica.
+
+- **Apriori** (itens discretos): `grupo_especie`, `faixa_rmi`, `faixa_etaria`, `faixa_atraso_concessao`, `cid_categoria_agrup` (`entra_com_cuidado`, 78 itens), `uf`, `sexo`, `forma_filiacao`, `ramo_atividade`, `despacho_agrup`, `ano_competencia`, `mes_dib`. Consequentes de interesse: `grupo_especie`, `faixa_rmi` e `faixa_duracao_beneficio`.
+- **Clusterização** (K-Prototypes): as mesmas, com `capitulo_cid` e `regiao` no lugar das versões mais granulares, e `idade`, `qt_sm_rmi` e `atraso_concessao_dias` como numéricas.
+- **Condicionais (DCB):** `faixa_duracao_beneficio`, `tem_data_cessacao`, `duracao_beneficio_dias` e `data_dcb` só entram depois de confirmar se a DCB é real ou programada (pendência aberta na Fase 4).
+- **Fora:** `vinculo_dependentes` (significado desconhecido), `dia_semana_dib` (data administrativa), `classificador_pa` e `acordo_internacional` (> 99% em uma categoria), `clientela` (função de `forma_filiacao`, V = 0,998), `cid_10` e `cid_categoria` (cardinalidade), `ano_dib`, `mes_competencia`, `especie`, `despacho`, `rmi_abaixo_piso` e as datas brutas.
+
+**Limitações.** A MI e o V são univariados e medem associação, não importância no modelo; esta tabela é o ponto de partida da Fase 6 e será revista pela ablação e pelo SHAP. Os limiares (`limiar_razao_estavel` = 1,25, `max_niveis_arvore` = 50, `limiar_baixa_informacao` = 0,001) são convenções do autor e ficam no YAML.

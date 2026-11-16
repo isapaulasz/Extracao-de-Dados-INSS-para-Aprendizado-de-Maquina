@@ -1,0 +1,137 @@
+# Fase 5 (fechamento) — CAT: desbalanceamento dos alvos e variáveis por técnica (predição + XAI)
+# Lê só tabelas já geradas pela EDA (reports/cat/tables/eda/...). Não precisa do parquet.
+# Tudo aqui é PROPOSTA a confirmar; a tabela de saída registra o motivo de cada decisão.
+base: cat
+tabelas_eda: reports/cat/tables/eda
+saidas:
+  tabelas: reports/cat/tables/eda/decisao
+  figuras: reports/cat/figures/eda/decisao
+
+split:
+  teste_pct: 0.20
+  k_dobras: 5
+  seed: 42
+
+# pct da classe minoritária: < muito -> "muito desbalanceado"; < forte -> "desbalanceado"
+limiares_desbalanceamento: {muito: 0.01, forte: 0.10}
+
+# Papel de cada candidato a alvo. `cenario` é o recorte adotado (chave `cenario` de mi_todos_alvos.csv).
+alvos:
+  houve_obito:
+    papel: primario
+    cenario: tipo1_obito
+    classe_positiva: "True"
+    motivo: "Desfecho de maior interesse e raro (0,41% em tipo_cat=1). Recorte tipo_cat=1 para o alvo medir o acidente, não o tipo de comunicação."
+  houve_afastamento:
+    papel: secundario
+    cenario: tipo1_afastamento
+    classe_positiva: "True"
+    motivo: "Moderadamente balanceado (~80/20): serve de controle metodológico para comparar métricas com o alvo raro."
+  tem_data_despacho:
+    papel: descartado
+    cenario: completo
+    classe_positiva: "sim"
+    motivo: "Taxa varia de 23,0% para 2,4% entre arquivos (data de extração): mede o arquivo, não o fenômeno."
+  tipo_acidente:
+    papel: reserva
+    cenario: completo
+    motivo: "Multiclasse; V alto com agente_causador, tipo_local e parte do corpo (descrevem o mesmo evento). Usar só se o artigo precisar de um alvo multiclasse."
+  natureza_lesao_agrup:
+    papel: reserva
+    cenario: completo
+    motivo: "24 classes, 11 com <1%; CID-10 (capítulo S/T) já codifica natureza/parte do corpo, o que gera vazamento por construção."
+  parte_corpo_atingida_agrup:
+    papel: reserva
+    cenario: completo
+    motivo: "42 classes, 21 com <1%; mesmo problema da natureza da lesão."
+
+# Estratégia por técnica quando o alvo é muito desbalanceado (aplicar só no treino).
+estrategia_muito_desbalanceado:
+  arvore: "class_weight='balanced' + min_samples_leaf alto; sem reamostragem."
+  random_forest: "class_weight='balanced_subsample' (ou subamostragem dos negativos por árvore)."
+  rede_neural: "subamostragem aleatória dos negativos no treino (ou sample_weight, se a versão do scikit-learn suportar no MLPClassifier); calibrar probabilidades depois."
+estrategia_balanceado:
+  arvore: "sem pesos; comparar com class_weight='balanced'."
+  random_forest: "sem pesos."
+  rede_neural: "sem pesos; padronizar entradas."
+
+metricas:
+  muito_desbalanceado:
+    primaria: "PR-AUC (average precision); baseline = prevalência"
+    secundarias: ["recall@precisão fixa", "F2 e F1 da classe positiva", "MCC", "balanced accuracy", "Brier + curva de calibração"]
+    complementar: ["ROC-AUC (otimista com classe rara; só como complemento)"]
+    proibidas: ["acurácia"]
+  balanceado:
+    primaria: "ROC-AUC"
+    secundarias: ["PR-AUC", "F1", "balanced accuracy", "MCC"]
+    complementar: ["acurácia (comparar com o baseline da classe majoritária)"]
+    proibidas: []
+  multiclasse:
+    primaria: "F1 macro"
+    secundarias: ["balanced accuracy", "F1 por classe", "matriz de confusão"]
+    complementar: []
+    proibidas: ["acurácia sozinha"]
+
+# Heterogeneidade da taxa do alvo por eixo (arquivos/período e território). Tabelas de taxa já existem.
+heterogeneidade:
+  limiar_razao_estavel: 1.25     # max/min das taxas <= limiar -> "estável"
+  tabelas:
+    - {alvo: houve_obito,       eixo: arquivo,   arquivo: temporal/taxa_por_arquivo_houve_obito_True.csv,        ordenado: true}
+    - {alvo: houve_afastamento, eixo: arquivo,   arquivo: temporal/taxa_por_arquivo_houve_afastamento_True.csv,  ordenado: true}
+    - {alvo: tem_data_despacho, eixo: arquivo,   arquivo: temporal/taxa_por_arquivo_tem_data_despacho_sim.csv,   ordenado: true}
+    - {alvo: houve_obito,       eixo: regiao,    arquivo: territorial/taxa_regiao_houve_obito_True.csv,          ordenado: false}
+    - {alvo: houve_obito,       eixo: uf_segurado, arquivo: territorial/taxa_uf_segurado_houve_obito_True.csv,   ordenado: false}
+    - {alvo: houve_afastamento, eixo: regiao,    arquivo: territorial/taxa_regiao_houve_afastamento_True.csv,    ordenado: false}
+    - {alvo: houve_afastamento, eixo: uf_segurado, arquivo: territorial/taxa_uf_segurado_houve_afastamento_True.csv, ordenado: false}
+
+# --------------------------------------------------------------------------- #
+# Variáveis por técnica
+# --------------------------------------------------------------------------- #
+variaveis:
+  tecnicas: [arvore, random_forest, rede_neural]
+  limiar_baixa_informacao: 0.001  # u_alvo abaixo disso = pouco informativa (mesmo limiar da MI)
+  max_niveis_arvore: 50          # acima disso a árvore única usa o nível agregado da hierarquia (se houver)
+  identificadores: [arquivo_origem, ano_arquivo, semestre_arquivo, numero_cat, razao_social, local_acidente,
+                    cnpj_empregador, cnpj_raiz]
+  # Variáveis que não entram em nenhuma técnica por motivo próprio (além de vazamento e redundância).
+  excluir_sempre:
+    ano_acidente: "V=1,0 com ano_competencia e MI~0 com os alvos; calendário introduz deriva (a prevalência cai entre arquivos). Usar só para partição temporal."
+    ano_competencia: "V=1,0 com ano_acidente (mesma informação) e MI~0 com os alvos; mesma razão de deriva temporal."
+  # Exclusão extra por alvo (consequência do desfecho que o mapa da Fase 4 ainda não cobre).
+  excluir_extra:
+    houve_obito:
+      indica_afastamento: "Todos os 16.232 óbitos têm afastamento: é consequência do mesmo evento (tem_data_afastamento e houve_afastamento já estão no mapa)."
+  # Variáveis do mapa de vazamento liberadas dentro de um recorte, porque o motivo da exclusão deixa de existir.
+  liberar_no_recorte:
+    tipo1_obito:
+      faixa_atraso_cat: "No mapa só porque denuncia tipo_cat (NAO_APLICAVEL nos tipos 2 e 3); com tipo_cat=1 isso some. [CONFIRMAR: a data de emissão é conhecida no registro da CAT]"
+    tipo1_afastamento:
+      faixa_atraso_cat: "idem tipo1_obito."
+  # Níveis da mesma hierarquia ou da mesma informação: usar um por técnica.
+  grupos_redundancia:
+    - nome: cid
+      motivo: "mesma hierarquia CID-10 (capítulo ⊂ categoria)"
+      preferida: {arvore: capitulo_cid, random_forest: cid_categoria_agrup, rede_neural: cid_categoria_agrup}
+      membros: [capitulo_cid, cid_categoria_agrup]
+    - nome: cnae
+      motivo: "mesma hierarquia CNAE (seção ⊂ classe agrupada; V=0,85)"
+      preferida: {arvore: cnae_secao, random_forest: cnae_empregador_agrup, rede_neural: cnae_empregador_agrup}
+      membros: [cnae_secao, cnae_empregador_agrup]
+    - nome: cbo
+      motivo: "mesma hierarquia CBO (grande grupo ⊂ ocupação agrupada; V=0,84)"
+      preferida: {arvore: cbo_grande_grupo, random_forest: cbo_agrup, rede_neural: cbo_agrup}
+      membros: [cbo_grande_grupo, cbo_agrup]
+    - nome: geografia
+      motivo: "UF e região do segurado e do empregador, e município agrupado, descrevem o mesmo lugar (V entre 0,65 e 1,0); município tem MI~0 com os alvos; uf_segurado carrega mais informação que regiao (afastamento: V=0,078 contra 0,017). regiao fica só para descrição e mapas"
+      preferida: {arvore: uf_segurado, random_forest: uf_segurado, rede_neural: uf_segurado}
+      membros: [regiao, uf_segurado, uf_empregador, uf_acidente, municipio_segurado_cod_agrup, municipio_empresa_cod_agrup]
+    - nome: emitente
+      motivo: "emitente_empregador é função de emitente_cat (V=1,0)"
+      preferida: {arvore: emitente_cat, random_forest: emitente_cat, rede_neural: emitente_cat}
+      membros: [emitente_cat, emitente_empregador]
+  # Limiares sobre a MI para classificar variável "candidata" que ainda assim é fraca
+  # (herda a coluna `recomendacao` de mi_todos_alvos.csv; só traduzimos).
+  codificacao:
+    baixa_cardinalidade: "one-hot (<= 12 níveis)"
+    ordinal: [faixa_etaria, faixa_atraso_cat, remuneracao_sm_faixa, dia_semana_acidente, mes_acidente]
+    alta_cardinalidade: "agrupar raros em OUTROS (já feito) + codificação por frequência ou por alvo AJUSTADA DENTRO DO TREINO"

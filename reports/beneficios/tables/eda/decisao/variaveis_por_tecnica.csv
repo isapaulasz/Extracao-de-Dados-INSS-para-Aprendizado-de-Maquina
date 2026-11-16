@@ -1,0 +1,81 @@
+﻿base,tecnica,variavel,status,papel,motivo,grupo_redundancia,cardinalidade,pct_moda,pct_nulos,tipo_analise
+beneficios,apriori,especie,excluir_redundante,,grupo_especie agrega especie; nesta técnica usar grupo_especie.,especie,6.0,0.8864660900579949,0.0,categorica
+beneficios,clusterizacao,especie,excluir_redundante,,grupo_especie agrega especie; nesta técnica usar grupo_especie.,especie,6.0,0.8864660900579949,0.0,categorica
+beneficios,apriori,despacho,excluir_redundante,,despacho_agrup agrega despacho; nesta técnica usar despacho_agrup.,despacho,9.0,0.9218643932951935,0.0,categorica
+beneficios,clusterizacao,despacho,excluir_redundante,,despacho_agrup agrega despacho; nesta técnica usar despacho_agrup.,despacho,9.0,0.9218643932951935,0.0,categorica
+beneficios,apriori,sexo,entra,antecedente,Categórica de baixa cardinalidade.,,2.0,0.7091129449714468,0.0,categorica
+beneficios,clusterizacao,sexo,entra,antecedente,Categórica de baixa cardinalidade.,,2.0,0.7091129449714468,0.0,categorica
+beneficios,apriori,clientela,excluir_redundante,,"clientela é função de forma_filiacao (V=0,998) e de ramo_atividade (V=1,0); nesta técnica usar forma_filiacao (V=1.00 com forma_filiacao).",filiacao,2.0,0.9468674154795768,0.0,categorica
+beneficios,clusterizacao,clientela,excluir_redundante,,"clientela é função de forma_filiacao (V=0,998) e de ramo_atividade (V=1,0); nesta técnica usar forma_filiacao (V=1.00 com forma_filiacao).",filiacao,2.0,0.9468674154795768,0.0,categorica
+beneficios,apriori,vinculo_dependentes,excluir_outro,,Significado desconhecido (pendência aberta na Fase 4); 78% NAO_INFORMADO.,,8.0,0.7833879048564695,0.0,categorica
+beneficios,clusterizacao,vinculo_dependentes,excluir_outro,,Significado desconhecido (pendência aberta na Fase 4); 78% NAO_INFORMADO.,,8.0,0.7833879048564695,0.0,categorica
+beneficios,apriori,forma_filiacao,entra,antecedente,Categórica de baixa cardinalidade.,filiacao,6.0,0.8666694908161757,0.0,categorica
+beneficios,clusterizacao,forma_filiacao,entra,antecedente,Categórica de baixa cardinalidade.,filiacao,6.0,0.8666694908161757,0.0,categorica
+beneficios,apriori,uf,entra,antecedente,Categórica de baixa cardinalidade.,geografia,27.0,0.29928149503586843,0.0,categorica
+beneficios,clusterizacao,uf,excluir_redundante,,"uf e regiao têm V=1,0 (região é função da UF); nesta técnica usar regiao (V=1.00 com regiao).",geografia,27.0,0.29928149503586843,0.0,categorica
+beneficios,apriori,ramo_atividade,entra,antecedente,Categórica de baixa cardinalidade.,,9.0,0.9423258731013191,0.0,categorica
+beneficios,clusterizacao,ramo_atividade,entra,antecedente,Categórica de baixa cardinalidade.,,9.0,0.9423258731013191,0.0,categorica
+beneficios,apriori,classificador_pa,excluir_outro,,"99,4% em uma categoria: regras triviais.",,3.0,0.9942588828973294,0.0,categorica
+beneficios,clusterizacao,classificador_pa,excluir_outro,,"99,4% em uma categoria: regras triviais.",,3.0,0.9942588828973294,0.0,categorica
+beneficios,apriori,acordo_internacional,excluir_outro,,"99,99% em uma categoria.",,2.0,0.9999297406707492,0.0,categorica
+beneficios,clusterizacao,acordo_internacional,excluir_outro,,"99,99% em uma categoria.",,2.0,0.9999297406707492,0.0,categorica
+beneficios,apriori,cid_10,excluir_outro,,5.048 níveis; usar capitulo_cid ou cid_categoria_agrup.,,5048.0,0.0754776342857261,0.0,categorica
+beneficios,clusterizacao,cid_10,excluir_outro,,5.048 níveis; usar capitulo_cid ou cid_categoria_agrup.,,5048.0,0.0754776342857261,0.0,categorica
+beneficios,apriori,cid_categoria,excluir_outro,,1.470 níveis; usar cid_categoria_agrup.,,1470.0,0.10358601550044791,0.0,categorica
+beneficios,clusterizacao,cid_categoria,excluir_outro,,1.470 níveis; usar cid_categoria_agrup.,,1470.0,0.10358601550044791,0.0,categorica
+beneficios,apriori,ano_competencia,entra,antecedente,Categórica de baixa cardinalidade.,,7.0,0.17565348925393892,0.0,categorica
+beneficios,clusterizacao,ano_competencia,entra,antecedente,Categórica de baixa cardinalidade.,,7.0,0.17565348925393892,0.0,categorica
+beneficios,apriori,capitulo_cid,excluir_redundante,,mesma hierarquia CID-10; nesta técnica usar cid_categoria_agrup (V=0.61 com cid_categoria_agrup).,cid,22.0,0.5976697666873656,0.0,categorica
+beneficios,clusterizacao,capitulo_cid,entra,antecedente,Categórica de baixa cardinalidade.,cid,22.0,0.5976697666873656,0.0,categorica
+beneficios,apriori,cid_categoria_agrup,entra_com_cuidado,antecedente,79 níveis: itens raros; suporte mínimo baixo (Apriori) ou custo alto (K-Modes).,cid,79.0,0.10358601550044791,0.0,categorica
+beneficios,clusterizacao,cid_categoria_agrup,excluir_redundante,,mesma hierarquia CID-10; nesta técnica usar capitulo_cid (V=0.61 com capitulo_cid).,cid,79.0,0.10358601550044791,0.0,categorica
+beneficios,apriori,despacho_agrup,entra,antecedente,Categórica de baixa cardinalidade.,despacho,6.0,0.9218643932951935,0.0,categorica
+beneficios,clusterizacao,despacho_agrup,entra,antecedente,Categórica de baixa cardinalidade.,despacho,6.0,0.9218643932951935,0.0,categorica
+beneficios,apriori,mes_dib,entra,antecedente,Categórica de baixa cardinalidade.,sazonalidade,12.0,0.09090368995797872,0.0,categorica
+beneficios,clusterizacao,mes_dib,entra,antecedente,Categórica de baixa cardinalidade.,sazonalidade,12.0,0.09090368995797872,0.0,categorica
+beneficios,apriori,dia_semana_dib,excluir_outro,,Data administrativa: geraria regras por calendário sem leitura substantiva. [propor],,7.0,0.18356334653451026,0.0,categorica
+beneficios,clusterizacao,dia_semana_dib,excluir_outro,,Data administrativa: geraria regras por calendário sem leitura substantiva. [propor],,7.0,0.18356334653451026,0.0,categorica
+beneficios,apriori,mes_competencia,excluir_redundante,,mês da DIB (início da incapacidade) é mais próximo do evento que o mês da competência (processamento); nesta técnica usar mes_dib.,sazonalidade,12.0,0.09572523642780906,0.0,categorica
+beneficios,clusterizacao,mes_competencia,excluir_redundante,,mês da DIB (início da incapacidade) é mais próximo do evento que o mês da competência (processamento); nesta técnica usar mes_dib.,sazonalidade,12.0,0.09572523642780906,0.0,categorica
+beneficios,apriori,tem_data_cessacao,condicional,,idem; além disso redundante com faixa_duracao_beneficio.,,2.0,0.8707006198319356,0.0,categorica
+beneficios,clusterizacao,tem_data_cessacao,condicional,,idem; além disso redundante com faixa_duracao_beneficio.,,2.0,0.8707006198319356,0.0,categorica
+beneficios,apriori,faixa_etaria,entra,antecedente,Categórica de baixa cardinalidade.,idade,9.0,0.2785022984099694,0.0,categorica
+beneficios,clusterizacao,faixa_etaria,excluir_redundante,,faixa_etaria discretiza idade; nesta técnica usar idade.,idade,9.0,0.2785022984099694,0.0,categorica
+beneficios,apriori,regiao,excluir_redundante,,"uf e regiao têm V=1,0 (região é função da UF); nesta técnica usar uf (V=1.00 com uf).",geografia,5.0,0.4741807297257923,0.0,categorica
+beneficios,clusterizacao,regiao,entra,antecedente,Categórica de baixa cardinalidade.,geografia,5.0,0.4741807297257923,0.0,categorica
+beneficios,apriori,faixa_rmi,entra,consequente_interesse,Categórica de baixa cardinalidade.,renda,6.0,0.5492967351109632,0.0,categorica
+beneficios,clusterizacao,faixa_rmi,excluir_redundante,,"faixa_rmi, qt_sm_rmi e rmi_abaixo_piso medem a mesma coisa; nesta técnica usar qt_sm_rmi.",renda,6.0,0.5492967351109632,0.0,categorica
+beneficios,apriori,rmi_abaixo_piso,excluir_redundante,,"faixa_rmi, qt_sm_rmi e rmi_abaixo_piso medem a mesma coisa; nesta técnica usar faixa_rmi.",renda,2.0,0.9612736376392015,1.0332254301575772e-06,categorica
+beneficios,clusterizacao,rmi_abaixo_piso,excluir_redundante,,"faixa_rmi, qt_sm_rmi e rmi_abaixo_piso medem a mesma coisa; nesta técnica usar qt_sm_rmi.",renda,2.0,0.9612736376392015,1.0332254301575772e-06,categorica
+beneficios,apriori,grupo_especie,entra,consequente_interesse,Categórica de baixa cardinalidade.,especie,5.0,0.8864660900579949,0.0,categorica
+beneficios,clusterizacao,grupo_especie,entra,consequente_interesse,Categórica de baixa cardinalidade.,especie,5.0,0.8864660900579949,0.0,categorica
+beneficios,apriori,faixa_atraso_concessao,entra,antecedente,Categórica de baixa cardinalidade.,atraso,6.0,0.5102805930300679,0.0,categorica
+beneficios,clusterizacao,faixa_atraso_concessao,excluir_redundante,,faixa discretiza o atraso em dias; nesta técnica usar atraso_concessao_dias.,atraso,6.0,0.5102805930300679,0.0,categorica
+beneficios,apriori,faixa_duracao_beneficio,condicional,consequente_interesse,Usar só depois de confirmar se a DCB é real ou programada.,,6.0,0.4808894624438054,0.0,categorica
+beneficios,clusterizacao,faixa_duracao_beneficio,condicional,consequente_interesse,Usar só depois de confirmar se a DCB é real ou programada.,,6.0,0.4808894624438054,0.0,categorica
+beneficios,apriori,qt_sm_rmi,excluir_redundante,,"faixa_rmi, qt_sm_rmi e rmi_abaixo_piso medem a mesma coisa; nesta técnica usar faixa_rmi.",renda,,,1.0332254301575772e-06,numerica
+beneficios,clusterizacao,qt_sm_rmi,entra_numerica,antecedente,"Numérica (padronizar); K-Prototypes aceita, Apriori exige faixas.",renda,,,1.0332254301575772e-06,numerica
+beneficios,apriori,idade,excluir_redundante,,faixa_etaria discretiza idade; nesta técnica usar faixa_etaria.,idade,,,0.0010518234879004136,numerica
+beneficios,clusterizacao,idade,entra_numerica,antecedente,"Numérica (padronizar); K-Prototypes aceita, Apriori exige faixas.",idade,,,0.0010518234879004136,numerica
+beneficios,apriori,ano_dib,excluir_outro,,redundante com ano_competencia.,,,,0.0,numerica
+beneficios,clusterizacao,ano_dib,excluir_outro,,redundante com ano_competencia.,,,,0.0,numerica
+beneficios,apriori,atraso_concessao_dias,excluir_redundante,,faixa discretiza o atraso em dias; nesta técnica usar faixa_atraso_concessao.,atraso,,,1.5498381452363658e-06,numerica
+beneficios,clusterizacao,atraso_concessao_dias,entra_numerica,antecedente,"Numérica (padronizar); K-Prototypes aceita, Apriori exige faixas.",atraso,,,1.5498381452363658e-06,numerica
+beneficios,apriori,duracao_beneficio_dias,condicional,,idem.,,,,0.12929938016806444,numerica
+beneficios,clusterizacao,duracao_beneficio_dias,condicional,,idem.,,,,0.12929938016806444,numerica
+beneficios,apriori,data_nascimento,excluir_data_bruta,,"Data bruta: usar as derivadas (ano, mês, faixas).",,,,1.0332254301575772e-06,data
+beneficios,clusterizacao,data_nascimento,excluir_data_bruta,,"Data bruta: usar as derivadas (ano, mês, faixas).",,,,1.0332254301575772e-06,data
+beneficios,apriori,data_dcb,condicional,,idem.,,,,0.12929938016806444,data
+beneficios,clusterizacao,data_dcb,condicional,,idem.,,,,0.12929938016806444,data
+beneficios,apriori,data_ddb,excluir_data_bruta,,"Data bruta: usar as derivadas (ano, mês, faixas).",,,,0.0,data
+beneficios,clusterizacao,data_ddb,excluir_data_bruta,,"Data bruta: usar as derivadas (ano, mês, faixas).",,,,0.0,data
+beneficios,apriori,data_dib,excluir_data_bruta,,"Data bruta: usar as derivadas (ano, mês, faixas).",,,,0.0,data
+beneficios,clusterizacao,data_dib,excluir_data_bruta,,"Data bruta: usar as derivadas (ano, mês, faixas).",,,,0.0,data
+beneficios,apriori,competencia_concessao,excluir_data_bruta,,"Data bruta: usar as derivadas (ano, mês, faixas).",,,,0.0,data
+beneficios,clusterizacao,competencia_concessao,excluir_data_bruta,,"Data bruta: usar as derivadas (ano, mês, faixas).",,,,0.0,data
+beneficios,apriori,municipio_residencia_cod,excluir_identificador,,"Identificador, proveniência ou geografia de 5,5 mil níveis.",,,,0.0,excluida
+beneficios,clusterizacao,municipio_residencia_cod,excluir_identificador,,"Identificador, proveniência ou geografia de 5,5 mil níveis.",,,,0.0,excluida
+beneficios,apriori,arquivo_origem,excluir_identificador,,"Identificador, proveniência ou geografia de 5,5 mil níveis.",,,,0.0,excluida
+beneficios,clusterizacao,arquivo_origem,excluir_identificador,,"Identificador, proveniência ou geografia de 5,5 mil níveis.",,,,0.0,excluida
+beneficios,apriori,ano_arquivo,excluir_identificador,,"Identificador, proveniência ou geografia de 5,5 mil níveis.",,,,0.0,excluida
+beneficios,clusterizacao,ano_arquivo,excluir_identificador,,"Identificador, proveniência ou geografia de 5,5 mil níveis.",,,,0.0,excluida
