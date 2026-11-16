@@ -1,0 +1,27 @@
+﻿variavel,tipo_analise,dtype,n,nulos,pct_nulos,cardinalidade,moda,pct_moda,alto_nulo,quase_constante,alta_cardinalidade,candidato_alvo,observacao
+especie,categorica,category,1935686,0,0.0,6.0,AUXILIO DOENCA POR ACIDENTE DO TRABALHO,0.8864660900579949,False,False,False,False,
+despacho,categorica,category,1935686,0,0.0,9.0,CONCESSAO NORMAL,0.9218643932951935,False,False,False,False,
+sexo,categorica,category,1935686,0,0.0,2.0,MASCULINO,0.7091129449714468,False,False,False,False,
+clientela,categorica,category,1935686,0,0.0,2.0,URBANO,0.9468674154795768,False,False,False,False,
+vinculo_dependentes,categorica,category,1935686,0,0.0,8.0,NAO_INFORMADO,0.7833879048564695,False,False,False,False,
+forma_filiacao,categorica,category,1935686,0,0.0,6.0,EMPREGADO,0.8666694908161757,False,False,False,False,
+uf,categorica,category,1935686,0,0.0,27.0,SAO PAULO,0.29928149503586843,False,False,False,False,
+ramo_atividade,categorica,category,1935686,0,0.0,9.0,COMERCIARIO,0.9423258731013191,False,False,False,False,
+classificador_pa,categorica,category,1935686,0,0.0,3.0,SEM PENSAO ALIMENTICIA,0.9942588828973294,False,True,False,False,quase constante: pouco informativa
+data_nascimento,categorica,category,1935686,2,1.0332254301575772e-06,25120.0,1981-09-17,0.00011778782073933555,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+data_dcb,categorica,category,1935686,250283,0.12929938016806444,3866.0,2012-09-30,0.004870645181004187,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+data_ddb,categorica,category,1935686,0,0.0,2245.0,2013-04-18,0.002163574050749967,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+data_dib,categorica,category,1935686,0,0.0,10177.0,2015-07-16,0.0007811184251991283,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+acordo_internacional,categorica,bool,1935686,0,0.0,2.0,False,0.9999297406707492,False,True,False,False,quase constante: pouco informativa
+cid_10,categorica,category,1935686,0,0.0,5048.0,NAO_INFORMADO,0.0754776342857261,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+cid_categoria,categorica,category,1935686,0,0.0,1470.0,S62,0.10358601550044791,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+municipio_residencia_cod,categorica,category,1935686,0,0.0,5562.0,21504,0.06952935548430893,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+arquivo_origem,categorica,category,1935686,0,0.0,7.0,02.2013_01-12_BC.parquet,0.17565348925393892,False,False,False,False,
+ano_arquivo,categorica,int32,1935686,0,0.0,7.0,2013,0.17565348925393892,False,False,False,False,
+ano_competencia,categorica,int32,1935686,0,0.0,7.0,2013,0.17565348925393892,False,False,False,False,
+capitulo_cid,categorica,category,1935686,0,0.0,22.0,XIX,0.5976697666873656,False,False,False,False,
+cid_categoria_agrup,categorica,category,1935686,0,0.0,79.0,S62,0.10358601550044791,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+despacho_agrup,categorica,category,1935686,0,0.0,6.0,CONCESSAO NORMAL,0.9218643932951935,False,False,False,False,
+competencia_concessao,numerica,int32,1935686,0,0.0,,,,False,False,False,,
+qt_sm_rmi,numerica,float64,1935686,2,1.0332254301575772e-06,,,,False,False,False,,
+idade,numerica,float64,1935686,2036,0.0010518234879004136,,,,False,False,False,,

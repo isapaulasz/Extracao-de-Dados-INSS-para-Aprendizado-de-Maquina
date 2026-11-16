@@ -1,0 +1,13 @@
+﻿variavel,motivo
+arquivo_origem,excluida_eda (config/identificador)
+ano_arquivo,excluida_eda (config/identificador)
+data_nascimento,data (ver séries temporais)
+data_dcb,data (ver séries temporais)
+data_ddb,data (ver séries temporais)
+data_dib,data (ver séries temporais)
+competencia_concessao,data (ver séries temporais)
+qt_sm_rmi,numerica_sem_discretizacao
+idade,substituida_por_faixa
+cid_10,excluida_bivariada (config)
+cid_categoria,excluida_bivariada (config)
+municipio_residencia_cod,cardinalidade 5562 > max_niveis (250)

@@ -1,0 +1,65 @@
+﻿variavel,tipo_analise,dtype,n,nulos,pct_nulos,cardinalidade,moda,pct_moda,alto_nulo,quase_constante,alta_cardinalidade,candidato_alvo,observacao
+agente_causador,categorica,category,3429605,0,0.0,302.0,"MOTOCICLETA, MOTONETA",0.07769991004795013,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+emitente_cat,categorica,category,3429605,0,0.0,6.0,EMPREGADOR,0.9830187441410891,False,True,False,False,quase constante: pouco informativa
+filiacao_segurado,categorica,category,3429605,0,0.0,3.0,EMPREGADO,0.9980088085945757,False,True,False,False,quase constante: pouco informativa
+area_atividade,categorica,category,3429605,0,0.0,3.0,URBANO,0.9263970632186506,False,False,False,False,
+estado_civil,categorica,category,3429605,0,0.0,6.0,SOLTEIRO,0.5028062998508575,False,False,False,False,
+natureza_lesao,categorica,category,3429605,0,0.0,29.0,"CORTE, LACERACAO, FERIDA CONTUSA, PUNCTURA",0.20971015612585123,False,False,False,False,
+origem_cadastramento,categorica,category,3429605,0,0.0,2.0,INTERNET,0.999990377900662,False,True,False,False,quase constante: pouco informativa
+parte_corpo_atingida,categorica,category,3429605,0,0.0,45.0,DEDO,0.2381871964847264,False,False,False,False,
+sexo,categorica,category,3429605,0,0.0,4.0,MASCULINO,0.6867709255147458,False,False,False,False,
+ramo_atividade,categorica,category,3429605,0,0.0,9.0,NAO_INFORMADO,0.8649625831546198,False,False,False,False,
+situacao_geradora,categorica,category,3429605,0,0.0,58.0,IMPACTO DE PES. CONTRA OBJETO EM MOVIMENTO,0.1081812628568013,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+tipo_cat,categorica,category,3429605,0,0.0,3.0,1-INICIAL,0.9938374827421816,False,True,False,False,quase constante: pouco informativa
+tipo_acidente,categorica,category,3429605,0,0.0,4.0,TIPICO,0.7645215702682963,False,False,False,True,candidato a alvo: classe majoritária 76.45% (ver desbalanceamento)
+tipo_local_acidente,categorica,category,3429605,0,0.0,6.0,EMPREGADORA,0.5617224140972502,False,False,False,False,
+uf_acidente,categorica,category,3429605,0,0.0,16.0,MARANHAO,0.37241023383159283,False,False,False,False,
+uf_empregador,categorica,category,3429605,0,0.0,27.0,SAO PAULO,0.3777884042039827,False,False,False,False,
+uf_segurado,categorica,category,3429605,0,0.0,28.0,SAO PAULO,0.36226854112937207,False,False,False,False,
+indica_obito_acidente,categorica,bool,3429605,0,0.0,2.0,False,0.9952714671223071,False,True,False,True,candidato a alvo: classe majoritária 99.53% (ver desbalanceamento)
+indica_afastamento,categorica,bool,3429605,0,0.0,2.0,True,0.7976422940834295,False,False,False,True,candidato a alvo: classe majoritária 79.76% (ver desbalanceamento)
+indica_acidente,categorica,bool,3429605,0,0.0,2.0,False,0.9952670934407898,False,True,False,False,quase constante: pouco informativa
+indica_obito,categorica,bool,3429605,0,0.0,2.0,False,0.99935211197791,False,True,False,True,candidato a alvo: classe majoritária 99.94% (ver desbalanceamento)
+cbo,categorica,category,3429605,0,0.0,2342.0,784205,0.05497513562057438,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+cnae_empregador,categorica,category,3429605,0,0.0,1379.0,8610,0.10080840213377343,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+cid_10,categorica,category,3429605,0,0.0,8994.0,S610,0.062603710922978,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+cid_categoria,categorica,category,3429605,0,0.0,1868.0,S61,0.11550892887081748,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+especie_beneficio,categorica,category,3429605,0,0.0,9.0,SEM BENEFICIO,0.8646456370340024,False,False,False,False,
+especie_codigo,categorica,float64,3429605,2965393,0.8646456370340024,8.0,91.0,0.9920295037612126,True,True,False,False,muitos ausentes; quase constante: pouco informativa
+tipo_cat_cod,categorica,int32,3429605,0,0.0,3.0,1,0.9938374827421816,False,True,False,False,quase constante: pouco informativa
+municipio_empresa_cod,categorica,category,3429605,0,0.0,5071.0,355030,0.10494386379772598,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+municipio_segurado_cod,categorica,category,3429605,0,0.0,5537.0,355030,0.08343293178077359,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+ano_competencia,categorica,int32,3429605,0,0.0,7.0,2013,0.16088004303702613,False,False,False,False,
+salario_minimo,categorica,int32,3429605,0,0.0,7.0,678,0.16088004303702613,False,False,False,False,
+capitulo_cid,categorica,category,3429605,0,0.0,23.0,XIX,0.7870346585102366,False,False,False,False,
+cbo_grande_grupo,categorica,category,3429605,0,0.0,11.0,7,0.33123668760688185,False,False,False,False,
+cbo_subgrupo,categorica,category,3429605,0,0.0,48.0,51,0.16764437887161932,False,False,False,False,
+cnae_divisao,categorica,category,3429605,0,0.0,98.0,86,0.1239098963291691,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+cnae_secao,categorica,category,3429605,0,0.0,22.0,C,0.29584427361168414,False,False,False,False,
+agente_causador_agrup,categorica,category,3429605,0,0.0,119.0,"MOTOCICLETA, MOTONETA",0.07769991004795013,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+cbo_agrup,categorica,category,3429605,0,0.0,158.0,OUTROS,0.2251664550290777,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+cid_categoria_agrup,categorica,category,3429605,0,0.0,97.0,S61,0.11550892887081748,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+cnae_empregador_agrup,categorica,category,3429605,0,0.0,203.0,OUTROS,0.1546008942720809,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+municipio_empresa_cod_agrup,categorica,category,3429605,0,0.0,171.0,OUTROS,0.31010597430316317,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+municipio_segurado_cod_agrup,categorica,category,3429605,0,0.0,185.0,OUTROS,0.35893842002213083,False,False,True,False,alta cardinalidade: agrupar por hierarquia antes de usar
+natureza_lesao_agrup,categorica,category,3429605,0,0.0,24.0,"CORTE, LACERACAO, FERIDA CONTUSA, PUNCTURA",0.20971015612585123,False,False,False,True,candidato a alvo: classe majoritária 20.97% (ver desbalanceamento)
+parte_corpo_atingida_agrup,categorica,category,3429605,0,0.0,42.0,DEDO,0.2381871964847264,False,False,False,True,candidato a alvo: classe majoritária 23.82% (ver desbalanceamento)
+situacao_geradora_agrup,categorica,category,3429605,0,0.0,45.0,IMPACTO DE PES. CONTRA OBJETO EM MOVIMENTO,0.1081812628568013,False,False,False,False,
+valor_remuneracao,numerica,float64,3429605,259688,0.07571950705693513,,,,False,False,False,,
+idade,numerica,float64,3429605,430,0.0001253788701614326,,,,False,False,False,,
+remuneracao_sm,numerica,float64,3429605,259688,0.07571950705693513,,,,False,False,False,,
+data_acidente,data,datetime64[us],3429605,0,0.0,,,,,,,,2012-01-01 → 2018-12-31 (análise na etapa temporal)
+data_emissao_cat,data,datetime64[us],3429605,0,0.0,,,,,,,,2012-01-01 → 2018-12-31 (análise na etapa temporal)
+data_nascimento,data,datetime64[us],3429605,146,4.257050010132362e-05,,,,,,,,1901-01-01 → 2016-10-11 (análise na etapa temporal)
+data_afastamento,data,datetime64[us],3429605,693971,0.20234720908092915,,,,,,,,2012-01-01 → 2018-12-31 (análise na etapa temporal)
+data_despacho,data,datetime64[us],3429605,2966480,0.8649625831546198,,,,,,,,2011-06-08 → 2019-01-04 (análise na etapa temporal)
+data_obito_segurado,data,datetime64[us],3429605,3413398,0.9952743829099853,,,,,,,,2012-01-01 → 2018-12-28 (análise na etapa temporal)
+competencia_cat,data,datetime64[us],3429605,0,0.0,,,,,,,,2012-01-01 → 2018-12-01 (análise na etapa temporal)
+local_acidente,excluida,category,3429605,6883,0.0020069366588863734,,,,,,,,excluída da EDA (identificador / config)
+razao_social,excluida,category,3429605,3185564,0.928842825923102,,,,,,,,excluída da EDA (identificador / config)
+numero_cat,excluida,category,3429605,3185564,0.928842825923102,,,,,,,,excluída da EDA (identificador / config)
+cnpj_empregador,excluida,category,3429605,0,0.0,,,,,,,,excluída da EDA (identificador / config)
+cnpj_raiz,excluida,category,3429605,0,0.0,,,,,,,,excluída da EDA (identificador / config)
+ano_arquivo,excluida,int32,3429605,0,0.0,,,,,,,,excluída da EDA (identificador / config)
+semestre_arquivo,excluida,int32,3429605,0,0.0,,,,,,,,excluída da EDA (identificador / config)
+arquivo_origem,excluida,category,3429605,0,0.0,,,,,,,,excluída da EDA (identificador / config)
