@@ -3,3 +3,7 @@ cat:
   raw: data/cat/raw
   interim: data/cat/interim
   processed: data/cat/processed
+beneficios:
+  raw: data/beneficios/raw
+  interim: data/beneficios/interim
+  processed: data/beneficios/processed
