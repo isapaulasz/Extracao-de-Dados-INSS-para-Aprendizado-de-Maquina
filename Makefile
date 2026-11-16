@@ -33,3 +33,17 @@ bc-fase2-3: bc-auditoria bc-limpeza bc-verificacao
 bc-features:
 	python scripts/bc_05_features.py
 bc-fase3-4: bc-limpeza bc-verificacao bc-features
+
+.PHONY: eda-cat eda-bc eda-cat-univariada eda-cat-bivariada eda-bc-univariada eda-bc-bivariada
+
+eda-cat: eda-cat-univariada eda-cat-bivariada
+eda-bc: eda-bc-univariada eda-bc-bivariada
+
+eda-cat-univariada:
+	python scripts/eda_05_univariada.py --base cat
+eda-cat-bivariada:
+	python scripts/eda_05_bivariada.py --base cat
+eda-bc-univariada:
+	python scripts/eda_05_univariada.py --base beneficios
+eda-bc-bivariada:
+	python scripts/eda_05_bivariada.py --base beneficios
