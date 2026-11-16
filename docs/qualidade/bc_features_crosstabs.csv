@@ -1,0 +1,193 @@
+﻿coluna_a,coluna_b,valor_a,valor_b,n,pct_da_linha
+grupo_especie,tem_data_cessacao,APOSENTADORIA_INVALIDEZ,false,76319,99.77
+grupo_especie,tem_data_cessacao,APOSENTADORIA_INVALIDEZ,true,178,0.23
+grupo_especie,tem_data_cessacao,AUXILIO_ACIDENTE,false,137802,99.47
+grupo_especie,tem_data_cessacao,AUXILIO_ACIDENTE,true,733,0.53
+grupo_especie,tem_data_cessacao,AUXILIO_DOENCA,true,1684443,98.17
+grupo_especie,tem_data_cessacao,AUXILIO_DOENCA,false,31477,1.83
+grupo_especie,tem_data_cessacao,AUXILIO_SUPLEMENTAR,false,1029,96.08
+grupo_especie,tem_data_cessacao,AUXILIO_SUPLEMENTAR,true,42,3.92
+grupo_especie,tem_data_cessacao,PENSAO_POR_MORTE,false,3656,99.81
+grupo_especie,tem_data_cessacao,PENSAO_POR_MORTE,true,7,0.19
+grupo_especie,faixa_duracao_beneficio,APOSENTADORIA_INVALIDEZ,NAO_APLICAVEL,76319,99.77
+grupo_especie,faixa_duracao_beneficio,APOSENTADORIA_INVALIDEZ,366+,153,0.2
+grupo_especie,faixa_duracao_beneficio,APOSENTADORIA_INVALIDEZ,0-30,9,0.01
+grupo_especie,faixa_duracao_beneficio,APOSENTADORIA_INVALIDEZ,181-365,6,0.01
+grupo_especie,faixa_duracao_beneficio,APOSENTADORIA_INVALIDEZ,91-180,5,0.01
+grupo_especie,faixa_duracao_beneficio,APOSENTADORIA_INVALIDEZ,31-90,5,0.01
+grupo_especie,faixa_duracao_beneficio,AUXILIO_ACIDENTE,NAO_APLICAVEL,137802,99.47
+grupo_especie,faixa_duracao_beneficio,AUXILIO_ACIDENTE,366+,598,0.43
+grupo_especie,faixa_duracao_beneficio,AUXILIO_ACIDENTE,0-30,54,0.04
+grupo_especie,faixa_duracao_beneficio,AUXILIO_ACIDENTE,181-365,38,0.03
+grupo_especie,faixa_duracao_beneficio,AUXILIO_ACIDENTE,31-90,25,0.02
+grupo_especie,faixa_duracao_beneficio,AUXILIO_ACIDENTE,91-180,18,0.01
+grupo_especie,faixa_duracao_beneficio,AUXILIO_DOENCA,31-90,930820,54.25
+grupo_especie,faixa_duracao_beneficio,AUXILIO_DOENCA,91-180,464746,27.08
+grupo_especie,faixa_duracao_beneficio,AUXILIO_DOENCA,0-30,207126,12.07
+grupo_especie,faixa_duracao_beneficio,AUXILIO_DOENCA,181-365,73726,4.3
+grupo_especie,faixa_duracao_beneficio,AUXILIO_DOENCA,NAO_APLICAVEL,31477,1.83
+grupo_especie,faixa_duracao_beneficio,AUXILIO_DOENCA,366+,8025,0.47
+grupo_especie,faixa_duracao_beneficio,AUXILIO_SUPLEMENTAR,NAO_APLICAVEL,1029,96.08
+grupo_especie,faixa_duracao_beneficio,AUXILIO_SUPLEMENTAR,366+,42,3.92
+grupo_especie,faixa_duracao_beneficio,PENSAO_POR_MORTE,NAO_APLICAVEL,3656,99.81
+grupo_especie,faixa_duracao_beneficio,PENSAO_POR_MORTE,366+,4,0.11
+grupo_especie,faixa_duracao_beneficio,PENSAO_POR_MORTE,31-90,1,0.03
+grupo_especie,faixa_duracao_beneficio,PENSAO_POR_MORTE,181-365,1,0.03
+grupo_especie,faixa_duracao_beneficio,PENSAO_POR_MORTE,0-30,1,0.03
+grupo_especie,faixa_rmi,APOSENTADORIA_INVALIDEZ,1-2 SM,34050,44.51
+grupo_especie,faixa_rmi,APOSENTADORIA_INVALIDEZ,ATE 1 SM,16597,21.7
+grupo_especie,faixa_rmi,APOSENTADORIA_INVALIDEZ,2-3 SM,13805,18.05
+grupo_especie,faixa_rmi,APOSENTADORIA_INVALIDEZ,3-5 SM,9197,12.02
+grupo_especie,faixa_rmi,APOSENTADORIA_INVALIDEZ,MAIS DE 5 SM,2848,3.72
+grupo_especie,faixa_rmi,AUXILIO_ACIDENTE,ATE 1 SM,75068,54.19
+grupo_especie,faixa_rmi,AUXILIO_ACIDENTE,1-2 SM,41172,29.72
+grupo_especie,faixa_rmi,AUXILIO_ACIDENTE,2-3 SM,15802,11.41
+grupo_especie,faixa_rmi,AUXILIO_ACIDENTE,3-5 SM,6419,4.63
+grupo_especie,faixa_rmi,AUXILIO_ACIDENTE,MAIS DE 5 SM,72,0.05
+grupo_especie,faixa_rmi,AUXILIO_ACIDENTE,DESCONHECIDA,2,0.0
+grupo_especie,faixa_rmi,AUXILIO_DOENCA,1-2 SM,986358,57.48
+grupo_especie,faixa_rmi,AUXILIO_DOENCA,ATE 1 SM,365760,21.32
+grupo_especie,faixa_rmi,AUXILIO_DOENCA,2-3 SM,226894,13.22
+grupo_especie,faixa_rmi,AUXILIO_DOENCA,3-5 SM,117775,6.86
+grupo_especie,faixa_rmi,AUXILIO_DOENCA,MAIS DE 5 SM,19133,1.12
+grupo_especie,faixa_rmi,AUXILIO_SUPLEMENTAR,ATE 1 SM,993,92.72
+grupo_especie,faixa_rmi,AUXILIO_SUPLEMENTAR,1-2 SM,58,5.42
+grupo_especie,faixa_rmi,AUXILIO_SUPLEMENTAR,2-3 SM,13,1.21
+grupo_especie,faixa_rmi,AUXILIO_SUPLEMENTAR,MAIS DE 5 SM,5,0.47
+grupo_especie,faixa_rmi,AUXILIO_SUPLEMENTAR,3-5 SM,2,0.19
+grupo_especie,faixa_rmi,PENSAO_POR_MORTE,1-2 SM,1628,44.44
+grupo_especie,faixa_rmi,PENSAO_POR_MORTE,2-3 SM,971,26.51
+grupo_especie,faixa_rmi,PENSAO_POR_MORTE,3-5 SM,523,14.28
+grupo_especie,faixa_rmi,PENSAO_POR_MORTE,ATE 1 SM,315,8.6
+grupo_especie,faixa_rmi,PENSAO_POR_MORTE,MAIS DE 5 SM,226,6.17
+grupo_especie,rmi_abaixo_piso,APOSENTADORIA_INVALIDEZ,false,76392,99.86
+grupo_especie,rmi_abaixo_piso,APOSENTADORIA_INVALIDEZ,true,105,0.14
+grupo_especie,rmi_abaixo_piso,AUXILIO_ACIDENTE,true,73777,53.26
+grupo_especie,rmi_abaixo_piso,AUXILIO_ACIDENTE,false,64756,46.74
+grupo_especie,rmi_abaixo_piso,AUXILIO_ACIDENTE,,2,0.0
+grupo_especie,rmi_abaixo_piso,AUXILIO_DOENCA,false,1715604,99.98
+grupo_especie,rmi_abaixo_piso,AUXILIO_DOENCA,true,316,0.02
+grupo_especie,rmi_abaixo_piso,AUXILIO_SUPLEMENTAR,true,758,70.77
+grupo_especie,rmi_abaixo_piso,AUXILIO_SUPLEMENTAR,false,313,29.23
+grupo_especie,rmi_abaixo_piso,PENSAO_POR_MORTE,false,3657,99.84
+grupo_especie,rmi_abaixo_piso,PENSAO_POR_MORTE,true,6,0.16
+grupo_especie,despacho,APOSENTADORIA_INVALIDEZ,CONCESSAO NORMAL,55728,72.85
+grupo_especie,despacho,APOSENTADORIA_INVALIDEZ,CONCESSAO DECORRENTE DE ACAO JUDICIAL,18959,24.78
+grupo_especie,despacho,APOSENTADORIA_INVALIDEZ,CONC. DECORRENTE REVISAO ADMINISTRATIVA,1014,1.33
+grupo_especie,despacho,APOSENTADORIA_INVALIDEZ,CONCESSAO EM FASE RECURSAL,790,1.03
+grupo_especie,despacho,APOSENTADORIA_INVALIDEZ,CONC. BASE ARTIGO 27 INCISO II DO RBPS,6,0.01
+grupo_especie,despacho,AUXILIO_ACIDENTE,CONCESSAO DECORRENTE DE ACAO JUDICIAL,98956,71.43
+grupo_especie,despacho,AUXILIO_ACIDENTE,CONCESSAO NORMAL,35802,25.84
+grupo_especie,despacho,AUXILIO_ACIDENTE,CONC. COM BASE ARTIGO 35 DA LEI 8213/91,2501,1.81
+grupo_especie,despacho,AUXILIO_ACIDENTE,CONC. DECORRENTE REVISAO ADMINISTRATIVA,927,0.67
+grupo_especie,despacho,AUXILIO_ACIDENTE,CONCESSAO EM FASE RECURSAL,349,0.25
+grupo_especie,despacho,AUXILIO_DOENCA,CONCESSAO NORMAL,1689774,98.48
+grupo_especie,despacho,AUXILIO_DOENCA,CONCESSAO DECORRENTE DE ACAO JUDICIAL,14195,0.83
+grupo_especie,despacho,AUXILIO_DOENCA,CONC. DECORRENTE REVISAO ADMINISTRATIVA,6379,0.37
+grupo_especie,despacho,AUXILIO_DOENCA,CONC. COM BASE ARTIGO 35 DA LEI 8213/91,4693,0.27
+grupo_especie,despacho,AUXILIO_DOENCA,CONCESSAO EM FASE RECURSAL,821,0.05
+grupo_especie,despacho,AUXILIO_DOENCA,CONC. BASE ARTIGO 27 INCISO II DO RBPS,58,0.0
+grupo_especie,despacho,AUXILIO_SUPLEMENTAR,CONCESSAO DECORRENTE DE ACAO JUDICIAL,1006,93.93
+grupo_especie,despacho,AUXILIO_SUPLEMENTAR,CONCESSAO NORMAL,65,6.07
+grupo_especie,despacho,PENSAO_POR_MORTE,CONCESSAO NORMAL,3071,83.84
+grupo_especie,despacho,PENSAO_POR_MORTE,CONCESSAO DECORRENTE DE ACAO JUDICIAL,455,12.42
+grupo_especie,despacho,PENSAO_POR_MORTE,CONCESSAO EM FASE RECURSAL,61,1.67
+grupo_especie,despacho,PENSAO_POR_MORTE,CONC. DECORRENTE REVISAO ADMINISTRATIVA,28,0.76
+grupo_especie,despacho,PENSAO_POR_MORTE,CONC. COM BASE ARTIGO 35 DA LEI 8213/91,19,0.52
+grupo_especie,despacho,PENSAO_POR_MORTE,CONCESSAO C/JUSTIFICACAO ADMINISTRATIVA,18,0.49
+grupo_especie,despacho,PENSAO_POR_MORTE,CONC. BASE ARTIGO 27 INCISO II DO RBPS,5,0.14
+grupo_especie,despacho,PENSAO_POR_MORTE,CONC. COM BASE NO ARTIGO 180 DO RBPS,5,0.14
+grupo_especie,despacho,PENSAO_POR_MORTE,CONCESSAO COM DILIGENCIA (RD OU SP),1,0.03
+grupo_especie,classificador_pa,APOSENTADORIA_INVALIDEZ,SEM PENSAO ALIMENTICIA,72717,95.06
+grupo_especie,classificador_pa,APOSENTADORIA_INVALIDEZ,COM PENSAO - TITULAR PENSAO ALIMENTICIA,3286,4.3
+grupo_especie,classificador_pa,APOSENTADORIA_INVALIDEZ,COM PENSAO - TITULAR BENEFICIO PROPRIO,494,0.65
+grupo_especie,classificador_pa,AUXILIO_ACIDENTE,SEM PENSAO ALIMENTICIA,135414,97.75
+grupo_especie,classificador_pa,AUXILIO_ACIDENTE,COM PENSAO - TITULAR PENSAO ALIMENTICIA,3090,2.23
+grupo_especie,classificador_pa,AUXILIO_ACIDENTE,COM PENSAO - TITULAR BENEFICIO PROPRIO,31,0.02
+grupo_especie,classificador_pa,AUXILIO_DOENCA,SEM PENSAO ALIMENTICIA,1711869,99.76
+grupo_especie,classificador_pa,AUXILIO_DOENCA,COM PENSAO - TITULAR PENSAO ALIMENTICIA,4046,0.24
+grupo_especie,classificador_pa,AUXILIO_DOENCA,COM PENSAO - TITULAR BENEFICIO PROPRIO,5,0.0
+grupo_especie,classificador_pa,AUXILIO_SUPLEMENTAR,SEM PENSAO ALIMENTICIA,1005,93.84
+grupo_especie,classificador_pa,AUXILIO_SUPLEMENTAR,COM PENSAO - TITULAR PENSAO ALIMENTICIA,66,6.16
+grupo_especie,classificador_pa,PENSAO_POR_MORTE,SEM PENSAO ALIMENTICIA,3568,97.41
+grupo_especie,classificador_pa,PENSAO_POR_MORTE,COM PENSAO - TITULAR PENSAO ALIMENTICIA,95,2.59
+grupo_especie,faixa_etaria,APOSENTADORIA_INVALIDEZ,45-54,29865,39.04
+grupo_especie,faixa_etaria,APOSENTADORIA_INVALIDEZ,55-64,23818,31.14
+grupo_especie,faixa_etaria,APOSENTADORIA_INVALIDEZ,35-44,13157,17.2
+grupo_especie,faixa_etaria,APOSENTADORIA_INVALIDEZ,25-34,4522,5.91
+grupo_especie,faixa_etaria,APOSENTADORIA_INVALIDEZ,65+,1867,2.44
+grupo_especie,faixa_etaria,APOSENTADORIA_INVALIDEZ,0-13,1585,2.07
+grupo_especie,faixa_etaria,APOSENTADORIA_INVALIDEZ,18-24,793,1.04
+grupo_especie,faixa_etaria,APOSENTADORIA_INVALIDEZ,DESCONHECIDA,689,0.9
+grupo_especie,faixa_etaria,APOSENTADORIA_INVALIDEZ,14-17,201,0.26
+grupo_especie,faixa_etaria,AUXILIO_ACIDENTE,35-44,47115,34.01
+grupo_especie,faixa_etaria,AUXILIO_ACIDENTE,25-34,36678,26.48
+grupo_especie,faixa_etaria,AUXILIO_ACIDENTE,45-54,32252,23.28
+grupo_especie,faixa_etaria,AUXILIO_ACIDENTE,18-24,12250,8.84
+grupo_especie,faixa_etaria,AUXILIO_ACIDENTE,55-64,6945,5.01
+grupo_especie,faixa_etaria,AUXILIO_ACIDENTE,0-13,1316,0.95
+grupo_especie,faixa_etaria,AUXILIO_ACIDENTE,DESCONHECIDA,1035,0.75
+grupo_especie,faixa_etaria,AUXILIO_ACIDENTE,14-17,656,0.47
+grupo_especie,faixa_etaria,AUXILIO_ACIDENTE,65+,288,0.21
+grupo_especie,faixa_etaria,AUXILIO_DOENCA,25-34,496841,28.95
+grupo_especie,faixa_etaria,AUXILIO_DOENCA,35-44,470151,27.4
+grupo_especie,faixa_etaria,AUXILIO_DOENCA,45-54,370802,21.61
+grupo_especie,faixa_etaria,AUXILIO_DOENCA,18-24,236691,13.79
+grupo_especie,faixa_etaria,AUXILIO_DOENCA,55-64,126095,7.35
+grupo_especie,faixa_etaria,AUXILIO_DOENCA,14-17,9372,0.55
+grupo_especie,faixa_etaria,AUXILIO_DOENCA,65+,3111,0.18
+grupo_especie,faixa_etaria,AUXILIO_DOENCA,0-13,2666,0.16
+grupo_especie,faixa_etaria,AUXILIO_DOENCA,DESCONHECIDA,191,0.01
+grupo_especie,faixa_etaria,AUXILIO_SUPLEMENTAR,25-34,293,27.36
+grupo_especie,faixa_etaria,AUXILIO_SUPLEMENTAR,18-24,279,26.05
+grupo_especie,faixa_etaria,AUXILIO_SUPLEMENTAR,35-44,164,15.31
+grupo_especie,faixa_etaria,AUXILIO_SUPLEMENTAR,45-54,125,11.67
+grupo_especie,faixa_etaria,AUXILIO_SUPLEMENTAR,14-17,109,10.18
+grupo_especie,faixa_etaria,AUXILIO_SUPLEMENTAR,DESCONHECIDA,48,4.48
+grupo_especie,faixa_etaria,AUXILIO_SUPLEMENTAR,55-64,34,3.17
+grupo_especie,faixa_etaria,AUXILIO_SUPLEMENTAR,0-13,13,1.21
+grupo_especie,faixa_etaria,AUXILIO_SUPLEMENTAR,65+,6,0.56
+grupo_especie,faixa_etaria,PENSAO_POR_MORTE,35-44,788,21.51
+grupo_especie,faixa_etaria,PENSAO_POR_MORTE,0-13,774,21.13
+grupo_especie,faixa_etaria,PENSAO_POR_MORTE,25-34,759,20.72
+grupo_especie,faixa_etaria,PENSAO_POR_MORTE,45-54,562,15.34
+grupo_especie,faixa_etaria,PENSAO_POR_MORTE,18-24,285,7.78
+grupo_especie,faixa_etaria,PENSAO_POR_MORTE,55-64,210,5.73
+grupo_especie,faixa_etaria,PENSAO_POR_MORTE,14-17,153,4.18
+grupo_especie,faixa_etaria,PENSAO_POR_MORTE,DESCONHECIDA,73,1.99
+grupo_especie,faixa_etaria,PENSAO_POR_MORTE,65+,59,1.61
+grupo_especie,ano_competencia,APOSENTADORIA_INVALIDEZ,2013,12184,15.93
+grupo_especie,ano_competencia,APOSENTADORIA_INVALIDEZ,2012,11949,15.62
+grupo_especie,ano_competencia,APOSENTADORIA_INVALIDEZ,2018,11796,15.42
+grupo_especie,ano_competencia,APOSENTADORIA_INVALIDEZ,2014,11342,14.83
+grupo_especie,ano_competencia,APOSENTADORIA_INVALIDEZ,2016,10017,13.09
+grupo_especie,ano_competencia,APOSENTADORIA_INVALIDEZ,2017,9980,13.05
+grupo_especie,ano_competencia,APOSENTADORIA_INVALIDEZ,2015,9229,12.06
+grupo_especie,ano_competencia,AUXILIO_ACIDENTE,2013,21993,15.88
+grupo_especie,ano_competencia,AUXILIO_ACIDENTE,2018,21794,15.73
+grupo_especie,ano_competencia,AUXILIO_ACIDENTE,2014,21301,15.38
+grupo_especie,ano_competencia,AUXILIO_ACIDENTE,2017,20730,14.96
+grupo_especie,ano_competencia,AUXILIO_ACIDENTE,2016,19492,14.07
+grupo_especie,ano_competencia,AUXILIO_ACIDENTE,2015,16792,12.12
+grupo_especie,ano_competencia,AUXILIO_ACIDENTE,2012,16433,11.86
+grupo_especie,ano_competencia,AUXILIO_DOENCA,2012,305975,17.83
+grupo_especie,ano_competencia,AUXILIO_DOENCA,2013,304958,17.77
+grupo_especie,ano_competencia,AUXILIO_DOENCA,2014,280510,16.35
+grupo_especie,ano_competencia,AUXILIO_DOENCA,2016,228740,13.33
+grupo_especie,ano_competencia,AUXILIO_DOENCA,2018,202834,11.82
+grupo_especie,ano_competencia,AUXILIO_DOENCA,2015,197280,11.5
+grupo_especie,ano_competencia,AUXILIO_DOENCA,2017,195623,11.4
+grupo_especie,ano_competencia,AUXILIO_SUPLEMENTAR,2013,205,19.14
+grupo_especie,ano_competencia,AUXILIO_SUPLEMENTAR,2014,164,15.31
+grupo_especie,ano_competencia,AUXILIO_SUPLEMENTAR,2017,159,14.85
+grupo_especie,ano_competencia,AUXILIO_SUPLEMENTAR,2015,149,13.91
+grupo_especie,ano_competencia,AUXILIO_SUPLEMENTAR,2012,142,13.26
+grupo_especie,ano_competencia,AUXILIO_SUPLEMENTAR,2016,128,11.95
+grupo_especie,ano_competencia,AUXILIO_SUPLEMENTAR,2018,124,11.58
+grupo_especie,ano_competencia,PENSAO_POR_MORTE,2012,791,21.59
+grupo_especie,ano_competencia,PENSAO_POR_MORTE,2013,670,18.29
+grupo_especie,ano_competencia,PENSAO_POR_MORTE,2014,543,14.82
+grupo_especie,ano_competencia,PENSAO_POR_MORTE,2016,518,14.14
+grupo_especie,ano_competencia,PENSAO_POR_MORTE,2015,453,12.37
+grupo_especie,ano_competencia,PENSAO_POR_MORTE,2017,401,10.95
+grupo_especie,ano_competencia,PENSAO_POR_MORTE,2018,287,7.84

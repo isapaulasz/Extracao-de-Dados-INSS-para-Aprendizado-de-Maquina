@@ -1,0 +1,23 @@
+﻿regra,n,pct,acao_na_limpeza
+competência ausente ou fora do formato mês/AAAA,0,0.0,mantida (NULL)
+data_nascimento inválida ou ausente,57,0.0002,mantida (idade fica NULL)
+data_dib inválida ou ausente,0,0.0,mantida (NULL)
+data_ddb inválida ou ausente,0,0.0,mantida (NULL)
+data_dcb ausente (00/00/0000: sem cessação),14951186,42.1034,esperado; mantida (NULL)
+data_dib posterior à data_ddb,13,0.0,só auditoria (ver remover_se_dib_apos_ddb)
+data_dib posterior a 2018-12-31 (futuro),0,0.0,remover linha
+data_ddb posterior a 2018-12-31 (futuro),0,0.0,remover linha
+data_dib anterior a 2012-01-01,1905960,5.3673,só auditoria (DIB retroativa é possível)
+data_ddb anterior a 2012-01-01,0,0.0,só auditoria
+data_dcb anterior à data_dib,1820,0.0051,anular data_dcb
+data_dcb anterior à data_ddb,3429141,9.6567,só auditoria
+data_dcb posterior a 2018-12-31,416304,1.1723,só auditoria (cessação estimada)
+nascimento no futuro,0,0.0,idade vira NULL
+idade negativa (nascimento posterior ao início do benefício),23966,0.0675,idade vira NULL
+idade abaixo de 0,23966,0.0675,idade vira NULL
+idade entre 0 e 13 (comum em pensão por morte),823972,2.3204,mantida; ver bc_idade_por_especie.csv
+idade acima de 90,24343,0.0686,só auditoria
+idade acima de 110,11,0.0,idade vira NULL
+competência diferente do mês da data_ddb,0,0.0,só auditoria (testa a hipótese competência = mês do despacho)
+ano da competência diferente do ano do arquivo,0,0.0,só auditoria
+ano da competência fora do período esperado,0,0.0,só auditoria

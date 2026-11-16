@@ -1,0 +1,11 @@
+﻿verificacao,encontrado,esperado,status
+nenhuma categórica com NULL,0,0,OK
+nenhum token de nulo disfarçado nas categóricas,0,0,OK
+sem duplicatas exatas,0,0,OK
+sem datas futuras (DIB e DDB),0,0,OK
+cessação (DCB) não anterior ao início (DIB),0,0,OK
+competência AAAAMM com mês 1-12,0,0,OK
+"idade dentro de [min, max]",0,0,OK
+qt_sm_rmi dentro da faixa,0,0,OK
+só espécies de especies_manter (se definida),0,0,OK
+_agrup sem níveis raros (só OUTROS e NAO_INFORMADO absorvem),0,0,OK

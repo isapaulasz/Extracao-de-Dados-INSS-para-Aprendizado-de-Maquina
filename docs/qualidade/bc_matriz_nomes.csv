@@ -1,0 +1,20 @@
+﻿chave,01.2012_01-12_BC.parquet,02.2013_01-12_BC.parquet,03.2014_01-12_BC.parquet,04.2015_01-12_BC.parquet,05.2016_01-12_BC.parquet,06.2017_01-12_BC.parquet,07.2018_01-12_BC.parquet
+acordo_internacional,Acordo Internacional,Acordo Internacional,Acordo Internacional,Acordo Internacional,Acordo Internacional,Acordo Internacional,Acordo Internacional
+cid_10,CID,CID,CID,CID,CID,CID,CID
+cid_10_2,CID.1,CID.1,CID.1,CID.1,CID.1,CID.1,CID.1
+classificador_pa,Classificador PA,Classificador PA,Classificador PA,Classificador PA,Classificador PA,Classificador PA,Classificador PA
+clientela,Clientela,Clientela,Clientela,Clientela,Clientela,Clientela,Clientela
+competencia_concessao,Competência concessão,Competência concessão,Competência concessão,Competência concessão,Competência concessão,Competência concessão,Competência concessão
+data_dcb,Dt DCB,Dt DCB,Dt DCB,Dt DCB,Dt DCB,Dt DCB,Dt DCB
+data_ddb,Dt DDB,Dt DDB,Dt DDB,Dt DDB,Dt DDB,Dt DDB,Dt DDB
+data_dib,Dt DIB,Dt DIB,Dt DIB,Dt DIB,Dt DIB,Dt DIB,Dt DIB
+data_nascimento,Dt Nascimento,Dt Nascimento,Dt Nascimento,Dt Nascimento,Dt Nascimento,Dt Nascimento,Dt Nascimento
+despacho,Despacho,Despacho,Despacho,Despacho,Despacho,Despacho,Despacho
+especie,Espécie,Espécie,Espécie,Espécie,Espécie,Espécie,Espécie
+forma_filiacao,Forma Filiação,Forma Filiação,Forma Filiação,Forma Filiação,Forma Filiação,Forma Filiação,Forma Filiação
+municipio_residencia,Mun Resid,Mun Resid,Mun Resid,Mun Resid,Mun Resid,Mun Resid,Mun Resid
+qt_sm_rmi,Qt SM RMI,Qt SM RMI,Qt SM RMI,Qt SM RMI,Qt SM RMI,Qt SM RMI,Qt SM RMI
+ramo_atividade,Ramo Atividade,Ramo Atividade,Ramo Atividade,Ramo Atividade,Ramo Atividade,Ramo Atividade,Ramo Atividade
+sexo,Sexo.,Sexo.,Sexo.,Sexo.,Sexo.,Sexo.,Sexo.
+uf,UF,UF,UF,UF,UF,UF,UF
+vinculo_dependentes,Vínculo dependentes,Vínculo dependentes,Vínculo dependentes,Vínculo dependentes,Vínculo dependentes,Vínculo dependentes,Vínculo dependentes

@@ -1,0 +1,134 @@
+﻿arquivo,n_linhas,coluna_original,tipo,nome_padronizado,chave
+01.2012_01-12_BC.parquet,5004105,Competência concessão,VARCHAR,competencia_concessao,competencia_concessao
+01.2012_01-12_BC.parquet,5004105,Espécie,VARCHAR,especie,especie
+01.2012_01-12_BC.parquet,5004105,CID,VARCHAR,cid_10,cid_10
+01.2012_01-12_BC.parquet,5004105,CID.1,VARCHAR,cid_10_2,cid_10_2
+01.2012_01-12_BC.parquet,5004105,Despacho,VARCHAR,despacho,despacho
+01.2012_01-12_BC.parquet,5004105,Dt Nascimento,VARCHAR,data_nascimento,data_nascimento
+01.2012_01-12_BC.parquet,5004105,Sexo.,VARCHAR,sexo,sexo
+01.2012_01-12_BC.parquet,5004105,Clientela,VARCHAR,clientela,clientela
+01.2012_01-12_BC.parquet,5004105,Mun Resid,VARCHAR,municipio_residencia,municipio_residencia
+01.2012_01-12_BC.parquet,5004105,Vínculo dependentes,VARCHAR,vinculo_dependentes,vinculo_dependentes
+01.2012_01-12_BC.parquet,5004105,Forma Filiação,VARCHAR,forma_filiacao,forma_filiacao
+01.2012_01-12_BC.parquet,5004105,UF,VARCHAR,uf,uf
+01.2012_01-12_BC.parquet,5004105,Qt SM RMI,VARCHAR,qt_sm_rmi,qt_sm_rmi
+01.2012_01-12_BC.parquet,5004105,Ramo Atividade,VARCHAR,ramo_atividade,ramo_atividade
+01.2012_01-12_BC.parquet,5004105,Dt DCB,VARCHAR,data_dcb,data_dcb
+01.2012_01-12_BC.parquet,5004105,Dt DDB,VARCHAR,data_ddb,data_ddb
+01.2012_01-12_BC.parquet,5004105,Dt DIB,VARCHAR,data_dib,data_dib
+01.2012_01-12_BC.parquet,5004105,Acordo Internacional,VARCHAR,acordo_internacional,acordo_internacional
+01.2012_01-12_BC.parquet,5004105,Classificador PA,VARCHAR,classificador_pa,classificador_pa
+02.2013_01-12_BC.parquet,5255162,Competência concessão,VARCHAR,competencia_concessao,competencia_concessao
+02.2013_01-12_BC.parquet,5255162,Espécie,VARCHAR,especie,especie
+02.2013_01-12_BC.parquet,5255162,CID,VARCHAR,cid_10,cid_10
+02.2013_01-12_BC.parquet,5255162,CID.1,VARCHAR,cid_10_2,cid_10_2
+02.2013_01-12_BC.parquet,5255162,Despacho,VARCHAR,despacho,despacho
+02.2013_01-12_BC.parquet,5255162,Dt Nascimento,VARCHAR,data_nascimento,data_nascimento
+02.2013_01-12_BC.parquet,5255162,Sexo.,VARCHAR,sexo,sexo
+02.2013_01-12_BC.parquet,5255162,Clientela,VARCHAR,clientela,clientela
+02.2013_01-12_BC.parquet,5255162,Mun Resid,VARCHAR,municipio_residencia,municipio_residencia
+02.2013_01-12_BC.parquet,5255162,Vínculo dependentes,VARCHAR,vinculo_dependentes,vinculo_dependentes
+02.2013_01-12_BC.parquet,5255162,Forma Filiação,VARCHAR,forma_filiacao,forma_filiacao
+02.2013_01-12_BC.parquet,5255162,UF,VARCHAR,uf,uf
+02.2013_01-12_BC.parquet,5255162,Qt SM RMI,VARCHAR,qt_sm_rmi,qt_sm_rmi
+02.2013_01-12_BC.parquet,5255162,Ramo Atividade,VARCHAR,ramo_atividade,ramo_atividade
+02.2013_01-12_BC.parquet,5255162,Dt DCB,VARCHAR,data_dcb,data_dcb
+02.2013_01-12_BC.parquet,5255162,Dt DDB,VARCHAR,data_ddb,data_ddb
+02.2013_01-12_BC.parquet,5255162,Dt DIB,VARCHAR,data_dib,data_dib
+02.2013_01-12_BC.parquet,5255162,Acordo Internacional,VARCHAR,acordo_internacional,acordo_internacional
+02.2013_01-12_BC.parquet,5255162,Classificador PA,VARCHAR,classificador_pa,classificador_pa
+03.2014_01-12_BC.parquet,5257897,Competência concessão,VARCHAR,competencia_concessao,competencia_concessao
+03.2014_01-12_BC.parquet,5257897,Espécie,VARCHAR,especie,especie
+03.2014_01-12_BC.parquet,5257897,CID,VARCHAR,cid_10,cid_10
+03.2014_01-12_BC.parquet,5257897,CID.1,VARCHAR,cid_10_2,cid_10_2
+03.2014_01-12_BC.parquet,5257897,Despacho,VARCHAR,despacho,despacho
+03.2014_01-12_BC.parquet,5257897,Dt Nascimento,VARCHAR,data_nascimento,data_nascimento
+03.2014_01-12_BC.parquet,5257897,Sexo.,VARCHAR,sexo,sexo
+03.2014_01-12_BC.parquet,5257897,Clientela,VARCHAR,clientela,clientela
+03.2014_01-12_BC.parquet,5257897,Mun Resid,VARCHAR,municipio_residencia,municipio_residencia
+03.2014_01-12_BC.parquet,5257897,Vínculo dependentes,VARCHAR,vinculo_dependentes,vinculo_dependentes
+03.2014_01-12_BC.parquet,5257897,Forma Filiação,VARCHAR,forma_filiacao,forma_filiacao
+03.2014_01-12_BC.parquet,5257897,UF,VARCHAR,uf,uf
+03.2014_01-12_BC.parquet,5257897,Qt SM RMI,VARCHAR,qt_sm_rmi,qt_sm_rmi
+03.2014_01-12_BC.parquet,5257897,Ramo Atividade,VARCHAR,ramo_atividade,ramo_atividade
+03.2014_01-12_BC.parquet,5257897,Dt DCB,VARCHAR,data_dcb,data_dcb
+03.2014_01-12_BC.parquet,5257897,Dt DDB,VARCHAR,data_ddb,data_ddb
+03.2014_01-12_BC.parquet,5257897,Dt DIB,VARCHAR,data_dib,data_dib
+03.2014_01-12_BC.parquet,5257897,Acordo Internacional,VARCHAR,acordo_internacional,acordo_internacional
+03.2014_01-12_BC.parquet,5257897,Classificador PA,VARCHAR,classificador_pa,classificador_pa
+04.2015_01-12_BC.parquet,4384448,Competência concessão,VARCHAR,competencia_concessao,competencia_concessao
+04.2015_01-12_BC.parquet,4384448,Espécie,VARCHAR,especie,especie
+04.2015_01-12_BC.parquet,4384448,CID,VARCHAR,cid_10,cid_10
+04.2015_01-12_BC.parquet,4384448,CID.1,VARCHAR,cid_10_2,cid_10_2
+04.2015_01-12_BC.parquet,4384448,Despacho,VARCHAR,despacho,despacho
+04.2015_01-12_BC.parquet,4384448,Dt Nascimento,VARCHAR,data_nascimento,data_nascimento
+04.2015_01-12_BC.parquet,4384448,Sexo.,VARCHAR,sexo,sexo
+04.2015_01-12_BC.parquet,4384448,Clientela,VARCHAR,clientela,clientela
+04.2015_01-12_BC.parquet,4384448,Mun Resid,VARCHAR,municipio_residencia,municipio_residencia
+04.2015_01-12_BC.parquet,4384448,Vínculo dependentes,VARCHAR,vinculo_dependentes,vinculo_dependentes
+04.2015_01-12_BC.parquet,4384448,Forma Filiação,VARCHAR,forma_filiacao,forma_filiacao
+04.2015_01-12_BC.parquet,4384448,UF,VARCHAR,uf,uf
+04.2015_01-12_BC.parquet,4384448,Qt SM RMI,VARCHAR,qt_sm_rmi,qt_sm_rmi
+04.2015_01-12_BC.parquet,4384448,Ramo Atividade,VARCHAR,ramo_atividade,ramo_atividade
+04.2015_01-12_BC.parquet,4384448,Dt DCB,VARCHAR,data_dcb,data_dcb
+04.2015_01-12_BC.parquet,4384448,Dt DDB,VARCHAR,data_ddb,data_ddb
+04.2015_01-12_BC.parquet,4384448,Dt DIB,VARCHAR,data_dib,data_dib
+04.2015_01-12_BC.parquet,4384448,Acordo Internacional,VARCHAR,acordo_internacional,acordo_internacional
+04.2015_01-12_BC.parquet,4384448,Classificador PA,VARCHAR,classificador_pa,classificador_pa
+05.2016_01-12_BC.parquet,5293918,Competência concessão,VARCHAR,competencia_concessao,competencia_concessao
+05.2016_01-12_BC.parquet,5293918,Espécie,VARCHAR,especie,especie
+05.2016_01-12_BC.parquet,5293918,CID,VARCHAR,cid_10,cid_10
+05.2016_01-12_BC.parquet,5293918,CID.1,VARCHAR,cid_10_2,cid_10_2
+05.2016_01-12_BC.parquet,5293918,Despacho,VARCHAR,despacho,despacho
+05.2016_01-12_BC.parquet,5293918,Dt Nascimento,VARCHAR,data_nascimento,data_nascimento
+05.2016_01-12_BC.parquet,5293918,Sexo.,VARCHAR,sexo,sexo
+05.2016_01-12_BC.parquet,5293918,Clientela,VARCHAR,clientela,clientela
+05.2016_01-12_BC.parquet,5293918,Mun Resid,VARCHAR,municipio_residencia,municipio_residencia
+05.2016_01-12_BC.parquet,5293918,Vínculo dependentes,VARCHAR,vinculo_dependentes,vinculo_dependentes
+05.2016_01-12_BC.parquet,5293918,Forma Filiação,VARCHAR,forma_filiacao,forma_filiacao
+05.2016_01-12_BC.parquet,5293918,UF,VARCHAR,uf,uf
+05.2016_01-12_BC.parquet,5293918,Qt SM RMI,VARCHAR,qt_sm_rmi,qt_sm_rmi
+05.2016_01-12_BC.parquet,5293918,Ramo Atividade,VARCHAR,ramo_atividade,ramo_atividade
+05.2016_01-12_BC.parquet,5293918,Dt DCB,VARCHAR,data_dcb,data_dcb
+05.2016_01-12_BC.parquet,5293918,Dt DDB,VARCHAR,data_ddb,data_ddb
+05.2016_01-12_BC.parquet,5293918,Dt DIB,VARCHAR,data_dib,data_dib
+05.2016_01-12_BC.parquet,5293918,Acordo Internacional,VARCHAR,acordo_internacional,acordo_internacional
+05.2016_01-12_BC.parquet,5293918,Classificador PA,VARCHAR,classificador_pa,classificador_pa
+06.2017_01-12_BC.parquet,5150319,Competência concessão,VARCHAR,competencia_concessao,competencia_concessao
+06.2017_01-12_BC.parquet,5150319,Espécie,VARCHAR,especie,especie
+06.2017_01-12_BC.parquet,5150319,CID,VARCHAR,cid_10,cid_10
+06.2017_01-12_BC.parquet,5150319,CID.1,VARCHAR,cid_10_2,cid_10_2
+06.2017_01-12_BC.parquet,5150319,Despacho,VARCHAR,despacho,despacho
+06.2017_01-12_BC.parquet,5150319,Dt Nascimento,VARCHAR,data_nascimento,data_nascimento
+06.2017_01-12_BC.parquet,5150319,Sexo.,VARCHAR,sexo,sexo
+06.2017_01-12_BC.parquet,5150319,Clientela,VARCHAR,clientela,clientela
+06.2017_01-12_BC.parquet,5150319,Mun Resid,VARCHAR,municipio_residencia,municipio_residencia
+06.2017_01-12_BC.parquet,5150319,Vínculo dependentes,VARCHAR,vinculo_dependentes,vinculo_dependentes
+06.2017_01-12_BC.parquet,5150319,Forma Filiação,VARCHAR,forma_filiacao,forma_filiacao
+06.2017_01-12_BC.parquet,5150319,UF,VARCHAR,uf,uf
+06.2017_01-12_BC.parquet,5150319,Qt SM RMI,VARCHAR,qt_sm_rmi,qt_sm_rmi
+06.2017_01-12_BC.parquet,5150319,Ramo Atividade,VARCHAR,ramo_atividade,ramo_atividade
+06.2017_01-12_BC.parquet,5150319,Dt DCB,VARCHAR,data_dcb,data_dcb
+06.2017_01-12_BC.parquet,5150319,Dt DDB,VARCHAR,data_ddb,data_ddb
+06.2017_01-12_BC.parquet,5150319,Dt DIB,VARCHAR,data_dib,data_dib
+06.2017_01-12_BC.parquet,5150319,Acordo Internacional,VARCHAR,acordo_internacional,acordo_internacional
+06.2017_01-12_BC.parquet,5150319,Classificador PA,VARCHAR,classificador_pa,classificador_pa
+07.2018_01-12_BC.parquet,5164759,Competência concessão,VARCHAR,competencia_concessao,competencia_concessao
+07.2018_01-12_BC.parquet,5164759,Espécie,VARCHAR,especie,especie
+07.2018_01-12_BC.parquet,5164759,CID,VARCHAR,cid_10,cid_10
+07.2018_01-12_BC.parquet,5164759,CID.1,VARCHAR,cid_10_2,cid_10_2
+07.2018_01-12_BC.parquet,5164759,Despacho,VARCHAR,despacho,despacho
+07.2018_01-12_BC.parquet,5164759,Dt Nascimento,VARCHAR,data_nascimento,data_nascimento
+07.2018_01-12_BC.parquet,5164759,Sexo.,VARCHAR,sexo,sexo
+07.2018_01-12_BC.parquet,5164759,Clientela,VARCHAR,clientela,clientela
+07.2018_01-12_BC.parquet,5164759,Mun Resid,VARCHAR,municipio_residencia,municipio_residencia
+07.2018_01-12_BC.parquet,5164759,Vínculo dependentes,VARCHAR,vinculo_dependentes,vinculo_dependentes
+07.2018_01-12_BC.parquet,5164759,Forma Filiação,VARCHAR,forma_filiacao,forma_filiacao
+07.2018_01-12_BC.parquet,5164759,UF,VARCHAR,uf,uf
+07.2018_01-12_BC.parquet,5164759,Qt SM RMI,VARCHAR,qt_sm_rmi,qt_sm_rmi
+07.2018_01-12_BC.parquet,5164759,Ramo Atividade,VARCHAR,ramo_atividade,ramo_atividade
+07.2018_01-12_BC.parquet,5164759,Dt DCB,VARCHAR,data_dcb,data_dcb
+07.2018_01-12_BC.parquet,5164759,Dt DDB,VARCHAR,data_ddb,data_ddb
+07.2018_01-12_BC.parquet,5164759,Dt DIB,VARCHAR,data_dib,data_dib
+07.2018_01-12_BC.parquet,5164759,Acordo Internacional,VARCHAR,acordo_internacional,acordo_internacional
+07.2018_01-12_BC.parquet,5164759,Classificador PA,VARCHAR,classificador_pa,classificador_pa

@@ -1,0 +1,15 @@
+﻿coluna,n_niveis,top1,top1_pct,niveis_para_90pct,niveis_para_99pct,niveis_raros,pct_linhas_em_raros
+cid_10,12528,D25,1.72,1110,4366,12347,36.786
+cid_10_2,10647,EM BRANCO,2.21,1079,4250,10469,36.264
+municipio_residencia,5566,21504-SP-SAO PAULO,5.32,2546,4873,5420,56.357
+cid_categoria,2180,M54,4.73,279,892,2034,18.67
+especie,53,AUXILIO DOENCA PREVIDENCIARIO,42.66,7,12,38,0.032
+uf,27,SAO PAULO,23.27,16,24,0,0.0
+despacho,17,CONCESSAO NORMAL,73.81,3,7,8,0.108
+forma_filiacao,10,EMPREGADO,37.21,4,6,2,0.083
+vinculo_dependentes,9,FILHO,74.04,2,3,3,0.13
+ramo_atividade,9,COMERCIARIO,75.84,2,4,3,0.154
+classificador_pa,3,SEM PENSAO ALIMENTICIA,99.64,1,1,1,0.012
+sexo,2,FEMININO,56.45,2,2,0,0.0
+clientela,2,URBANO,81.4,2,2,0,0.0
+acordo_internacional,2,NAO,99.97,1,1,1,0.035

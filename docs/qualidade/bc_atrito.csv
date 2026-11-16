@@ -1,0 +1,11 @@
+﻿etapa,tipo,linhas_removidas,valores_alterados,linhas_restantes
+entrada (consolidado),entrada,0,0,35510608
+linhas-lixo da exportação (competencia_concessao fora do formato mês/AAAA),remocao,0,0,35510608
+escopo: apenas 6 espécie(s) listada(s) em especies_manter,remocao,33574903,0,1935705
+nulos disfarçados -> NULL (valores),alteracao,0,1912952,1935705
+"valores fora da regra -> NULL (competência, CID, qt_sm_rmi, datas)",alteracao,0,9969,1935705
+data_dib ou data_ddb posterior a 2018-12-31,remocao,0,0,1935705
+data_dcb anterior à data_dib -> NULL,alteracao,0,100,1935705
+duplicatas exatas (mantida a primeira ocorrência),remocao,19,0,1935686
+nulos em categóricas -> NAO_INFORMADO (valores),alteracao,0,1964901,1935686
+categorias raras (< 0.1%) -> OUTROS (valores),alteracao,0,146796,1935686

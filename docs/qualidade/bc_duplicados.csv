@@ -1,0 +1,5 @@
+﻿tipo,grupos,linhas_envolvidas,linhas_excedentes,pct_excedentes
+exata (todas as colunas),5931,11995.0,6064.0,0.017
+"aproximada (nascimento, sexo, espécie, DIB, CID, município)",920,1844.0,924.0,0.003
+  aproximada: grupos que cruzam arquivos,127,,,
+  aproximada: grupos com DDB diferentes (possível reconcessão),842,,,

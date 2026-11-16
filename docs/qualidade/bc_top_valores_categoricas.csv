@@ -1,0 +1,230 @@
+﻿coluna,rank,valor,exemplo_bruto,n,pct,suspeito,ja_tratado_como_nulo
+especie,1,AUXILIO DOENCA PREVIDENCIARIO,Auxílio Doenca Previdenciário,15149446,42.662,False,False
+especie,2,APOSENTADORIA POR IDADE,Aposentadoria por Idade,4602180,12.96,False,False
+especie,3,AUXILIO SALARIO MATERNIDADE,Auxílio Salario Maternidade,4322726,12.173,False,False
+especie,4,PENSAO POR MORTE PREVIDENCIARIA,Pensão por Morte Previdenciária,2956006,8.324,False,False
+especie,5,APOSENTADORIA POR TEMPO DE CONTRIBUICAO,Aposentadoria por Tempo de Contribuição,2366743,6.665,False,False
+especie,6,AUXILIO DOENCA POR ACIDENTE DO TRABALHO,Auxílio Doenca por Acidente do Trabalho,1715928,4.832,False,False
+especie,7,APOSENTADORIA INVALIDEZ PREVIDENCIARIA,Aposentadoria Invalidez Previdenciária,1389486,3.913,False,False
+especie,8,AMP. SOCIAL PESSOA PORTADORA DEFICIENCIA,Amp. Social Pessoa Portadora Deficiencia,1211098,3.411,False,False
+especie,9,AMPARO SOCIAL AO IDOSO,Amparo Social ao Idoso,1103485,3.107,False,False
+especie,10,AUXILIO RECLUSAO,Auxílio Reclusão,173894,0.49,False,False
+especie,11,AUXILIO ACIDENTE,Auxílio Acidente,138538,0.39,False,False
+especie,12,APOSENTADORIA ESPECIAL,Aposentadoria Especial,127210,0.358,False,False
+especie,13,AUXILIO ACIDENTE PREVIDENCIARIO,Auxílio Acidente Previdenciário,86454,0.243,False,False
+especie,14,APOSENT. TEMPO DE SERVICO DE PROFESSOR,Aposent. Tempo de Serviço de Professor,79436,0.224,False,False
+especie,15,APOSENT. INVALIDEZ ACIDENTE TRABALHO,Aposent. Invalidez Acidente Trabalho,76484,0.215,False,False
+especie,16,PENSAO POR MORTE ACIDENTE DO TRABALHO,Pensão por Morte Acidente do Trabalho,3663,0.01,False,False
+especie,17,PENSAO VITALICIA DEPENDENTES SERINGUEIRO,Pensão Vitalícia Dependentes Seringueiro,2034,0.006,False,False
+especie,18,PENSAO ESPECIAL HANSENIASE LEI 11520/07,Pensao Especial Hanseniase Lei 11520/07,1993,0.006,False,False
+especie,19,PENSAO POR MORTE DE EX-COMBATENTE,Pensão por Morte de Ex-Combatente,1094,0.003,False,False
+especie,20,AUXILIO SUPLEMENTAR ACIDENTE TRABALHO,Auxílio Suplementar Acidente Trabalho,1071,0.003,False,False
+especie,21,PENSAO VITALICIA SINDROME TALIDOMIDA,Pensão Vitalícia Sindrome Talidomida,437,0.001,False,False
+especie,22,PENSAO VITALICIA SERINGUEIROS,Pensão Vitalícia Seringueiros,401,0.001,False,False
+especie,23,APOSENTADORIA POR INVALIDEZ-TRAB. RURAL,Aposentadoria por Invalidez-Trab. Rural,136,0.0,False,False
+especie,24,PENSAO POR MORTE DE TRABALHADOR RURAL,Pensão por Morte de Trabalhador Rural,133,0.0,False,False
+especie,25,PENSAO POR MORTE DE ANISTIADOS,Pensão por Morte de Anistiados,124,0.0,False,False
+especie,26,PENSAO POR MORTE EX-SASSE,Pensão por Morte Ex-Sasse,96,0.0,False,False
+especie,27,RENDA MENSAL VITALICIA POR INCAPACIDADE,Renda Mensal Vitalícia por Incapacidade,61,0.0,False,False
+especie,28,APOSENTADORIA POR VELHICE - TRAB. RURAL,Aposentadoria por Velhice - Trab. Rural,59,0.0,False,False
+especie,29,AMPARO PREVIDENC. INVALIDEZ- TRAB. RURAL,Amparo Previdenc. Invalidez- Trab. Rural,37,0.0,False,False
+especie,30,BENEFICIO INDENIZATORIO A CARGO DA UNIAO,Benefício Indenizatório a Cargo da União,21,0.0,False,False
+especie,31,APOSENT. INVALIDEZ ACIDENTARIA-TRAB.RUR.,Aposent. Invalidez Acidentária-Trab.Rur.,21,0.0,False,False
+especie,32,APOSENT. POR TEMPO SERVICO EX-COMBATENTE,Aposent. por Tempo Serviço Ex-Combatente,17,0.0,False,False
+especie,33,PENSAO POR MORTE EX-COMBATENTE MARITIMO,Pensão por Morte Ex-Combatente Maritimo,15,0.0,False,False
+especie,34,PENSAO MORTE SERVIDOR PUBLICO FEDERAL,Pensão Morte Servidor Público Federal,10,0.0,False,False
+especie,35,APOSENTADORIA DE ANISTIADOS,Aposentadoria de Anistiados,8,0.0,False,False
+especie,36,APOSENTADORIA ESPECIAL DE AERONAUTA,Aposentadoria Especial de Aeronauta,7,0.0,False,False
+especie,37,APOSENT. TEMPO SERVICO JORNALISTA,Aposent. Tempo Serviço Jornalista,7,0.0,False,False
+especie,38,PENSAO ESPECIAL VITALICIA - LEI 9793/99,Pensão Especial Vitalícia - Lei 9793/99,7,0.0,False,False
+especie,39,APOSENT. POR IDADE - EMPREGADOR RURAL,Aposent. por Idade - Empregador Rural,7,0.0,False,False
+especie,40,ABONO PERMANENCIA EM SERVICO - 30 ANOS,Abono Permanencia em Serviço - 30 Anos,6,0.0,False,False
+especie,41,APOSENT. TEMPO SERVICO - LEI DE GUERRA,Aposent. Tempo Serviço - Lei de Guerra,4,0.0,False,False
+especie,42,PENSAO ESP. VITIMAS HEMODIALISE-CARUARU,Pensão Esp. Vitimas Hemodiálise-Caruaru,4,0.0,False,False
+especie,43,RENDA MENSAL VITALICIA POR IDADE,Renda Mensal Vitalícia por Idade,3,0.0,False,False
+especie,44,APOSENTADORIA TEMPO DE SERVICO EX-SASSE,Aposentadoria Tempo de Serviço Ex-Sasse,3,0.0,False,False
+especie,45,PENSAO POR MORTE EXTINTO PLANO BASICO,Pensão por Morte Extinto Plano Básico,3,0.0,False,False
+especie,46,ABONO PERMANENCIA EM SERVICO - 35 ANOS,Abono Permanencia em Serviço - 35 Anos,2,0.0,False,False
+especie,47,PENSAO POR MORTE ESTATUTARIA,Pensão por Morte Estatutária,2,0.0,False,False
+especie,48,APOSENTADORIA INVALIDEZ AERONAUTA,Aposentadoria Invalidez Aeronauta,2,0.0,False,False
+especie,49,PENSAO POR MORTE DE EMPREGADOR RURAL,Pensão por Morte de Empregador Rural,2,0.0,False,False
+especie,50,APOSENT. INVALIDEZ EMPREGADOR RURAL,Aposent. Invalidez Empregador Rural,1,0.0,False,False
+especie,51,PENSAO POR MORTE ESPECIAL,Pensão por Morte Especial,1,0.0,False,False
+especie,52,APOSENTADORIA COMPULSORIA EX-SASSE,Aposentadoria Compulsoria Ex-Sasse,1,0.0,False,False
+especie,53,AMPARO PREVIDENC. IDADE - TRAB. RURAL,Amparo Previdenc. Idade - Trab. Rural,1,0.0,False,False
+cid_10,1,000000,000000,17012060,47.907,True,True
+cid_10,2,,,407588,1.148,False,True
+cid_10,3,D25,D25,310462,0.874,False,False
+cid_10,4,M51,M51,282617,0.796,False,False
+cid_10,5,M545,M545,280593,0.79,False,False
+cid_10,6,M54,M54,257401,0.725,False,False
+cid_10,7,K80,K80,243777,0.686,False,False
+cid_10,8,K40,K40,232409,0.654,False,False
+cid_10,9,M75,M75,231607,0.652,False,False
+cid_10,10,M23,M23,222975,0.628,False,False
+cid_10,11,S62,S62,210883,0.594,False,False
+cid_10,12,S525,S525,208317,0.587,False,False
+cid_10,13,S626,S626,191574,0.539,False,False
+cid_10,14,S82,S82,188301,0.53,False,False
+cid_10,15,F32,F32,187349,0.528,False,False
+cid_10,16,M544,M544,180259,0.508,False,False
+cid_10,17,M511,M511,171201,0.482,False,False
+cid_10,18,S420,S420,170512,0.48,False,False
+cid_10,19,S923,S923,158286,0.446,False,False
+cid_10,20,K35,K35,154318,0.435,False,False
+cid_10,21,M751,M751,146757,0.413,False,False
+cid_10,22,F19,F19,138369,0.39,False,False
+cid_10,23,S623,S623,137120,0.386,False,False
+cid_10,24,I839,I839,131973,0.372,False,False
+cid_10,25,S826,S826,131519,0.37,False,False
+cid_10,26,K42,K42,128890,0.363,False,False
+cid_10,27,I83,I83,125683,0.354,False,False
+cid_10,28,G560,G560,124472,0.351,False,False
+cid_10,29,S92,S92,118273,0.333,False,False
+cid_10,30,C50,C50,113248,0.319,False,False
+cid_10_2,1,ZERADOS,Zerados,17012060,47.907,True,True
+cid_10_2,2,EM BRANCO,Em Branco,407586,1.148,False,False
+cid_10_2,3,D25 LEIOMIOMA DO UTERO,D25   Leiomioma do Utero,310462,0.874,False,False
+cid_10_2,4,M51 OUTR TRANST DE DISCOS INTERVERTEBRAIS,M51   Outr Transt de Discos Intervertebrais,282617,0.796,False,False
+cid_10_2,5,M54.5 DOR LOMBAR BAIXA,M54.5 Dor Lombar Baixa,280593,0.79,False,False
+cid_10_2,6,M54 DORSALGIA,M54   Dorsalgia,257401,0.725,False,False
+cid_10_2,7,K80 COLELITIASE,K80   Colelitiase,243777,0.686,False,False
+cid_10_2,8,K40 HERNIA INGUINAL,K40   Hernia Inguinal,232408,0.654,False,False
+cid_10_2,9,M75 LESOES DO OMBRO,M75   Lesoes do Ombro,231607,0.652,False,False
+cid_10_2,10,M23 TRANST INTERNOS DOS JOELHOS,M23   Transt Internos dos Joelhos,222975,0.628,False,False
+cid_10_2,11,S62 FRAT AO NIVEL DO PUNHO E DA MAO,S62   Frat ao Nivel do Punho e da Mao,210883,0.594,False,False
+cid_10_2,12,S52.5 FRAT DA EXTREMIDADE DISTAL DO RADIO,S52.5 Frat da Extremidade Distal do Radio,208317,0.587,False,False
+cid_10_2,13,S62.6 FRAT DE OUTR DEDOS,S62.6 Frat de Outr Dedos,191574,0.539,False,False
+cid_10_2,14,S82 FRAT DA PERNA INCL TORNOZELO,S82   Frat da Perna Incl Tornozelo,188301,0.53,False,False
+cid_10_2,15,F32 EPISODIOS DEPRESSIVOS,F32   Episodios Depressivos,187349,0.528,False,False
+cid_10_2,16,M54.4 LUMBAGO C/CIATICA,M54.4 Lumbago c/Ciatica,180259,0.508,False,False
+cid_10_2,17,M51.1 TRANST DISCO LOMBAR OUTR INTERVERT RADI,M51.1 Transt Disco Lombar Outr Intervert Radi,171201,0.482,False,False
+cid_10_2,18,S42.0 FRAT DA CLAVICULA,S42.0 Frat da Clavicula,170512,0.48,False,False
+cid_10_2,19,S92.3 FRAT DE OSSOS DO METATARSO,S92.3 Frat de Ossos do Metatarso,158286,0.446,False,False
+cid_10_2,20,K35 APENDICITE AGUDA,K35   Apendicite Aguda,154318,0.435,False,False
+cid_10_2,21,M75.1 SINDR DO MANGUITO ROTADOR,M75.1 Sindr do Manguito Rotador,146757,0.413,False,False
+cid_10_2,22,F19 TRANST MENT COMP MULT DROG OUT SUBST PS,F19   Transt Ment Comp Mult Drog Out Subst Ps,138369,0.39,False,False
+cid_10_2,23,S62.3 FRAT DE OUTR OSSOS DO METACARPO,S62.3 Frat de Outr Ossos do Metacarpo,137120,0.386,False,False
+cid_10_2,24,I83.9 VARIZES MEMBROS INFER S/ULCERA OU INFLA,I83.9 Varizes Membros Infer s/Ulcera ou Infla,131973,0.372,False,False
+cid_10_2,25,S82.6 FRAT DO MALEOLO LATERAL,S82.6 Frat do Maleolo Lateral,131519,0.37,False,False
+cid_10_2,26,K42 HERNIA UMBILICAL,K42   Hernia Umbilical,128890,0.363,False,False
+cid_10_2,27,I83 VARIZES DOS MEMBROS INFER,I83   Varizes dos Membros Infer,125683,0.354,False,False
+cid_10_2,28,G56.0 SINDR DO TUNEL DO CARPO,G56.0 Sindr do Tunel do Carpo,124472,0.351,False,False
+cid_10_2,29,S92 FRAT DO PE,S92   Frat do Pe,118273,0.333,False,False
+cid_10_2,30,C50 NEOPL MALIG DA MAMA,C50   Neopl Malig da Mama,113248,0.319,False,False
+despacho,1,CONCESSAO NORMAL,Concessao Normal,26211950,73.814,False,False
+despacho,2,CONC. BASE ARTIGO 27 INCISO II DO RBPS,Conc. Base Artigo 27 Inciso Ii do Rbps,4395271,12.377,False,False
+despacho,3,CONCESSAO DECORRENTE DE ACAO JUDICIAL,Concessao Decorrente de Acao Judicial,3334333,9.39,False,False
+despacho,4,CONCESSAO COM CONVERSAO TEMPO DE SERVICO,Concessao com Conversao Tempo de Servico,444684,1.252,False,False
+despacho,5,CONC. DECORRENTE REVISAO ADMINISTRATIVA,Conc. Decorrente Revisao Administrativa,434944,1.225,False,False
+despacho,6,CONC. COM BASE ARTIGO 35 DA LEI 8213/91,Conc. com Base Artigo 35 da Lei 8213/91,261772,0.737,False,False
+despacho,7,CONCESSAO EM FASE RECURSAL,Concessao em Fase Recursal,219413,0.618,False,False
+despacho,8,CONC. COM BASE NO ARTIGO 183 DO RBPS,Conc. com Base no Artigo 183 do Rbps,115135,0.324,False,False
+despacho,9,CONC. S/VERIFICACAO DA PERDA QUALIDADE,Conc. s/Verificacao da Perda Qualidade,54581,0.154,False,False
+despacho,10,CONCESSAO C/JUSTIFICACAO ADMINISTRATIVA,Concessao c/Justificacao Administrativa,19273,0.054,False,False
+despacho,11,CONC. COM BASE NO ARTIGO 180 DO RBPS,Conc. com Base no Artigo 180 do Rbps,10971,0.031,False,False
+despacho,12,CONCESSAO COM DILIGENCIA (RD OU SP),Concessao com Diligencia (Rd ou Sp),8148,0.023,False,False
+despacho,13,REABERTURA DE PROCESSO ENCERRADO,Reabertura de Processo Encerrado,90,0.0,False,False
+despacho,14,ACIDENTE QUALQUER NATUREZA P/ AUX-DOENCA,Acidente Qualquer Natureza p/ Aux-Doenca,27,0.0,False,False
+despacho,15,DESPACHO DISPENSA DE CPF E 25% DESCONTO,Despacho Dispensa de Cpf e 25% Desconto,14,0.0,False,False
+despacho,16,DESPACHO RESPONSABILIDADE REGIONAIS INSS,Despacho Responsabilidade Regionais Inss,1,0.0,False,False
+despacho,17,CONC. AUXILIO-DOENCA COM OUTRA ATIVIDADE,Conc. Auxilio-Doenca com Outra Atividade,1,0.0,False,False
+sexo,1,FEMININO,Feminino,20044829,56.447,False,False
+sexo,2,MASCULINO,Masculino,15465776,43.553,False,False
+sexo,3,{N CLASS},{ñ class},2,0.0,True,True
+sexo,4,NAO INFORMADO,Nao Informado,1,0.0,True,True
+clientela,1,URBANO,Urbano,28905067,81.398,False,False
+clientela,2,RURAL,Rural,6605535,18.602,False,False
+clientela,3,{N CLASS},{ñ class},6,0.0,True,True
+municipio_residencia,1,21504-SP-SAO PAULO,21504-SP-São Paulo,1890148,5.323,False,False
+municipio_residencia,2,17064-RJ-RIO DE JANEIRO,17064-RJ-Rio de Janeiro,966657,2.722,False,False
+municipio_residencia,3,11062-MG-BELO HORIZONTE,11062-MG-Belo Horizonte,454633,1.28,False,False
+municipio_residencia,4,23001-DF-BRASILIA,23001-DF-Brasília,354926,0.999,False,False
+municipio_residencia,5,04275-BA-SALVADOR,04275-BA-Salvador,339155,0.955,False,False
+municipio_residencia,6,05045-CE-FORTALEZA,05045-CE-Fortaleza,334462,0.942,False,False
+municipio_residencia,7,14068-PR-CURITIBA,14068-PR-Curitiba,298583,0.841,False,False
+municipio_residencia,8,19150-RS-PORTO ALEGRE,19150-RS-Porto Alegre,294103,0.828,False,False
+municipio_residencia,9,08087-GO-GOIANIA,08087-GO-Goiânia,248161,0.699,False,False
+municipio_residencia,10,15116-PE-RECIFE,15116-PE-Recife,211802,0.596,False,False
+municipio_residencia,11,21189-SP-GUARULHOS,21189-SP-Guarulhos,210055,0.592,False,False
+municipio_residencia,12,03028-AM-MANAUS,03028-AM-Manaus,203933,0.574,False,False
+municipio_residencia,13,21096-SP-CAMPINAS,21096-SP-Campinas,191214,0.538,False,False
+municipio_residencia,14,06026-MS-CAMPO GRANDE,06026-MS-Campo Grande,174065,0.49,False,False
+municipio_residencia,15,11702-MG-UBERLANDIA,11702-MG-Uberlândia,169748,0.478,False,False
+municipio_residencia,16,21488-SP-SAO BERNARDO DO CAMPO,21488-SP-São Bernardo do Campo,165367,0.466,False,False
+municipio_residencia,17,17049-RJ-SAO GONCALO,17049-RJ-São Gonçalo,159646,0.45,False,False
+municipio_residencia,18,11367-MG-JUIZ DE FORA,11367-MG-Juiz de Fora,157555,0.444,False,False
+municipio_residencia,19,20090-SC-JOINVILLE,20090-SC-Joinville,144785,0.408,False,False
+municipio_residencia,20,02043-AL-MACEIO,02043-AL-Maceió,138683,0.391,False,False
+municipio_residencia,21,17017-RJ-DUQUE DE CAXIAS,17017-RJ-Duque de Caxias,135549,0.382,False,False
+municipio_residencia,22,12014-PA-BELEM,12014-PA-Belém,134157,0.378,False,False
+municipio_residencia,23,21435-SP-RIBEIRAO PRETO,21435-SP-Ribeirão Preto,132896,0.374,False,False
+municipio_residencia,24,21479-SP-SANTO ANDRE,21479-SP-Santo André,132813,0.374,False,False
+municipio_residencia,25,18081-RN-NATAL,18081-RN-Natal,129800,0.366,False,False
+municipio_residencia,26,14134-PR-LONDRINA,14134-PR-Londrina,124927,0.352,False,False
+municipio_residencia,27,19050-RS-CAXIAS DO SUL,19050-RS-Caxias do Sul,124200,0.35,False,False
+municipio_residencia,28,21500-SP-SAO JOSE DOS CAMPOS,21500-SP-São José dos Campos,123105,0.347,False,False
+municipio_residencia,29,13076-PB-JOAO PESSOA,13076-PB-João Pessoa,122535,0.345,False,False
+municipio_residencia,30,21523-SP-SOROCABA,21523-SP-Sorocaba,120630,0.34,False,False
+vinculo_dependentes,1,NAO INFORMADO,Não Informado,25626163,72.165,True,True
+vinculo_dependentes,2,FILHO,Filho,7318764,20.61,False,False
+vinculo_dependentes,3,CONJUGE,Cônjuge,1902713,5.358,False,False
+vinculo_dependentes,4,COMPANHEIRO,Companheiro,573889,1.616,False,False
+vinculo_dependentes,5,EX-CONJUGE,Ex-Cônjuge,33308,0.094,False,False
+vinculo_dependentes,6,PAI/MAE,Pai/Mãe,30492,0.086,False,False
+vinculo_dependentes,7,FILHO ADOTIVO,Filho Adotivo,12477,0.035,False,False
+vinculo_dependentes,8,DEP. JUDICIAL,Dep. Judicial,6889,0.019,False,False
+vinculo_dependentes,9,DESIGNADO,Designado,5508,0.016,False,False
+vinculo_dependentes,10,IRMAO,Irmão,405,0.001,False,False
+forma_filiacao,1,EMPREGADO,Empregado,13214031,37.212,False,False
+forma_filiacao,2,DESEMPREGADO,Desempregado,7598657,21.398,False,False
+forma_filiacao,3,SEGURADO ESPECIAL,Segurado Especial,6320161,17.798,False,False
+forma_filiacao,4,AUTONOMO,Autônomo,6201184,17.463,False,False
+forma_filiacao,5,FACULTATIVO,Facultativo,1031364,2.904,False,False
+forma_filiacao,6,DOMESTICO,Doméstico,1026927,2.892,False,False
+forma_filiacao,7,TRABALHADOR AVULSO,Trabalhador Avulso,50433,0.142,False,False
+forma_filiacao,8,OPTANTE PELA LEI 6.184/74,Optante Pela Lei 6.184/74,38552,0.109,False,False
+forma_filiacao,9,EMPRESARIO,Empresário,28317,0.08,False,False
+forma_filiacao,10,EQUIPARADO A AUTONOMO,Equiparado a Autônomo,982,0.003,False,False
+uf,1,SAO PAULO,São Paulo,8262823,23.269,False,False
+uf,2,MINAS GERAIS,Minas Gerais,4262015,12.002,False,False
+uf,3,RIO GRANDE DO SUL,Rio Grande do Sul,2776157,7.818,False,False
+uf,4,RIO DE JANEIRO,Rio de Janeiro,2634786,7.42,False,False
+uf,5,PARANA,Paraná,2246506,6.326,False,False
+uf,6,BAHIA,Bahia,2126313,5.988,False,False
+uf,7,SANTA CATARINA,Santa Catarina,1950134,5.492,False,False
+uf,8,PERNAMBUCO,Pernambuco,1248157,3.515,False,False
+uf,9,CEARA,Ceará,1238493,3.488,False,False
+uf,10,MARANHAO,Maranhão,990721,2.79,False,False
+uf,11,GOIAS,Goiás,913616,2.573,False,False
+uf,12,PARA,Pará,770600,2.17,False,False
+uf,13,DISTRITO FEDERAL,Distrito Federal,710337,2.0,False,False
+uf,14,ESPIRITO SANTO,Espírito Santo,695278,1.958,False,False
+uf,15,PARAIBA,Paraíba,613954,1.729,False,False
+uf,16,PIAUI,Piauí,589820,1.661,False,False
+uf,17,RIO GRANDE DO NORTE,Rio Grande do Norte,560845,1.579,False,False
+uf,18,MATO GROSSO,Mato Grosso,543069,1.529,False,False
+uf,19,MATO GROSSO DO SUL,Mato Grosso do Sul,513444,1.446,False,False
+uf,20,ALAGOAS,Alagoas,449902,1.267,False,False
+uf,21,AMAZONAS,Amazonas,381798,1.075,False,False
+uf,22,SERGIPE,Sergipe,326444,0.919,False,False
+uf,23,RONDONIA,Rondônia,291538,0.821,False,False
+uf,24,TOCANTINS,Tocantins,175436,0.494,False,False
+uf,25,ACRE,Acre,111535,0.314,False,False
+uf,26,AMAPA,Amapá,71828,0.202,False,False
+uf,27,RORAIMA,Roraima,55059,0.155,False,False
+ramo_atividade,1,COMERCIARIO,Comerciario,26932067,75.842,False,False
+ramo_atividade,2,RURAL,Rural,6605535,18.602,False,False
+ramo_atividade,3,IRRELEVANTE,Irrelevante,1578241,4.444,False,False
+ramo_atividade,4,SERVIDOR PUBLICO,Servidor Publico,159004,0.448,False,False
+ramo_atividade,5,INDUSTRIARIO,Industriario,115438,0.325,False,False
+ramo_atividade,6,TRANSPORTES E CARGA,Transportes e Carga,65732,0.185,False,False
+ramo_atividade,7,BANCARIO,Bancario,32486,0.091,False,False
+ramo_atividade,8,FERROVIARIO,Ferroviario,19353,0.054,False,False
+ramo_atividade,9,MARITIMO,Maritimo,2746,0.008,False,False
+ramo_atividade,10,{N CLASS},{ñ class},6,0.0,True,True
+acordo_internacional,1,NAO,Não,35498268,99.965,False,False
+acordo_internacional,2,SIM,Sim,12340,0.035,False,False
+classificador_pa,1,SEM PENSAO ALIMENTICIA,Sem Pensâo Alimentícia,35381550,99.637,False,False
+classificador_pa,2,COM PENSAO - TITULAR PENSAO ALIMENTICIA,Com Pensão - Titular Pensão Alimentícia,124620,0.351,False,False
+classificador_pa,3,COM PENSAO - TITULAR BENEFICIO PROPRIO,Com Pensão - Titular Benefício Próprio,4438,0.012,False,False

@@ -1,0 +1,3 @@
+﻿feature,n,min,p25,mediana,p75,p95,max
+atraso_concessao_dias,1935683,0,15.0,29.0,53.0,994.0,17657
+duracao_beneficio_dias,1685403,0,45.0,73.0,104.0,179.0,15756

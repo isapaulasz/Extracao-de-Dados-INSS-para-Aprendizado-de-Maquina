@@ -1,0 +1,15 @@
+﻿feature,n_nulos,pct_nulos,n_distintos
+ano_dib,0,0.0,51
+mes_dib,0,0.0,12
+dia_semana_dib,0,0.0,7
+mes_competencia,0,0.0,12
+atraso_concessao_dias,3,0.0,9467
+faixa_atraso_concessao,0,0.0,6
+duracao_beneficio_dias,250283,12.93,2422
+faixa_duracao_beneficio,0,0.0,6
+tem_data_cessacao,0,0.0,2
+faixa_etaria,0,0.0,9
+regiao,0,0.0,5
+faixa_rmi,0,0.0,6
+rmi_abaixo_piso,2,0.0,2
+grupo_especie,0,0.0,5
