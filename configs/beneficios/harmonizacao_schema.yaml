@@ -1,0 +1,23 @@
+# Harmonização do schema de Benefícios Concedidos (BC): nome_padronizado -> nomes originais conhecidos.
+# Comparação feita depois de normalizar (minúsculas, sem acento, símbolos viram "_"), então
+# "Sexo." e "Sexo" são o mesmo nome. Padrão de nomes: igual ao do CAT (snake_case, sem acento).
+colunas:
+  competencia_concessao:  ["Competência concessão"]
+  especie:                ["Espécie"]
+  cid_10:                 ["CID"]                      # 1ª coluna "CID": código sem ponto (ex.: S420)
+  cid_10_2:               ["CID_2", "CID_1"]           # 2ª coluna "CID": código com ponto + descrição (ex.: S42.0 Frat da Clavicula)
+  despacho:               ["Despacho"]
+  data_nascimento:        ["Dt Nascimento"]
+  sexo:                   ["Sexo."]
+  clientela:              ["Clientela"]
+  municipio_residencia:   ["Mun Resid"]
+  vinculo_dependentes:    ["Vínculo dependentes"]
+  forma_filiacao:         ["Forma Filiação"]
+  uf:                     ["UF"]
+  qt_sm_rmi:              ["Qt SM RMI"]
+  ramo_atividade:         ["Ramo Atividade"]
+  data_dcb:               ["Dt DCB"]
+  data_ddb:               ["Dt DDB"]
+  data_dib:               ["Dt DIB"]
+  acordo_internacional:   ["Acordo Internacional"]
+  classificador_pa:       ["Classificador PA"]

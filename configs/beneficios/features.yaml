@@ -1,0 +1,112 @@
+# Fase 4 (BC): engenharia de atributos. Entrada: bc_limpo.parquet. Saída: bc_features.parquet
+# (arquivo separado; o bc_limpo.parquet da Fase 3 nunca é sobrescrito). Mesmo formato de configs/cat/features.yaml.
+# RASCUNHO: faixas e mapa de vazamento marcados [CONFIRMAR] foram escolhidos sem ver a distribuição
+# das features. Rode `make bc-features`, leia docs/qualidade/bc_features_distribuicao.csv,
+# bc_features_numericas.csv e bc_features_crosstabs.csv e ajuste.
+
+arquivos:
+  entrada: bc_limpo.parquet
+  saida: bc_features.parquet
+
+# Dia da semana segue ISO 8601: 1 = segunda ... 7 = domingo. O BC não tem data do acidente: as
+# datas de calendário (ano, mês, dia da semana) são as da DIB (início do benefício), que é a mais
+# próxima do evento. Em auxílio-doença a DIB pode ser a data do requerimento ou o 16º dia de
+# afastamento, então o dia da semana tem leitura administrativa, não a do acidente (limitação a citar).
+
+# Região (IBGE) a partir de uf (UF de residência do beneficiário). Nomes já normalizados (sem
+# acento, maiúsculas), como saem da limpeza; as siglas entram por segurança. UF fora da lista,
+# incluindo NAO_INFORMADO, vira região NAO_INFORMADO e é contada em bc_features_uf_sem_regiao.csv.
+regiao_uf_coluna: uf
+regioes:
+  NORTE: [ACRE, AC, AMAPA, AP, AMAZONAS, AM, PARA, PA, RONDONIA, RO, RORAIMA, RR, TOCANTINS, TO]
+  NORDESTE: [ALAGOAS, AL, BAHIA, BA, CEARA, CE, MARANHAO, MA, PARAIBA, PB, PERNAMBUCO, PE,
+             PIAUI, PI, "RIO GRANDE DO NORTE", RN, SERGIPE, SE]
+  CENTRO-OESTE: [GOIAS, GO, "MATO GROSSO", MT, "MATO GROSSO DO SUL", MS, "DISTRITO FEDERAL", DF]
+  SUDESTE: [ESPIRITO SANTO, ES, "MINAS GERAIS", MG, "RIO DE JANEIRO", RJ, "SAO PAULO", SP]
+  SUL: [PARANA, PR, "RIO GRANDE DO SUL", RS, "SANTA CATARINA", SC]
+
+# Faixa etária: [limite superior inclusivo, rótulo]. null = sem limite. idade NULL -> DESCONHECIDA.
+# Começa em 0-13 (e não em 14-17 como no CAT): dependentes de pensão por morte podem ser crianças.
+faixas_etarias:
+  - [13, "0-13"]
+  - [17, "14-17"]
+  - [24, "18-24"]
+  - [34, "25-34"]
+  - [44, "35-44"]
+  - [54, "45-54"]
+  - [64, "55-64"]
+  - [null, "65+"]
+
+# Atraso de concessão = dias entre a DIB e a DDB (o BC não tem data de emissão da CAT; esta é a
+# medida de "demora" disponível). NULL se faltar uma das datas ou se a DIB for posterior à DDB
+# (a Fase 3 só audita esse caso). Faixas: [limite superior inclusivo em dias, rótulo]. [CONFIRMAR]
+atraso_concessao:
+  faixas:
+    - [0, "0"]
+    - [30, "1-30"]
+    - [90, "31-90"]
+    - [365, "91-365"]
+    - [null, "366+"]
+
+# Duração do benefício = dias entre a DIB e a DCB. Só existe quando há DCB (NAO_APLICAVEL na faixa
+# se não há). A DCB pode ser cessação programada ou real (a verificar); por isso a duração é um
+# DESFECHO CANDIDATO, nunca preditor. [CONFIRMAR faixas]
+duracao_beneficio:
+  faixas:
+    - [30, "0-30"]
+    - [90, "31-90"]
+    - [180, "91-180"]
+    - [365, "181-365"]
+    - [null, "366+"]
+
+# Renda mensal inicial em salários mínimos (qt_sm_rmi). Limites inteiros: o auxílio-acidente fica
+# em torno de 0,5 SM e a mediana é 1,0 SM (bc_numericas.csv). [CONFIRMAR]
+faixas_rmi:
+  - [1, "ATE 1 SM"]
+  - [2, "1-2 SM"]
+  - [3, "2-3 SM"]
+  - [5, "3-5 SM"]
+  - [null, "MAIS DE 5 SM"]
+
+# Grupo da espécie: junta nomes de espécie do mesmo tipo de benefício (nomes já normalizados).
+# Espécie fora da lista vira OUTROS; NAO_INFORMADO é preservado.
+grupos_especie:
+  AUXILIO_DOENCA: ["AUXILIO DOENCA POR ACIDENTE DO TRABALHO"]
+  AUXILIO_ACIDENTE: ["AUXILIO ACIDENTE"]
+  APOSENTADORIA_INVALIDEZ: ["APOSENT. INVALIDEZ ACIDENTE TRABALHO", "APOSENT. INVALIDEZ ACIDENTARIA-TRAB.RUR."]
+  PENSAO_POR_MORTE: ["PENSAO POR MORTE ACIDENTE DO TRABALHO"]
+  AUXILIO_SUPLEMENTAR: ["AUXILIO SUPLEMENTAR ACIDENTE TRABALHO"]
+
+# Mapa de vazamento (data leakage): colunas que NÃO podem ser preditoras para cada alvo candidato.
+# `sempre` vale para todos. Metadados de arquivo entram (ano_arquivo coincide com ano_competencia em
+# 100% das linhas, então é redundante). vinculo_dependentes tem significado desconhecido (não é
+# vazamento, mas está fora por decisão). municipio_residencia_cod tem 5,5 mil níveis (a geografia
+# fica em uf e regiao). A decisão de uso do BC (mineração ou predição) está aberta (Fase 6): estes
+# alvos são PROPOSTAS, validadas pelos crosstabs de bc_features_crosstabs.csv. [CONFIRMAR]
+vazamento:
+  sempre: [arquivo_origem, ano_arquivo, vinculo_dependentes, municipio_residencia_cod]
+  especie:
+    alvo: grupo_especie
+    # RMI e DCB dependem da espécie (ex.: auxílio-acidente = 50% do salário de benefício; aposentadoria
+    # e pensão em geral não têm DCB): redefinem ou denunciam o alvo.
+    proibidas: [especie, data_dcb, tem_data_cessacao, duracao_beneficio_dias, faixa_duracao_beneficio,
+                qt_sm_rmi, faixa_rmi, rmi_abaixo_piso]
+  duracao:
+    alvo: duracao_beneficio_dias
+    proibidas: [data_dcb, tem_data_cessacao, faixa_duracao_beneficio]
+  rmi:
+    alvo: faixa_rmi
+    proibidas: [qt_sm_rmi, rmi_abaixo_piso]
+
+# Pares (a, b) para os crosstabs de validação do mapa de vazamento (bc_features_crosstabs.csv):
+# se a distribuição de b quase determina a, b é suspeito de vazar o alvo.
+validacao:
+  crosstabs:
+    - [grupo_especie, tem_data_cessacao]
+    - [grupo_especie, faixa_duracao_beneficio]
+    - [grupo_especie, faixa_rmi]
+    - [grupo_especie, rmi_abaixo_piso]
+    - [grupo_especie, despacho]
+    - [grupo_especie, classificador_pa]
+    - [grupo_especie, faixa_etaria]
+    - [grupo_especie, ano_competencia]

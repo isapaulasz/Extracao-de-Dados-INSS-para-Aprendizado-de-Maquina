@@ -1,0 +1,91 @@
+# Regras de limpeza do BC (Benefícios Concedidos). Mesmo formato de configs/cat/regras_limpeza.yaml.
+# RASCUNHO: os valores marcados [CONFIRMAR] foram escolhidos sem ver a base inteira. Rode primeiro
+# a auditoria (make bc-auditoria), leia docs/qualidade/bc_auditoria.md e ajuste antes da limpeza.
+
+# Tokens que significam "não informado". Comparados DEPOIS de normalizar (maiúsculas, sem acento).
+# "Não informado" também aparece em vinculo_dependentes quando o benefício não é pensão (na prática
+# "não se aplica"); por ora vira NAO_INFORMADO como nas demais colunas [CONFIRMAR na auditoria].
+nulos_disfarcados: ["", "{ñ class}", "-", "None", "none", "nan", "NaN", "NULL", "00/00/0000",
+                    "000000", "9999", "Zerados", "Zerado", "Em branco",
+                    "Ignorado", "Não informado", "Nao informado", "Não classificado"]
+
+colunas_descartadas: [cid_10_2]          # repete cid_10 com ponto + descrição
+
+# Linha válida: a competência tem de ter o formato "mês/AAAA" (ex.: janeiro/2013), conferido no
+# texto bruto. O que não casar é linha-lixo da exportação (cabeçalho, total). Se mais de
+# max_pct_removidas % das linhas forem removidas, a limpeza aborta (formato diferente do esperado).
+linha_valida:
+  coluna: competencia_concessao
+  regex: '^\pL+/[0-9]{4}$'
+  max_pct_removidas: 1.0
+
+datas: [data_nascimento, data_dcb, data_ddb, data_dib]
+booleanas_sim_nao: [acordo_internacional]
+
+# Idade em anos completos na primeira data preenchida da lista (o BC não tem data do acidente).
+# Beneficiários de pensão por morte podem ser crianças, então o piso NÃO é 14 como no CAT.
+# [CONFIRMAR] com bc_numericas.csv e bc_idade_por_especie.csv.
+idade: {referencia: [data_dib, data_ddb], minima: 0, maxima: 110}
+
+# Renda mensal inicial em salários mínimos. Aceita (minima_exclusiva, maxima]. Auxílio-acidente
+# pode ficar abaixo de 1 SM, por isso o piso é só "maior que zero". [CONFIRMAR] com bc_numericas.csv.
+qt_sm_rmi: {minima_exclusiva: 0, maxima: 30}
+
+# Escopo por espécie. O BC traz todos os auxílios do INSS; o estudo é de benefícios acidentários.
+# Liste aqui os NOMES das espécies a manter (a comparação é feita depois de normalizar, então
+# acento e caixa não importam). Lista vazia = manter todas (a limpeza avisa no log e no atrito).
+# bc_especies.csv e a seção 6 de bc_auditoria.md trazem a lista completa e uma sugestão.
+escopo:
+  # Lista definida a partir de bc_auditoria.md (53 espécies na base). [CONFIRMAR] "AUXILIO ACIDENTE":
+  # entendida como o auxílio-acidente acidentário, já que existe "AUXILIO ACIDENTE PREVIDENCIARIO" à parte.
+  especies_manter:
+    - AUXILIO DOENCA POR ACIDENTE DO TRABALHO
+    - AUXILIO ACIDENTE
+    - APOSENT. INVALIDEZ ACIDENTE TRABALHO
+    - PENSAO POR MORTE ACIDENTE DO TRABALHO
+    - AUXILIO SUPLEMENTAR ACIDENTE TRABALHO
+    - APOSENT. INVALIDEZ ACIDENTARIA-TRAB.RUR.
+  # só usados na auditoria para sugerir a lista (não filtram nada)
+  sugestao_regex_incluir: 'ACIDENT'
+  sugestao_regex_excluir: 'PREVIDENCI'
+
+# Duplicatas exatas (todas as colunas, exceto arquivo_origem/ano_arquivo). Fica a primeira.
+# Risco: o BC não tem identificador; linhas legitimamente idênticas (ex.: pensão rateada entre
+# irmãos gêmeos) seriam removidas. bc_duplicados_por_especie.csv mede onde isso acontece.
+duplicatas:
+  remover_exatas: true
+
+# Datas. periodo_esperado define "data futura" (depois de fim) e a janela da auditoria.
+# data_dcb futura não é erro (cessação estimada), por isso não entra nas remoções.
+datas_regras:
+  periodo_esperado: {inicio: "2012-01-01", fim: "2018-12-31"}
+  remover_se_data_futura: true           # data_dib ou data_ddb depois de periodo_esperado.fim
+  remover_se_dib_apos_ddb: false         # só auditoria por enquanto [CONFIRMAR com bc_inconsistencias_datas.csv]
+  anular_dcb_antes_dib: true             # cessação antes do início -> data_dcb vira NULL
+
+# Categóricas: nulo (real ou disfarçado) vira NAO_INFORMADO. Datas, booleanas e numéricas ficam NULL.
+categoricas_nao_informado:
+  - especie
+  - cid_10
+  - cid_categoria
+  - despacho
+  - sexo
+  - clientela
+  - municipio_residencia_cod
+  - vinculo_dependentes
+  - forma_filiacao
+  - uf
+  - ramo_atividade
+  - classificador_pa
+  - capitulo_cid
+
+# Categorias raras: cria <coluna>_agrup, trocando níveis com frequência < limiar por OUTROS.
+# NAO_INFORMADO nunca é agrupado. A coluna original é mantida.
+# municipio_residencia_cod ficou de fora de propósito: com 5.562 níveis, 45% das linhas do escopo
+# iam para OUTROS (bc_categorias_raras.csv). A geografia do BC é representada por uf e região (Fase 4);
+# o código do município fica só para análise descritiva.
+categorias_raras:
+  limiar: 0.001            # 0,1% das linhas
+  colunas:
+    - cid_categoria
+    - despacho
